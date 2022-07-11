@@ -1,213 +1,211 @@
 c181_cover_00.png
-size: 512, 512
+size:2048,2048
 filter:Linear,Linear
 pma:true
 scale:1.15
 00/arm_L_2
-bounds: 77, 151, 42, 78
+bounds:308,604,168,312
 00/arm_L_3
-bounds: 26, 481, 32, 30
-offsets: 0, 0, 33, 30
+bounds:104,1924,128,120
+offsets:0,0,132,120
 00/arm_R1
-bounds: 0, 154, 80, 32
-offsets: 0, 0, 81, 32
+bounds:0,616,320,128
+offsets:0,0,324,128
 00/arm_R_2
-bounds: 316, 365, 84, 54
+bounds:1264,1460,336,216
 00/belt_center
-bounds: 8, 116, 76, 43
-offsets: 0, 1, 76, 44
+bounds:32,464,304,172
+offsets:0,4,304,176
 rotate:180
 00/body_lower
-bounds: 196, 182, 74, 79
+bounds:784,728,296,316
 rotate:270
 00/body_upper
-bounds: 45, 280, 68, 59
+bounds:180,1120,272,236
 00/boob_L
-bounds: 388, 161, 49, 52
+bounds:1552,644,196,208
 00/boob_R
-bounds: 0, 325, 45, 55
+bounds:0,1300,180,220
 00/boob_sha
-bounds: 121, 446, 13, 19
+bounds:484,1784,52,76
 00/bullet
-bounds: 59, 490, 16, 9
-offsets: 0, 0, 17, 9
+bounds:236,1960,64,36
+offsets:0,0,68,36
 00/coat_L_lower
-bounds: 0, 228, 92, 170
+bounds:0,912,368,680
 rotate:90
 00/coat_R
-bounds: 368, 127, 145, 143
+bounds:1472,508,580,572
 rotate:270
 00/coat_R_up
-bounds: 465, 132, 45, 55
+bounds:1860,528,180,220
 00/coat_back
-bounds: 0, 337, 251, 173
+bounds:0,1348,1004,692
 00/coat_belt_L_1
-bounds: 0, 379, 18, 50
+bounds:0,1516,72,200
 00/coat_belt_L_2
-bounds: 6, 454, 38, 57
+bounds:24,1816,152,228
 00/coat_belt_L_3
-bounds: 473, 400, 38, 110
+bounds:1892,1600,152,440
 00/coat_belt_L_4
-bounds: 343, 116, 40, 111
+bounds:1372,464,160,444
 rotate:90
 00/coat_belt_R_1
-bounds: 180, 104, 71, 41
+bounds:720,416,284,164
 rotate:180
 00/coat_belt_R_2
-bounds: 86, 108, 73, 43
+bounds:344,432,292,172
 rotate:180
 00/coat_belt_R_3
-bounds: 233, 246, 48, 70
+bounds:932,984,192,280
 rotate:180
 00/coat_upper
-bounds: 132, 247, 105, 105
+bounds:528,988,420,420
 rotate:270
 00/collar_L
-bounds: 247, 140, 57, 93
+bounds:988,560,228,372
 rotate:90
 00/collar_R
-bounds: 162, 137, 50, 89
+bounds:648,548,200,356
 rotate:90
 00/collar_neck
-bounds: 317, 95, 36, 32
+bounds:1268,380,144,128
 00/ear
-bounds: 459, 493, 11, 18
-offsets: 0, 0, 11, 19
+bounds:1836,1972,44,72
+offsets:0,0,44,76
 00/eye_L
-bounds: 0, 505, 5, 5
-offsets: 0, 0, 5, 6
+bounds:0,2020,20,20
+offsets:0,0,20,24
 00/eye_L_b
-bounds: 473, 476, 11, 9
+bounds:1892,1904,44,36
 00/eye_L_u
-bounds: 462, 483, 13, 9
+bounds:1848,1932,52,36
 00/eye_R
-bounds: 81, 506, 5, 5
-offsets: 0, 0, 6, 6
+bounds:324,2024,20,20
+offsets:0,0,24,24
 00/eye_R_b
-bounds: 104, 449, 16, 11
+bounds:416,1796,64,44
 00/eye_R_u
-bounds: 178, 499, 19, 12
+bounds:712,1996,76,48
 00/eyeball_L
-bounds: 410, 502, 9, 9
-offsets: 0, 0, 9, 9
+bounds:1640,2008,36,36
+offsets:0,0,36,36
 00/eyeball_R
-bounds: 496, 500, 13, 11
-offsets: 0, 0, 13, 12
+bounds:1984,2000,52,44
+offsets:0,0,52,48
 00/eyebrow_L
-bounds: 181, 494, 12, 4
+bounds:724,1976,48,16
 00/eyebrow_R
-bounds: 244, 504, 17, 7
+bounds:976,2016,68,28
 00/eyelash_L_b
-bounds: 87, 508, 7, 3
+bounds:348,2032,28,12
 00/eyelash_R_1
-bounds: 340, 507, 13, 4
+bounds:1360,2028,52,16
 00/eyeline_L_1
-bounds: 20, 507, 10, 4
+bounds:80,2028,40,16
 00/eyeline_L_b
-bounds: 474, 471, 12, 6
+bounds:1896,1884,48,24
 00/eyeline_L_u
-bounds: 420, 507, 13, 4
+bounds:1680,2028,52,16
 00/eyeline_R_1
-bounds: 95, 509, 8, 1
-offsets: 0, 1, 10, 3
+bounds:380,2036,32,4
+offsets:0,4,40,12
 00/eyeline_R_b
-bounds: 354, 508, 8, 3
-offsets: 0, 0, 8, 4
+bounds:1416,2032,32,12
+offsets:0,0,32,16
 00/eyeline_R_u
-bounds: 176, 468, 16, 5
-offsets: 0, 0, 16, 5
+bounds:704,1872,64,20
+offsets:0,0,64,20
 00/flower_1
-bounds: 105, 129, 46, 44
+bounds:420,516,184,176
 00/flower_sha
-bounds: 100, 252, 40, 33
+bounds:400,1008,160,132
 00/foot_L
-bounds: 198, 120, 38, 64
+bounds:792,480,152,256
 rotate:90
 00/foot_R
-bounds: 252, 443, 32, 68
+bounds:1008,1772,128,272
 00/gun_custom_0
-bounds: 327, 295, 215, 175
+bounds:1308,1180,860,700
 rotate:270
 00/hair_b_1
-bounds: 401, 350, 23, 29
+bounds:1604,1400,92,116
 00/hair_b_2
-bounds: 149, 451, 10, 13
+bounds:596,1804,40,52
 00/hair_back_
-bounds: 214, 289, 222, 115
+bounds:856,1156,888,460
 rotate:90
 00/hair_f_1
-bounds: 74, 98, 53, 34
+bounds:296,392,212,136
 00/hair_f_2
-bounds: 262, 83, 50, 40
+bounds:1048,332,200,160
 rotate:180
 00/hair_f_3
-bounds: 402, 460, 23, 21
+bounds:1608,1840,92,84
 00/hair_f_4
-bounds: 183, 93, 37, 34
+bounds:732,372,148,136
 00/hair_f_5
-bounds: 354, 87, 44, 33
+bounds:1416,348,176,132
 00/hair_s_1
-bounds: 135, 462, 49, 76
+bounds:540,1848,196,304
 rotate:90
 00/hair_s_2
-bounds: 448, 284, 13, 57
+bounds:1792,1136,52,228
 rotate:90
 00/hair_up
-bounds: 123, 161, 70, 85
+bounds:492,644,280,340
 00/hand_L
-bounds: 148, 200, 28, 30
+bounds:592,800,112,120
 00/hand_L_1
-bounds: 0, 479, 8, 16
+bounds:0,1916,32,64
 00/hand_L_2
-bounds: 500, 482, 10, 16
+bounds:2000,1928,40,64
 00/hand_L_3
-bounds: 448, 501, 7, 10
+bounds:1792,2004,28,40
 00/hand_L_4
-bounds: 284, 490, 11, 21
+bounds:1136,1960,44,84
 00/hand_L_5
-bounds: 212, 494, 11, 17
+bounds:848,1976,44,68
 00/hand_R
-bounds: 439, 176, 42, 36
+bounds:1756,704,168,144
 00/head
-bounds: 334, 190, 55, 72
+bounds:1336,760,220,288
 00/head_shadow
-bounds: 0, 102, 40, 28
+bounds:0,408,160,112
 00/knif
-bounds: 250, 398, 28, 46
+bounds:1000,1592,112,184
 00/leg_L_1
-bounds: 316, 286, 88, 131
+bounds:1264,1144,352,524
 rotate:90
 00/leg_L_2
-bounds: 277, 168, 56, 59
+bounds:1108,672,224,236
 00/leg_R_1
-bounds: 45, 444, 67, 136
+bounds:180,1776,268,544
 rotate:90
 00/leg_R_2
-bounds: 402, 211, 74, 92
+bounds:1608,844,296,368
 rotate:270
 00/lock_belt
-bounds: 434, 104, 72, 48
+bounds:1736,416,288,192
 00/lock_center
-bounds: 58, 500, 22, 11
+bounds:232,2000,88,44
 00/mask
-bounds: 156, 99, 43, 39
-offsets: 5, 1, 49, 40
+bounds:624,396,172,156
+offsets:20,4,196,160
 rotate:270
 00/neck
-bounds: 481, 354, 30, 35
+bounds:1924,1416,120,140
 00/neck_lock
-bounds: 383, 482, 26, 29
+bounds:1532,1928,104,116
 00/pant
-bounds: 0, 189, 76, 58
+bounds:0,756,304,232
 00/skirt_lower
-bounds: 276, 213, 128, 86
+bounds:1104,852,512,344
 rotate:180
 00/skirt_sha
-bounds: 348, 132, 64, 30
+bounds:1392,528,256,120
 00/skirt_upper
-bounds: 266, 117, 125, 61
+bounds:1064,468,500,244
 00/slort_back
-bounds: 414, 383, 128, 83
+bounds:1656,1532,512,332
 rotate:90
-
-

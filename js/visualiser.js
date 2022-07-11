@@ -111,7 +111,7 @@ const changeSpine = (id) => {
 
 }
 let current_l2d = "fb"
-// changeSpine("c010")
+// changeSpine("c181")
 
 let move = false
 let oldx = "";
