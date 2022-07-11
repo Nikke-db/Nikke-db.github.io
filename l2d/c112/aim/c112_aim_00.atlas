@@ -1,0 +1,150 @@
+c112_aim_00.png
+size: 512, 512
+filter:Linear,Linear
+pma:true
+scale:1.46
+aim/arm_r_01_01
+bounds: 187, 335, 51, 59
+rotate:90
+aim/arm_r_01_02
+bounds: 113, 55, 91, 88
+aim/arm_r_02
+bounds: 333, 459, 39, 52
+aim/band_01
+bounds: 194, 48, 57, 43
+aim/band_02
+bounds: 216, 500, 50, 10
+offsets: 0, 0, 51, 11
+aim/body
+bounds: 321, 219, 106, 59
+aim/face
+bounds: 430, 392, 81, 86
+aim/foot_l_01
+bounds: 256, 215, 46, 71
+rotate:90
+aim/foot_l_02
+bounds: 123, 479, 12, 21
+aim/foot_l_03
+bounds: 180, 488, 40, 23
+aim/foot_r_01
+bounds: 36, 12, 69, 84
+rotate:90
+aim/foot_r_02
+bounds: 206, 377, 39, 74
+offsets: 0, 0, 39, 74
+aim/foot_r_03
+bounds: 1, 486, 22, 24
+aim/foot_r_04
+bounds: 20, 501, 5, 9
+aim/foot_r_05
+bounds: 119, 495, 16, 16
+offsets: 0, 0, 16, 16
+aim/hair_01
+bounds: 428, 351, 18, 59
+offsets: 0, 0, 18, 59
+aim/hair_02
+bounds: 485, 210, 19, 61
+offsets: 0, 1, 20, 62
+aim/hair_03
+bounds: 272, 45, 41, 135
+rotate:90
+aim/hair_05
+bounds: 134, 223, 45, 75
+offsets: 0, 0, 46, 75
+rotate:90
+aim/hair_06
+bounds: 432, 475, 28, 72
+offsets: 0, 0, 28, 73
+rotate:90
+aim/hair_07
+bounds: 0, 281, 66, 84
+offsets: 0, 0, 66, 84
+aim/hair_08
+bounds: 108, 113, 22, 78
+aim/hair_09
+bounds: 430, 484, 27, 79
+rotate:90
+aim/hair_10
+bounds: 498, 456, 12, 38
+aim/hair_11
+bounds: 0, 2, 38, 74
+offsets: 0, 0, 38, 74
+aim/hair_12
+bounds: 0, 0, 73, 93
+offsets: 0, 0, 73, 93
+rotate:180
+aim/hair_13
+bounds: 444, 356, 43, 37
+offsets: 0, 0, 43, 37
+aim/hair_14
+bounds: 221, 211, 46, 31
+aim/hair_4
+bounds: 132, 177, 116, 358
+rotate:90
+aim/hair_b_01
+bounds: 215, 58, 116, 274
+rotate:270
+aim/hair_b_02
+bounds: 125, 113, 92, 385
+rotate:270
+aim/hair_b_03
+bounds: 144, 201, 162, 363
+rotate:90
+aim/hip_r_01
+bounds: 0, 72, 103, 112
+offsets: 0, 0, 103, 112
+rotate:90
+aim/horn_r
+bounds: 371, 499, 13, 12
+offsets: 0, 0, 13, 12
+aim/jacket_b
+bounds: 82, 472, 39, 38
+aim/jacket_bb
+bounds: 485, 351, 26, 60
+aim/jacket_down
+bounds: 0, 347, 207, 164
+aim/jacket_f
+bounds: 277, 3, 234, 95
+aim/jacket_f_shadow
+bounds: 116, 7, 157, 50
+aim/jacket_up
+bounds: 193, 334, 176, 146
+rotate:270
+aim/leg_l_01
+bounds: 334, 305, 96, 206
+aim/leg_l_02_01
+bounds: 284, 318, 52, 51
+aim/leg_l_02_02
+bounds: 133, 497, 18, 13
+aim/leg_l_02_03
+bounds: 25, 457, 61, 53
+offsets: 0, 0, 61, 54
+aim/leg_r_01
+bounds: 68, 258, 187, 90
+aim/leg_r_02
+bounds: 401, 61, 69, 110
+offsets: 0, 0, 69, 110
+rotate:270
+aim/neck
+bounds: 338, 27, 47, 44
+aim/ribbon_l_01
+bounds: 373, 481, 7, 16
+aim/ribbon_l_02
+bounds: 384, 495, 5, 15
+aim/ribbon_l_03
+bounds: 486, 473, 4, 17
+aim/ribbon_l_04
+bounds: 507, 468, 3, 16
+aim/ribbon_r_01
+bounds: 491, 474, 7, 17
+offsets: 0, 0, 7, 17
+aim/ribbon_r_02
+bounds: 430, 494, 5, 16
+aim/ribbon_r_03
+bounds: 86, 472, 4, 16
+aim/ribbon_r_04
+bounds: 482, 474, 3, 15
+aim/skirt
+bounds: 0, 173, 132, 99
+
+

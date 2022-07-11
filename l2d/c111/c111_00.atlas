@@ -1,0 +1,608 @@
+c111_00.png
+size: 1024, 1024
+filter:Linear,Linear
+pma:true
+00/a_armL1
+bounds: 618, 458, 151, 158
+offsets: 0, 27, 151, 185
+rotate:270
+00/a_armL2
+bounds: 195, 271, 70, 105
+offsets: 1, 0, 72, 106
+rotate:90
+00/a_armL3
+bounds: 346, 313, 106, 112
+rotate:270
+00/7W7D38OC53M53CC
+bounds: 242, 531, 38, 139
+offsets: 0, 0, 39, 140
+00/a_coat_p2
+bounds: 233, 671, 111, 351
+offsets: 0, 2, 112, 354
+00/a_hand_p
+bounds: 649, 696, 57, 42
+offsets: 1, 0, 58, 43
+00/a_hand_p1
+bounds: 916, 615, 43, 43
+offsets: 0, 0, 44, 44
+00/a_hand_p2
+bounds: 175, 709, 28, 40
+00/a_hand_p3
+bounds: 51, 599, 28, 41
+00/a_hand_p4
+bounds: 282, 641, 28, 29
+offsets: 0, 0, 29, 30
+00/a_hand_p5
+bounds: 997, 498, 26, 28
+offsets: 0, 0, 27, 29
+00/acc_1
+bounds: 459, 346, 34, 52
+00/ang_blush
+bounds: 877, 276, 106, 57
+offsets: 8, 6, 124, 68
+00/crazy_blush
+bounds: 877, 276, 106, 57
+offsets: 8, 6, 124, 68
+00/no_blush
+bounds: 877, 276, 106, 57
+offsets: 8, 6, 124, 68
+00/shy1_blush2
+bounds: 877, 276, 106, 57
+offsets: 8, 6, 124, 68
+00/shy2_blush2
+bounds: 877, 276, 106, 57
+offsets: 8, 6, 124, 68
+00/thi_blush
+bounds: 877, 276, 106, 57
+offsets: 8, 6, 124, 68
+00/ang_eye1
+bounds: 345, 892, 14, 14
+offsets: 0, 0, 15, 15
+00/ang_eye2
+bounds: 614, 792, 14, 13
+offsets: 0, 0, 15, 14
+00/ang_eyeball1
+bounds: 435, 397, 30, 19
+offsets: 0, 0, 31, 20
+00/ang_eyeball2
+bounds: 477, 261, 29, 18
+offsets: 0, 0, 30, 19
+00/ang_eyebrow
+bounds: 796, 789, 93, 42
+offsets: 0, 0, 94, 43
+00/ang_eyeline1
+bounds: 822, 834, 30, 20
+offsets: 0, 0, 31, 21
+00/ang_eyeline2
+bounds: 460, 681, 38, 10
+offsets: 1, 0, 39, 11
+00/ang_eyeline3
+bounds: 646, 304, 46, 34
+00/ang_eyeline4
+bounds: 727, 308, 46, 25
+00/ang_mouth
+bounds: 213, 571, 28, 10
+offsets: 0, 0, 29, 11
+00/angry_fx
+bounds: 196, 532, 45, 33
+offsets: 0, 0, 46, 34
+00/arm_L1
+bounds: 658, 333, 93, 130
+rotate:270
+00/arm_L2
+bounds: 906, 335, 116, 116
+rotate:270
+00/arm_R1
+bounds: 777, 486, 169, 174
+offsets: 0, 3, 169, 178
+rotate:270
+00/arm_R2
+bounds: 608, 253, 109, 81
+00/b_a_arm_R1
+bounds: 226, 343, 112, 119
+rotate:90
+00/b_a_arm_R2
+bounds: 84, 336, 92, 129
+rotate:270
+00/b_a_hand_p
+bounds: 516, 547, 51, 62
+offsets: 0, 0, 52, 63
+00/b_a_hand_p2
+bounds: 989, 948, 23, 54
+offsets: 0, 0, 24, 55
+00/b_a_hand_p3
+bounds: 798, 838, 23, 44
+offsets: 0, 0, 24, 45
+00/b_a_hand_p4
+bounds: 1001, 798, 21, 76
+00/b_a_hand_p5
+bounds: 699, 761, 22, 67
+00/b_hand_p1
+bounds: 585, 461, 51, 40
+offsets: 0, 0, 52, 41
+00/belcro_1_L
+bounds: 945, 686, 15, 82
+00/belcro_1_R
+bounds: 345, 940, 17, 82
+00/belcro_2_L
+bounds: 210, 497, 29, 171
+rotate:90
+00/belcro_2_R
+bounds: 205, 718, 27, 170
+00/belcro_3_L
+bounds: 580, 983, 11, 21
+00/belcro_3_R
+bounds: 799, 977, 11, 21
+00/blush
+bounds: 719, 245, 112, 63
+offsets: 4, 0, 124, 68
+00/body_b
+bounds: 810, 828, 195, 134
+rotate:90
+00/body_u
+bounds: 742, 419, 125, 100
+offsets: 0, 2, 125, 102
+00/boob
+bounds: 291, 522, 156, 149
+rotate:180
+00/close_eye1
+bounds: 503, 445, 39, 17
+offsets: 0, 0, 40, 18
+00/close_eye2
+bounds: 210, 344, 39, 20
+offsets: 0, 0, 40, 21
+00/close_eyeline_L
+bounds: 735, 679, 30, 13
+offsets: 0, 0, 31, 14
+00/close_eyeline_R
+bounds: 700, 682, 31, 12
+offsets: 0, 1, 32, 14
+00/coat_L1
+bounds: 423, 619, 99, 219
+rotate:180
+00/coat_L2
+bounds: 345, 669, 112, 354
+00/coat_R1
+bounds: 775, 309, 101, 108
+00/coat_R2
+bounds: 454, 610, 72, 349
+offsets: 0, 0, 72, 357
+rotate:90
+00/coat_back
+bounds: 1, 410, 140, 132
+offsets: 0, 77, 152, 210
+rotate:90
+00/coat_back_2
+bounds: 1, 707, 231, 316
+00/crazy_eye1
+bounds: 697, 859, 14, 10
+offsets: 0, 0, 15, 11
+00/crazy_eye2
+bounds: 655, 1012, 14, 10
+offsets: 0, 0, 15, 11
+00/crazy_eyeball1
+bounds: 424, 839, 31, 11
+offsets: 0, 0, 32, 12
+00/shy2_eyeball1
+bounds: 424, 839, 31, 11
+offsets: 0, 0, 32, 12
+00/crazy_eyeball2
+bounds: 164, 542, 29, 17
+offsets: 0, 0, 30, 18
+00/shy2_eyeball2
+bounds: 164, 542, 29, 17
+offsets: 0, 0, 30, 18
+00/crazy_eyebrow1
+bounds: 712, 1016, 29, 7
+offsets: 0, 0, 30, 8
+00/crazy_eyebrow2
+bounds: 364, 1001, 18, 21
+offsets: 0, 0, 19, 22
+00/crazy_eyeline1
+bounds: 408, 662, 23, 13
+offsets: 1, 0, 24, 14
+00/crazy_eyeline2
+bounds: 83, 694, 25, 12
+offsets: 0, 0, 27, 13
+00/crazy_eyeline3
+bounds: 730, 287, 50, 23
+00/shy2_eyeline3
+bounds: 730, 287, 50, 23
+00/crazy_eyeline4
+bounds: 145, 278, 48, 23
+00/shy2_eyeline4
+bounds: 145, 278, 48, 23
+00/crazy_eyesha1
+bounds: 505, 673, 45, 18
+offsets: 0, 0, 46, 19
+00/shy2_eyesha1
+bounds: 505, 673, 45, 18
+offsets: 0, 0, 46, 19
+00/crazy_eyesha2
+bounds: 553, 372, 40, 19
+offsets: 0, 1, 41, 21
+00/shy2_eyesha2
+bounds: 553, 372, 40, 19
+offsets: 0, 1, 41, 21
+00/crazy_eyesha3
+bounds: 742, 1019, 10, 3
+offsets: 0, 1, 11, 5
+00/shy2_eyesha3
+bounds: 742, 1019, 10, 3
+offsets: 0, 1, 11, 5
+00/crazy_eyesha4
+bounds: 524, 1016, 10, 6
+offsets: 1, 0, 13, 7
+00/shy2_eyesha4
+bounds: 524, 1016, 10, 6
+offsets: 1, 0, 13, 7
+00/crazy_high1
+bounds: 405, 1019, 7, 3
+offsets: 0, 0, 8, 4
+00/shy2_high1
+bounds: 405, 1019, 7, 3
+offsets: 0, 0, 8, 4
+00/crazy_high2
+bounds: 828, 1019, 5, 4
+offsets: 1, 0, 7, 5
+00/shy2_high2
+bounds: 828, 1019, 5, 4
+offsets: 1, 0, 7, 5
+00/crazy_mouth
+bounds: 501, 513, 52, 33
+00/crazy_nose
+bounds: 978, 795, 22, 15
+offsets: 2, 2, 26, 18
+00/shy2_nose
+bounds: 978, 795, 22, 15
+offsets: 2, 2, 26, 18
+00/crazy_split
+bounds: 1, 398, 27, 25
+00/eye_L
+bounds: 697, 838, 17, 14
+offsets: 0, 0, 18, 15
+00/eye_R
+bounds: 345, 923, 17, 16
+offsets: 0, 0, 18, 16
+00/eye_b_L
+bounds: 323, 242, 32, 24
+offsets: 0, 1, 32, 25
+00/eye_b_R
+bounds: 1, 538, 35, 27
+00/eye_u_L
+bounds: 27, 256, 33, 26
+00/eye_u_R1
+bounds: 451, 302, 36, 29
+00/eyeball_L
+bounds: 354, 260, 32, 18
+00/eyeball_R
+bounds: 884, 259, 32, 16
+00/eyebrow_L
+bounds: 924, 587, 30, 27
+offsets: 0, 0, 32, 28
+00/eyebrow_R
+bounds: 966, 789, 46, 4
+offsets: 1, 0, 48, 5
+00/eyeline_B_L
+bounds: 590, 506, 32, 17
+00/eyeline_L_1
+bounds: 457, 832, 25, 8
+offsets: 0, 0, 26, 9
+00/no_eyeline2
+bounds: 457, 832, 25, 8
+offsets: 0, 0, 26, 9
+00/shy2_eyeline2
+bounds: 457, 832, 25, 8
+offsets: 0, 0, 26, 9
+00/thi_eye_2
+bounds: 457, 832, 25, 8
+offsets: 0, 0, 26, 9
+00/eyeline_R_1
+bounds: 767, 671, 23, 13
+offsets: 1, 1, 25, 14
+00/no_eyeline1
+bounds: 767, 671, 23, 13
+offsets: 1, 1, 25, 14
+00/shy2_eyeline1
+bounds: 767, 671, 23, 13
+offsets: 1, 1, 25, 14
+00/thi_eye_1
+bounds: 767, 671, 23, 13
+offsets: 1, 1, 25, 14
+00/eyeline_b_R
+bounds: 793, 772, 36, 16
+00/eyeline_u_L
+bounds: 529, 246, 47, 19
+00/eyeline_u_R
+bounds: 414, 276, 50, 23
+00/eyesha2_L
+bounds: 698, 830, 18, 7
+00/eyesha2_R
+bounds: 712, 1004, 17, 10
+00/no_eyesha3
+bounds: 712, 1004, 17, 10
+00/eyesha_L
+bounds: 544, 457, 40, 20
+00/eyesha_R
+bounds: 248, 522, 46, 16
+00/face
+bounds: 76, 560, 146, 165
+rotate:90
+00/face_acc_1
+bounds: 364, 971, 12, 13
+00/face_acc_2
+bounds: 687, 994, 8, 9
+00/foot_L
+bounds: 717, 685, 101, 150
+rotate:90
+00/foot_L_back
+bounds: 523, 735, 33, 30
+offsets: 0, 0, 34, 31
+00/foot_R
+bounds: 525, 299, 96, 131
+rotate:90
+00/foot_R_back
+bounds: 966, 667, 38, 24
+00/hair_L_1
+bounds: 1, 429, 179, 296
+rotate:90
+00/hair_L_2
+bounds: 847, 592, 175, 353
+offsets: 11, 0, 187, 353
+rotate:180
+00/hair_R_1
+bounds: 424, 463, 153, 301
+rotate:270
+00/hair_R_2
+bounds: 453, 667, 195, 356
+rotate:180
+00/hair_acc_L
+bounds: 794, 647, 54, 50
+00/hair_acc_R
+bounds: 141, 290, 47, 45
+00/hair_f_1
+bounds: 93, 438, 78, 64
+00/hair_f_2
+bounds: 1, 633, 48, 90
+offsets: 3, 0, 51, 90
+00/hair_f_3
+bounds: 33, 617, 49, 89
+00/hair_f_4
+bounds: 529, 918, 55, 105
+00/hair_f_5
+bounds: 60, 236, 102, 80
+rotate:90
+00/hair_f_6
+bounds: 936, 908, 82, 115
+00/hair_f_7
+bounds: 789, 244, 75, 233
+rotate:270
+00/hair_f_8
+bounds: 140, 237, 60, 227
+rotate:90
+00/hair_p
+bounds: 343, 235, 164, 162
+00/hair_shadow
+bounds: 8, 291, 118, 113
+offsets: 0, 34, 118, 148
+rotate:90
+00/hand_L
+bounds: 450, 841, 52, 62
+00/hand_L_1
+bounds: 568, 571, 47, 44
+00/hand_L_2
+bounds: 314, 290, 27, 54
+00/hand_L_3
+bounds: 503, 978, 27, 44
+00/hand_L_4
+bounds: 589, 806, 36, 72
+00/hand_L_5
+bounds: 507, 374, 28, 66
+00/hand_R
+bounds: 965, 451, 58, 39
+00/hand_R_1
+bounds: 553, 872, 46, 44
+00/hand_R_2
+bounds: 874, 350, 33, 38
+00/hand_R_3
+bounds: 458, 918, 27, 42
+00/hand_R_4
+bounds: 1, 247, 30, 27
+00/hand_R_5
+bounds: 96, 439, 26, 27
+00/highlight_L
+bounds: 535, 1019, 6, 4
+offsets: 0, 0, 7, 5
+00/thi_eye_high2
+bounds: 535, 1019, 6, 4
+offsets: 0, 0, 7, 5
+00/highlight_R
+bounds: 482, 1019, 7, 4
+offsets: 0, 0, 8, 5
+00/thi_eye_high
+bounds: 482, 1019, 7, 4
+offsets: 0, 0, 8, 5
+00/leg_L1
+bounds: 592, 739, 111, 284
+rotate:180
+00/leg_L2
+bounds: 533, 393, 65, 208
+rotate:90
+00/leg_R1
+bounds: 694, 756, 114, 266
+rotate:180
+00/leg_R2
+bounds: 292, 417, 84, 214
+rotate:90
+00/moiuth_u
+bounds: 457, 905, 32, 20
+00/mouth_b
+bounds: 360, 240, 34, 28
+rotate:180
+00/mouth_close
+bounds: 830, 1010, 32, 13
+00/mouth_in
+bounds: 797, 999, 32, 23
+00/mouth_tongue
+bounds: 154, 710, 20, 13
+offsets: 0, 0, 21, 13
+00/mouth_tongue2
+bounds: 1, 750, 20, 13
+offsets: 0, 0, 21, 13
+00/neck
+bounds: 508, 254, 42, 60
+offsets: 0, 0, 43, 61
+00/neck_acc
+bounds: 1, 725, 26, 23
+offsets: 0, 0, 27, 24
+00/neck_chocer_back
+bounds: 385, 290, 62, 22
+00/neck_chocker
+bounds: 474, 692, 71, 38
+00/no_eye1
+bounds: 945, 893, 16, 14
+offsets: 0, 0, 17, 15
+00/no_eye2
+bounds: 345, 908, 17, 14
+offsets: 0, 0, 18, 16
+00/no_eyeball1
+bounds: 469, 245, 31, 15
+offsets: 0, 0, 32, 16
+00/no_eyeball2
+bounds: 852, 258, 31, 17
+offsets: 0, 0, 32, 18
+00/no_eyebrow1
+bounds: 926, 659, 45, 7
+offsets: 0, 0, 47, 8
+00/no_eyebrow2
+bounds: 985, 320, 38, 21
+offsets: 0, 1, 40, 22
+00/no_eyehigh
+bounds: 790, 1018, 5, 5
+offsets: 0, 0, 7, 6
+00/no_eyehigh2
+bounds: 559, 1018, 5, 5
+offsets: 0, 0, 6, 6
+00/no_eyeline3
+bounds: 576, 257, 50, 25
+00/no_eyeline4
+bounds: 551, 274, 47, 23
+00/no_eyesha1
+bounds: 832, 404, 44, 14
+offsets: 0, 1, 46, 16
+00/thi_eyesha1
+bounds: 832, 404, 44, 14
+offsets: 0, 1, 46, 16
+00/no_eyesha2
+bounds: 672, 1004, 39, 18
+offsets: 1, 1, 40, 20
+00/thi_eyesha2
+bounds: 672, 1004, 39, 18
+offsets: 1, 1, 40, 20
+00/no_eyesha4
+bounds: 414, 1017, 16, 5
+offsets: 1, 0, 18, 7
+00/no_mouth
+bounds: 1013, 980, 7, 13
+offsets: 1, 0, 8, 14
+00/nose
+bounds: 523, 774, 21, 15
+offsets: 1, 2, 25, 18
+00/shy1_blush
+bounds: 961, 693, 95, 62
+offsets: 12, 8, 117, 78
+rotate:90
+00/shy1_ehesha4
+bounds: 769, 525, 28, 6
+offsets: 1, 1, 30, 8
+00/shy1_eye1
+bounds: 491, 1010, 11, 13
+offsets: 0, 0, 12, 14
+00/shy1_eye2
+bounds: 222, 894, 10, 13
+offsets: 0, 0, 12, 14
+00/shy1_eyeball1
+bounds: 93, 504, 29, 21
+offsets: 0, 0, 30, 22
+00/shy1_eyeball2
+bounds: 1, 610, 31, 22
+offsets: 0, 0, 32, 23
+00/shy1_eyebrlow2
+bounds: 205, 690, 27, 27
+offsets: 0, 0, 28, 28
+00/shy1_eyebrow
+bounds: 448, 570, 35, 7
+offsets: 0, 0, 36, 8
+00/shy1_eyeline1
+bounds: 831, 279, 45, 30
+00/shy1_eyeline2
+bounds: 96, 240, 45, 27
+00/shy1_eyesha1
+bounds: 862, 778, 18, 10
+offsets: 0, 0, 19, 11
+00/shy1_eyesha2
+bounds: 853, 833, 19, 6
+offsets: 0, 0, 20, 7
+00/shy1_eyesha3
+bounds: 569, 1006, 22, 17
+offsets: 0, 1, 24, 18
+00/shy1_mouth
+bounds: 822, 857, 17, 8
+offsets: 0, 0, 18, 9
+00/shy2_blush
+bounds: 448, 578, 65, 30
+offsets: 7, 6, 78, 48
+00/shy2_eye1
+bounds: 1010, 878, 13, 9
+offsets: 0, 1, 14, 11
+00/shy2_eye2
+bounds: 345, 881, 12, 10
+offsets: 0, 0, 13, 11
+00/shy2_eyebrow1
+bounds: 757, 610, 41, 5
+offsets: 0, 0, 42, 6
+00/shy2_eyebrow2
+bounds: 383, 495, 33, 30
+offsets: 0, 0, 34, 31
+00/shy2_mouth
+bounds: 483, 829, 32, 13
+offsets: 0, 0, 33, 14
+00/side_tail_1
+bounds: 877, 397, 145, 267
+rotate:180
+00/teeth
+bounds: 710, 750, 25, 12
+00/thi_eye_3
+bounds: 864, 460, 50, 25
+00/thi_eye_4
+bounds: 1, 275, 47, 24
+00/thi_eyeball1
+bounds: 611, 247, 31, 15
+offsets: 0, 0, 32, 16
+00/thi_eyeball2
+bounds: 820, 261, 31, 17
+offsets: 0, 0, 32, 18
+00/thi_eyebrow_1
+bounds: 649, 683, 37, 11
+offsets: 0, 0, 38, 12
+00/thi_eyebrow_2
+bounds: 466, 400, 32, 16
+offsets: 0, 0, 33, 17
+00/thi_eyeline3
+bounds: 932, 1014, 9, 9
+offsets: 0, 0, 11, 10
+00/thi_eyeline4
+bounds: 641, 1018, 12, 4
+offsets: 1, 0, 13, 5
+00/thi_eyelish
+bounds: 434, 1008, 17, 15
+offsets: 0, 0, 18, 16
+00/thi_eyelish2
+bounds: 364, 985, 16, 15
+offsets: 0, 0, 17, 16
+00/thi_mouth
+bounds: 890, 818, 22, 9
+offsets: 0, 0, 23, 10
+00/tongue
+bounds: 922, 714, 22, 12
+

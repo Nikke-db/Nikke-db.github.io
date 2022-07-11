@@ -1,0 +1,82 @@
+c111_aim_00.png
+size: 512, 512
+filter:Linear,Linear
+pma:true
+scale:1.6
+00/aim_arm_r
+bounds: 1, 374, 50, 49
+00/aim_calf_l
+bounds: 166, 208, 166, 86
+00/aim_calf_r
+bounds: 353, 2, 70, 77
+00/aim_cloth
+bounds: 334, 318, 62, 183
+00/aim_foot_l
+bounds: 49, 57, 82, 110
+rotate:270
+00/aim_foot_l2
+bounds: 1, 330, 46, 44
+00/aim_foot_r
+bounds: 1, 4, 78, 111
+00/aim_foot_r2
+bounds: 274, 453, 41, 48
+00/aim_hair_01
+bounds: 375, 80, 75, 166
+00/aim_hair_02
+bounds: 398, 304, 38, 196
+rotate:180
+00/aim_hair_03
+bounds: 416, 396, 40, 97
+rotate:180
+00/aim_hair_04
+bounds: 307, 29, 114, 286
+rotate:180
+00/aim_hair_05
+bounds: 96, 1, 182, 259
+rotate:270
+00/aim_hair_06
+bounds: 427, 275, 20, 125
+00/aim_hair_07
+bounds: 429, 405, 57, 35
+rotate:270
+00/aim_hair_08
+bounds: 81, 5, 64, 56
+rotate:90
+00/aim_hair_09
+bounds: 311, 185, 33, 42
+rotate:90
+00/aim_hair_10
+bounds: 309, 429, 32, 72
+00/aim_hair_11
+bounds: 210, 3, 37, 105
+rotate:90
+00/aim_head
+bounds: 1, 114, 106, 106
+00/aim_ribbon
+bounds: 3, 473, 40, 28
+00/aim_ribbon_2
+bounds: 260, 173, 42, 34
+00/aim_strap_1
+bounds: 421, 14, 28, 172
+offsets: 0, 0, 28, 172
+00/aim_strap_2
+bounds: 43, 307, 13, 76
+00/aim_stuff
+bounds: 41, 471, 11, 11
+offsets: 0, 0, 11, 11
+00/aim_stuff2
+bounds: 40, 490, 12, 11
+offsets: 0, 0, 12, 12
+00/aim_stuff3
+bounds: 1, 437, 11, 11
+offsets: 0, 0, 11, 12
+00/aim_thigh_l
+bounds: 205, 262, 153, 239
+00/aim_thigh_r
+bounds: 1, 120, 183, 263
+offsets: 6, 0, 189, 263
+rotate:270
+00/aim_upper
+bounds: 1, 283, 258, 218
+
+

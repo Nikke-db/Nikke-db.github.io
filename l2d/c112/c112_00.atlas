@@ -1,0 +1,435 @@
+c112_00.png
+size: 1024, 1024
+filter:Linear,Linear
+pma:true
+00/Chain
+bounds: 159, 149, 131, 45
+00/Phone
+bounds: 943, 943, 79, 79
+offsets: 0, 0, 79, 82
+00/Phone_02
+bounds: 290, 222, 57, 58
+00/Phone_ac_01
+bounds: 1, 822, 9, 35
+offsets: 0, 3, 9, 39
+00/Phone_ac_02
+bounds: 989, 1001, 9, 21
+00/Phone_ac_03
+bounds: 194, 935, 17, 23
+00/Phone_ac_04
+bounds: 429, 992, 23, 30
+offsets: 0, 0, 23, 30
+00/Phone_finger_01
+bounds: 199, 697, 22, 29
+offsets: 0, 0, 23, 29
+00/Phone_finger_02
+bounds: 602, 715, 23, 30
+00/Phone_logo
+bounds: 615, 827, 20, 19
+00/Phone_setup_03
+bounds: 318, 417, 75, 130
+00/Phone_white
+bounds: 748, 778, 75, 76
+00/angry_lip
+bounds: 81, 1016, 11, 7
+00/angry_redlight
+bounds: 796, 993, 45, 29
+00/arm_l_00
+bounds: 759, 200, 63, 110
+offsets: 1, 0, 65, 110
+00/arm_l_01
+bounds: 669, 381, 65, 92
+rotate:90
+00/arm_l_02
+bounds: 1, 195, 62, 91
+00/arm_l_03
+bounds: 410, 487, 86, 178
+00/arm_l_03_b
+bounds: 959, 472, 63, 44
+00/arm_r_01
+bounds: 104, 313, 81, 157
+offsets: 1, 10, 82, 172
+00/arm_r_02
+bounds: 906, 515, 114, 204
+00/arm_r_02_b
+bounds: 970, 825, 53, 44
+00/bobby
+bounds: 844, 719, 179, 105
+offsets: 5, 5, 185, 110
+00/body
+bounds: 288, 665, 218, 358
+offsets: 0, 0, 218, 358
+00/body_change
+bounds: 613, 641, 208, 185
+offsets: 0, 0, 217, 357
+00/body_change_02
+bounds: 790, 814, 208, 185
+offsets: 0, 0, 217, 357
+rotate:270
+00/body_change_03
+bounds: 615, 814, 208, 185
+offsets: 0, 0, 217, 357
+rotate:90
+00/bodyup_ac_01
+bounds: 825, 756, 18, 63
+offsets: 0, 0, 18, 63
+00/bodyup_ac_02
+bounds: 1, 935, 12, 69
+00/bodyup_ac_03
+bounds: 842, 993, 8, 30
+offsets: 0, 2, 8, 32
+00/change_arm_00
+bounds: 333, 293, 66, 57
+00/change_arm_01
+bounds: 92, 191, 74, 81
+rotate:90
+00/change_arm_02
+bounds: 454, 969, 45, 54
+offsets: 0, 0, 45, 58
+00/change_arm_1
+bounds: 103, 525, 84, 129
+offsets: 0, 0, 85, 129
+00/change_finger_01
+bounds: 1003, 812, 18, 12
+00/change_finger_02
+bounds: 934, 825, 35, 19
+00/change_finger_03
+bounds: 800, 955, 32, 37
+00/change_finger_04
+bounds: 738, 812, 24, 28
+offsets: 0, 0, 27, 28
+00/change_finger_05
+bounds: 203, 792, 19, 45
+00/change_hand_01
+bounds: 137, 985, 54, 37
+00/delight_lip
+bounds: 890, 1003, 21, 20
+00/ear
+bounds: 469, 869, 19, 34
+offsets: 0, 2, 19, 36
+00/eye_l_downcolor
+bounds: 261, 1005, 29, 18
+offsets: 0, 0, 30, 18
+00/eye_l_line_01
+bounds: 615, 821, 27, 12
+offsets: 0, 0, 27, 12
+00/eye_l_line_02
+bounds: 634, 827, 32, 12
+offsets: 0, 0, 32, 12
+00/eye_l_spec_01
+bounds: 287, 1018, 4, 5
+00/eye_l_spec_02
+bounds: 403, 1018, 4, 5
+offsets: 3, 0, 7, 5
+00/eye_l_upcolor
+bounds: 887, 707, 39, 25
+offsets: 1, 0, 41, 25
+00/eye_r_downcolor
+bounds: 751, 800, 23, 13
+offsets: 0, 3, 23, 16
+00/eye_r_line_01
+bounds: 460, 799, 22, 8
+offsets: 0, 0, 23, 8
+00/eye_r_line_02
+bounds: 466, 960, 26, 10
+offsets: 0, 0, 26, 12
+00/eye_r_spec_01
+bounds: 256, 1018, 4, 4
+00/eye_r_spec_02
+bounds: 46, 1020, 4, 3
+00/eye_r_upcolor
+bounds: 607, 991, 26, 15
+offsets: 0, 0, 26, 15
+00/eyeball_l
+bounds: 663, 1003, 18, 19
+offsets: 0, 0, 18, 20
+00/eyeball_r
+bounds: 683, 1007, 16, 15
+00/eyebrow_l
+bounds: 700, 1016, 32, 7
+offsets: 0, 0, 32, 7
+00/eyebrow_r
+bounds: 444, 827, 16, 17
+00/eyedlash_l_01
+bounds: 179, 1017, 10, 6
+00/eyedlash_r_01
+bounds: 293, 1017, 6, 5
+offsets: 0, 0, 7, 5
+00/eyelash_l
+bounds: 896, 816, 34, 15
+offsets: 0, 1, 34, 16
+00/eyelash_l_01
+bounds: 132, 1018, 7, 5
+00/eyelash_l_02
+bounds: 74, 1018, 5, 4
+00/eyelash_l_03
+bounds: 63, 1018, 9, 5
+00/eyelash_l_04
+bounds: 397, 1018, 4, 4
+00/eyelash_r
+bounds: 168, 789, 26, 13
+offsets: 1, 2, 27, 16
+00/eyelash_r_01
+bounds: 56, 1019, 4, 4
+offsets: 1, 0, 5, 4
+00/eyelash_r_02
+bounds: 51, 1019, 4, 3
+00/eyelash_r_03
+bounds: 299, 1018, 6, 5
+00/eyewhite_l
+bounds: 108, 1007, 27, 15
+offsets: 0, 0, 28, 16
+00/eyewhite_r
+bounds: 672, 827, 20, 12
+offsets: 0, 0, 20, 13
+00/face
+bounds: 289, 548, 116, 147
+offsets: 0, 1, 116, 148
+00/face_ac
+bounds: 185, 880, 28, 66
+00/face_ac_horn
+bounds: 187, 970, 12, 10
+00/face_dot
+bounds: 423, 1017, 4, 5
+offsets: 0, 0, 20, 18
+00/face_light
+bounds: 400, 297, 61, 132
+rotate:90
+00/face_redlight
+bounds: 895, 222, 85, 44
+00/finger_r_01
+bounds: 289, 712, 39, 55
+00/finger_r_02
+bounds: 484, 878, 17, 61
+00/finger_r_03
+bounds: 211, 722, 16, 60
+00/finger_r_04
+bounds: 500, 716, 16, 52
+00/finger_r_05
+bounds: 310, 736, 16, 47
+00/good_lip
+bounds: 934, 977, 23, 19
+offsets: 0, 0, 23, 21
+00/hair_bb_01
+bounds: 789, 134, 51, 233
+rotate:90
+00/hair_bb_02
+bounds: 210, 167, 53, 308
+rotate:90
+00/hair_bb_03
+bounds: 888, 108, 64, 102
+rotate:90
+00/hair_bb_04
+bounds: 326, 330, 56, 371
+rotate:90
+00/hair_bb_05
+bounds: 686, 184, 65, 337
+rotate:90
+00/hair_bb_06
+bounds: 600, 289, 37, 335
+rotate:90
+00/hair_f
+bounds: 179, 705, 42, 85
+00/hair_f_shaodw
+bounds: 178, 791, 43, 88
+00/hair_f_spec
+bounds: 495, 1000, 23, 22
+00/hair_f_tale
+bounds: 163, 442, 23, 82
+offsets: 0, 0, 23, 82
+00/hair_fl
+bounds: 995, 668, 28, 77
+offsets: 0, 0, 28, 78
+00/hair_fl_01_spec
+bounds: 209, 844, 14, 19
+00/hair_fl_tale
+bounds: 314, 675, 18, 51
+offsets: 0, 0, 19, 53
+00/hair_fll
+bounds: 764, 636, 46, 71
+offsets: 0, 1, 46, 73
+00/hair_flll
+bounds: 480, 646, 49, 124
+00/hair_fllll
+bounds: 1, 127, 73, 177
+rotate:90
+00/hair_fllll_tale
+bounds: 164, 516, 31, 137
+offsets: 0, 0, 31, 137
+00/hair_fllllb
+bounds: 1, 368, 120, 297
+00/hair_fllllbb
+bounds: 291, 184, 149, 248
+rotate:270
+00/hair_fllllcolor
+bounds: 1000, 987, 21, 35
+00/hair_fr
+bounds: 379, 171, 35, 107
+rotate:90
+00/hair_fr_01_spec
+bounds: 1, 1006, 4, 16
+offsets: 0, 1, 4, 17
+00/hair_fr_spec
+bounds: 975, 925, 7, 24
+00/hair_frr
+bounds: 833, 203, 33, 115
+offsets: 0, 0, 33, 115
+rotate:90
+00/hair_frr_spec
+bounds: 1015, 911, 7, 31
+00/hair_frrr
+bounds: 374, 124, 41, 117
+offsets: 1, 0, 42, 117
+rotate:90
+00/hair_l_shaodw
+bounds: 975, 862, 40, 82
+offsets: 0, 0, 41, 82
+00/hair_lb_01
+bounds: 737, 87, 100, 169
+rotate:270
+00/hair_lb_02
+bounds: 553, 325, 130, 358
+rotate:270
+00/hair_r_01
+bounds: 550, 171, 92, 209
+rotate:90
+00/hair_r_01_spec
+bounds: 312, 809, 7, 62
+00/hair_r_01_tale
+bounds: 1009, 600, 14, 105
+00/hair_r_02
+bounds: 982, 382, 40, 90
+00/hair_r_03
+bounds: 184, 115, 56, 99
+rotate:90
+00/hair_r_04
+bounds: 251, 88, 122, 134
+rotate:90
+00/hair_r_shaodw
+bounds: 1, 850, 22, 93
+offsets: 0, 0, 22, 95
+00/hair_rb_01
+bounds: 122, 243, 172, 284
+offsets: 0, 0, 176, 284
+rotate:180
+00/hair_rb_02
+bounds: 382, 263, 103, 284
+rotate:270
+00/hair_rtale
+bounds: 88, 101, 47, 183
+rotate:90
+00/hand_l_01
+bounds: 69, 254, 64, 135
+rotate:90
+00/hand_r_01
+bounds: 471, 761, 46, 41
+00/horn_l
+bounds: 799, 974, 11, 18
+00/horn_r
+bounds: 756, 854, 15, 17
+00/horn_shadow
+bounds: 1006, 969, 16, 17
+00/jacket_l_01
+bounds: 548, 447, 101, 256
+offsets: 0, 1, 101, 257
+rotate:90
+00/jacket_l_02
+bounds: 59, 162, 179, 168
+offsets: 0, 0, 179, 169
+rotate:270
+00/jarcket_r_01
+bounds: 559, 541, 149, 359
+rotate:90
+00/jarket_b
+bounds: 1, 650, 216, 372
+offsets: 0, 0, 216, 396
+00/jipper_01
+bounds: 633, 996, 10, 10
+00/jipper_02
+bounds: 408, 1010, 15, 13
+00/leg_l_01
+bounds: 193, 332, 124, 691
+00/leg_l_01_Shadow
+bounds: 629, 234, 55, 93
+offsets: 0, 4, 64, 97
+rotate:90
+00/leg_l_ac
+bounds: 280, 837, 28, 53
+offsets: 0, 0, 29, 54
+00/leg_r
+bounds: 484, 384, 129, 639
+rotate:180
+00/leg_r_ac
+bounds: 289, 769, 22, 67
+offsets: 0, 0, 23, 69
+00/lip_color
+bounds: 198, 878, 22, 13
+offsets: 0, 0, 22, 13
+00/lip_down
+bounds: 911, 818, 23, 19
+offsets: 0, 0, 26, 22
+00/lip_up
+bounds: 456, 805, 25, 13
+offsets: 0, 0, 25, 14
+00/lip_uptooth
+bounds: 869, 1014, 18, 8
+offsets: 1, 0, 19, 9
+00/mask
+bounds: 548, 91, 77, 77
+00/neck
+bounds: 454, 803, 50, 64
+offsets: 0, 0, 51, 64
+00/neck_ac
+bounds: 286, 894, 20, 16
+00/neck_belt
+bounds: 603, 1007, 59, 16
+00/noise
+bounds: 769, 856, 21, 24
+offsets: 0, 0, 23, 27
+00/sad_highlight
+bounds: 615, 832, 56, 26
+00/sad_lip
+bounds: 93, 1014, 13, 9
+00/sad_tear
+bounds: 642, 617, 56, 24
+00/shy_ef
+bounds: 352, 115, 195, 52
+00/shy_highlight
+bounds: 673, 616, 57, 24
+00/shy_lip
+bounds: 829, 738, 33, 21
+offsets: 0, 0, 34, 21
+00/shy_redlight
+bounds: 591, 149, 93, 60
+rotate:180
+00/sns_icon_001
+bounds: 1010, 825, 13, 13
+00/sns_icon_002
+bounds: 913, 996, 28, 27
+00/sns_icon_003
+bounds: 59, 601, 43, 43
+00/sns_icon_004
+bounds: 799, 484, 58, 56
+00/sns_icon_005
+bounds: 531, 228, 68, 67
+00/sns_icon_006
+bounds: 823, 237, 71, 71
+00/sns_icon_007
+bounds: 1, 446, 69, 96
+00/sns_icon_008
+bounds: 811, 647, 75, 88
+00/sns_icon_009
+bounds: 394, 405, 82, 81
+00/sns_icon_010
+bounds: 916, 347, 64, 96
+00/sns_icon_011
+bounds: 765, 364, 72, 89
+00/sns_icon_012
+bounds: 838, 362, 77, 81
+00/sns_icon_013
+bounds: 1, 288, 76, 79
+00/sns_icon_015
+bounds: 936, 267, 76, 79
+00/yellow
+bounds: 858, 444, 100, 100
+

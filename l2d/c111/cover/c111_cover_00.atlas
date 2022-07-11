@@ -1,0 +1,285 @@
+c111_cover_00.png
+size: 512, 512
+filter:Linear,Linear
+pma:true
+scale:1.3
+00/cover_arm_l
+bounds: 444, 422, 66, 74
+00/cover_arm_l_2
+bounds: 11, 88, 37, 83
+rotate:90
+00/cover_arm_r
+bounds: 128, 190, 103, 65
+offsets: 5, 0, 108, 65
+00/cover_arm_r2
+bounds: 436, 214, 74, 91
+offsets: 0, 0, 74, 92
+rotate:180
+00/cover_belt_pandant
+bounds: 495, 473, 15, 23
+00/cover_body
+bounds: 373, 342, 105, 154
+rotate:180
+00/cover_booby_cloth
+bounds: 41, 150, 82, 95
+rotate:90
+00/cover_booby_l
+bounds: 155, 299, 40, 52
+00/cover_booby_r
+bounds: 1, 441, 35, 55
+00/cover_calf_l
+bounds: 233, 133, 67, 110
+rotate:90
+00/cover_calf_r
+bounds: 1, 227, 105, 96
+rotate:90
+00/cover_choker
+bounds: 137, 378, 38, 35
+00/cover_choker_2
+bounds: 220, 442, 31, 24
+00/cover_cloth_01
+bounds: 439, 338, 60, 71
+rotate:270
+00/cover_cloth_02
+bounds: 1, 159, 46, 81
+00/cover_cloth_b
+bounds: 110, 414, 117, 82
+00/cover_cloth_l
+bounds: 175, 221, 60, 180
+rotate:90
+00/cover_cloth_pocket_l
+bounds: 20, 31, 46, 127
+rotate:90
+00/cover_cloth_pocket_r
+bounds: 355, 42, 44, 98
+rotate:90
+00/cover_cloth_r
+bounds: 130, 58, 50, 72
+offsets: 4, 2, 54, 74
+rotate:90
+00/cover_cloth_r2
+bounds: 285, 249, 76, 225
+rotate:270
+00/cover_face_blusher_l
+bounds: 159, 150, 20, 24
+00/cover_face_blusher_r
+bounds: 228, 468, 45, 28
+00/cover_face_brow_l
+bounds: 394, 484, 6, 12
+00/cover_face_brow_r
+bounds: 145, 493, 26, 3
+00/cover_face_eye_l
+bounds: 431, 482, 17, 14
+00/cover_face_eye_l2
+bounds: 188, 353, 15, 12
+00/cover_face_eye_r
+bounds: 476, 410, 34, 17
+00/cover_face_eye_r2
+bounds: 480, 393, 30, 16
+00/cover_face_eyeball_l
+bounds: 127, 488, 9, 8
+00/cover_face_eyeball_l2
+bounds: 137, 488, 7, 8
+offsets: 0, 0, 7, 9
+00/cover_face_eyeball_r
+bounds: 176, 402, 12, 11
+00/cover_face_eyeball_r2
+bounds: 448, 438, 9, 10
+offsets: 0, 0, 9, 10
+00/cover_face_eyew_l
+bounds: 101, 431, 12, 10
+00/cover_face_eyew_r
+bounds: 1, 427, 21, 13
+00/cover_face_lash_l
+bounds: 98, 382, 18, 10
+offsets: 0, 0, 18, 10
+00/cover_face_lash_r
+bounds: 184, 412, 30, 14
+00/cover_face_lip
+bounds: 430, 309, 30, 29
+00/cover_face_mouth
+bounds: 275, 473, 24, 23
+00/cover_face_nose
+bounds: 254, 411, 11, 11
+00/cover_face_teeth
+bounds: 316, 443, 18, 16
+00/cover_face_tongue
+bounds: 405, 453, 15, 24
+00/cover_face_tongue2
+bounds: 397, 442, 11, 10
+00/cover_facial
+bounds: 327, 287, 91, 105
+rotate:90
+00/cover_foot_l
+bounds: 376, 72, 38, 67
+rotate:90
+00/cover_hair_01
+bounds: 1, 1, 58, 51
+00/cover_hair_02
+bounds: 75, 15, 58, 33
+00/cover_hair_03
+bounds: 308, 4, 24, 34
+00/cover_hair_04
+bounds: 267, 287, 30, 65
+rotate:90
+00/cover_hair_05
+bounds: 402, 29, 25, 71
+rotate:90
+00/cover_hair_06
+bounds: 217, 14, 60, 45
+rotate:180
+00/cover_hair_07
+bounds: 1, 73, 46, 146
+rotate:270
+00/cover_hair_08
+bounds: 418, 12, 8, 92
+rotate:90
+00/cover_hair_09
+bounds: 335, 213, 28, 16
+00/cover_hair_10
+bounds: 404, 16, 11, 85
+rotate:90
+00/cover_hair_11
+bounds: 14, 123, 37, 177
+offsets: 0, 0, 37, 177
+rotate:90
+00/cover_hair_12
+bounds: 149, 55, 80, 152
+rotate:270
+00/cover_hair_13
+bounds: 143, 94, 97, 166
+offsets: 0, 0, 97, 167
+rotate:270
+00/cover_hair_14
+bounds: 256, 157, 56, 185
+rotate:90
+00/cover_hair_15
+bounds: 328, 109, 65, 109
+offsets: 0, 0, 65, 109
+rotate:90
+00/cover_hair_16
+bounds: 79, 340, 156, 262
+rotate:270
+00/cover_hair_sha
+bounds: 447, 71, 63, 58
+00/cover_hairband
+bounds: 211, 428, 12, 15
+00/cover_hairpin
+bounds: 380, 483, 13, 13
+00/cover_hand_l2_04
+bounds: 435, 187, 24, 27
+00/cover_hand_l2_05
+bounds: 97, 236, 38, 32
+00/cover_hand_l_01
+bounds: 98, 252, 13, 25
+00/cover_hand_l_02
+bounds: 91, 100, 21, 23
+00/cover_hand_l_03
+bounds: 118, 375, 18, 21
+00/cover_hand_l_04
+bounds: 1, 404, 11, 21
+00/cover_hand_l_05
+bounds: 332, 483, 17, 13
+00/cover_hand_l_06
+bounds: 147, 16, 19, 35
+00/cover_hand_l_07
+bounds: 267, 401, 36, 33
+00/cover_hand_r
+bounds: 175, 34, 43, 49
+00/cover_missile
+bounds: 438, 106, 72, 120
+00/cover_missile2
+bounds: 473, 378, 12, 13
+offsets: 0, 0, 12, 14
+00/cover_missile3
+bounds: 102, 489, 7, 7
+offsets: 0, 0, 7, 7
+00/cover_missile4
+bounds: 281, 383, 8, 17
+00/cover_neck
+bounds: 468, 26, 42, 44
+00/cover_pandant
+bounds: 294, 425, 20, 16
+offsets: 0, 0, 20, 17
+00/cover_pandant2
+bounds: 173, 490, 3, 6
+00/cover_ribbon
+bounds: 276, 27, 33, 26
+00/cover_steam_01
+bounds: 253, 276, 29, 12
+00/cover_steam_02
+bounds: 461, 324, 34, 13
+00/cover_thigh_1
+bounds: 28, 484, 11, 12
+00/cover_thigh_2
+bounds: 1, 485, 8, 11
+offsets: 0, 0, 9, 11
+00/cover_thigh_l
+bounds: 1, 330, 108, 166
+00/cover_thigh_r
+bounds: 195, 288, 120, 84
+rotate:90
+00/cover_upper
+bounds: 314, 81, 54, 51
+00/cover_wrist_l
+bounds: 195, 16, 30, 33
+00/cover_wrist_l2
+bounds: 33, 463, 26, 33
+offsets: 0, 0, 26, 33
+00/cover_wrist_r_02
+bounds: 192, 284, 23, 24
+00/gun_10_custom
+bounds: 31, 160, 52, 42
+rotate:180
+00/gun_11_custom
+bounds: 1, 121, 29, 45
+00/gun_12_custom
+bounds: 432, 152, 40, 60
+offsets: 0, 2, 40, 62
+00/gun_13_custom
+bounds: 362, 407, 12, 14
+00/gun_14_custom
+bounds: 157, 28, 20, 39
+00/gun_15_custom
+bounds: 294, 36, 61, 64
+rotate:90
+00/gun_16_custom
+bounds: 271, 315, 122, 181
+00/gun_17_custom
+bounds: 472, 129, 38, 61
+offsets: 0, 0, 38, 61
+00/gun_18_custom
+bounds: 1, 388, 6, 17
+offsets: 0, 0, 6, 17
+00/gun_19_custom
+bounds: 379, 440, 36, 51
+00/gun_1_custom
+bounds: 212, 217, 37, 32
+00/gun_20_custom
+bounds: 1, 14, 55, 74
+rotate:90
+00/gun_2_custom
+bounds: 344, 376, 35, 24
+offsets: 0, 0, 35, 24
+00/gun_3_custom
+bounds: 359, 181, 82, 100
+00/gun_42_custom
+bounds: 36, 285, 35, 22
+00/gun_4_custom
+bounds: 91, 388, 52, 41
+00/gun_5_custom
+bounds: 302, 11, 49, 89
+rotate:270
+00/gun_6_custom
+bounds: 205, 112, 64, 100
+offsets: 0, 2, 64, 102
+rotate:90
+00/gun_7_custom
+bounds: 59, 482, 9, 14
+00/gun_8_custom
+bounds: 45, 237, 115, 132
+rotate:270
+00/gun_9_custom
+bounds: 240, 214, 35, 25
+
+

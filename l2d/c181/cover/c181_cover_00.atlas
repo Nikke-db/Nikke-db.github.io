@@ -1,0 +1,213 @@
+c181_cover_00.png
+size: 512, 512
+filter:Linear,Linear
+pma:true
+scale:1.15
+00/arm_L_2
+bounds: 77, 151, 42, 78
+00/arm_L_3
+bounds: 26, 481, 32, 30
+offsets: 0, 0, 33, 30
+00/arm_R1
+bounds: 0, 154, 80, 32
+offsets: 0, 0, 81, 32
+00/arm_R_2
+bounds: 316, 365, 84, 54
+00/belt_center
+bounds: 8, 116, 76, 43
+offsets: 0, 1, 76, 44
+rotate:180
+00/body_lower
+bounds: 196, 182, 74, 79
+rotate:270
+00/body_upper
+bounds: 45, 280, 68, 59
+00/boob_L
+bounds: 388, 161, 49, 52
+00/boob_R
+bounds: 0, 325, 45, 55
+00/boob_sha
+bounds: 121, 446, 13, 19
+00/bullet
+bounds: 59, 490, 16, 9
+offsets: 0, 0, 17, 9
+00/coat_L_lower
+bounds: 0, 228, 92, 170
+rotate:90
+00/coat_R
+bounds: 368, 127, 145, 143
+rotate:270
+00/coat_R_up
+bounds: 465, 132, 45, 55
+00/coat_back
+bounds: 0, 337, 251, 173
+00/coat_belt_L_1
+bounds: 0, 379, 18, 50
+00/coat_belt_L_2
+bounds: 6, 454, 38, 57
+00/coat_belt_L_3
+bounds: 473, 400, 38, 110
+00/coat_belt_L_4
+bounds: 343, 116, 40, 111
+rotate:90
+00/coat_belt_R_1
+bounds: 180, 104, 71, 41
+rotate:180
+00/coat_belt_R_2
+bounds: 86, 108, 73, 43
+rotate:180
+00/coat_belt_R_3
+bounds: 233, 246, 48, 70
+rotate:180
+00/coat_upper
+bounds: 132, 247, 105, 105
+rotate:270
+00/collar_L
+bounds: 247, 140, 57, 93
+rotate:90
+00/collar_R
+bounds: 162, 137, 50, 89
+rotate:90
+00/collar_neck
+bounds: 317, 95, 36, 32
+00/ear
+bounds: 459, 493, 11, 18
+offsets: 0, 0, 11, 19
+00/eye_L
+bounds: 0, 505, 5, 5
+offsets: 0, 0, 5, 6
+00/eye_L_b
+bounds: 473, 476, 11, 9
+00/eye_L_u
+bounds: 462, 483, 13, 9
+00/eye_R
+bounds: 81, 506, 5, 5
+offsets: 0, 0, 6, 6
+00/eye_R_b
+bounds: 104, 449, 16, 11
+00/eye_R_u
+bounds: 178, 499, 19, 12
+00/eyeball_L
+bounds: 410, 502, 9, 9
+offsets: 0, 0, 9, 9
+00/eyeball_R
+bounds: 496, 500, 13, 11
+offsets: 0, 0, 13, 12
+00/eyebrow_L
+bounds: 181, 494, 12, 4
+00/eyebrow_R
+bounds: 244, 504, 17, 7
+00/eyelash_L_b
+bounds: 87, 508, 7, 3
+00/eyelash_R_1
+bounds: 340, 507, 13, 4
+00/eyeline_L_1
+bounds: 20, 507, 10, 4
+00/eyeline_L_b
+bounds: 474, 471, 12, 6
+00/eyeline_L_u
+bounds: 420, 507, 13, 4
+00/eyeline_R_1
+bounds: 95, 509, 8, 1
+offsets: 0, 1, 10, 3
+00/eyeline_R_b
+bounds: 354, 508, 8, 3
+offsets: 0, 0, 8, 4
+00/eyeline_R_u
+bounds: 176, 468, 16, 5
+offsets: 0, 0, 16, 5
+00/flower_1
+bounds: 105, 129, 46, 44
+00/flower_sha
+bounds: 100, 252, 40, 33
+00/foot_L
+bounds: 198, 120, 38, 64
+rotate:90
+00/foot_R
+bounds: 252, 443, 32, 68
+00/gun_custom_0
+bounds: 327, 295, 215, 175
+rotate:270
+00/hair_b_1
+bounds: 401, 350, 23, 29
+00/hair_b_2
+bounds: 149, 451, 10, 13
+00/hair_back_
+bounds: 214, 289, 222, 115
+rotate:90
+00/hair_f_1
+bounds: 74, 98, 53, 34
+00/hair_f_2
+bounds: 262, 83, 50, 40
+rotate:180
+00/hair_f_3
+bounds: 402, 460, 23, 21
+00/hair_f_4
+bounds: 183, 93, 37, 34
+00/hair_f_5
+bounds: 354, 87, 44, 33
+00/hair_s_1
+bounds: 135, 462, 49, 76
+rotate:90
+00/hair_s_2
+bounds: 448, 284, 13, 57
+rotate:90
+00/hair_up
+bounds: 123, 161, 70, 85
+00/hand_L
+bounds: 148, 200, 28, 30
+00/hand_L_1
+bounds: 0, 479, 8, 16
+00/hand_L_2
+bounds: 500, 482, 10, 16
+00/hand_L_3
+bounds: 448, 501, 7, 10
+00/hand_L_4
+bounds: 284, 490, 11, 21
+00/hand_L_5
+bounds: 212, 494, 11, 17
+00/hand_R
+bounds: 439, 176, 42, 36
+00/head
+bounds: 334, 190, 55, 72
+00/head_shadow
+bounds: 0, 102, 40, 28
+00/knif
+bounds: 250, 398, 28, 46
+00/leg_L_1
+bounds: 316, 286, 88, 131
+rotate:90
+00/leg_L_2
+bounds: 277, 168, 56, 59
+00/leg_R_1
+bounds: 45, 444, 67, 136
+rotate:90
+00/leg_R_2
+bounds: 402, 211, 74, 92
+rotate:270
+00/lock_belt
+bounds: 434, 104, 72, 48
+00/lock_center
+bounds: 58, 500, 22, 11
+00/mask
+bounds: 156, 99, 43, 39
+offsets: 5, 1, 49, 40
+rotate:270
+00/neck
+bounds: 481, 354, 30, 35
+00/neck_lock
+bounds: 383, 482, 26, 29
+00/pant
+bounds: 0, 189, 76, 58
+00/skirt_lower
+bounds: 276, 213, 128, 86
+rotate:180
+00/skirt_sha
+bounds: 348, 132, 64, 30
+00/skirt_upper
+bounds: 266, 117, 125, 61
+00/slort_back
+bounds: 414, 383, 128, 83
+rotate:90
+
+

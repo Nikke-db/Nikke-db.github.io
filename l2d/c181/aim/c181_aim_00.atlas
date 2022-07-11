@@ -1,0 +1,81 @@
+c181_aim_00.png
+size: 512, 512
+filter:Linear,Linear
+pma:true
+00/arm_L1
+bounds: 170, 76, 41, 76
+00/arm_R2
+bounds: 238, 193, 23, 58
+offsets: 0, 0, 23, 59
+00/body_lower
+bounds: 323, 389, 122, 95
+rotate:90
+00/body_upper
+bounds: 419, 424, 90, 87
+00/boob
+bounds: 474, 123, 36, 61
+offsets: 53, 11, 90, 87
+00/coat
+bounds: 0, 298, 284, 213
+00/coat_back
+bounds: 134, 230, 67, 71
+00/flower_1
+bounds: 58, 459, 29, 36
+00/flower_acc
+bounds: 111, 468, 18, 30
+00/foot_L
+bounds: 422, 162, 39, 47
+00/foot_R
+bounds: 159, 191, 43, 43
+00/hair_1
+bounds: 19, 139, 85, 322
+rotate:270
+00/hair_2
+bounds: 262, 178, 61, 332
+00/hair_3
+bounds: 185, 154, 130, 323
+rotate:270
+00/hair_4
+bounds: 199, 80, 175, 311
+rotate:270
+00/hair_5
+bounds: 198, 53, 75, 313
+rotate:270
+00/hair_b
+bounds: 368, 114, 97, 143
+rotate:90
+00/hair_sha_1
+bounds: 0, 111, 66, 171
+rotate:90
+00/hair_sha_2
+bounds: 202, 218, 60, 181
+00/hair_sha_3
+bounds: 360, 255, 87, 151
+rotate:90
+00/hair_sha_4
+bounds: 86, 470, 41, 99
+rotate:90
+00/hair_sha_5
+bounds: 0, 70, 41, 165
+rotate:90
+00/hair_sha_center
+bounds: 61, 226, 68, 80
+00/hand_R
+bounds: 323, 489, 17, 22
+offsets: 0, 0, 17, 22
+00/head
+bounds: 0, 472, 39, 113
+rotate:90
+00/head_b
+bounds: 290, 218, 57, 62
+offsets: 32, 75, 97, 143
+00/leg_L1
+bounds: 311, 275, 58, 121
+00/leg_L2
+bounds: 426, 272, 60, 43
+00/leg_R1
+bounds: 370, 331, 141, 67
+00/leg_R2
+bounds: 0, 246, 66, 126
+
+

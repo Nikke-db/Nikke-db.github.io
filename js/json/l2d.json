@@ -132,12 +132,12 @@
   {
     "name": "Jackal",
     "id": "c111",
-    "available": "no"
+    "available": "yes"
   },
   {
     "name": "Viper",
     "id": "c112",
-    "available": "no"
+    "available": "yes"
   },
   {
     "name": "N102",
