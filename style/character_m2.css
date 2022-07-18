@@ -53,22 +53,22 @@
 }
 
 #wr3div1{
-    border-left:solid white 3px;
+    border-left:solid white 3px !important;
     margin-left: 25%;
     height:160px;
     width: 50%;
 }
-#wr3div1 button{
+#wr3div1 div{
     border-bottom: solid var(--main-dark-theme) 2px;
     border-top: solid var(--main-dark-theme) 2px;
     transition: 0.5s;
     width: 100%;
     
 }
-#wr3div1 button:hover{
-    border-bottom: solid gold 2px;
-    border-top: solid gold 2px;
-    transition: 0.5s;
+#wr3div1 div:hover{
+    /* border-bottom: solid gold 2px; */
+    /* border-top: solid gold 2px; */
+    /* transition: 0.5s; */
 }
 .activeskill{
     border-right: gold 4px solid !important; 
