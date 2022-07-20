@@ -8,14 +8,14 @@
     text-align: left;
 }
 
-.nav-btn{
+.nav-btn a{
     transition: 0.5s;
     margin-left:20px;
     font-size: 20px;
     color:rgb(180, 175, 175);
     border:none;
 }
-.nav-btn:hover{
+.nav-btn a:hover{
     font-style: italic;
     cursor:pointer;
     color:white;
