@@ -3,7 +3,7 @@ if (navigator.userAgent.includes("Android") ||
 (navigator.userAgent.includes("Mac OS X")) && !navigator.userAgent.includes("Macintosh")){
       document.querySelector("#player-container").hidden = true
       document.querySelector("#background-div").hidden = true
-      document.querySelector("#visualiserTop").hidden = true
+      document.querySelector(".wrapperindex").hidden = true
       document.querySelector("#l2dbgcolorchanger").hidden = true
       document.querySelector("#visualiserMain").hidden = true
       document.querySelector("#mobile_message").hidden = false
