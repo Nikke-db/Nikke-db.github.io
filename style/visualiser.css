@@ -22,7 +22,9 @@ body {
 }
 
 .spine-player-canvas {
-    height: 100%
+    margin-top: 7%;
+    margin-left: 15%;
+    height: 95%
 }
 
 .spine-player-controls {
