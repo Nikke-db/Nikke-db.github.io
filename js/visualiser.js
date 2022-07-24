@@ -334,6 +334,14 @@ document.addEventListener("keypress",(e)=>{
             // document.querySelector("#nikketxtgrid").hidden = false
             document.querySelector(".spine-player-controls").hidden = false
       }
+      if(e.key="z"){
+            canvas = document.querySelector("#player-container")
+            canvas.style.height = 100 +"vh"
+            changeSpine(currentid)
+            document.querySelector("#player-container").style.left = 0
+            document.querySelector("#player-container").style.top = 0
+      }
+      // console.log(e.key);
 })
 
 const arraypose = ["fb","cover","aim"]
