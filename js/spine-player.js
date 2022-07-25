@@ -11599,6 +11599,7 @@ var spine = (() => {
 <div class="spine-player-timeline"></div>
 <div class="spine-player-buttons">
 <button class="spine-player-button spine-player-button-icon-pause"></button>
+<div class="scrollbar-msg">Press "z" to reset the zoom and placement</div>
 <div class="spine-player-button-spacer"></div>
 <button class="spine-player-button spine-player-button-icon-speed"></button>
 <button class="spine-player-button spine-player-button-icon-animations"></button>

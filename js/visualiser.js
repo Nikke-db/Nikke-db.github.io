@@ -328,20 +328,20 @@ document.querySelector(".hideUI").addEventListener("click",(e)=>{
 document.addEventListener("keypress",(e)=>{
       if (e.key==="Enter"){
             document.querySelector(".wrapperindex").hidden = false
-            // document.querySelector("#visualiserTop").hidden = false
+            
             document.querySelector("#visualiserMain").hidden = false
             document.querySelector("#l2dbgcolorchanger").hidden = false
-            // document.querySelector("#nikketxtgrid").hidden = false
+            
             document.querySelector(".spine-player-controls").hidden = false
       }
-      if(e.key="z"){
+      if(e.key.toLowerCase()==="z"){
             canvas = document.querySelector("#player-container")
             canvas.style.height = 100 +"vh"
             changeSpine(currentid)
             document.querySelector("#player-container").style.left = 0
             document.querySelector("#player-container").style.top = 0
       }
-      // console.log(e.key);
+      
 })
 
 const arraypose = ["fb","cover","aim"]

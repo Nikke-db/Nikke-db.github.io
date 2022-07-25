@@ -348,3 +348,9 @@
 .CodeMirror {
 	height: 100%;
 }
+
+.scrollbar-msg{
+	margin-top: 5px;
+	width:100%;
+	text-align: center;
+}
