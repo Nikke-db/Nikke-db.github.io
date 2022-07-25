@@ -121,6 +121,7 @@ let oldy = "";
 document.addEventListener("wheel", (e) => {
 
       if (  e.target !== document.querySelector("#background-div") &&
+            e.target !== document.querySelector(".spine-player") &&
             e.target !== document.querySelector(".spine-player-canvas") &&
             e.target !== document.querySelector("#nikketxtgrid") &&
             e.target !== document.querySelector("#nikketxtgrid div") &&
