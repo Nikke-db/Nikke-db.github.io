@@ -306,8 +306,10 @@ qs(".hidebar").addEventListener("click", (e) => {
       let hidden = qs(".spine-player-controls").hidden
       if (hidden) {
             qs(".spine-player-controls").hidden = false
+            qs(".scrollbar-msg").hidden = false
       } else {
             qs(".spine-player-controls").hidden = true
+            qs(".scrollbar-msg").hidden = true
       }
 })
 
@@ -335,16 +337,16 @@ const UI = [
 qs(".hideUI").addEventListener("click",(e)=>{
       alert("To turn the UI back on, press the Enter key of your keyboard")
 
-      for (i = 0 ; i<UI.length; i++){
+      for (let i = 0 ; i<UI.length; i++){
             qs(UI[i]).hidden = true
       }
 
 })
 // show all UI , reset zoom and position
 
-qs("keypress",(e)=>{
+document.addEventListener("keypress",(e)=>{
       if (e.key==="Enter"){
-            for (i = 0 ; i<UI.length; i++){
+            for (let i = 0 ; i<UI.length; i++){
                   qs(UI[i]).hidden = false
             }
       }
