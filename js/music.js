@@ -1,3 +1,5 @@
+"use strict";
+
 const qs = (val) => {
     return document.querySelector(val)
 }
@@ -17,7 +19,7 @@ let json
 
 const everythingAboutAudio = (div) => {
 
-    url = 'music/'+div.getAttribute("file_url")
+    let url = 'music/'+div.getAttribute("file_url")
 
     if (audio!==undefined) audio.pause()
     audio = document.createElement("audio")
@@ -160,7 +162,7 @@ const initmusic = async () =>{
     for (let i = 0; i < qsa(".dl_btn").length; i++){
         qsa(".dl_btn")[i].addEventListener("click",(e)=>{
             alert("Download started")
-            file = qsa(".dl_btn")[i].value
+            let file = qsa(".dl_btn")[i].value
             let ancre = document.createElement("a")
             ancre.download = file
             ancre.href = "/music/"+file

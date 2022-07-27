@@ -1,3 +1,5 @@
+"use strict";
+
 const qs = (val) => {
     return document.querySelector(val)
 }
@@ -20,7 +22,7 @@ const progress_value = (val, type)=>{
             maxstat = 750
             break;
     }
-    return percentage = 100*val/maxstat
+    return  100*val/maxstat
 }
 
 const hideSkill = () => {

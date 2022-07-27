@@ -1,3 +1,5 @@
+"use strict";
+
 const div = document.getElementById("character-list");
 
 let ascending = true;
