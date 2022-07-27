@@ -6,6 +6,7 @@
 #indeximgnav{
     height: 100px;
     text-align: left;
+    user-select: none;
 }
 
 .nav-btn a{
@@ -74,4 +75,5 @@ a{
     /* margin-left: 15px; */
     text-decoration: none;
     color:white
+    
 }

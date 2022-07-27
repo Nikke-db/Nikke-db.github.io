@@ -350,7 +350,11 @@
 }
 
 .scrollbar-msg{
-	margin-top: 5px;
-	width:100%;
+	color:rgb(180, 175, 175);
+	width:50%;
+	left:25%;
 	text-align: center;
+	position:absolute;
+	bottom: 5px;
+	user-select: none;
 }
