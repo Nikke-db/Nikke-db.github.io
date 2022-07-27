@@ -1,13 +1,23 @@
+"use strict";
+
+const qs = (val) =>{
+      return document.querySelector(val)
+}
+
+const qsa = (val) => {
+      return document.querySelectorAll(val)
+}
+
 //block access to mobile to android and mac os
 if (navigator.userAgent.includes("Android") || 
 (navigator.userAgent.includes("Mac OS X")) && !navigator.userAgent.includes("Macintosh")){
-      document.querySelector("#player-container").hidden = true
-      document.querySelector("#background-div").hidden = true
-      document.querySelector(".wrapperindex").hidden = true
-      document.querySelector("#l2dbgcolorchanger").hidden = true
-      document.querySelector("#visualiserMain").hidden = true
-      document.querySelector("#mobile_message").hidden = false
-      document.querySelector("body").style.overflow = "auto"
+      qs("#player-container").hidden = true
+      qs("#background-div").hidden = true
+      qs(".wrapperindex").hidden = true
+      qs("#l2dbgcolorchanger").hidden = true
+      qs("#visualiserMain").hidden = true
+      qs("#mobile_message").hidden = false
+      qs("body").style.overflow = "auto"
 }
 
 
@@ -47,10 +57,10 @@ const changeSpine = (id) => {
 
       // empties the div to clear the current spine
       // every listeners MUST be in changeSpine because
-      // there aren't any spine currently, so the listened divs
-      // doesn't exist, thus will break the code and nothing will really work
+      // there aren't any spine currently, so if the listened divs
+      // doesn't exist, it will break the code and nothing will work
 
-      document.querySelector("#player-container").innerHTML = ""
+      qs("#player-container").innerHTML = ""
 
       currentid = id
 
@@ -103,11 +113,11 @@ const changeSpine = (id) => {
             })
       }
 
-      document.querySelector(".spine-player-canvas").width = document.querySelector(".spine-player-canvas").height
+      qs(".spine-player-canvas").width = qs(".spine-player-canvas").height
 
-      document.querySelector(".spine-player-canvas").style.width = null
+      qs(".spine-player-canvas").style.width = null
 
-      document.querySelector(".spine-player-canvas").style.display = "inline"
+      qs(".spine-player-canvas").style.display = "inline"
 
 }
 let current_l2d = "fb"
@@ -120,16 +130,16 @@ let oldy = "";
 // zoom with mouse wheel, only on wanted divs ( so it doesn't zoom while browsing units )
 document.addEventListener("wheel", (e) => {
 
-      if (  e.target !== document.querySelector("#background-div") &&
-            e.target !== document.querySelector(".spine-player") &&
-            e.target !== document.querySelector(".spine-player-canvas") &&
-            e.target !== document.querySelector("#nikketxtgrid") &&
-            e.target !== document.querySelector("#nikketxtgrid div") &&
-            e.target !== document.querySelector("body")) {
+      if (  e.target !== qs("#background-div") &&
+            e.target !== qs(".spine-player") &&
+            e.target !== qs(".spine-player-canvas") &&
+            e.target !== qs("#nikketxtgrid") &&
+            e.target !== qs("#nikketxtgrid div") &&
+            e.target !== qs("body")) {
             return false
       }
-      canvas = document.querySelector("#player-container")
-      height = canvas.style.height.replaceAll("vh", "")
+      let canvas = qs("#player-container")
+      let height = canvas.style.height.replaceAll("vh", "")
 
       switch (e.deltaY > 0) {
             case true:
@@ -145,11 +155,11 @@ document.addEventListener("wheel", (e) => {
 
 document.addEventListener("mousedown", (e) => {
 
-      if (  e.target !== document.querySelector("#background-div") &&
-            e.target !== document.querySelector(".spine-player-canvas") &&
-            e.target !== document.querySelector("#nikketxtgrid") &&
-            e.target !== document.querySelector("#nikketxtgrid div") &&
-            e.target !== document.querySelector("body")) {
+      if (  e.target !== qs("#background-div") &&
+            e.target !== qs(".spine-player-canvas") &&
+            e.target !== qs("#nikketxtgrid") &&
+            e.target !== qs("#nikketxtgrid div") &&
+            e.target !== qs("body")) {
             return false
       }
       move = true
@@ -169,21 +179,21 @@ document.addEventListener("mousemove", (e) => {
             let newy = e.clientY
             let stylel;
 
-            stylel = document.querySelector("#player-container").style.left.replaceAll("px", "")
+            stylel = qs("#player-container").style.left.replaceAll("px", "")
 
-            let stylet = document.querySelector("#player-container").style.top.replaceAll("px", "")
+            let stylet = qs("#player-container").style.top.replaceAll("px", "")
 
             if (newx > oldx) {
-                  document.querySelector("#player-container").style.left = (parseInt(stylel) + (newx - oldx)) + "px"
+                  qs("#player-container").style.left = (parseInt(stylel) + (newx - oldx)) + "px"
             }
             if (newx < oldx) {
-                  document.querySelector("#player-container").style.left = (parseInt(stylel) + (newx - oldx)) + "px"
+                  qs("#player-container").style.left = (parseInt(stylel) + (newx - oldx)) + "px"
             }
             if (newy < oldy) {
-                  document.querySelector("#player-container").style.top = (parseInt(stylet) + (newy - oldy)) + "px"
+                  qs("#player-container").style.top = (parseInt(stylet) + (newy - oldy)) + "px"
             }
             if (newy > oldy) {
-                  document.querySelector("#player-container").style.top = (parseInt(stylet) + (newy - oldy)) + "px"
+                  qs("#player-container").style.top = (parseInt(stylet) + (newy - oldy)) + "px"
             }
             oldx = newx
             oldy = newy
@@ -192,21 +202,21 @@ document.addEventListener("mousemove", (e) => {
 
 // CHANGE BG COLOR --------------------------------------------------------------------------------------------------------------------
 
-let rgbPanelVisible = document.querySelector("#colorChangePanel").hidden
-let imgPanelVisible = document.querySelector("#colorChangePanel").hidden
+let rgbPanelVisible = qs("#colorChangePanel").hidden
+let imgPanelVisible = qs("#colorChangePanel").hidden
 
-document.querySelector("#l2dbgcolorchanger button").addEventListener("click", (e) => {
+qs("#l2dbgcolorchanger button").addEventListener("click", (e) => {
       if (rgbPanelVisible) {
-            document.querySelector("#colorChangePanel").hidden = false
+            qs("#colorChangePanel").hidden = false
       } else {
-            document.querySelector("#colorChangePanel").hidden = true
+            qs("#colorChangePanel").hidden = true
       }
-      rgbPanelVisible = document.querySelector("#colorChangePanel").hidden
+      rgbPanelVisible = qs("#colorChangePanel").hidden
 })
 
-let r = parseInt(document.querySelector("#customRangeRed").value)
-let g = parseInt(document.querySelector("#customRangeGreen").value)
-let b = parseInt(document.querySelector("#customRangeBlue").value)
+let r = parseInt(qs("#customRangeRed").value)
+let g = parseInt(qs("#customRangeGreen").value)
+let b = parseInt(qs("#customRangeBlue").value)
 
 
 const rgb2hex = (v) => {
@@ -217,47 +227,47 @@ const rgb2hex = (v) => {
 let hex = "#" + rgb2hex(r) + rgb2hex(g) + rgb2hex(b)
 
 const updateHex = () => {
-      localhex = rgb2hex(r) + rgb2hex(g) + rgb2hex(b)
-      document.querySelector("#inputhex").value = localhex
+      let localhex = rgb2hex(r) + rgb2hex(g) + rgb2hex(b)
+      qs("#inputhex").value = localhex
 }
 
 updateHex()
 
 const updateRgb = () => {
 
-      document.querySelector("#customRangeRed").value = r
-      document.querySelector("#labelred").innerHTML = "Red - " + document.querySelector("#customRangeRed").value
-      document.querySelector("#customRangeGreen").value = g
-      document.querySelector("#labelgreen").innerHTML = "Green - " + document.querySelector("#customRangeGreen").value
-      document.querySelector("#customRangeBlue").value = b
-      document.querySelector("#labelblue").innerHTML = "Blue - " + document.querySelector("#customRangeBlue").value
+      qs("#customRangeRed").value = r
+      qs("#labelred").innerHTML = "Red - " +qs("#customRangeRed").value
+      qs("#customRangeGreen").value = g
+      qs("#labelgreen").innerHTML = "Green - " + qs("#customRangeGreen").value
+      qs("#customRangeBlue").value = b
+      qs("#labelblue").innerHTML = "Blue - " + qs("#customRangeBlue").value
 }
 
 
 const setColorPreview = (r, g, b) => {
-      document.querySelector(".progress-rgb").style.backgroundColor = `rgb(${r},${g},${b})`
+      qs(".progress-rgb").style.backgroundColor = `rgb(${r},${g},${b})`
 }
 
-document.querySelector("#customRangeRed").addEventListener("input", (e) => {
-      document.querySelector("#labelred").innerHTML = "Red - " + document.querySelector("#customRangeRed").value
-      r = parseInt(document.querySelector("#customRangeRed").value)
+qs("#customRangeRed").addEventListener("input", (e) => {
+      qs("#labelred").innerHTML = "Red - " + qs("#customRangeRed").value
+      r = parseInt(qs("#customRangeRed").value)
       setColorPreview(r, g, b)
       updateHex()
 })
-document.querySelector("#customRangeGreen").addEventListener("input", (e) => {
-      document.querySelector("#labelgreen").innerHTML = "Green - " + document.querySelector("#customRangeGreen").value
-      g = parseInt(document.querySelector("#customRangeGreen").value)
+qs("#customRangeGreen").addEventListener("input", (e) => {
+      qs("#labelgreen").innerHTML = "Green - " + qs("#customRangeGreen").value
+      g = parseInt(qs("#customRangeGreen").value)
       setColorPreview(r, g, b)
       updateHex()
 })
-document.querySelector("#customRangeBlue").addEventListener("input", (e) => {
-      document.querySelector("#labelblue").innerHTML = "Blue - " + document.querySelector("#customRangeBlue").value
-      b = parseInt(document.querySelector("#customRangeBlue").value)
+qs("#customRangeBlue").addEventListener("input", (e) => {
+      qs("#labelblue").innerHTML = "Blue - " + qs("#customRangeBlue").value
+      b = parseInt(qs("#customRangeBlue").value)
       setColorPreview(r, g, b)
       updateHex()
 })
-document.querySelector("#ColorApply").addEventListener("click", (e) => {
-      document.querySelector("body").style.backgroundColor = `rgb(${r},${g},${b})`
+qs("#ColorApply").addEventListener("click", (e) => {
+      qs("body").style.backgroundColor = `rgb(${r},${g},${b})`
       hex = "#" + rgb2hex(r) + rgb2hex(g) + rgb2hex(b)
       current_color = hex
       
@@ -266,10 +276,10 @@ document.querySelector("#ColorApply").addEventListener("click", (e) => {
       }
 })
 
-let oldhex = document.querySelector("#inputhex").value
+let oldhex = qs("#inputhex").value
 
-document.querySelector("#inputhex").addEventListener("input", (e) => {
-      currenthex = document.querySelector("#inputhex").value
+qs("#inputhex").addEventListener("input", (e) => {
+      currenthex = qs("#inputhex").value
       newhex = ""
       for (let i = 0; i < currenthex.length; i++) {
             if (currenthex.charAt(i) === "#" ||
@@ -279,7 +289,7 @@ document.querySelector("#inputhex").addEventListener("input", (e) => {
                   newhex += currenthex.charAt(i)
             }
       }
-      document.querySelector("#inputhex").value = newhex
+      qs("#inputhex").value = newhex
       if (newhex.length === 6) {
             r = parseInt(newhex.slice(0, 2), 16)
             g = parseInt(newhex.slice(2, 4), 16)
@@ -292,55 +302,58 @@ document.querySelector("#inputhex").addEventListener("input", (e) => {
 
 // HIDE BOTTOM BAR ------------------------------------------------------------------------------------------------------
 
-document.querySelector(".hidebar").addEventListener("click", (e) => {
-      let hidden = document.querySelector(".spine-player-controls").hidden
+qs(".hidebar").addEventListener("click", (e) => {
+      let hidden = qs(".spine-player-controls").hidden
       if (hidden) {
-            document.querySelector(".spine-player-controls").hidden = false
+            qs(".spine-player-controls").hidden = false
       } else {
-            document.querySelector(".spine-player-controls").hidden = true
+            qs(".spine-player-controls").hidden = true
       }
 })
 
 // hide top menu/navbar
 
-document.querySelector(".hidenav").addEventListener("click",(e)=>{
-      let hidden = document.querySelector(".wrapperindex").hidden
+qs(".hidenav").addEventListener("click",(e)=>{
+      let hidden = qs(".wrapperindex").hidden
       if (hidden){
-            document.querySelector(".wrapperindex").hidden = false
+            qs(".wrapperindex").hidden = false
       }else{
-            document.querySelector(".wrapperindex").hidden = true
+            qs(".wrapperindex").hidden = true
       }
 })
 
 //hide all UI
 
-document.querySelector(".hideUI").addEventListener("click",(e)=>{
+const UI = [
+      "#visualiserMain",
+      "#l2dbgcolorchanger",
+      ".wrapperindex",
+      ".spine-player-controls",
+      ".scrollbar-msg"
+      ]
+
+qs(".hideUI").addEventListener("click",(e)=>{
       alert("To turn the UI back on, press the Enter key of your keyboard")
-      // document.querySelector("#visualiserTop").hidden = true
-      document.querySelector("#visualiserMain").hidden = true
-      document.querySelector("#l2dbgcolorchanger").hidden = true
-      document.querySelector(".wrapperindex").hidden = true
-      // document.querySelector("#nikketxtgrid").hidden = true
-      document.querySelector(".spine-player-controls").hidden = true
+
+      for (i = 0 ; i<UI.length; i++){
+            qs(UI[i]).hidden = true
+      }
 
 })
-// show all UI 
+// show all UI , reset zoom and position
 
-document.addEventListener("keypress",(e)=>{
+qs("keypress",(e)=>{
       if (e.key==="Enter"){
-            document.querySelector(".wrapperindex").hidden = false
-            
-            document.querySelector("#visualiserMain").hidden = false
-            document.querySelector("#l2dbgcolorchanger").hidden = false
-            
-            document.querySelector(".spine-player-controls").hidden = false
+            for (i = 0 ; i<UI.length; i++){
+                  qs(UI[i]).hidden = false
+            }
       }
       if(e.key.toLowerCase()==="z"){
-            canvas = document.querySelector("#player-container")
+            let canvas = qs("#player-container")
             canvas.style.height = 100 +"vh"
             changeSpine(currentid)
-            document.querySelector("#player-container").style.left = 0
-            document.querySelector("#player-container").style.top = 0
+            qs("#player-container").style.left = 0
+            qs("#player-container").style.top = 0
       }
       
 })
@@ -348,13 +361,13 @@ document.addEventListener("keypress",(e)=>{
 const arraypose = ["fb","cover","aim"]
 
 for (let i = 0; i< arraypose.length; i++){
-      document.querySelector("#"+arraypose[i]).addEventListener("click",(e)=>{
+      qs("#"+arraypose[i]).addEventListener("click",(e)=>{
             current_l2d = arraypose[i]
             changeSpine(currentid)
       })
 }
 
-document.querySelector(".screenshot").addEventListener("click",async (e) =>{
+qs(".screenshot").addEventListener("click",async (e) =>{
       
       
       const dataURL = currentspine.canvas.toDataURL()
