@@ -36,37 +36,54 @@ async function initJSON() {
 
 initJSON()
 
+let skin;
+
 let changeSpine = (id) => {
 
     qs("#player-container").innerHTML = ""
 
+    // skin exception list , if not it'll go to default skin
+    if ( skin !=="weapon_2" || id !== "c220"){
+        skin = "default"
+  }
+     //rapi_old and shifty_old exception
+     if ( id === "c010_01" || id === "c907_01"){
+           skin = "00"
+     } 
+
     if (current_pose==="fb"){
-        new spine.SpinePlayer("player-container", {
-            skelUrl: "/l2d/" + id + "/" + id + "_00.skel",
-            atlasUrl: "/l2d/" + id + "/" + id + "_00.atlas",
-            animation: "idle",
-            skin: "00",
-            backgroundColor: "#2f353a",
-            alpha: false,
-            debug: false,
-            preserveDrawingBuffer:true
-        });
+        //if snow white or maxine > use skin acc
+        if(id==="c220" || id==="c102") skin="acc" 
+
+            new spine.SpinePlayer("player-container", {
+                skelUrl: "/l2d/" + id + "/" + id + "_00.skel",
+                atlasUrl: "/l2d/" + id + "/" + id + "_00.atlas",
+                animation: "idle",
+                skin: skin,
+                backgroundColor: "#2f353a",
+                alpha: false,
+                debug: false,
+                preserveDrawingBuffer:true
+            });
     } else if (current_pose==="cover"){
-        new spine.SpinePlayer("player-container", {
-            skelUrl: "/l2d/" + id + "/cover/" + id + "_cover_00.skel",
-            atlasUrl: "/l2d/" + id + "/cover/" + id + "_cover_00.atlas",
-            skin: "00",
-            backgroundColor: "#2f353a",
-            animation: "cover_idle",
-            alpha: false,
-            debug: false,
-            preserveDrawingBuffer:true
-      })
+        //if snow white and weapon_2 not selected> use weapon2
+        if(id==="c220" && skin!=="weapon_2") skin="weapon_1"
+
+            new spine.SpinePlayer("player-container", {
+                skelUrl: "/l2d/" + id + "/cover/" + id + "_cover_00.skel",
+                atlasUrl: "/l2d/" + id + "/cover/" + id + "_cover_00.atlas",
+                skin: skin,
+                backgroundColor: "#2f353a",
+                animation: "cover_idle",
+                alpha: false,
+                debug: false,
+                preserveDrawingBuffer:true
+        })
     } else if (current_pose==="aim"){
         new spine.SpinePlayer("player-container", {
             skelUrl: "/l2d/" + id + "/aim/" + id + "_aim_00.skel",
             atlasUrl: "/l2d/" + id + "/aim/" + id + "_aim_00.atlas",
-            skin: "00",
+            skin: skin,
             animation: "aim_idle",
             backgroundColor: "#2f353a",
             alpha: false,
@@ -77,8 +94,8 @@ let changeSpine = (id) => {
     
 }
 
-let id = "c210";
-let current_pose="fb"
+let id = "c220";
+let current_pose="cover"
 changeSpine(id)
 
 const radio_array = qsa(".form-check-input")
@@ -90,3 +107,16 @@ for (let i = 0; i < radio_array.length; i++){
         changeSpine(id)
     })
 }
+
+//skin exception checkers
+document.addEventListener("click",(e)=>{
+    // we need to do something special for snow white weapon_2 skin because it is too large for the container ( it'll be auto cropped)
+    if(e.target.innerHTML==="weapon_2"){
+          skin="weapon_2";
+          changeSpine(id)
+    }
+    if ((e.target.innerHTML==="weapon_1" || e.target.innerHTML==="default") && skin=== "weapon_2"){
+          skin="default"
+          changeSpine(id)
+    }
+})
