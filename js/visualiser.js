@@ -59,7 +59,7 @@ const changeSpine = (id) => {
       currentid = id
       
       // skin exception list , if not it'll go to default skin
-      if ( skin !=="weapon_2"){
+      if ( skin !=="weapon_2" || id !== "c220"){
             skin = "default"
       }
       //rapi_old and shifty_old exception
@@ -120,10 +120,10 @@ const changeSpine = (id) => {
 }
 
 
-let current_l2d = "fb"
+// let current_l2d = "fb"
 // let current_l2d = "aim"
-// let current_l2d = "cover"
-changeSpine("c010_01")
+let current_l2d = "cover"
+changeSpine("c220")
 
 let move = false
 let oldx = "";
@@ -389,7 +389,7 @@ document.addEventListener("click",(e)=>{
             skin="weapon_2";
             changeSpine(currentid)
       }
-      if (e.target.innerHTML==="weapon_1" && e.target.innerHTML==="default"){
+      if ((e.target.innerHTML==="weapon_1" || e.target.innerHTML==="default") && skin=== "weapon_2"){
             skin="default"
             changeSpine(currentid)
       }
