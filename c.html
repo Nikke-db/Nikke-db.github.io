@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <link href="style/index2.css" rel="stylesheet" >
+
+    <link href="style/header.css" rel="stylesheet" media="screen and (min-width:700px)">
+    <link href="style/header_m.css" rel="stylesheet" media="screen and (max-width:699px)">
+
+    <link href="style/character.css" rel="stylesheet" media="screen and (min-width:1201px)">
+    <link href="style/character_m.css" rel="stylesheet" media="screen and (max-width:1200px) and (min-width:900px)">
+    <link href="style/character_m2.css" rel="stylesheet" media="screen and (max-width:899px)">
+
+    <link href="style/skillformat.css" rel="stylesheet">
+    
+    <link rel="shortcut icon" href="/images/Exia.ico" />
+    <title>Nikke DB</title>
+</head>
+
+<body>
+    <div class="wrapperindex" style="text-align:center">
+        <div id="wri0"><a href="https://discord.gg/J9D8tcf4RW" target="_blank">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-discord" viewBox="0 0 16 16">
+                <path d="M13.545 2.907a13.227 13.227 0 0 0-3.257-1.011.05.05 0 0 0-.052.025c-.141.25-.297.577-.406.833a12.19 12.19 0 0 0-3.658 0 8.258 8.258 0 0 0-.412-.833.051.051 0 0 0-.052-.025c-1.125.194-2.22.534-3.257 1.011a.041.041 0 0 0-.021.018C.356 6.024-.213 9.047.066 12.032c.001.014.01.028.021.037a13.276 13.276 0 0 0 3.995 2.02.05.05 0 0 0 .056-.019c.308-.42.582-.863.818-1.329a.05.05 0 0 0-.01-.059.051.051 0 0 0-.018-.011 8.875 8.875 0 0 1-1.248-.595.05.05 0 0 1-.02-.066.051.051 0 0 1 .015-.019c.084-.063.168-.129.248-.195a.05.05 0 0 1 .051-.007c2.619 1.196 5.454 1.196 8.041 0a.052.052 0 0 1 .053.007c.08.066.164.132.248.195a.051.051 0 0 1-.004.085 8.254 8.254 0 0 1-1.249.594.05.05 0 0 0-.03.03.052.052 0 0 0 .003.041c.24.465.515.909.817 1.329a.05.05 0 0 0 .056.019 13.235 13.235 0 0 0 4.001-2.02.049.049 0 0 0 .021-.037c.334-3.451-.559-6.449-2.366-9.106a.034.034 0 0 0-.02-.019Zm-8.198 7.307c-.789 0-1.438-.724-1.438-1.612 0-.889.637-1.613 1.438-1.613.807 0 1.45.73 1.438 1.613 0 .888-.637 1.612-1.438 1.612Zm5.316 0c-.788 0-1.438-.724-1.438-1.612 0-.889.637-1.613 1.438-1.613.807 0 1.451.73 1.438 1.613 0 .888-.631 1.612-1.438 1.612Z"/>
+              </svg></a><br/>
+              <a href="https://www.reddit.com/r/NikkeMobile/" target="_blank">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" class="bi-reddit" fill="white" viewBox="0 0 512 512"><path d="M324,256a36,36,0,1,0,36,36A36,36,0,0,0,324,256Z"/><circle cx="188" cy="292" r="36" transform="translate(-97.43 94.17) rotate(-22.5)"/><path d="M496,253.77c0-31.19-25.14-56.56-56-56.56a55.72,55.72,0,0,0-35.61,12.86c-35-23.77-80.78-38.32-129.65-41.27l22-79L363.15,103c1.9,26.48,24,47.49,50.65,47.49,28,0,50.78-23,50.78-51.21S441,48,413,48c-19.53,0-36.31,11.19-44.85,28.77l-90-17.89L247.05,168.4l-4.63.13c-50.63,2.21-98.34,16.93-134.77,41.53A55.38,55.38,0,0,0,72,197.21c-30.89,0-56,25.37-56,56.56a56.43,56.43,0,0,0,28.11,49.06,98.65,98.65,0,0,0-.89,13.34c.11,39.74,22.49,77,63,105C146.36,448.77,199.51,464,256,464s109.76-15.23,149.83-42.89c40.53-28,62.85-65.27,62.85-105.06a109.32,109.32,0,0,0-.84-13.3A56.32,56.32,0,0,0,496,253.77ZM414,75a24,24,0,1,1-24,24A24,24,0,0,1,414,75ZM42.72,253.77a29.6,29.6,0,0,1,29.42-29.71,29,29,0,0,1,13.62,3.43c-15.5,14.41-26.93,30.41-34.07,47.68A30.23,30.23,0,0,1,42.72,253.77ZM390.82,399c-35.74,24.59-83.6,38.14-134.77,38.14S157,423.61,121.29,399c-33-22.79-51.24-52.26-51.24-83A78.5,78.5,0,0,1,75,288.72c5.68-15.74,16.16-30.48,31.15-43.79a155.17,155.17,0,0,1,14.76-11.53l.3-.21,0,0,.24-.17c35.72-24.52,83.52-38,134.61-38s98.9,13.51,134.62,38l.23.17.34.25A156.57,156.57,0,0,1,406,244.92c15,13.32,25.48,28.05,31.16,43.81a85.44,85.44,0,0,1,4.31,17.67,77.29,77.29,0,0,1,.6,9.65C442.06,346.77,423.86,376.24,390.82,399Zm69.6-123.92c-7.13-17.28-18.56-33.29-34.07-47.72A29.09,29.09,0,0,1,440,224a29.59,29.59,0,0,1,29.41,29.71A30.07,30.07,0,0,1,460.42,275.1Z"/><path d="M323.23,362.22c-.25.25-25.56,26.07-67.15,26.27-42-.2-66.28-25.23-67.31-26.27h0a4.14,4.14,0,0,0-5.83,0l-13.7,13.47a4.15,4.15,0,0,0,0,5.89h0c3.4,3.4,34.7,34.23,86.78,34.45,51.94-.22,83.38-31.05,86.78-34.45h0a4.16,4.16,0,0,0,0-5.9l-13.71-13.47a4.13,4.13,0,0,0-5.81,0Z"/></svg></a>
+        </div>
+
+        <div id="wri1">
+            <a href="/">
+                <img id="indeximgnav" src="images/nikke-db.png"/>
+            </a>
+        </div>
+        <div id="wri2">
+            <nav >
+                <div class="nav-div-button">
+                    <span class="nav-btn"><a href="c">Characters</a></span>
+                    <span class="nav-btn"><a href="v">Live2D Visualiser</a></span>
+                    <span 
+                    class="nav-btn navigation"
+                    data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvas-navigate">Navigate</span>
+                </div>
+            </nav> 
+        </div>
+    </div>
+
+    <!-- search input with filter button -->
+    <input id="character-search-input" class="form-control me-2 searchbar" type="input" placeholder="Search for a name"
+        aria-label="Search">
+    <div id="filterdiv">
+        <button class="btn btn-dark filters" data-bs-toggle="modal" data-bs-target="#sortingmodal">Sort</button>
+
+        <button class="btn btn-dark filters" data-bs-toggle="modal" data-bs-target="#filterModal">Filters</button>
+    </div>
+
+
+    <!-- main wrapper with sub wrappers inside -->
+    <div class="wrapper">
+
+        <!-- character list on the left -->
+        <div id="main-div-character-list">
+            <ol id="character-list">
+            </ol>
+        </div>
+
+        <!-- center data div -->
+        <div id="main-div-character-stats">
+            <div id="character-stats">
+                <!-- <img src="images/FB/Rapi_full_body_static.png"> -->
+                <h1 id="charNameH1"></h1>
+                <p id="charsubheaderdata">Data is loading</p>
+
+                <p id="charDescription"></p>
+
+                <!-- weapon rarity manufacturer -->
+                <div class="wrapper2">
+                    <div id="wr2div1">
+                        <img src="" />
+                    </div>
+                    <div id="wr2div2">
+                        <img src="" />
+                    </div>
+                    <div id="wr2div3">
+                        <img src="" />
+                    </div>
+                </div>
+
+                <!-- full skills -->
+                <div id="fullskills">
+                    <div class="skill-titles">
+                        <h4 class="activeHeader" hidden id="SkillRegularHeader"></h4>
+                        <h4 class="activeHeader" hidden id="Skill1Header"></h4>
+                        <h4 class="activeHeader" hidden id="Skill2Header"></h4>
+                        <h4 class="activeHeader" hidden id="SkillBurstHeader"></h4>
+                    </div>
+                    <div class="wrapper3">
+
+                        <div id="wr3div1">
+                            <div id="btn-regular-attack" class="btn btn-dark">Regular Attacks</div><br />
+                            <div id="btn-skill-1" class="btn btn-dark">Skill 1</div><br />
+                            <div id="btn-skill-2" class="btn btn-dark">Skill 2</div><br />
+                            <div id="btn-burst-skill" class="btn btn-dark">Burst Skill</div><br />
+                        </div>
+                        <div id="wr3div2">
+                            <p class="activeDesc" hidden id="SkillRegularDesc"></p>
+                            <p class="activeDesc" hidden id="Skill1Desc"></p>
+                            <p class="activeDesc" hidden id="Skill2Desc"></p>
+                            <p class="activeDesc" hidden id="SkillBurstDesc"></p>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- class and stats  and drive tier-->
+                <div class="wrapper4">
+                    <div id="class-img">
+                        <img src="" />
+                    </div>
+
+                    <div id="drive-img">
+                        <img src="" />
+                    </div>
+
+                </div>
+
+                <div id="stats-progresses" class="smallscreenprogress">
+                    <div class="progress bg-dark">
+                        <div class="progress-bar bg-success prog-min-hp" role="progressbar"></div>
+                    </div>
+                    <div class="progress bg-dark">
+                        <div class="progress-bar bg-success prog-max-hp" role="progressbar"></div>
+                    </div>
+                    <div class="progress bg-dark">
+                        <div class="progress-bar bg-danger prog-min-att" role="progressbar"></div>
+                    </div>
+                    <div class="progress bg-dark">
+                        <div class="progress-bar bg-danger prog-max-att" role="progressbar"></div>
+                    </div>
+                    <div class="progress bg-dark">
+                        <div class="progress-bar bg-primary prog-min-def" role="progressbar"></div>
+                    </div>
+                    <div class="progress bg-dark">
+                        <div class="progress-bar bg-primary prog-max-def" role="progressbar"></div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+        <!-- character image on the right -->
+        <div id="character-FB">
+            <div id="picture-carousel" class="carousel slide">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="" />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- offcanvas -->
+    <div class="offcanvas offcanvas-start bg-dark navbar-light" tabindex="-2" id="offcanvas-navigate">
+        <div class="offcanvas-header">
+            <h1 id="contact-canvas-header">Navigation</h1>
+            <span 
+                style="float:right" 
+                data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvas-navigate">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+                    <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+                  </svg>
+            </span>
+        </div>
+        <div class="offcanvas-body">
+            <a href="/c">Characters</a><br/><br/>
+            <a href="/v_m">Live2D Visualiser</a><br/><br/>
+        </div>
+    </div>
+
+    <!-- filter modal -->
+    <div class="modal fade" id="filterModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="false">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Research Filters</h5>
+                </div>
+                <div class="modal-body">
+                    <div class="wrapperfilter ">
+                        <div class="wrfi1 form-check">
+                            <span class="filtertitle">Weapon</span>
+                            <div class="filterWeapon alignleft filtercontent">
+                                <label><input value="SMG" type="checkbox"  class="form-check-input" /> SubMachine Gun</label><br>
+                                <label><input value="RL" type="checkbox"   class="form-check-input" /> Rocket Launcher</label><br>
+                                <label><input value="MG" type="checkbox"   class="form-check-input" /> Machine Gun</label><br>
+                                <label><input value="AR" type="checkbox"   class="form-check-input" /> Assault Rifle</label><br>
+                                <label><input value="SRI" type="checkbox"  class="form-check-input" /> Sniper Rifle</label><br>
+                                <label><input value="SG" type="checkbox"   class="form-check-input" /> Shotgun</label>
+                            </div>
+                        </div>
+                        <div class="wrfi2 form-check">
+                            <span class="filtertitle">Manufacturer</span>
+                            <div class="filterManufacturer alignleft filtercontent">
+                                <label><input value="MI" type="checkbox" class="form-check-input"/> Missilis Industries</label><br>
+                                <label><input value="TL" type="checkbox" class="form-check-input"/> Tetra Line</label><br>
+                                <label><input value="EL" type="checkbox" class="form-check-input"/> Elysion</label><br>
+                                <label><input value="PI" type="checkbox" class="form-check-input"/> Pilgrim</label><br>
+                            </div>
+                        </div>
+                        <div class="wrfi3 form-check">
+                            <span class="filtertitle">Rarity</span>
+                            <div class="filterRarity alignleft filtercontent">
+                                <label><input value="SSR" type="checkbox" class="form-check-input"/> SSR</label><br>
+                                <label><input value="SR" type="checkbox" class="form-check-input"/> SR</label><br>
+                                <label><input value="R" type="checkbox" class="form-check-input"/> R</label><br>
+                            </div>
+                        </div>
+                        <div class="wrfi4 form-check">
+                            <span class="filtertitle">Class</span>
+                            <div class="filterClass alignleft filtercontent">
+                                <label><input value="ATK" type="checkbox" class="form-check-input"/> Attacker</label><br>
+                                <label><input value="DEF" type="checkbox" class="form-check-input"/> Defender</label><br>
+                                <label><input value="SUP" type="checkbox" class="form-check-input"/> Supporter</label><br>
+                            </div>
+                        </div>
+                        <div class="wrfi5 form-check">
+                            <span class="filtertitle">Drive</span>
+                            <div class="filterDrive alignleft filtercontent">
+                                <label><input value="I" type="checkbox" class="form-check-input"/> I</label><br>
+                                <label><input value="II" type="checkbox" class="form-check-input"/> II</label><br>
+                                <label><input value="III" type="checkbox" class="form-check-input"/> III</label><br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer ml-auto">
+                    <button class="btn btn-dark ml-auto" data-bs-toggle="modal"
+                        data-bs-target="#filterModal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- sorting modal -->
+    <div class="modal fade" id="sortingmodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="false">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Sorting options</h5>
+                </div>
+                <div class="modal-body">
+                    <div class="wrapperfilter">
+                        <div class="wrfi3 form-check">
+                            <span>Sorting data</span><br><br>
+                            <label><input value="id"  type="radio" name="datasort" checked class="form-check-input"> Sort by ID</label><br>
+                            <label><input value="name"type="radio" name="datasort" class="form-check-input"> Sort by NAME</label><br>
+                            <label><input value="min-hp"type="radio" name="datasort" class="form-check-input"> Sort by HP</label><br>
+                            <label><input value="min-atk"type="radio" name="datasort" class="form-check-input"> Sort by ATK</label><br>
+                            <label><input value="min-def"type="radio" name="datasort" class="form-check-input"> Sort by DEF</label><br>
+                        </div>
+                        <div class="wrfi4 form-check">
+                            <span>Released units</span><br><br>
+                            <label><input value="id"  type="checkbox" disabled class="form-check-input"> Show only released units</label><br>
+                        </div>
+                        <div class="wrfi5 form-check">
+                            <span>Order</span><br><br>
+                            <label><input value="asc"   type="radio" name="dataorder" checked class="form-check-input"> Ascending (a->z)</label><br>
+                            <label><input value="desc"  type="radio" name="dataorder" class="form-check-input"> Descending (z->a)</label><br>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer ml-auto">
+                    <button class="btn btn-dark ml-auto" data-bs-toggle="modal"
+                        data-bs-target="#sortingmodal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- footer -->
+    <nav class="navbar-light bg-dark ">
+        <div class="footer">
+            <p>Nikke-db</p>
+        </div>
+    </nav>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+    <script src="js/json/released_units.js"></script>
+
+    <script src="js/character-data.js"></script>
+    <script src="js/character-list.js"></script>
+
+    <script>
+        if(window.location.href.includes("github")){
+            window.location = "https://nikke-db.pages.dev/c"
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,467 @@
+[
+  {
+    "name": "Rapi",
+    "id": "c010",
+    "icon_url": "https://i.ibb.co/v1mqdYG/si-c010-00-s.png"
+  },
+  {
+    "name": "Neon",
+    "id": "c011",
+    "icon_url": "https://i.ibb.co/h8D4cSD/si-c011-00-s.png"
+  },
+  {
+    "name": "Anis",
+    "id": "c012",
+    "icon_url": "https://i.ibb.co/frFJtzx/si-c012-00-s.png"
+  },
+  {
+    "name": "Marian",
+    "id": "c013",
+    "icon_url": "https://i.ibb.co/n0NrgS1/si-c013-00-s.png"
+  },
+  {
+    "name": "Delta",
+    "id": "c020",
+    "icon_url": "https://i.ibb.co/1LJ2MQC/si-c020-00-s.png"
+  },
+  {
+    "name": "Signa",
+    "id": "c022",
+    "icon_url": "https://i.ibb.co/17GFhVt/si-c022-00-s.png"
+  },
+  {
+    "name": "Polly",
+    "id": "c030",
+    "icon_url": "https://i.ibb.co/3pSnxpR/si-c030-00-s.png"
+  },
+  {
+    "name": "Miranda",
+    "id": "c032",
+    "icon_url": "https://i.ibb.co/Tc7LxnJ/si-c032-00-s.png"
+  },
+  {
+    "name": "Agent D",
+    "id": "c040",
+    "icon_url": "https://i.ibb.co/fYppXmm/si-c040-00-s.png"
+  },
+  {
+    "name": "Agent K",
+    "id": "c041",
+    "icon_url": ""
+  },
+  {
+    "name": "liqueur",
+    "id": "c053",
+    "icon_url": ""
+  },
+  {
+    "name": "Belorta",
+    "id": "c060",
+    "icon_url": "https://i.ibb.co/0BkdBX3/si-c060-00-s.png"
+  },
+  {
+    "name": "Mica",
+    "id": "c061",
+    "icon_url": "https://i.ibb.co/p18Mhnd/si-c061-00-s.png"
+  },
+  {
+    "name": "Bridget",
+    "id": "c070",
+    "icon_url": "https://i.ibb.co/GCgWqVv/si-c070-00-s.png"
+  },
+  {
+    "name": "Soline",
+    "id": "c071",
+    "icon_url": "https://i.ibb.co/dGyBbB6/si-c071-00-s.png"
+  },
+  {
+    "name": "Diesel",
+    "id": "c072",
+    "icon_url": "https://i.ibb.co/R4zTC6x/si-c072-00-s.png"
+  },
+  {
+    "name": "Carrie",
+    "id": "c080",
+    "icon_url": "https://i.ibb.co/yBY1Q0m/si-c080-00-s.png"
+  },
+  {
+    "name": "Acre",
+    "id": "c081",
+    "icon_url": ""
+  },
+  {
+    "name": "Litera",
+    "id": "c082",
+    "icon_url": "https://i.ibb.co/zXxQ4vt/si-c082-00-s.png"
+  },
+  {
+    "name": "Emma",
+    "id": "c090",
+    "icon_url": "https://i.ibb.co/K2TySrG/si-c090-00-s.png"
+  },
+  {
+    "name": "Vesti",
+    "id": "c091",
+    "icon_url": "https://i.ibb.co/xCh7HS9/si-c091-00-s.png"
+  },
+  {
+    "name": "Campion",
+    "id": "c092",
+    "icon_url": "https://i.ibb.co/pwTWWPV/si-c092-00-s.png"
+  },
+  {
+    "name": "Laplace",
+    "id": "c100",
+    "icon_url": "https://i.ibb.co/qmDkR4f/si-c100-00-s.png"
+  },
+  {
+    "name": "Ember",
+    "id": "c101",
+    "icon_url": "https://i.ibb.co/j4dfFjj/si-c101-00-s.png"
+  },
+  {
+    "name": "Maxine",
+    "id": "c102",
+    "icon_url": "https://i.ibb.co/V2dPDsy/si-c102-00-s.png"
+  },
+  {
+    "name": "Raven",
+    "id": "c110",
+    "icon_url": "https://i.ibb.co/GFrZcf6/si-c110-00-s.png"
+  },
+  {
+    "name": "Jackal",
+    "id": "c111",
+    "icon_url": ""
+  },
+  {
+    "name": "Viper",
+    "id": "c112",
+    "icon_url": ""
+  },
+  {
+    "name": "N102",
+    "id": "c120",
+    "icon_url": "https://i.ibb.co/w0Mfv1y/si-c120-00-s.png"
+  },
+  {
+    "name": "Mary",
+    "id": "c130",
+    "icon_url": "https://i.ibb.co/W5hqjWn/si-c130-00-s.png"
+  },
+  {
+    "name": "Pepper",
+    "id": "c131",
+    "icon_url": "https://i.ibb.co/cYJrm2B/si-c131-00-s.png"
+  },
+  {
+    "name": "Sugar",
+    "id": "c140",
+    "icon_url": "https://i.ibb.co/r5hbMVj/si-c140-00-s.png"
+  },
+  {
+    "name": "Milk",
+    "id": "c141",
+    "icon_url": "https://i.ibb.co/hHFS4RM/si-c141-00-s.png"
+  },
+  {
+    "name": "Prima",
+    "id": "c142",
+    "icon_url": "https://i.ibb.co/xGsGV49/si-c142-00-s.png"
+  },
+  {
+    "name": "Julia",
+    "id": "c150",
+    "icon_url": "https://i.ibb.co/thRrfTW/si-c150-00-s.png"
+  },
+  {
+    "name": "Yuni",
+    "id": "c160",
+    "icon_url": "https://i.ibb.co/30k7MT5/si-c160-00-s-10319.png"
+  },
+  {
+    "name": "Mihara",
+    "id": "c161",
+    "icon_url": "https://i.ibb.co/1bVF0pC/si-c161-00-s.png"
+  },
+  {
+    "name": "Liberty",
+    "id": "c170",
+    "icon_url": "https://i.ibb.co/kBzxPh2/si-c170-00-s.png"
+  },
+  {
+    "name": "Yulha",
+    "id": "c171",
+    "icon_url": "https://i.ibb.co/tCzMD0g/si-c171-00-s.png"
+  },
+  {
+    "name": "Admi",
+    "id": "c172",
+    "icon_url": "https://i.ibb.co/881QDj9/si-c172-00-s.png"
+  },
+  {
+    "name": "Guillotine",
+    "id": "c180",
+    "icon_url": "https://i.ibb.co/vHqBXY0/si-c180-00-s.png"
+  },
+  {
+    "name": "Maiden",
+    "id": "c181",
+    "icon_url": ""
+  },
+  {
+    "name": "Lucilla",
+    "id": "c190",
+    "icon_url": "https://i.ibb.co/2dYxkmD/si-c190-00-s.png"
+  },
+  {
+    "name": "Alice",
+    "id": "c191",
+    "icon_url": "https://i.ibb.co/hK9MwjR/si-c191-00-s.png"
+  },
+  {
+    "name": "Rupee",
+    "id": "c200",
+    "icon_url": "https://i.ibb.co/C9Y0mTs/si-c200-00-s.png"
+  },
+  {
+    "name": "Yin",
+    "id": "c201",
+    "icon_url": "https://i.ibb.co/sm2cSVy/si-c201-00-s.png"
+  },
+  {
+    "name": "Dora",
+    "id": "c202",
+    "icon_url": "https://i.ibb.co/j4b4cjg/si-c202-00-s.png"
+  },
+  {
+    "name": "Exia",
+    "id": "c210",
+    "icon_url": "https://i.ibb.co/T1TxRdM/si-c210-00-s.png"
+  },
+  {
+    "name": "Noelle",
+    "id": "c212",
+    "icon_url": "https://i.ibb.co/zFjk74R/si-c212-00-s.png"
+  },
+  {
+    "name": "Snow White",
+    "id": "c220",
+    "icon_url": "https://i.ibb.co/FVrPMYV/si-c220-00-s.png"
+  },
+  {
+    "name": "Rapunzel",
+    "id": "c221",
+    "icon_url": ""
+  },
+  {
+    "name": "Scarlet",
+    "id": "c222",
+    "icon_url": "https://i.ibb.co/WpwDRZz/si-c222-00-s.png"
+  },
+  {
+    "name": "Harran",
+    "id": "c230",
+    "icon_url": ""
+  },
+  {
+    "name": "Isabel",
+    "id": "c231",
+    "icon_url": ""
+  },
+  {
+    "name": "Noa",
+    "id": "c232",
+    "icon_url": "https://i.ibb.co/d0tGvNK/si-c232-00-s.png"
+  },
+  {
+    "name": "Dorothy",
+    "id": "c233",
+    "icon_url": ""
+  },
+  {
+    "name": "Rumani",
+    "id": "c240",
+    "icon_url": "https://i.ibb.co/pz7Y0gN/si-c240-00-s.png"
+  },
+  {
+    "name": "Espinel",
+    "id": "c241",
+    "icon_url": "https://i.ibb.co/JytdZmc/si-c241-00-s.png"
+  },
+  {
+    "name": "Fólkvangr",
+    "id": "c242",
+    "icon_url": "https://i.ibb.co/hFZLVGS/si-c242-00-s.png"
+  },
+  {
+    "name": "Mordernia",
+    "id": "c260",
+    "icon_url": "https://i.ibb.co/VMydxLW/si-c260-00-s.png"
+  },
+  {
+    "name": "Nihilista",
+    "id": "c261",
+    "icon_url": ""
+  },
+  {
+    "name": "Liberelli",
+    "id": "c262",
+    "icon_url": ""
+  },
+  {
+    "name": "Blanc",
+    "id": "c270",
+    "icon_url": ""
+  },
+  {
+    "name": "Noir",
+    "id": "c271",
+    "icon_url": ""
+  },
+  {
+    "name": "Rouge",
+    "id": "c272",
+    "icon_url": ""
+  },
+  {
+    "name": "Rosanna",
+    "id": "c280",
+    "icon_url": ""
+  },
+  {
+    "name": "Moran",
+    "id": "c281",
+    "icon_url": ""
+  },
+  {
+    "name": "Sakura",
+    "id": "c282",
+    "icon_url": ""
+  },
+  {
+    "name": "Mana",
+    "id": "c290",
+    "icon_url": "https://i.ibb.co/Zzsy6hY/si-c291-00-s.png"
+  },
+  {
+    "name": "Ether",
+    "id": "c291",
+    "icon_url": "https://i.ibb.co/mFgqmpr/si-c300-00-s.png"
+  },
+  {
+    "name": "SoldierEG",
+    "id": "c300",
+    "icon_url": "https://i.ibb.co/VSN7GFM/si-c301-00-s.png"
+  },
+  {
+    "name": "SoldierFA",
+    "id": "c301",
+    "icon_url": "https://i.ibb.co/B6VtHpk/si-c302-00-s.png"
+  },
+  {
+    "name": "Product08",
+    "id": "c302",
+    "icon_url": "https://i.ibb.co/F4gpMM1/si-c303-00-s.png"
+  },
+  {
+    "name": "Product12",
+    "id": "c303",
+    "icon_url": "https://i.ibb.co/h2PKSBX/si-c304-00-s.png"
+  },
+  {
+    "name": "iDoll Flower",
+    "id": "c304",
+    "icon_url": "https://i.ibb.co/0ygJdXJ/si-c305-00-s.png"
+  },
+  {
+    "name": "iDoll Ocean",
+    "id": "c305",
+    "icon_url": "https://i.ibb.co/RPjLT3X/si-c306-00-s.png"
+  },
+  {
+    "name": "SoldierOW",
+    "id": "c306",
+    "icon_url": "https://i.ibb.co/PtDyHhr/si-c307-00-s.png"
+  },
+  {
+    "name": "Product23",
+    "id": "c307",
+    "icon_url": "https://i.ibb.co/qdQPNN5/si-c308-00-s.png"
+  },
+  {
+    "name": "iDoll Sun",
+    "id": "c308",
+    "icon_url": "https://i.ibb.co/qdQPNN5/si-c308-00-s.png"
+  },
+  {
+    "name": "Aid",
+    "id": "c310",
+    "icon_url": ""
+  },
+  {
+    "name": "Coco",
+    "id": "c311",
+    "icon_url": ""
+  },
+  {
+    "name": "Soda",
+    "id": "c312",
+    "icon_url": ""
+  },
+  {
+    "name": "Bibli",
+    "id": "c320",
+    "icon_url": ""
+  },
+  {
+    "name": "Marchana",
+    "id": "c321",
+    "icon_url": ""
+  },
+  {
+    "name": "Chime",
+    "id": "c331",
+    "icon_url": ""
+  },
+  {
+    "name": "Siren",
+    "id": "c340",
+    "icon_url": ""
+  },
+  {
+    "name": "Pin",
+    "id": "c342",
+    "icon_url": ""
+  },
+  {
+    "name": "Anchor",
+    "id": "c351",
+    "icon_url": ""
+  },
+  {
+    "name": "Kilo",
+    "id": "c361",
+    "icon_url": ""
+  },
+  {
+    "name": "Endless",
+    "id": "c371",
+    "icon_url": ""
+  },
+  {
+    "name": "Patrasche",
+    "id": "c381",
+    "icon_url": ""
+  },
+  {
+    "name": "Guilty",
+    "id": "c400",
+    "icon_url": ""
+  },
+  {
+    "name": "Shin",
+    "id": "c401",
+    "icon_url": ""
+  }
+]

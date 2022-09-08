@@ -1,0 +1,23 @@
+:root{
+    --main-dark-theme: #212529;
+    --alt-dark-theme : #2f353a;
+}
+body{
+    background-color: var(--alt-dark-theme);
+    color:white;
+}
+h1{
+    font-size: 40px;
+    text-align: center;
+}
+p, ol{
+    font-size: 20px;
+}
+.img{
+    width:100%;
+    text-align: center;
+}
+a{
+    color:white;
+    
+}

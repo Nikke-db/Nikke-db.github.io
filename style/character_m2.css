@@ -1,0 +1,189 @@
+:root{
+    --main-dark-theme: #212529;
+    --alt-dark-theme : #2f353a;
+}
+.searchbar{
+    margin-left: 25%;
+    margin-top: 25px;
+    width: 50%;
+}
+#filterdiv{
+    display: none;
+}
+
+#main-div-character-list{
+    background-color: var(--main-dark-theme);
+    border-left: white 2px dotted;
+    margin: 25px 0 25px 25%;
+    width: 50%;
+    height: 50vh;
+    overflow: auto;
+}
+#main-div-character-stats{
+    position: relative;
+    margin-right: 20px;
+    margin-left: 10px;
+    flex:1;
+}
+.wrapper2{
+    text-align: center;
+    display: flex;
+}
+#wr2div1,
+#wr2div2,
+#wr2div3{
+    flex:1 0 0;
+}
+#wr2div1 img, 
+#wr2div2 img,
+#wr2div3 img{
+    max-height: 8vh;
+}
+#wr2div1{
+    padding-top:2vh
+}
+#fullskills{
+    margin-top:50px;
+}
+.skill-titles{
+    text-align: center;
+    position: absolute;
+    margin-top: 180px;
+    width:100%
+}
+
+#wr3div1{
+    border-left:solid white 3px !important;
+    margin-left: 25%;
+    height:160px;
+    width: 50%;
+}
+#wr3div1 div{
+    border-bottom: solid var(--main-dark-theme) 2px;
+    border-top: solid var(--main-dark-theme) 2px;
+    transition: 0.5s;
+    width: 100%;
+    
+}
+#wr3div1 div:hover{
+    /* border-bottom: solid gold 2px; */
+    /* border-top: solid gold 2px; */
+    /* transition: 0.5s; */
+}
+.activeskill{
+    border-right: gold 4px solid !important; 
+}
+#wr3div2{
+    background-color: var(--main-dark-theme);
+    padding: 20px 25px 0 25px;
+    border-radius: 15px;
+    text-align: center;
+    margin-top: 70px;
+    overflow:auto;
+    height:195px;
+   
+}
+.wrapper4{
+    padding-top: 50px;
+    display:flex;
+}
+#class-img,
+#drive-img{
+    text-align: center;
+    flex: 1;
+}
+
+#stats-progresses{
+    margin-top: 25px;
+}
+
+#charNameH1{
+    text-align: center;
+    margin-top: 5px;
+}
+.charDiv{
+    border: var(--main-dark-theme) 2px solid;
+    border-bottom: gold 2px solid;
+    list-style-type: none;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    margin-left: -25px;
+    margin-right: 5px;
+    user-select: none;
+    transition: 0.5s;
+}
+.charDiv:hover{
+    background-color: var(--alt-dark-theme) ;
+    border: gold 2px solid;
+    border-radius: 10px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.charDiv img{
+    border-radius: 10px;
+    height:50px;
+    margin-right: 10px;
+}
+#charDescription{
+    text-align: justify;
+}
+#character-FB img{
+    max-width: 100vw;
+}
+#character-FB{
+  padding-top: 50px;  
+  text-align: center;
+}
+#prog-min-hp,
+#prog-min-att,
+#prog-min-def,
+#prog-max-hp,
+#prog-max-att,
+#prog-max-def
+{
+    font-weight: bold;
+}
+.activeDesc{
+    position: relative;
+    text-align:left;
+    top:0;
+}
+#filterModal,
+#sortingmodal{
+    margin-top: 15vh; 
+}
+#filterModal .modal-content,
+#sortingmodal .modal-content{
+   background-color: var(--main-dark-theme);
+   
+}
+#filterModal .modal-footer,
+#sortingmodal .modal-footer {
+    justify-content: space-between;
+}
+#filterModal .modal-footer button,
+#sortingmodal .modal-footer button{
+    border-bottom:white solid 2px;
+}
+.alignleft{
+    text-align: left;
+}
+.filterRarity,
+.filterManufacturer,
+.filterWeapon,
+.filterClass,
+.filterDrive,
+.filtertitle{
+    margin-left:20%
+}
+#charsubheaderdata{
+    text-align: center;
+    font-style: italic;
+}
+.activeChar{
+    background-color: var(--alt-dark-theme) ;
+    border: gold 2px solid;
+    border-radius: 10px;
+    transition: 0.5s;
+    cursor: pointer;
+}

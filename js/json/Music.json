@@ -1,0 +1,332 @@
+[
+    {
+        "file": "bgm_boss_bbg002_intro.mp3",
+        "context":"This place will be used to describe where is the song heard within the game"
+    },
+    {
+        "file": "bgm_boss_bbg002_loop.mp3",
+        "context":"sample"
+    },
+    {
+        "file": "bgm_boss_bbg003_intro.mp3",
+        "context":"sample"
+    },
+    {
+        "file": "bgm_boss_bbg003_loop.mp3",
+        "context":"sample"
+    },
+    {
+        "file": "bgm_boss_ebg001_Phase1_intro.mp3",
+        "context":"sample"
+    },
+    {
+        "file": "bgm_boss_ebg001_Phase1_loop.mp3",
+        "context":"sample"
+    },
+    {
+        "file": "bgm_boss_ebg001_Phase2_intro.mp3",
+        "context":"sample"
+    },
+    {
+        "file": "bgm_boss_mbg001_intro.mp3",
+        "context":"sample"
+    },
+    {
+        "file": "bgm_boss_mbg001_loop.mp3",
+        "context":"sample"
+    },
+    {
+        "file": "bgm_boss_mbg004_loop.mp3",
+        "context":"sample"
+    },
+    {
+        "file": "bgm_disaster.mp3",
+        "context":"sample"
+    },
+    {
+        "file": "bgm_distress.mp3",
+        "context":"sample"
+    },
+    {
+        "file": "bgm_distress_a.mp3",
+        "context":"sample"
+    },
+    {
+        "file": "bgm_distress_b.mp3",
+        "context":"sample"
+    },
+    {
+        "file": "bgm_emergency.mp3",
+        "context":"sample"
+    },
+    {
+        "file": "bgm_enemyclose.mp3",
+        "context":"sample"
+    },
+    {
+        "file": "bgm_floraltribute.mp3",
+        "context":"sample"
+    },
+    {
+        "file": "bgm_floraltribute_b.mp3",
+        "context":"sample"
+    },
+    {
+        "file": "bgm_GreyHaze_a.mp3",
+        "context":"sample"
+    },
+    {
+        "file": "bgm_GreyHaze_b.mp3",
+        "context":"sample"
+    },
+    {
+        "file": "bgm_inArk.mp3",
+        "context":"sample"
+    },
+    {
+        "file": "bgm_lostsector_normal_mazeinabyss_a.mp3",
+        "context":"sample"
+    },
+    {
+        "file": "bgm_lostsector_start_mazeinabyss_b.mp3",
+        "context":"sample"
+    },
+    {
+        "file": "bgm_menu_ark.mp3",
+        "context":"sample"
+    },
+    {
+        "file": "bgm_menu_commandersroom.mp3",
+        "context":"sample"
+    },
+    {
+        "file": "bgm_menu_Gacha_default.mp3",
+        "context":"sample"
+    },
+    {
+        "file": "bgm_menu_Gacha_open.mp3",
+        "context":"sample"
+    },
+    {
+        "file": "bgm_menu_gacha.mp3",
+        "context":"sample"
+    },
+    {
+        "file": "bgm_menu_outpost.mp3",
+        "context":"sample"
+    },
+    {
+        "file": "bgm_mystery.mp3",
+        "context":"sample"
+    },
+    {
+        "file": "bgm_prologue.mp3",
+        "context":"sample"
+    },
+    {
+        "file": "bgm_recognition.mp3",
+        "context":"sample"
+    },
+    {
+        "file": "bgm_recognition_b.mp3",
+        "context":"sample"
+    },
+    {
+        "file": "bgm_recognition_underworld.mp3",
+        "context":"sample"
+    },
+    {
+        "file": "bgm_risk.mp3",
+        "context":"sample"
+    },
+    {
+        "file": "bgm_risk_a.mp3",
+        "context":"sample"
+    },
+    {
+        "file": "bgm_risk_b.mp3",
+        "context":"sample"
+    },
+    {
+        "file": "bgm_secondhand.mp3",
+        "context":"sample"
+    },
+    {
+        "file": "bgm_secondhand_a.mp3",
+        "context":"sample"
+    },
+    {
+        "file": "bgm_secondhand_b.mp3",
+        "context":"sample"
+    },
+    {
+        "file": "bgm_spot_bulletstorm_a.mp3",
+        "context":"sample"
+    },
+    {
+        "file": "bgm_spot_bulletstorm_b.mp3",
+        "context":"sample"
+    },
+    {
+        "file": "bgm_spot_crumblingcity_a.mp3",
+        "context":"sample"
+    },
+    {
+        "file": "bgm_spot_crumblingcity_b.mp3",
+        "context":"sample"
+    },
+    {
+        "file": "bgm_spot_DestroyedSerenity_a.mp3",
+        "context":"sample"
+    },
+    {
+        "file": "bgm_spot_DestroyedSerenity_b.mp3",
+        "context":"sample"
+    },
+    {
+        "file": "bgm_spot_encounter.mp3",
+        "context":"sample"
+    },
+    {
+        "file": "bgm_spot_GoundZero_a.mp3",
+        "context":"sample"
+    },
+    {
+        "file": "bgm_spot_GoundZero_b.mp3",
+        "context":"sample"
+    },
+    {
+        "file": "bgm_spot_incomingrapture_a.mp3",
+        "context":"sample"
+    },
+    {
+        "file": "bgm_spot_incomingrapture_b.mp3",
+        "context":"sample"
+    },
+    {
+        "file": "bgm_spot_Labyrinth_a.mp3",
+        "context":"sample"
+    },
+    {
+        "file": "bgm_spot_Labyrinth_b.mp3",
+        "context":"sample"
+    },
+    {
+        "file": "bgm_spot_Risingfromash_b.mp3",
+        "context":"sample"
+    },
+    {
+        "file": "bgm_spot_Scardi_a.mp3",
+        "context":"sample"
+    },
+    {
+        "file": "bgm_spot_Scardi_b.mp3",
+        "context":"sample"
+    },
+    {
+        "file": "bgm_spot_Silvermane_a.mp3",
+        "context":"sample"
+    },
+    {
+        "file": "bgm_spot_Silvermane_b.mp3",
+        "context":"sample"
+    },
+    {
+        "file": "bgm_story_BackToNormal.mp3",
+        "context":"sample"
+    },
+    {
+        "file": "bgm_story_breakaway.mp3",
+        "context":"sample"
+    },
+    {
+        "file": "bgm_story_CrawlingAnxiety.mp3",
+        "context":"sample"
+    },
+    {
+        "file": "bgm_story_DestinedToFight.mp3",
+        "context":"sample"
+    },
+    {
+        "file": "bgm_story_epicjazzymoods.mp3",
+        "context":"sample"
+    },
+    {
+        "file": "bgm_story_FairyTalesEnd_a.mp3",
+        "context":"sample"
+    },
+    {
+        "file": "bgm_story_FairyTalesEnd_if.mp3",
+        "context":"sample"
+    },
+    {
+        "file": "bgm_story_GirlsTalk.mp3",
+        "context":"sample"
+    },
+    {
+        "file": "bgm_story_HereComesTrouble.mp3",
+        "context":"sample"
+    },
+    {
+        "file": "bgm_story_impression.mp3",
+        "context":"sample"
+    },
+    {
+        "file": "bgm_story_LastBullet.mp3",
+        "context":"sample"
+    },
+    {
+        "file": "bgm_story_LeisureTime.mp3",
+        "context":"sample"
+    },
+    {
+        "file": "bgm_story_MarryBad.mp3",
+        "context":"sample"
+    },
+    {
+        "file": "bgm_story_mustang.mp3",
+        "context":"sample"
+    },
+    {
+        "file": "bgm_story_OnlineShopping.mp3",
+        "context":"sample"
+    },
+    {
+        "file": "bgm_story_ShapeOfHope.mp3",
+        "context":"sample"
+    },
+    {
+        "file": "bgm_story_StormBreakers.mp3",
+        "context":"sample"
+    },
+    {
+        "file": "bgm_story_SundayInTheArk.mp3",
+        "context":"sample"
+    },
+    {
+        "file": "bgm_story_SunshineSorrow.mp3",
+        "context":"sample"
+    },
+    {
+        "file": "bgm_story_Tragedy.mp3",
+        "context":"sample"
+    },
+    {
+        "file": "bgm_story_TuffGuys.mp3",
+        "context":"sample"
+    },
+    {
+        "file": "bgm_story_weare.mp3",
+        "context":"sample"
+    },
+    {
+        "file": "bgm_story_WhosDumber.mp3",
+        "context":"sample"
+    },
+    {
+        "file": "bgm_title_godnessfall.mp3",
+        "context":"sample"
+    }
+    
+    
+]

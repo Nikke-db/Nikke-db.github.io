@@ -1,0 +1,44 @@
+:root{
+    --main-dark-theme: #212529;
+    --alt-dark-theme : #2f353a;
+}
+
+body{
+    background-color: var(--alt-dark-theme);
+    font-family: arial;
+    color:white;
+    background-image: url(../images/index_bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+
+.index-card-position{
+    
+    margin:auto;
+    margin-top: 100px;
+    border:white 3px solid;
+    color:white
+    
+}
+.card{
+    background-color: #212529ea;
+    width: max(350px, 50%);
+}
+.first-card{
+    margin-top:72vh
+}
+.footer{
+    text-align: center;
+    padding: 20px 0 20px 0;
+    margin-top: 100px;
+    border-top: 2px solid white;
+}
+.updated{
+    overflow: auto;
+    max-height: 300px;
+}
+
+

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style/spine-player.css"> <!-- customised spine player made by esoteric softwares-->
+    <link rel="stylesheet" href="style/spine-player_m.css"> <!-- customised spine player made by esoteric softwares-->
+
+    <link rel="stylesheet" href="style/index2.css">
+
+    <link rel="stylesheet" href="style/visualiser_m.css">
+
+    <title>Nikke DB</title>
+</head>
+<body>
+
+    <div id="player-container"></div>
+    <div class="ff-message">the page might crash if not on firefox</div>
+
+    <button id="cog"
+    data-bs-toggle="modal" 
+    data-bs-target="#settingparam">
+        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-gear-fill" viewBox="0 0 16 16">
+        <path d="M9.405 1.05c-.413-1.4-2.397-1.4-2.81 0l-.1.34a1.464 1.464 0 0 1-2.105.872l-.31-.17c-1.283-.698-2.686.705-1.987 1.987l.169.311c.446.82.023 1.841-.872 2.105l-.34.1c-1.4.413-1.4 2.397 0 2.81l.34.1a1.464 1.464 0 0 1 .872 2.105l-.17.31c-.698 1.283.705 2.686 1.987 1.987l.311-.169a1.464 1.464 0 0 1 2.105.872l.1.34c.413 1.4 2.397 1.4 2.81 0l.1-.34a1.464 1.464 0 0 1 2.105-.872l.31.17c1.283.698 2.686-.705 1.987-1.987l-.169-.311a1.464 1.464 0 0 1 .872-2.105l.34-.1c1.4-.413 1.4-2.397 0-2.81l-.34-.1a1.464 1.464 0 0 1-.872-2.105l.17-.31c.698-1.283-.705-2.686-1.987-1.987l-.311.169a1.464 1.464 0 0 1-2.105-.872l-.1-.34zM8 10.93a2.929 2.929 0 1 1 0-5.86 2.929 2.929 0 0 1 0 5.858z"/>
+      </svg>
+    </button>
+
+
+    <div class="modal fade" id="settingparam" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="false">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Live2D Settings</h5>
+                </div>
+                <div class="modal-body">
+                    <div id="visualiserMain"></div>
+                    </div>
+                    <div class="poseselector">
+                        <div class="form-check">
+                            <div class="form_option">
+                            <input class="form-check-input pose_radio" type="radio" name="pose" id="pose_fb" value="fb" checked>
+                            <label class="form-check-label" for="pose_fb">
+                              Full Body
+                            </label></div><br>
+                            <div class="form_option">
+                            <input class="form-check-input pose_radio" type="radio" name="pose" id="pose_cover" value="cover" >
+                            <label class="form-check-label" for="pose_cover">
+                              Cover
+                            </label></div><br>
+                            <div class="form_option">
+                            <input class="form-check-input pose_radio" type="radio" name="pose" id="pose_aim" value="aim" >
+                            <label class="form-check-label" for="pose_aim">
+                              Aim
+                            </label></div>
+                          </div>
+
+                    </div>
+                </div>
+                <div class="modal-footer ml-auto">
+                    <button class="closebtn btn btn-dark ml-auto" data-bs-toggle="modal"
+                        data-bs-target="#filterModal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+    <script src="js/json/released_units.js"></script>
+
+    <script src="js/spine-player.js"></script>
+    <script src="js/visualiser_m.js"></script>
+
+    <script>
+        if(window.location.href.includes("github")){
+            window.location = "https://nikke-db.pages.dev/v_m"
+        }
+    </script>
+</body>
+</html>

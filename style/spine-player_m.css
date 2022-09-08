@@ -1,0 +1,14 @@
+.spine-player-slider {
+	position: absolute;
+    top:30px;
+}
+.spine-player-slider-value {
+	height: 8px;
+}
+.spine-player-slider:hover .spine-player-slider-value{
+    height:8px;
+}
+.spine-player-controls {
+	position: absolute;
+	top: 0;
+}

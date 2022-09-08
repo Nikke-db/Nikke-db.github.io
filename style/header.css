@@ -1,0 +1,79 @@
+:root{
+    --main-dark-theme: #212529;
+    --alt-dark-theme : #2f353a;
+}
+
+#indeximgnav{
+    height: 100px;
+    text-align: left;
+    user-select: none;
+}
+
+.nav-btn a{
+    transition: 0.5s;
+    margin-left:20px;
+    font-size: 20px;
+    color:rgb(180, 175, 175);
+    border:none;
+}
+.nav-btn a:hover{
+    font-style: italic;
+    cursor:pointer;
+    color:white;
+}
+.navigation{
+    display: none;
+}
+a{
+    text-decoration: none;
+    /* color:white; */
+}
+.wrapperindex span a {
+    color:rgb(180, 175, 175);
+    transition: 0.5s;
+}
+.wrapperindex span a:hover {
+    color:white;  
+}
+.nav-div-button{
+    padding-bottom: 20px;
+    padding-top: 20px;
+    width:100%;
+    display:flex;
+}
+
+.wrapperindex{
+    padding-top: -20px;
+    background-color: var(--main-dark-theme);
+    box-shadow: 0px 10px 5px var(--main-dark-theme);
+    display: flex;
+}
+#wri0{
+    flex: 0 0 5vw;
+    
+}
+#wri1{
+    /* margin-left: 2vw; */
+    flex:0 0 20vw;
+    text-align: left;
+}
+#wri2{
+    text-align: center;
+    position: absolute;
+    right:20px;
+    top:15px;
+    flex:1;
+}
+/* #wri0{
+    position: absolute;
+    top:15px ;
+    left:15px;
+} */
+.bi-reddit,
+.bi-discord{
+    margin-top: 15px;
+    /* margin-left: 15px; */
+    text-decoration: none;
+    color:white
+    
+}

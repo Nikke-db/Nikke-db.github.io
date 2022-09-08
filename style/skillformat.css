@@ -1,0 +1,21 @@
+.buffarrow,
+.stathp{
+    color:lightgreen;
+}
+.debuffarrow{
+    color:red
+}
+.statatk{
+    color:#f17b87;
+}
+.statdef{
+    color:#5fb7f1
+}
+/* can't name the ally and enemy classes with "ally " or "enemy" or it'll be fucked by replaceAll */
+.AAAA{
+    color:#a4d7fa
+}
+.ZZZZ{
+    color:#FC600A
+}
+

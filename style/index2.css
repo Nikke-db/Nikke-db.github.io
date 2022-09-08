@@ -1,0 +1,16 @@
+:root{
+    --main-dark-theme: #212529;
+    --alt-dark-theme : #2f353a;
+}
+
+body{
+    background-color: var(--alt-dark-theme);
+    font-family: arial;
+    color:white;
+}
+.footer{
+    text-align: center;
+    padding: 20px 0 20px 0;
+    margin-top: 100px;
+    border-top: 2px solid white;
+}
