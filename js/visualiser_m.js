@@ -94,8 +94,8 @@ let changeSpine = (id) => {
     
 }
 
-let id = "c220";
-let current_pose="cover"
+let id = "c010";
+let current_pose="fb"
 changeSpine(id)
 
 const radio_array = qsa(".form-check-input")

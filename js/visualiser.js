@@ -120,10 +120,10 @@ const changeSpine = (id) => {
 }
 
 
-// let current_l2d = "fb"
+let current_l2d = "fb"
 // let current_l2d = "aim"
-let current_l2d = "cover"
-changeSpine("c220")
+// let current_l2d = "cover"
+changeSpine("c010")
 
 let move = false
 let oldx = "";
@@ -281,8 +281,8 @@ qs("#ColorApply").addEventListener("click", (e) => {
 let oldhex = qs("#inputhex").value
 
 qs("#inputhex").addEventListener("input", (e) => {
-      currenthex = qs("#inputhex").value
-      newhex = ""
+      let currenthex = qs("#inputhex").value
+      let newhex = ""
       for (let i = 0; i < currenthex.length; i++) {
             if (currenthex.charAt(i) === "#" ||
                   i > 5 || /^[g-zG-Z]+$/.test(currenthex.charAt(i))) {
