@@ -59,9 +59,15 @@ a:hover{
     top:15px;
     
 }
-#wri0{
+#wri0,
+#wri15{
     position: absolute;
     top:15px;
+}
+#wri15{
+        right:25px;
+}
+#wri0{
     left:25px;
 }
 .bi-reddit{
