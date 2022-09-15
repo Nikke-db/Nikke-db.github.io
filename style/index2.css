@@ -14,3 +14,9 @@ body{
     margin-top: 100px;
     border-top: 2px solid white;
 }
+
+.footer a{
+    text-decoration: underline;
+    color:white;
+    
+}

@@ -41,4 +41,9 @@ body{
     max-height: 300px;
 }
 
+.footer a{
+    text-decoration: underline;
+    color:white;
+}
+
 

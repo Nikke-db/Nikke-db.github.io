@@ -1,0 +1,40 @@
+:root{
+    --main-dark-theme: #212529;
+    --alt-dark-theme : #2f353a;
+}
+body{
+    background-color: var(--alt-dark-theme);
+    color:white;
+    text-align: justify;
+}
+p{
+    text-align: center;
+}
+table{
+    margin-top:75px
+}
+td{
+    vertical-align: top;
+}
+td{
+    padding-bottom: 10px;
+}
+#content{
+    padding-top: 25px;
+}
+.title{
+    text-align: center;
+    padding-bottom: 10px;
+}
+.l, .r{
+    width:50vw;
+}
+.l{
+    text-align: right;
+    padding-right: 20px;
+}
+.r{
+    padding-left: 20px;
+    border-left: white solid 1px;
+    padding-right: 20px;
+}
