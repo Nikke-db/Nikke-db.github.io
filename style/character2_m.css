@@ -226,9 +226,10 @@
     height: 63%;
     position: absolute;
     right:20px;
-    opacity: 25%;
+    opacity: 15%;
     padding-top: 1%;
     padding-right: 1%;
+    z-index: 0;
     max-width: 90%;
 }
 #main-div-character-stats{
@@ -241,7 +242,6 @@
 }
 #character-stats{
     padding: 10px 10px 10px 10px;
-    /* height: 90%; */
     display: flex;
     flex-direction: column;
     justify-content: space-between;    
