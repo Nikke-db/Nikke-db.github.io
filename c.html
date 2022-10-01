@@ -14,9 +14,12 @@
     <link href="style/header.css" rel="stylesheet" media="screen and (min-width:1000px)">
     <link href="style/header_m.css" rel="stylesheet" media="screen and (max-width:999px)">
 
-    <link href="style/character.css" rel="stylesheet" media="screen and (min-width:1201px)">
-    <link href="style/character_m.css" rel="stylesheet" media="screen and (max-width:1200px) and (min-width:900px)">
-    <link href="style/character_m2.css" rel="stylesheet" media="screen and (max-width:899px)">
+    <!-- <link href="style/character.css" rel="stylesheet" media="screen and (min-width:1201px)"> -->
+
+    <link href="style/character2.css" rel="stylesheet" media="screen and (min-width:1100px)">
+    <link href="style/character2_m.css" rel="stylesheet" media="screen and (max-width:1099px)">
+    <!-- <link href="style/character_m.css" rel="stylesheet" media="screen and (max-width:1200px) and (min-width:900px)"> -->
+    <!-- <link href="style/character_m2.css" rel="stylesheet" media="screen and (max-width:899px)"> -->
 
     <link href="style/skillformat.css" rel="stylesheet">
     
@@ -60,8 +63,9 @@
     </div>
 
     <!-- search input with filter button -->
-    <input id="character-search-input" class="form-control me-2 searchbar" type="input" placeholder="Search for a name"
-        aria-label="Search">
+   
+        <input id="character-search-input" class="form-control me-2 searchbar" type="input" placeholder="Search for a name" aria-label="Search">
+    
     <div id="filterdiv">
         <button class="btn btn-dark filters" data-bs-toggle="modal" data-bs-target="#sortingmodal">Sort</button>
 
@@ -78,121 +82,99 @@
             </ol>
         </div>
 
-        <!-- center data div -->
         <div id="main-div-character-stats">
+                <span id="character-FB">
+                    <img src=""/>
+                </span>
             <div id="character-stats">
-                <!-- <img src="images/FB/Rapi_full_body_static.png"> -->
-                <h1 id="charNameH1"></h1>
-                <p id="charsubheaderdata">Data is loading</p>
-
-                <p id="charDescription"></p>
-
-                <!-- weapon rarity manufacturer -->
-                <div class="wrapper2">
-                    <div id="wr2div1">
-                        <img src="" />
-                    </div>
-                    <div id="wr2div2">
-                        <img src="" />
-                    </div>
-                    <div id="wr2div3">
-                        <img src="" />
-                    </div>
+                <div class="top">
+                    <h1 id="charNameH1"></h1>
+                    <p id="charDescription"></p>
                 </div>
 
+                <div id="flexbox_stats_skills" class="bottom">
+                    <div id="flex_stats">
+                        <table>
+                            <tr>
+                                <td >Rarity</td>
+                                <td id="stat_rarity"></td>
+                            </tr>
+                            <tr>
+                                <td>Manufacturer</td>
+                                <td id="stat_manufacturer"></td>
+                            </tr>
+                            <tr>
+                                <td>Squad</td>
+                                <td id="stat_squad"></td>
+                            </tr>
+                            <tr>
+                                <td>Class</td>
+                                <td id="stat_class"></td>
+                            </tr>
+                            <tr>
+                                <td>Weapon</td>
+                                <td id="stat_weapon_type"></td>
+                            </tr>
+                            <tr>
+                                <td>Magazine size</td>
+                                <td id="stat_weapon_ammo"></td>
+                            </tr>
+                            <tr>
+                                <td>Element</td>
+                                <td id="stat_weapon_element"></td>
+                            </tr>
+                            <tr>
+                                <td>Health</td>
+                                <td id="stat_hp"></td>
+                            </tr>
+                            <tr>
+                                <td>Attack</td>
+                                <td id="stat_att"></td>
+                            </tr>
+                            <tr>
+                                <td>Defense</td>
+                                <td id="stat_def"></td>
+                            </tr>
+                            <tr>
+                                <td>Drive tier</td>
+                                <td id="stat_drive_tier"></td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div id="flex_skills">
+                        <div class="skill-titles">
+                            <h4 class="activeHeader" hidden id="SkillRegularHeader"></h4>
+                            <h4 class="activeHeader" hidden id="Skill1Header"></h4>
+                            <h4 class="activeHeader" hidden id="Skill2Header"></h4>
+                            <h4 class="activeHeader" hidden id="SkillBurstHeader"></h4>
+                        </div>
+
+                        <div id="fullskills">
+                            <div class="wrapper3">
+        
+                                
+                                <div id="wr3div2">
+                                    <p class="activeDesc" hidden id="SkillRegularDesc"></p>
+                                    <p class="activeDesc" hidden id="Skill1Desc"></p>
+                                    <p class="activeDesc" hidden id="Skill2Desc"></p>
+                                    <p class="activeDesc" hidden id="SkillBurstDesc"></p>
+                                </div>
+                                <div id="wr3div1">
+                                    <div id="btn-regular-attack" class="btn btn-dark">Regular Attacks</div><br />
+                                    <div id="btn-skill-1" class="btn btn-dark">Skill 1</div><br />
+                                    <div id="btn-skill-2" class="btn btn-dark">Skill 2</div><br />
+                                    <div id="btn-burst-skill" class="btn btn-dark">Burst Skill</div><br />
+                                </div>
+                             </div>
+                        </div>
+                    </div>
                 <!-- full skills -->
-                <div id="fullskills">
-                    <div class="skill-titles">
-                        <h4 class="activeHeader" hidden id="SkillRegularHeader"></h4>
-                        <h4 class="activeHeader" hidden id="Skill1Header"></h4>
-                        <h4 class="activeHeader" hidden id="Skill2Header"></h4>
-                        <h4 class="activeHeader" hidden id="SkillBurstHeader"></h4>
-                    </div>
-                    <div class="wrapper3">
-
-                        <div id="wr3div1">
-                            <div id="btn-regular-attack" class="btn btn-dark">Regular Attacks</div><br />
-                            <div id="btn-skill-1" class="btn btn-dark">Skill 1</div><br />
-                            <div id="btn-skill-2" class="btn btn-dark">Skill 2</div><br />
-                            <div id="btn-burst-skill" class="btn btn-dark">Burst Skill</div><br />
-                        </div>
-                        <div id="wr3div2">
-                            <p class="activeDesc" hidden id="SkillRegularDesc"></p>
-                            <p class="activeDesc" hidden id="Skill1Desc"></p>
-                            <p class="activeDesc" hidden id="Skill2Desc"></p>
-                            <p class="activeDesc" hidden id="SkillBurstDesc"></p>
-                        </div>
-
-                    </div>
-                </div>
-
-                <!-- class and stats  and drive tier-->
-                <div class="wrapper4">
-                    <div id="class-img">
-                        <img src="" />
-                    </div>
-
-                    <div id="drive-img">
-                        <img src="" />
-                    </div>
-
-                </div>
-
-                <div id="stats-progresses" class="smallscreenprogress">
-                    <div class="progress bg-dark">
-                        <div class="progress-bar bg-success prog-min-hp" role="progressbar"></div>
-                    </div>
-                    <div class="progress bg-dark">
-                        <div class="progress-bar bg-success prog-max-hp" role="progressbar"></div>
-                    </div>
-                    <div class="progress bg-dark">
-                        <div class="progress-bar bg-danger prog-min-att" role="progressbar"></div>
-                    </div>
-                    <div class="progress bg-dark">
-                        <div class="progress-bar bg-danger prog-max-att" role="progressbar"></div>
-                    </div>
-                    <div class="progress bg-dark">
-                        <div class="progress-bar bg-primary prog-min-def" role="progressbar"></div>
-                    </div>
-                    <div class="progress bg-dark">
-                        <div class="progress-bar bg-primary prog-max-def" role="progressbar"></div>
-                    </div>
-
+                
                 </div>
             </div>
         </div>
 
-
-        <!-- character image on the right -->
-        <div id="character-FB">
-            <div id="picture-carousel" class="carousel slide">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="" />
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </div>
-
-    <!-- offcanvas -->
-    <div class="offcanvas offcanvas-start bg-dark navbar-light" tabindex="-2" id="offcanvas-navigate">
-        <div class="offcanvas-header">
-            <h1 id="contact-canvas-header">Navigation</h1>
-            <span 
-                style="float:right" 
-                data-bs-toggle="offcanvas"
-                data-bs-target="#offcanvas-navigate">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
-                    <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
-                  </svg>
-            </span>
-        </div>
-        <div class="offcanvas-body">
-            <a href="/c">Characters</a><br/><br/>
-            <a href="/v_m">Live2D Visualiser</a><br/><br/>
-        </div>
+        <!-- center data div -->
     </div>
 
     <!-- filter modal -->
@@ -277,10 +259,7 @@
                             <label><input value="min-atk"type="radio" name="datasort" class="form-check-input"> Sort by ATK</label><br>
                             <label><input value="min-def"type="radio" name="datasort" class="form-check-input"> Sort by DEF</label><br>
                         </div>
-                        <div class="wrfi4 form-check">
-                            <span>Released units</span><br><br>
-                            <label><input value="id"  type="checkbox" disabled class="form-check-input"> Show only released units</label><br>
-                        </div>
+                    
                         <div class="wrfi5 form-check">
                             <span>Order</span><br><br>
                             <label><input value="asc"   type="radio" name="dataorder" checked class="form-check-input"> Ascending (a->z)</label><br>

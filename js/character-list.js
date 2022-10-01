@@ -61,11 +61,12 @@ async function initJSON() {
         liste_item.innerHTML = "<img src='images/sprite/si_" + val.id + "_00_s.png'/>" + val.name
 
         // attributes for filters
-        liste_item.setAttribute('manufacturer', val.corporation);
+        liste_item.setAttribute('manufacturer', val.manufacturer);
         liste_item.setAttribute('gun', val.weapon.weapon_type);
         liste_item.setAttribute('rarity', val.rarity);
         liste_item.setAttribute('classe', val.class);
-        liste_item.setAttribute('drive', val.use_burst_skill);
+        liste_item.setAttribute('drive', val.drive_tier);
+        liste_item.setAttribute('id', val.id);
 
         liste_item.classList.add("charDiv")
 
@@ -88,16 +89,23 @@ async function initJSON() {
 
     if (ParsedParam.get('id') != null) {
         let check = false
-        let i = 0
         json.map((val) => {
             if (val.id === ParsedParam.get('id')) {
                 changeData(val)
                 check = true
-                let target = document.querySelectorAll(".charDiv")[i]
-                target.classList.add("activeChar")
-                oldactive = target
+                // let target = document.querySelectorAll(".charDiv")[i]
+                // target.classList.add("activeChar")
+                // oldactive = target
             }
-            i++
+            // i++
+        })
+        let array = qsa(".charDiv")
+        
+        array.forEach((val)=>{
+            if (val.getAttribute("id")===ParsedParam.get('id')){
+                val.classList.add("activeChar")
+                oldactive = val
+            }
         })
         if (!check) {
             changeData(json[0])
@@ -206,9 +214,9 @@ const checkGun = (unit) => {
 const checkDrive = (unit) => {
     if (!fi && !fii && !fiii) return true
     switch (unit) {
-        case "Step1": if (fi) return true; break;
-        case "Step2": if (fii) return true; break;
-        case "Step3": if (fiii) return true; break;
+        case "I": if (fi) return true; break;
+        case "II": if (fii) return true; break;
+        case "III": if (fiii) return true; break;
     }
 }
 

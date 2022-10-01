@@ -9,21 +9,6 @@ const qsa = (val) => {
 
 
 let currentSkill = 0;
-const progress_value = (val, type)=>{
-    let maxstat
-    switch(type){
-        case "hp":
-            maxstat = 350000
-            break;
-        case "att":
-            maxstat = 5000
-            break;
-        case "def":
-            maxstat = 750
-            break;
-    }
-    return  100*val/maxstat
-}
 
 const hideSkill = () => {
     for (let i = 0; i<4; i++){
@@ -54,6 +39,7 @@ const skillValues= async (desc, id) => {
     })
     return desc
 }
+
 
 const formatSkill = (skill) =>{  
     return skill
@@ -102,15 +88,7 @@ const changeData = async (val, oldactive) => {
     ParsedParam.set("id", val.id)
     window.history.replaceState(null, null, "?id="+ParsedParam.get('id'))
     
-    let corporation = val.corporation=="TETRA"? "tetraline" : val.corporation.toLowerCase()
-    let minhp,maxhp,minatt,maxatt,mindef,maxdef;
-    let maxlvl
-
-    switch(val.rarity){
-        case "SSR": maxlvl = 200; break;
-        case "SR" : maxlvl = 120; break;
-        case "R"  : maxlvl = 80 ; break;
-    }
+    let minhp,minatt,mindef;
 
     const response = await fetch('js/json/CharacterStatTable.json');
     const json = await response.json()
@@ -120,17 +98,9 @@ const changeData = async (val, oldactive) => {
             minatt= valstat.level_attack
             mindef= valstat.level_defence
         }
-        if(valstat.level === maxlvl && valstat.group === val.stat_enhance_id){
-            maxhp = valstat.level_hp
-            maxatt= valstat.level_attack
-            maxdef= valstat.level_defence
-        }
     })
 
-    //change char name
-    qs("#charNameH1").innerHTML = val.name
-
-    //change char sub header small data because i don't know where else to write it
+    //gun type
     let gun;
     switch (val.weapon.weapon_type){
         case "AR": gun="Assault Rifle";  break;
@@ -140,9 +110,9 @@ const changeData = async (val, oldactive) => {
         case "SMG":gun="SubMachine Gun"; break;
         case "RL": gun="Rocket Launcher";break;
     }
-    qs("#charsubheaderdata").innerHTML = gun + " - " + val.weapon.attack_type + "<br/>" + 
-                                        val.weapon.max_ammo + " Bullets per Magazine <br/>" +
-                                        val.squad
+
+    //change char name
+    qs("#charNameH1").innerHTML = val.name
 
     //change char description
     if(val.description===undefined){
@@ -151,37 +121,33 @@ const changeData = async (val, oldactive) => {
         qs("#charDescription").innerHTML = val.description
     }
 
-    //change weapon icon, rarity icon , manufacturer icon
-    qs("#wr2div1 img").src = "images/gun/full/icn_weapon_"+val.weapon.weapon_type.toLowerCase()+"_full.png"
+    qs("#stat_rarity").innerHTML = val.rarity
 
-    qs("#wr2div2 img").src = "images/rarity/"+val.rarity.toLowerCase()+".png"
+    //change manufacturer
+    switch(val.manufacturer){
+        case "ELYSION": qs("#stat_manufacturer").innerHTML = "Elysion";break;
+        case "TETRA": qs("#stat_manufacturer").innerHTML = "Tetra Lines";break;
+        case "MISSILIS": qs("#stat_manufacturer").innerHTML = "Missilis Industries";break;
+        case "PILGRIM": qs("#stat_manufacturer").innerHTML = "Pilgrim";break;
+    }
 
-    qs("#wr2div3 img").src = "images/manufacturer/icn_corp_"+corporation+".png"
+    //change squad
+    qs("#stat_squad").innerHTML = val.squad
 
-    // change the stat progress bars with written values, and different sizes 
-    // lazy to automate using arrays and several if & switch
+    qs("#stat_weapon_type").innerHTML=gun;
 
-    
+    qs("#stat_weapon_ammo").innerHTML=val.weapon.max_ammo+ " ammunitions";
+    qs("#stat_weapon_element").innerHTML=val.weapon.attack_type
 
-        qs(".prog-min-hp").innerHTML  = "Lv.1 Health: "+minhp
-        qs(".prog-min-hp").style.width= progress_value(minhp, "hp")+"%"
+    qs("#stat_hp").innerHTML = minhp
+    qs("#stat_att").innerHTML = minatt
+    qs("#stat_def").innerHTML = mindef
 
-        qs(".prog-max-hp").innerHTML  = "Lv."+maxlvl+" Health: "+maxhp
-        qs(".prog-max-hp").style.width= progress_value(maxhp, "hp")+"%"
+    //show the class image and drive tier, next to stats 
+    qs("#stat_class").innerHTML = val.class
 
-        qs(".prog-min-att").innerHTML = "Lv.1 Attack: "+minatt
-        qs(".prog-min-att").style.width= progress_value(minatt, "att")+"%"
-
-        qs(".prog-max-att").innerHTML = "Lv."+maxlvl+" Attack: "+maxatt
-        qs(".prog-max-att").style.width= progress_value(maxatt, "att")+"%"
-
-        qs(".prog-min-def").innerHTML = "Lv.1 Defense: "+mindef
-        qs(".prog-min-def").style.width= progress_value(mindef, "def")+"%"
-
-        qs(".prog-max-def").innerHTML = "Lv."+maxlvl+" Defense: "+maxdef
-        qs(".prog-max-def").style.width= progress_value(maxdef, "def")+"%"
-    
-
+    qs("#stat_drive_tier").innerHTML = val.drive_tier
+  
     // show skills
     hideSkill()
 
@@ -197,9 +163,6 @@ const changeData = async (val, oldactive) => {
 
     showSkill(currentSkill)
 
-    //show the class image and drive tier, next to stats 
-    qs("#class-img img").src = "images/classes/"+val.class+".png"
-    qs("#drive-img img").src = "images/drive/"+val.use_burst_skill+".png"
 }
 
 qs("#btn-regular-attack").addEventListener("click", (e)=>{

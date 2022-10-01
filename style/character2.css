@@ -8,23 +8,32 @@
     width: 50%;
 }
 #filterdiv{
-    display: none;
+    background-color: var(--main-dark-theme);
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 10px 10px 10px 0;
+    text-align: right;
+    margin-left: 25%;
+    width:50%;
 }
-
+.filters{
+    border: 2px gold solid !important;
+    color:white !important
+}
+.wrapper{
+    margin-top: 20px;
+    display: flex;
+}
 #main-div-character-list{
     background-color: var(--main-dark-theme);
     border-left: white 2px dotted;
-    margin: 25px 0 25px 25%;
-    width: 50%;
-    height: 50vh;
+    margin-right: 10px;
+    margin-left: 20px;
+    height: 65vh;
+    flex: 0 0 250px;
     overflow: auto;
 }
-#main-div-character-stats{
-    position: relative;
-    margin-right: 20px;
-    margin-left: 10px;
-    flex:1;
-}
+
 .wrapper2{
     text-align: center;
     display: flex;
@@ -46,42 +55,48 @@
     margin-top:50px;
 }
 .skill-titles{
-    text-align: center;
-    position: absolute;
-    margin-top: 180px;
-    width:100%
+   position: absolute;
+   left:0;
+   width: 50%;
+   margin-left:25%;
+   text-align: center;
 }
-
+.wrapper3{
+    display:flex;
+}
 #wr3div1{
-    border-left:solid white 3px !important;
-    margin-left: 25%;
+    border: var(--alt-dark-theme) solid 3px ;
+    border-right:solid white 3px;
+    margin-top:40px;
+    flex: 0 0 200px;
     height:160px;
-    width: 50%;
+    z-index: 100;
 }
 #wr3div1 div{
     border-bottom: solid var(--main-dark-theme) 2px;
     border-top: solid var(--main-dark-theme) 2px;
     transition: 0.5s;
     width: 100%;
-    
+    border-left: var(--main-dark-theme) 4px solid;
 }
 #wr3div1 div:hover{
-    /* border-bottom: solid gold 2px; */
-    /* border-top: solid gold 2px; */
-    /* transition: 0.5s; */
+    border-bottom: solid gold 2px;
+    border-top: solid gold 2px;
+    transition: 0.5s;
 }
 .activeskill{
-    border-right: gold 4px solid !important; 
+    border-left: gold 4px solid !important; 
 }
 #wr3div2{
-    background-color: var(--main-dark-theme);
+    background-color: var(--alt-dark-theme);
     padding: 20px 25px 0 25px;
+    margin: 0 25px 0 25px;
     border-radius: 15px;
     text-align: center;
-    margin-top: 70px;
     overflow:auto;
-    height:195px;
-   
+    height:250px;
+    z-index: 100;
+    width: 50%;
 }
 .wrapper4{
     padding-top: 50px;
@@ -98,8 +113,12 @@
 }
 
 #charNameH1{
+    position: absolute;
+    left: 0;
+    right:0;
+    width: 50%;
+    margin-left: 25%;
     text-align: center;
-    margin-top: 5px;
 }
 .charDiv{
     border: var(--main-dark-theme) 2px solid;
@@ -126,13 +145,8 @@
 }
 #charDescription{
     text-align: justify;
-}
-#character-FB img{
-    max-width: 100vw;
-}
-#character-FB{
-  padding-top: 50px;  
-  text-align: center;
+    max-width: 70%;
+    margin-top: 75px;
 }
 #prog-min-hp,
 #prog-min-att,
@@ -165,6 +179,29 @@
 #sortingmodal .modal-footer button{
     border-bottom:white solid 2px;
 }
+.wrapperfilter{
+    display:flex
+}
+.wrfi1,
+.wrfi2{
+    flex: 0 0 25%
+}
+
+.wrfi3,
+.wrfi4,
+.wrfi5{
+    flex:1
+}
+
+.filtercontent{
+    user-select: none;
+    margin-top: 10px;
+}
+.filtercontent label:hover,
+.filtercontent input:hover{
+    cursor: pointer;
+}
+
 .alignleft{
     text-align: left;
 }
@@ -186,4 +223,52 @@
     border-radius: 10px;
     transition: 0.5s;
     cursor: pointer;
+}
+
+#character-FB img{
+    height: 63%;
+    position: absolute;
+    right:20px;
+    opacity: 20%;
+    padding-top: 1%;
+    padding-right: 1%;
+}
+
+#main-div-character-stats{
+    border-radius: 20px;
+    margin-right: 20px;
+    margin-left: 10px;
+    background-color:var(--main-dark-theme);
+    width: 100%;
+    
+}
+#character-stats{
+    padding: 10px 10px 10px 10px;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+td{
+    border-bottom: var(--alt-dark-theme) solid 2px;
+    border-right: var(--alt-dark-theme) solid 2px;
+    text-align: right;
+    padding: 0 5px 0 5px;
+}
+tr{
+}
+#flex_stats{
+    margin-top: 50px;
+}
+#character-stats table{
+    margin : 0 0 1% 1%; 
+    height: 100%;   
+}
+
+#flexbox_stats_skills{
+    display: flex;
+}
+#flex_skills{
+    flex:1
 }
