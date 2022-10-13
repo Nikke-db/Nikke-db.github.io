@@ -54,8 +54,8 @@ body {
     padding-top:10px;
     position: fixed;
     overflow: auto;
-    height: 80vh;
-    bottom: 6vh;
+    height: 76vh;
+    bottom: 7vh;
     width:200px;
     z-index: 1;
     left: 0;
@@ -94,22 +94,24 @@ body {
 #l2dbgcolorchanger{
     text-align: right;
     position: fixed;
+    margin-top: 10vh;
     right:0;
-    margin-top:20px
 }
 
-#colorChangePanel,
-#imageChangePanel{
-    background-color: white !important;
-    border-bottom-left-radius: 10px;
-    border-top-left-radius: 10px;
+#colorChangePanel{
+    border: 1px solid var(--alt-dark-theme);
+    box-shadow: 2px 2px 3px black;
+    background-color: white ;
     padding-bottom: 20px;
+    border-radius: 10px;
+    position: absolute;
     text-align: center;
     padding-top: 20px;
     color:black;
-}
-#imageChangePanel button{
-    margin-top: 10px
+    width: 250px;
+    right: 20px;
+    z-index: 1;
+    top: 12vh;
 }
 .progress-rgb{
     background-color: #2f353a;
@@ -167,7 +169,8 @@ body {
 }
 
 .posedropdown{
-padding-left:10px
+padding-left:10px;
+box-shadow: -1px 1px 1px black;
 }
 .posedropdown span:hover{
     cursor: pointer;
@@ -182,9 +185,7 @@ padding-left:10px
 #mobile_message img{
     width:100vw;
 }
-#mobile_message {
-    
-}
+
 #mobile_message a{
     font-weight: bold;
     color:white;
@@ -193,4 +194,21 @@ padding-left:10px
 .wrapperindex{
     z-index: 1;
     position: relative;
+}
+
+.btn_feature{
+    color: white;
+    border: none;
+    background-color: transparent;
+    margin-top: 5vh;
+    margin-right: 20px;
+    /* box-shadow: 2px 2px 2px black; */
+    height: 50px;
+    width:50px;
+    background-color: var(--alt-dark-theme);
+    border-radius: 50%;
+    z-index: 0;
+}
+.btn_feature:hover{
+    background-color: var(--main-dark-theme);
 }

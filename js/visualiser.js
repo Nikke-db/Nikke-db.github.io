@@ -304,27 +304,27 @@ qs("#inputhex").addEventListener("input", (e) => {
 
 // HIDE BOTTOM BAR ------------------------------------------------------------------------------------------------------
 
-qs(".hidebar").addEventListener("click", (e) => {
-      let hidden = qs(".spine-player-controls").hidden
-      if (hidden) {
-            qs(".spine-player-controls").hidden = false
-            qs(".scrollbar-msg").hidden = false
-      } else {
-            qs(".spine-player-controls").hidden = true
-            qs(".scrollbar-msg").hidden = true
-      }
-})
+// qs(".hidebar").addEventListener("click", (e) => {
+//       let hidden = qs(".spine-player-controls").hidden
+//       if (hidden) {
+//             qs(".spine-player-controls").hidden = false
+//             qs(".scrollbar-msg").hidden = false
+//       } else {
+//             qs(".spine-player-controls").hidden = true
+//             qs(".scrollbar-msg").hidden = true
+//       }
+// })
 
 // hide top menu/navbar
 
-qs(".hidenav").addEventListener("click",(e)=>{
-      let hidden = qs(".wrapperindex").hidden
-      if (hidden){
-            qs(".wrapperindex").hidden = false
-      }else{
-            qs(".wrapperindex").hidden = true
-      }
-})
+// qs(".hidenav").addEventListener("click",(e)=>{
+//       let hidden = qs(".wrapperindex").hidden
+//       if (hidden){
+//             qs(".wrapperindex").hidden = false
+//       }else{
+//             qs(".wrapperindex").hidden = true
+//       }
+// })
 
 //hide all UI
 
@@ -336,8 +336,11 @@ const UI = [
       ".scrollbar-msg"
       ]
 
+let hidden_ui = false;
+
 qs(".hideUI").addEventListener("click",(e)=>{
       alert("To turn the UI back on, press the Enter key of your keyboard")
+      hidden_ui=true;
 
       for (let i = 0 ; i<UI.length; i++){
             qs(UI[i]).hidden = true
@@ -348,16 +351,19 @@ qs(".hideUI").addEventListener("click",(e)=>{
 
 document.addEventListener("keypress",(e)=>{
       if (e.key==="Enter"){
+            hidden_ui=false;
             for (let i = 0 ; i<UI.length; i++){
                   qs(UI[i]).hidden = false
             }
       }
       if(e.key.toLowerCase()==="z"){
-            let canvas = qs("#player-container")
-            canvas.style.height = 100 +"vh"
-            changeSpine(currentid)
-            qs("#player-container").style.left = 0
-            qs("#player-container").style.top = 0
+            let canvas = qs("#player-container");
+            canvas.style.height = 100 +"vh";
+            changeSpine(currentid);
+            qs("#player-container").style.left = 0;
+            qs("#player-container").style.top = 0;
+
+            if (hidden_ui) qs(".spine-player-controls").hidden=true
       }
       
 })
