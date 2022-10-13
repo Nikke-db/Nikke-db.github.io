@@ -173,6 +173,7 @@
 /** Popup **/
 .spine-player-popup-parent {
 	position: relative;
+	z-index: 1;
 }
 .spine-player-popup {
 	user-select: none;
