@@ -44,7 +44,13 @@ initJSON()
 
 let currentspine = "";
 let currentid = ""
-let current_color = "#2f353a"
+
+if (localStorage.getItem("bg_hex") === null){
+      localStorage.setItem("bg_hex","#2f353a");
+}
+
+let current_color = localStorage.getItem("bg_hex")
+document.body.style.backgroundColor = current_color;
 let skin
 
 const changeSpine = (id) => {
@@ -271,7 +277,8 @@ qs("#customRangeBlue").addEventListener("input", (e) => {
 qs("#ColorApply").addEventListener("click", (e) => {
       qs("body").style.backgroundColor = `rgb(${r},${g},${b})`
       hex = "#" + rgb2hex(r) + rgb2hex(g) + rgb2hex(b)
-      current_color = hex
+      current_color = hex;
+      localStorage.setItem("bg_hex", hex)
       
       if (currentid) {
             changeSpine(currentid)
