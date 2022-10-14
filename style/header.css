@@ -45,7 +45,7 @@ a{
 .wrapperindex{
     padding-top: -20px;
     background-color: var(--main-dark-theme);
-    box-shadow: 0px 10px 5px var(--main-dark-theme);
+    box-shadow: 0px 10px 5px 5px var(--main-dark-theme);
     display: flex;
 }
 #wri0,#wri15

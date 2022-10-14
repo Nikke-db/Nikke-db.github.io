@@ -45,7 +45,7 @@ a:hover{
 .wrapperindex{
     padding-top: -20px;
     background-color: var(--main-dark-theme);
-    box-shadow: 0px 10px 5px var(--main-dark-theme);
+    box-shadow: 0px 10px 5px 5px var(--main-dark-theme);
     position: relative;
     /* opacity: 0.5; */
     top:0;
