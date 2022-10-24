@@ -577,7 +577,7 @@
         "manufacturer": "ELYSION",
         "class": "Defender",
         "squad": "Absolut",
-        "name": "Campion",
+        "name": "Eunhwa",
         "skill1_name": "Ready and Able",
         "skill1_description": "■ Cast\r\n<color=#00AEFF>[Apply on target] [Energy Damage {description_value_02}%]</color>\r\n<color=#00AEFF>[Apply on target] [Share the Pain] [lasts for {description_value_03} sec]</color>\r\n<color=#00AEFF>[Apply on target] [DEF {description_value_04}% ▼] [lasts for {description_value_05} sec]</color> on the furthest {description_value_01} enemies\r\n■ While in Full Burst, also cast\r\n<color=#00AEFF>[Apply on all enemies] Shared Damage: [Share the Pain] [lasts for {description_value_06} sec]</color>",
         "skill2_name": "Sniper Instruction",
