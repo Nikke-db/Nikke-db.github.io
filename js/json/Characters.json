@@ -525,7 +525,7 @@
         "manufacturer": "MISSILIS",
         "class": "Defender",
         "squad": "MightyTools",
-        "name": "Carrie",
+        "name": "Centi",
         "skill1_name": "Maintain Fortification",
         "skill1_description": "■ When Cover is attacked, cast on own Cover\r\n<color=#00AEFF>[Own] [Cover Maximum HP {description_value_01}% ▲] [lasts for {description_value_02} sec]</color>\r\n<color=#00AEFF>[Own] [recover {description_value_03}% of Cover's HP]</color>\r\n■ When Cover is attacked, gain\r\n<color=#00AEFF>[Own] [DEF {description_value_04}% ▲] [lasts for {description_value_05} sec]</color>",
         "skill2_name": "Survey",

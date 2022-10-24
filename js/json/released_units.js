@@ -22,7 +22,7 @@ const RELEASED_UNITS = [
     'Fólkvangr',
     'Frima', 
     'Guillotine', 
-    // 'Harran', 
+    'Harran', 
     'Julia', 
     'Liberty', 
     'Lucilla', 
