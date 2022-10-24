@@ -38,6 +38,7 @@ const RELEASED_UNITS = [
     'Neon', 
     'Noah', 
     // 'Noise', 
+    'Novel',
     'Polly', 
     'Prima', 
     'Privaty', 

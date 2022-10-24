@@ -929,7 +929,7 @@
         "manufacturer": "TETRA",
         "class": "Defender",
         "squad": "Protocol",
-        "name": "Noelle",
+        "name": "Novel",
         "skill1_name": "Something's Fishy Here",
         "skill1_description": "■ Cast\r\n<color=#00AEFF>[Apply on target] [Metal Damage {description_value_02}%]</color> on {description_value_01} enemy with the highest ATK\r\n■ Also cast on the target of the attack\r\n<color=#00AEFF>[Apply on target] [ATK{description_value_03}% ▼] [lasts for {description_value_04} sec]</color>",
         "skill2_name": "Detective's Intuition",
