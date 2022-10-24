@@ -239,7 +239,7 @@
         "manufacturer": "TETRA",
         "class": "Supporter",
         "squad": "CafeSweety",
-        "name": "Prima",
+        "name": "Frima",
         "skill1_name": "Torpor",
         "skill1_description": "■ Cast \r\n<color=#00AEFF>[Apply on target] [recover {description_value_02}% HP] </color>\r\n<color=#00AEFF>[Apply on target] [DEF {description_value_03}% ▲] [lasts for {description_value_04} sec]</color> on {description_value_01} friendly unit with the lowest HP\r\n■ According to the number of Café Sweety members in the Squad, also cast\r\n<color=#00AEFF>[2 members] [All allies] [DEF {description_value_05}% ▲] [lasts for {description_value_06} sec]</color>\r\n<color=#00AEFF>[3 members] [All allies] [DEF {description_value_07}% ▲] [lasts for {description_value_08} sec]</color>",
         "skill2_name": "Let's do this!",
