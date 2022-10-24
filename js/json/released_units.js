@@ -59,6 +59,7 @@ const RELEASED_UNITS = [
     'SoldierOW', 
     'Soline', 
     'Sugar', 
+    'Syuen',
     'Volume', 
     'Yan', 
     'Yin',
