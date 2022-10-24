@@ -38,7 +38,7 @@ const RELEASED_UNITS = [
     'N102', 
     'Neon', 
     'Noah', 
-    // 'Noise', 
+    'Noise', 
     'Novel',
     'Polly', 
     'Prima', 
