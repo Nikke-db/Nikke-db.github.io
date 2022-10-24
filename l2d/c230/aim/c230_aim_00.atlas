@@ -1,0 +1,120 @@
+c230_aim_00.png
+size:2048,2048
+filter:Linear,Linear
+pma:true
+arm_r
+bounds:445,1038,204,326
+rotate:90
+body
+bounds:402,326,338,398
+rotate:90
+body_acc
+bounds:1573,1664,382,390
+rotate:90
+body_meca_l
+bounds:1506,125,486,646
+rotate:180
+body_meca_l1
+bounds:2,662,820,574
+body_meca_l2
+bounds:196,161,321,383
+body_meca_l3
+bounds:328,880,382,307
+body_meca_l4
+bounds:1380,712,597,666
+rotate:90
+body_meca_r
+bounds:1690,468,356,607
+body_meca_r2
+bounds:1120,753,747,670
+body_meca_r3
+bounds:1275,96,125,467
+rotate:90
+body_meca_r4
+bounds:1506,168,321,371
+rotate:270
+body_meca_r5
+bounds:445,922,486,774
+rotate:270
+foot_l
+bounds:2,154,187,238
+rotate:90
+foot_l2
+bounds:1416,1988,82,58
+foot_r
+bounds:229,27,181,195
+offsets:0,0,191,195
+rotate:270
+foot_r2
+bounds:1317,1985,97,61
+hair 1
+bounds:1438,1197,86,206
+hair 10
+bounds:1931,322,115,247
+hair 11
+bounds:1609,1989,126,57
+hair 2
+bounds:515,74,80,250
+hair 3
+bounds:769,88,125,478
+rotate:270
+hair 4
+bounds:802,477,274,757
+rotate:90
+hair 5
+bounds:1052,189,286,657
+rotate:90
+hair 6
+bounds:1227,1350,354,819
+offsets:0,0,457,819
+rotate:90
+hair 7
+bounds:910,161,190,588
+rotate:90
+hair 8
+bounds:591,177,425,597
+rotate:90
+hair 9
+bounds:913,1344,702,694
+offsets:0,0,791,694
+rotate:270
+hair acc_l
+bounds:2,1226,111,286
+hair acc_l2
+bounds:1965,1739,59,143
+offsets:0,0,77,143
+hair sha
+bounds:1058,1084,399,265
+head_acc_r
+bounds:1965,1842,79,204
+head_acc_r2
+bounds:919,1973,73,396
+rotate:90
+leg_l
+bounds:768,785,308,135
+leg_l2
+bounds:2,1889,70,157
+leg_l3
+bounds:2003,1007,43,214
+leg_l4
+bounds:1869,1332,132,89
+leg_l5
+bounds:859,1413,117,217
+leg_l6
+bounds:1161,1913,69,58
+leg_r
+bounds:2,286,260,430
+leg_r_acc
+bounds:1449,1640,144,188
+leg_r_acc2
+bounds:813,1291,83,175
+leg_r_acc3
+bounds:56,1901,192,145
+skirt_1
+bounds:2,1379,1199,667
+thigh_l
+bounds:2,614,348,580
+rotate:90
+thigh_r
+bounds:2,1189,537,441
+rotate:270
