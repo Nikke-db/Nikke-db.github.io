@@ -2,7 +2,7 @@ const RELEASED_UNITS = [
     'Admi', 
     'Alice', 
     'Anis', 
-    // 'Aria', 
+    'Aria', 
     'Belorta', 
     'Brid', 
     'Bridget', 

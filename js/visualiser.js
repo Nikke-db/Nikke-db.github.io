@@ -129,7 +129,7 @@ const changeSpine = (id) => {
 // let current_l2d = "fb"
 // let current_l2d = "aim"
 let current_l2d = "cover"
-changeSpine("c230")
+changeSpine("c432")
 
 let move = false
 let oldx = "";
