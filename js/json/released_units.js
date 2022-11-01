@@ -1,6 +1,7 @@
 const RELEASED_UNITS = [
     'Admi', 
     'Alice', 
+    'Andersen',
     'Anis', 
     'Aria', 
     'Belorta', 
@@ -28,8 +29,10 @@ const RELEASED_UNITS = [
     'Ingrid', 
     'Julia', 
     'Liberty', 
+    'Liter',
     'Lucilla', 
     'Ludmilla',
+    'Maiden',
     'Marian',
     'Mary', 
     'Maxine', 

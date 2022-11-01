@@ -265,7 +265,7 @@
         "manufacturer": "MISSILIS",
         "class": "Supporter",
         "squad": "MightyTools",
-        "name": "Litera",
+        "name": "Liter",
         "skill1_name": "Assault Tactic ver. A",
         "skill1_description": "■ When shooting, there is a {description_value_01}% chance of Squad being granted\r\n<color=#00AEFF>[Apply on All allies] [ATK {description_value_02}% ▲] [lasts for {description_value_03} sec]</color>\r\n<color=#00AEFF>[Apply on All allies] [Critical Rate {description_value_04}% ▲] [lasts for {description_value_03} sec]</color>\r\n<color=#00AEFF>[Apply on All allies] [Reloading Speed {description_value_05}% ▲] [lasts for {description_value_03} sec]</color>",
         "skill2_name": "Assault Tactic ver. H",
