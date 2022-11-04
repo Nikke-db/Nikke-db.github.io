@@ -51,6 +51,7 @@ if (localStorage.getItem("bg_hex") === null){
 
 let current_color = localStorage.getItem("bg_hex")
 document.body.style.backgroundColor = current_color;
+let transparent = false
 let skin
 
 const changeSpine = (id) => {
@@ -82,8 +83,8 @@ const changeSpine = (id) => {
                         atlasUrl: "/l2d/" + id + "/" + id + "_00.atlas",
                         animation: "idle",
                         skin: skin,
-                        backgroundColor: current_color,
-                        alpha: false,
+                        backgroundColor: transparent ? "#00000000" : current_color,
+                        alpha: transparent ? true : false,
                         debug: false,
                         preserveDrawingBuffer:true
                   });               
@@ -408,3 +409,9 @@ document.addEventListener("click",(e)=>{
       }
 })
 
+qs("#transparent").addEventListener("change",(e)=>{
+      if(e.target.checked){
+            alert("No visual changes. This will mainly affect the background color of the screenshots taken. Some character might break using this, such as Julia or Alice");
+      }
+      transparent = e.target.checked;
+})
