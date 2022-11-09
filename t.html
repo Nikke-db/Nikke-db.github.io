@@ -5,23 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    
-    <link href="style/index2.css" rel="stylesheet" >
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
     <link href="style/header.css" rel="stylesheet" media="screen and (min-width:1000px)">
     <link href="style/header_m.css" rel="stylesheet" media="screen and (max-width:999px)">
 
-    <link href="style/credits.css" rel="stylesheet" media="screen and (min-width:1000px)">
-    <link href="style/credits_m.css" rel="stylesheet" media="screen and (max-width:999px)">
+    <link href="style/index2.css" rel="stylesheet" >
 
+    <link href="style/tools.css" rel="stylesheet" >
+    <!-- <link href="style/tools_m.css" rel="stylesheet" media="screen and (max-width:1099px)"> -->
+    
     <link rel="shortcut icon" href="/images/Exia.ico" />
-
     <title>Nikke DB</title>
 </head>
 <body>
+
     <div class="wrapperindex" style="text-align:center">
         <div id="wri0"><a href="https://discord.gg/J9D8tcf4RW" target="_blank">
             <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-discord" viewBox="0 0 16 16">
@@ -56,85 +54,62 @@
             </nav> 
         </div>
     </div>
+    
+    <h2>Tools</h2>
 
-    <div id="content">
-        <p>I would like to use this page to thank everyone who contributed to the website in one way or another.</p>
-        <table>
-            <thead>
-                <tr>
-                    <th class="title" colspan="2"  >
-                        External Help
-                    </th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td class="l">Falzar#4798</td>
-                    <td class="r">Game research and tooling</td>
-                </tr>
-                <tr>
-                    <td class="l">Crow</td>
-                    <td class="r">Script for data gathering</td>
-                </tr>
-                <tr>
-                    <td class="l">Sakae</td>
-                    <td class="r">Images and data gathering. Argued to develop the Live2D Visualiser</td>
-                </tr>
-            </tbody>            
-        </table>
-
-        <table>
-            <thead>
-                <tr>
-                    <th class="title" colspan="2"  >
-                        GitHub Forks
-                    </th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td class="l">pin02</td>
-                    <td class="r">Anis uncensored Live2D assets</td>
-                </tr>
-                <tr>
-                    <td class="l">pin03</td>
-                    <td class="r">Jackal, Viper and Maiden Live2D Assets</td>
-                </tr>
-                
-            </tbody>            
-        </table>
+    <div id="level_calculator_menu" class="tool_menu" data-bs-toggle="collapse" data-bs-target="#level_up_div">Character level up calculator
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+          </svg>
     </div>
+    <div class="collapse tool_content" id="level_up_div"><br/>
+        <h3>Character level up calculator</h3>
+        <form>
+            Current character level: 
+            <input type="number" min="1" max="200" id="char_level_up_current" placeholder="from 1 to 199"/>
+            <br/><br/>
+            Target character level: &nbsp;
+            <input type="number" min="1" max="200" id="char_level_up_target" placeholder="from 2 to 200"/><br/><br/>
 
-<!-- offcanvas -->
-<div class="offcanvas offcanvas-start bg-dark navbar-light" tabindex="-2" id="offcanvas-navigate">
-    <div class="offcanvas-header">
-        <h1 id="contact-canvas-header">Navigation</h1>
-        <span 
-            style="float:right" 
-            data-bs-toggle="offcanvas"
-            data-bs-target="#offcanvas-navigate">
-                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
-                <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
-              </svg>
-        </span>
-    </div>
-    <div class="offcanvas-body">
-        <a href="/c">Characters</a><br/><br/>
-        <a href="/t">Tools</a><br/><br/>
-        <a href="/v_m">Live2D Visualiser</a><br/><br/>
-    </div>
-</div>
+            <button class="btn btn-primary">Calculate</button>
+        </form>
+        <div id="calculator_result">
+            To raise a character from level <span id="calc_level_min"></span> to <span id="calc_level_max"></span>, you will need:<br/><br/>
+            <span id="calc_credit">1</span> <img src="https://cdn.discordapp.com/attachments/891090590048075786/1040028793328373830/im_1002.png" alt="Credits"><br><br>
+            <span id="calc_exp_blue">2</span> <img src="https://cdn.discordapp.com/attachments/891090590048075786/1040028792992833606/im_1005.png" alt="Battle Data Set"><br><br>
+            <span id="calc_exp_red">3</span> <img src="https://cdn.discordapp.com/attachments/891090590048075786/1040028704539168839/im_1006.png" alt="Core Dust">
+        </div>
+        <div id="calculator_error">
 
-<nav class="navbar-light bg-dark footer">
-    <div class="">
-        <p>Nikke-db - <a href="/credits">Credits</a></p>
+        </div>
     </div>
-</nav> 
+    
 
+
+    <div class="offcanvas offcanvas-start bg-dark navbar-light" tabindex="-2" id="offcanvas-navigate">
+        <div class="offcanvas-header">
+            <h1 id="contact-canvas-header">Navigation</h1>
+            <span 
+                style="float:right" 
+                data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvas-navigate">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+                    <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+                  </svg>
+            </span>
+        </div>
+        <div class="offcanvas-body">
+            <a href="/c">Characters</a><br/><br/>
+            <a href="/t">Tools</a><br/><br/>
+            <a href="/v_m">Live2D Visualiser</a><br/><br/>
+        </div>
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
 
+    <script src="js/tools.js"></script>
+    <script src="js/level_calculator.js"></script>
 </body>
 </html>

@@ -1,0 +1,51 @@
+:root{
+    --main-dark-theme: #212529;
+    --alt-dark-theme : #2f353a;
+}
+h2,
+form{
+    margin: 40px 0 40px 0;
+}
+h2,
+h3,
+form{
+    text-align: center;
+}
+svg{
+    transition-duration: 0.25s;
+}
+input{
+    width: 200px;
+}
+
+.tool_menu,
+.tool_content{
+    width: 80vw;
+    margin: 0 auto;
+}
+.tool_menu{
+    font-size: 20px;
+    height:50px;
+    padding: 9px;
+    border: white solid 2px;
+}
+.tool_menu:hover{
+    cursor: pointer;
+}
+
+#level_up_div{
+    border: rgb(199, 196, 196) solid 2px;
+    border-top: none;
+}
+#calculator_result img{
+    width: 30px;
+}
+#calculator_result,
+#calculator_error{
+    display: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width:100%;
+    text-align: center;
+    border-top: white 2px solid;
+}

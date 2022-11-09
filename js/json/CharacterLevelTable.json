@@ -1,0 +1,1621 @@
+{
+  "version": "0.0.1",
+  "records": [
+    {
+      "level": 1,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 1,
+      "gold": 600,
+      "character_exp": 2280,
+      "character_exp_2": 0
+    },
+    {
+      "level": 2,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 1,
+      "gold": 600,
+      "character_exp": 2280,
+      "character_exp_2": 0
+    },
+    {
+      "level": 3,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 1,
+      "gold": 600,
+      "character_exp": 2280,
+      "character_exp_2": 0
+    },
+    {
+      "level": 4,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 1,
+      "gold": 600,
+      "character_exp": 2280,
+      "character_exp_2": 0
+    },
+    {
+      "level": 5,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 1,
+      "gold": 600,
+      "character_exp": 2280,
+      "character_exp_2": 0
+    },
+    {
+      "level": 6,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 1,
+      "gold": 600,
+      "character_exp": 2280,
+      "character_exp_2": 0
+    },
+    {
+      "level": 7,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 1,
+      "gold": 600,
+      "character_exp": 2280,
+      "character_exp_2": 0
+    },
+    {
+      "level": 8,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 1,
+      "gold": 600,
+      "character_exp": 2280,
+      "character_exp_2": 0
+    },
+    {
+      "level": 9,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 1,
+      "gold": 600,
+      "character_exp": 2280,
+      "character_exp_2": 0
+    },
+    {
+      "level": 10,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 1,
+      "gold": 600,
+      "character_exp": 2280,
+      "character_exp_2": 20
+    },
+    {
+      "level": 11,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 1,
+      "gold": 600,
+      "character_exp": 2280,
+      "character_exp_2": 0
+    },
+    {
+      "level": 12,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 1,
+      "gold": 600,
+      "character_exp": 2280,
+      "character_exp_2": 0
+    },
+    {
+      "level": 13,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 1,
+      "gold": 600,
+      "character_exp": 2280,
+      "character_exp_2": 0
+    },
+    {
+      "level": 14,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 1,
+      "gold": 600,
+      "character_exp": 2280,
+      "character_exp_2": 0
+    },
+    {
+      "level": 15,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 1,
+      "gold": 600,
+      "character_exp": 2280,
+      "character_exp_2": 0
+    },
+    {
+      "level": 16,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 1,
+      "gold": 600,
+      "character_exp": 2280,
+      "character_exp_2": 0
+    },
+    {
+      "level": 17,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 1,
+      "gold": 600,
+      "character_exp": 2280,
+      "character_exp_2": 0
+    },
+    {
+      "level": 18,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 1,
+      "gold": 600,
+      "character_exp": 2280,
+      "character_exp_2": 0
+    },
+    {
+      "level": 19,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 1,
+      "gold": 600,
+      "character_exp": 2280,
+      "character_exp_2": 0
+    },
+    {
+      "level": 20,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 1,
+      "gold": 600,
+      "character_exp": 5700,
+      "character_exp_2": 40
+    },
+    {
+      "level": 21,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 1,
+      "gold": 600,
+      "character_exp": 5700,
+      "character_exp_2": 0
+    },
+    {
+      "level": 22,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 1,
+      "gold": 600,
+      "character_exp": 5700,
+      "character_exp_2": 0
+    },
+    {
+      "level": 23,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 1,
+      "gold": 600,
+      "character_exp": 5700,
+      "character_exp_2": 0
+    },
+    {
+      "level": 24,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 1,
+      "gold": 600,
+      "character_exp": 5700,
+      "character_exp_2": 0
+    },
+    {
+      "level": 25,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 1,
+      "gold": 600,
+      "character_exp": 5700,
+      "character_exp_2": 0
+    },
+    {
+      "level": 26,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 1,
+      "gold": 600,
+      "character_exp": 5700,
+      "character_exp_2": 0
+    },
+    {
+      "level": 27,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 1,
+      "gold": 600,
+      "character_exp": 5700,
+      "character_exp_2": 0
+    },
+    {
+      "level": 28,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 1,
+      "gold": 600,
+      "character_exp": 5700,
+      "character_exp_2": 0
+    },
+    {
+      "level": 29,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 1,
+      "gold": 600,
+      "character_exp": 5700,
+      "character_exp_2": 0
+    },
+    {
+      "level": 30,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 1,
+      "gold": 840,
+      "character_exp": 5700,
+      "character_exp_2": 0
+    },
+    {
+      "level": 31,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 1,
+      "gold": 840,
+      "character_exp": 5700,
+      "character_exp_2": 0
+    },
+    {
+      "level": 32,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 1,
+      "gold": 840,
+      "character_exp": 5700,
+      "character_exp_2": 0
+    },
+    {
+      "level": 33,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 1,
+      "gold": 840,
+      "character_exp": 5700,
+      "character_exp_2": 0
+    },
+    {
+      "level": 34,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 1,
+      "gold": 840,
+      "character_exp": 5700,
+      "character_exp_2": 0
+    },
+    {
+      "level": 35,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 1,
+      "gold": 840,
+      "character_exp": 5700,
+      "character_exp_2": 0
+    },
+    {
+      "level": 36,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 1,
+      "gold": 840,
+      "character_exp": 5700,
+      "character_exp_2": 0
+    },
+    {
+      "level": 37,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 1,
+      "gold": 840,
+      "character_exp": 5700,
+      "character_exp_2": 0
+    },
+    {
+      "level": 38,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 1,
+      "gold": 840,
+      "character_exp": 5700,
+      "character_exp_2": 0
+    },
+    {
+      "level": 39,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 1,
+      "gold": 840,
+      "character_exp": 5700,
+      "character_exp_2": 0
+    },
+    {
+      "level": 40,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 1,
+      "gold": 4860,
+      "character_exp": 22650,
+      "character_exp_2": 80
+    },
+    {
+      "level": 41,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 20,
+      "gold": 4860,
+      "character_exp": 22650,
+      "character_exp_2": 0
+    },
+    {
+      "level": 42,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 20,
+      "gold": 4860,
+      "character_exp": 22650,
+      "character_exp_2": 0
+    },
+    {
+      "level": 43,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 20,
+      "gold": 4860,
+      "character_exp": 22650,
+      "character_exp_2": 0
+    },
+    {
+      "level": 44,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 20,
+      "gold": 4860,
+      "character_exp": 22650,
+      "character_exp_2": 0
+    },
+    {
+      "level": 45,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 20,
+      "gold": 4860,
+      "character_exp": 22650,
+      "character_exp_2": 0
+    },
+    {
+      "level": 46,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 20,
+      "gold": 4860,
+      "character_exp": 22650,
+      "character_exp_2": 0
+    },
+    {
+      "level": 47,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 20,
+      "gold": 4860,
+      "character_exp": 22650,
+      "character_exp_2": 0
+    },
+    {
+      "level": 48,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 20,
+      "gold": 4860,
+      "character_exp": 22650,
+      "character_exp_2": 0
+    },
+    {
+      "level": 49,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 20,
+      "gold": 4860,
+      "character_exp": 22650,
+      "character_exp_2": 0
+    },
+    {
+      "level": 50,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 20,
+      "gold": 4860,
+      "character_exp": 22650,
+      "character_exp_2": 0
+    },
+    {
+      "level": 51,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 20,
+      "gold": 6540,
+      "character_exp": 37250,
+      "character_exp_2": 0
+    },
+    {
+      "level": 52,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 20,
+      "gold": 6540,
+      "character_exp": 37250,
+      "character_exp_2": 0
+    },
+    {
+      "level": 53,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 20,
+      "gold": 6540,
+      "character_exp": 37250,
+      "character_exp_2": 0
+    },
+    {
+      "level": 54,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 20,
+      "gold": 6540,
+      "character_exp": 37250,
+      "character_exp_2": 0
+    },
+    {
+      "level": 55,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 20,
+      "gold": 6540,
+      "character_exp": 37250,
+      "character_exp_2": 0
+    },
+    {
+      "level": 56,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 20,
+      "gold": 6540,
+      "character_exp": 37250,
+      "character_exp_2": 0
+    },
+    {
+      "level": 57,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 20,
+      "gold": 6540,
+      "character_exp": 37250,
+      "character_exp_2": 0
+    },
+    {
+      "level": 58,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 20,
+      "gold": 6540,
+      "character_exp": 37250,
+      "character_exp_2": 0
+    },
+    {
+      "level": 59,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 20,
+      "gold": 6540,
+      "character_exp": 37250,
+      "character_exp_2": 0
+    },
+    {
+      "level": 60,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 20,
+      "gold": 10350,
+      "character_exp": 71850,
+      "character_exp_2": 400
+    },
+    {
+      "level": 61,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 40,
+      "gold": 10350,
+      "character_exp": 71850,
+      "character_exp_2": 0
+    },
+    {
+      "level": 62,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 40,
+      "gold": 10350,
+      "character_exp": 71850,
+      "character_exp_2": 0
+    },
+    {
+      "level": 63,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 40,
+      "gold": 10350,
+      "character_exp": 71850,
+      "character_exp_2": 0
+    },
+    {
+      "level": 64,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 40,
+      "gold": 10350,
+      "character_exp": 71850,
+      "character_exp_2": 0
+    },
+    {
+      "level": 65,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 40,
+      "gold": 10350,
+      "character_exp": 71850,
+      "character_exp_2": 0
+    },
+    {
+      "level": 66,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 40,
+      "gold": 10350,
+      "character_exp": 71850,
+      "character_exp_2": 0
+    },
+    {
+      "level": 67,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 40,
+      "gold": 10350,
+      "character_exp": 71850,
+      "character_exp_2": 0
+    },
+    {
+      "level": 68,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 40,
+      "gold": 10350,
+      "character_exp": 71850,
+      "character_exp_2": 0
+    },
+    {
+      "level": 69,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 40,
+      "gold": 10350,
+      "character_exp": 71850,
+      "character_exp_2": 0
+    },
+    {
+      "level": 70,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 40,
+      "gold": 10350,
+      "character_exp": 71850,
+      "character_exp_2": 0
+    },
+    {
+      "level": 71,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 40,
+      "gold": 14600,
+      "character_exp": 109450,
+      "character_exp_2": 0
+    },
+    {
+      "level": 72,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 40,
+      "gold": 14600,
+      "character_exp": 109450,
+      "character_exp_2": 0
+    },
+    {
+      "level": 73,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 40,
+      "gold": 14600,
+      "character_exp": 109450,
+      "character_exp_2": 0
+    },
+    {
+      "level": 74,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 40,
+      "gold": 14600,
+      "character_exp": 109450,
+      "character_exp_2": 0
+    },
+    {
+      "level": 75,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 40,
+      "gold": 14600,
+      "character_exp": 109450,
+      "character_exp_2": 0
+    },
+    {
+      "level": 76,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 40,
+      "gold": 16300,
+      "character_exp": 126250,
+      "character_exp_2": 0
+    },
+    {
+      "level": 77,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 40,
+      "gold": 16300,
+      "character_exp": 126250,
+      "character_exp_2": 0
+    },
+    {
+      "level": 78,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 40,
+      "gold": 16300,
+      "character_exp": 126250,
+      "character_exp_2": 0
+    },
+    {
+      "level": 79,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 40,
+      "gold": 16300,
+      "character_exp": 126250,
+      "character_exp_2": 0
+    },
+    {
+      "level": 80,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 40,
+      "gold": 30960,
+      "character_exp": 196380,
+      "character_exp_2": 1000
+    },
+    {
+      "level": 81,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 60,
+      "gold": 30960,
+      "character_exp": 196380,
+      "character_exp_2": 0
+    },
+    {
+      "level": 82,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 60,
+      "gold": 30960,
+      "character_exp": 196380,
+      "character_exp_2": 0
+    },
+    {
+      "level": 83,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 60,
+      "gold": 30960,
+      "character_exp": 196380,
+      "character_exp_2": 0
+    },
+    {
+      "level": 84,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 60,
+      "gold": 30960,
+      "character_exp": 196380,
+      "character_exp_2": 0
+    },
+    {
+      "level": 85,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 60,
+      "gold": 30960,
+      "character_exp": 196380,
+      "character_exp_2": 0
+    },
+    {
+      "level": 86,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 60,
+      "gold": 30960,
+      "character_exp": 196380,
+      "character_exp_2": 0
+    },
+    {
+      "level": 87,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 60,
+      "gold": 30960,
+      "character_exp": 196380,
+      "character_exp_2": 0
+    },
+    {
+      "level": 88,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 60,
+      "gold": 41580,
+      "character_exp": 357660,
+      "character_exp_2": 0
+    },
+    {
+      "level": 89,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 60,
+      "gold": 41580,
+      "character_exp": 357660,
+      "character_exp_2": 0
+    },
+    {
+      "level": 90,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 60,
+      "gold": 41580,
+      "character_exp": 357660,
+      "character_exp_2": 0
+    },
+    {
+      "level": 91,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 60,
+      "gold": 41580,
+      "character_exp": 357660,
+      "character_exp_2": 0
+    },
+    {
+      "level": 92,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 60,
+      "gold": 41580,
+      "character_exp": 357660,
+      "character_exp_2": 0
+    },
+    {
+      "level": 93,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 60,
+      "gold": 41580,
+      "character_exp": 357660,
+      "character_exp_2": 0
+    },
+    {
+      "level": 94,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 60,
+      "gold": 41580,
+      "character_exp": 357660,
+      "character_exp_2": 0
+    },
+    {
+      "level": 95,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 60,
+      "gold": 41580,
+      "character_exp": 357660,
+      "character_exp_2": 0
+    },
+    {
+      "level": 96,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 60,
+      "gold": 41580,
+      "character_exp": 357660,
+      "character_exp_2": 0
+    },
+    {
+      "level": 97,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 60,
+      "gold": 41580,
+      "character_exp": 357660,
+      "character_exp_2": 0
+    },
+    {
+      "level": 98,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 60,
+      "gold": 41580,
+      "character_exp": 357660,
+      "character_exp_2": 0
+    },
+    {
+      "level": 99,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 60,
+      "gold": 41580,
+      "character_exp": 357660,
+      "character_exp_2": 0
+    },
+    {
+      "level": 100,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 60,
+      "gold": 63770,
+      "character_exp": 564200,
+      "character_exp_2": 2000
+    },
+    {
+      "level": 101,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 80,
+      "gold": 63770,
+      "character_exp": 564200,
+      "character_exp_2": 0
+    },
+    {
+      "level": 102,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 80,
+      "gold": 63770,
+      "character_exp": 564200,
+      "character_exp_2": 0
+    },
+    {
+      "level": 103,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 80,
+      "gold": 63770,
+      "character_exp": 564200,
+      "character_exp_2": 0
+    },
+    {
+      "level": 104,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 80,
+      "gold": 63770,
+      "character_exp": 564200,
+      "character_exp_2": 0
+    },
+    {
+      "level": 105,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 80,
+      "gold": 63770,
+      "character_exp": 564200,
+      "character_exp_2": 0
+    },
+    {
+      "level": 106,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 80,
+      "gold": 63770,
+      "character_exp": 564200,
+      "character_exp_2": 0
+    },
+    {
+      "level": 107,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 80,
+      "gold": 63770,
+      "character_exp": 564200,
+      "character_exp_2": 0
+    },
+    {
+      "level": 108,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 80,
+      "gold": 63770,
+      "character_exp": 564200,
+      "character_exp_2": 0
+    },
+    {
+      "level": 109,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 80,
+      "gold": 63770,
+      "character_exp": 564200,
+      "character_exp_2": 0
+    },
+    {
+      "level": 110,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 80,
+      "gold": 63770,
+      "character_exp": 564200,
+      "character_exp_2": 0
+    },
+    {
+      "level": 111,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 80,
+      "gold": 63770,
+      "character_exp": 564200,
+      "character_exp_2": 0
+    },
+    {
+      "level": 112,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 80,
+      "gold": 63770,
+      "character_exp": 564200,
+      "character_exp_2": 0
+    },
+    {
+      "level": 113,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 80,
+      "gold": 78190,
+      "character_exp": 738570,
+      "character_exp_2": 0
+    },
+    {
+      "level": 114,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 80,
+      "gold": 78190,
+      "character_exp": 738570,
+      "character_exp_2": 0
+    },
+    {
+      "level": 115,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 80,
+      "gold": 83230,
+      "character_exp": 813260,
+      "character_exp_2": 0
+    },
+    {
+      "level": 116,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 80,
+      "gold": 83230,
+      "character_exp": 813260,
+      "character_exp_2": 0
+    },
+    {
+      "level": 117,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 80,
+      "gold": 83230,
+      "character_exp": 813260,
+      "character_exp_2": 0
+    },
+    {
+      "level": 118,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 80,
+      "gold": 83230,
+      "character_exp": 813260,
+      "character_exp_2": 0
+    },
+    {
+      "level": 119,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 80,
+      "gold": 83230,
+      "character_exp": 813260,
+      "character_exp_2": 0
+    },
+    {
+      "level": 120,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 80,
+      "gold": 123040,
+      "character_exp": 1153120,
+      "character_exp_2": 4500
+    },
+    {
+      "level": 121,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 100,
+      "gold": 123040,
+      "character_exp": 1153120,
+      "character_exp_2": 0
+    },
+    {
+      "level": 122,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 100,
+      "gold": 123040,
+      "character_exp": 1153120,
+      "character_exp_2": 0
+    },
+    {
+      "level": 123,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 100,
+      "gold": 169840,
+      "character_exp": 1699120,
+      "character_exp_2": 0
+    },
+    {
+      "level": 124,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 100,
+      "gold": 169840,
+      "character_exp": 1699120,
+      "character_exp_2": 0
+    },
+    {
+      "level": 125,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 100,
+      "gold": 169840,
+      "character_exp": 1699120,
+      "character_exp_2": 0
+    },
+    {
+      "level": 126,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 100,
+      "gold": 169840,
+      "character_exp": 1699120,
+      "character_exp_2": 0
+    },
+    {
+      "level": 127,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 100,
+      "gold": 169840,
+      "character_exp": 1699120,
+      "character_exp_2": 0
+    },
+    {
+      "level": 128,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 100,
+      "gold": 169840,
+      "character_exp": 1699120,
+      "character_exp_2": 0
+    },
+    {
+      "level": 129,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 100,
+      "gold": 183840,
+      "character_exp": 1789040,
+      "character_exp_2": 0
+    },
+    {
+      "level": 130,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 100,
+      "gold": 183840,
+      "character_exp": 1789040,
+      "character_exp_2": 0
+    },
+    {
+      "level": 131,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 100,
+      "gold": 185440,
+      "character_exp": 1926400,
+      "character_exp_2": 0
+    },
+    {
+      "level": 132,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 100,
+      "gold": 185440,
+      "character_exp": 1926400,
+      "character_exp_2": 0
+    },
+    {
+      "level": 133,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 100,
+      "gold": 185440,
+      "character_exp": 1926400,
+      "character_exp_2": 0
+    },
+    {
+      "level": 134,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 100,
+      "gold": 185440,
+      "character_exp": 1926400,
+      "character_exp_2": 0
+    },
+    {
+      "level": 135,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 100,
+      "gold": 185440,
+      "character_exp": 1926400,
+      "character_exp_2": 0
+    },
+    {
+      "level": 136,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 100,
+      "gold": 185440,
+      "character_exp": 1926400,
+      "character_exp_2": 0
+    },
+    {
+      "level": 137,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 100,
+      "gold": 200800,
+      "character_exp": 2087360,
+      "character_exp_2": 0
+    },
+    {
+      "level": 138,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 100,
+      "gold": 200800,
+      "character_exp": 2087360,
+      "character_exp_2": 0
+    },
+    {
+      "level": 139,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 100,
+      "gold": 200800,
+      "character_exp": 2087360,
+      "character_exp_2": 0
+    },
+    {
+      "level": 140,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 100,
+      "gold": 235980,
+      "character_exp": 2521980,
+      "character_exp_2": 7000
+    },
+    {
+      "level": 141,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 120,
+      "gold": 235980,
+      "character_exp": 2521980,
+      "character_exp_2": 0
+    },
+    {
+      "level": 142,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 120,
+      "gold": 235980,
+      "character_exp": 2521980,
+      "character_exp_2": 0
+    },
+    {
+      "level": 143,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 120,
+      "gold": 235980,
+      "character_exp": 2521980,
+      "character_exp_2": 0
+    },
+    {
+      "level": 144,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 120,
+      "gold": 235980,
+      "character_exp": 2521980,
+      "character_exp_2": 0
+    },
+    {
+      "level": 145,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 120,
+      "gold": 235980,
+      "character_exp": 2521980,
+      "character_exp_2": 0
+    },
+    {
+      "level": 146,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 120,
+      "gold": 256770,
+      "character_exp": 2774070,
+      "character_exp_2": 0
+    },
+    {
+      "level": 147,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 120,
+      "gold": 256770,
+      "character_exp": 2774070,
+      "character_exp_2": 0
+    },
+    {
+      "level": 148,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 120,
+      "gold": 256770,
+      "character_exp": 2774070,
+      "character_exp_2": 0
+    },
+    {
+      "level": 149,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 120,
+      "gold": 256770,
+      "character_exp": 2774070,
+      "character_exp_2": 0
+    },
+    {
+      "level": 150,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 120,
+      "gold": 256770,
+      "character_exp": 2774070,
+      "character_exp_2": 0
+    },
+    {
+      "level": 151,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 120,
+      "gold": 256770,
+      "character_exp": 2774070,
+      "character_exp_2": 0
+    },
+    {
+      "level": 152,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 120,
+      "gold": 268920,
+      "character_exp": 2944890,
+      "character_exp_2": 0
+    },
+    {
+      "level": 153,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 120,
+      "gold": 268920,
+      "character_exp": 2944890,
+      "character_exp_2": 0
+    },
+    {
+      "level": 154,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 120,
+      "gold": 268920,
+      "character_exp": 2944890,
+      "character_exp_2": 0
+    },
+    {
+      "level": 155,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 120,
+      "gold": 268920,
+      "character_exp": 2944890,
+      "character_exp_2": 0
+    },
+    {
+      "level": 156,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 120,
+      "gold": 268920,
+      "character_exp": 2944890,
+      "character_exp_2": 0
+    },
+    {
+      "level": 157,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 120,
+      "gold": 268920,
+      "character_exp": 2944890,
+      "character_exp_2": 0
+    },
+    {
+      "level": 158,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 120,
+      "gold": 268920,
+      "character_exp": 2944890,
+      "character_exp_2": 0
+    },
+    {
+      "level": 159,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 120,
+      "gold": 268920,
+      "character_exp": 2944890,
+      "character_exp_2": 0
+    },
+    {
+      "level": 160,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 120,
+      "gold": 346500,
+      "character_exp": 3910800,
+      "character_exp_2": 7000
+    },
+    {
+      "level": 161,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 140,
+      "gold": 346500,
+      "character_exp": 3910800,
+      "character_exp_2": 0
+    },
+    {
+      "level": 162,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 140,
+      "gold": 346500,
+      "character_exp": 3910800,
+      "character_exp_2": 0
+    },
+    {
+      "level": 163,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 140,
+      "gold": 346500,
+      "character_exp": 3910800,
+      "character_exp_2": 0
+    },
+    {
+      "level": 164,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 140,
+      "gold": 346500,
+      "character_exp": 3910800,
+      "character_exp_2": 0
+    },
+    {
+      "level": 165,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 140,
+      "gold": 346500,
+      "character_exp": 3910800,
+      "character_exp_2": 0
+    },
+    {
+      "level": 166,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 140,
+      "gold": 346500,
+      "character_exp": 3910800,
+      "character_exp_2": 0
+    },
+    {
+      "level": 167,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 140,
+      "gold": 346500,
+      "character_exp": 3910800,
+      "character_exp_2": 0
+    },
+    {
+      "level": 168,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 140,
+      "gold": 346500,
+      "character_exp": 3910800,
+      "character_exp_2": 0
+    },
+    {
+      "level": 169,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 140,
+      "gold": 346500,
+      "character_exp": 3910800,
+      "character_exp_2": 0
+    },
+    {
+      "level": 170,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 140,
+      "gold": 346500,
+      "character_exp": 3910800,
+      "character_exp_2": 0
+    },
+    {
+      "level": 171,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 140,
+      "gold": 368500,
+      "character_exp": 4393300,
+      "character_exp_2": 0
+    },
+    {
+      "level": 172,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 140,
+      "gold": 368500,
+      "character_exp": 4393300,
+      "character_exp_2": 0
+    },
+    {
+      "level": 173,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 140,
+      "gold": 368500,
+      "character_exp": 4393300,
+      "character_exp_2": 0
+    },
+    {
+      "level": 174,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 140,
+      "gold": 368500,
+      "character_exp": 4393300,
+      "character_exp_2": 0
+    },
+    {
+      "level": 175,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 140,
+      "gold": 368500,
+      "character_exp": 4393300,
+      "character_exp_2": 0
+    },
+    {
+      "level": 176,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 140,
+      "gold": 368500,
+      "character_exp": 4393300,
+      "character_exp_2": 0
+    },
+    {
+      "level": 177,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 140,
+      "gold": 368500,
+      "character_exp": 4393300,
+      "character_exp_2": 0
+    },
+    {
+      "level": 178,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 140,
+      "gold": 368500,
+      "character_exp": 4393300,
+      "character_exp_2": 0
+    },
+    {
+      "level": 179,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 140,
+      "gold": 368500,
+      "character_exp": 4393300,
+      "character_exp_2": 0
+    },
+    {
+      "level": 180,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 140,
+      "gold": 419300,
+      "character_exp": 4988500,
+      "character_exp_2": 8000
+    },
+    {
+      "level": 181,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 160,
+      "gold": 419300,
+      "character_exp": 4988500,
+      "character_exp_2": 0
+    },
+    {
+      "level": 182,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 160,
+      "gold": 419300,
+      "character_exp": 4988500,
+      "character_exp_2": 0
+    },
+    {
+      "level": 183,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 160,
+      "gold": 419300,
+      "character_exp": 4988500,
+      "character_exp_2": 0
+    },
+    {
+      "level": 184,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 160,
+      "gold": 419300,
+      "character_exp": 4988500,
+      "character_exp_2": 0
+    },
+    {
+      "level": 185,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 160,
+      "gold": 419300,
+      "character_exp": 4988500,
+      "character_exp_2": 0
+    },
+    {
+      "level": 186,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 160,
+      "gold": 419300,
+      "character_exp": 4988500,
+      "character_exp_2": 0
+    },
+    {
+      "level": 187,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 160,
+      "gold": 419300,
+      "character_exp": 4988500,
+      "character_exp_2": 0
+    },
+    {
+      "level": 188,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 160,
+      "gold": 419300,
+      "character_exp": 4988500,
+      "character_exp_2": 0
+    },
+    {
+      "level": 189,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 160,
+      "gold": 419300,
+      "character_exp": 4988500,
+      "character_exp_2": 0
+    },
+    {
+      "level": 190,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 160,
+      "gold": 419300,
+      "character_exp": 4988500,
+      "character_exp_2": 0
+    },
+    {
+      "level": 191,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 160,
+      "gold": 480500,
+      "character_exp": 5983100,
+      "character_exp_2": 0
+    },
+    {
+      "level": 192,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 160,
+      "gold": 480500,
+      "character_exp": 5983100,
+      "character_exp_2": 0
+    },
+    {
+      "level": 193,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 160,
+      "gold": 480500,
+      "character_exp": 5983100,
+      "character_exp_2": 0
+    },
+    {
+      "level": 194,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 160,
+      "gold": 480500,
+      "character_exp": 5983100,
+      "character_exp_2": 0
+    },
+    {
+      "level": 195,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 160,
+      "gold": 480500,
+      "character_exp": 5983100,
+      "character_exp_2": 0
+    },
+    {
+      "level": 196,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 160,
+      "gold": 480500,
+      "character_exp": 5983100,
+      "character_exp_2": 0
+    },
+    {
+      "level": 197,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 160,
+      "gold": 480500,
+      "character_exp": 5983100,
+      "character_exp_2": 0
+    },
+    {
+      "level": 198,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 160,
+      "gold": 480500,
+      "character_exp": 5983100,
+      "character_exp_2": 0
+    },
+    {
+      "level": 199,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 160,
+      "gold": 480500,
+      "character_exp": 5983100,
+      "character_exp_2": 0
+    },
+    {
+      "level": 200,
+      "type": "CharacterLevel",
+      "need_synchro_lv_min": 160,
+      "gold": 1694200,
+      "character_exp": 20944600,
+      "character_exp_2": 10000
+    },
+    {
+      "level": 201,
+      "type": "SynchroLevel",
+      "need_synchro_lv_min": 0,
+      "gold": 1694200,
+      "character_exp": 20944600,
+      "character_exp_2": 10000
+    },
+    {
+      "level": 202,
+      "type": "SynchroLevel",
+      "need_synchro_lv_min": 0,
+      "gold": 1694200,
+      "character_exp": 20944600,
+      "character_exp_2": 10000
+    }    
+  ]
+}
