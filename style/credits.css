@@ -11,13 +11,22 @@ p{
     text-align: center;
 }
 table{
-    margin-top:75px
+    margin-top:75px;
+    margin-left: auto;
+    margin-right: auto;
 }
 td{
     vertical-align: top;
-}
-td{
     padding-bottom: 10px;
+    padding-top: 10px;
+    border-bottom: white 2px solid;
+    max-width: 300px;
+}
+a{
+    color:white
+}
+a:hover{
+    color:rgb(214, 208, 208);
 }
 #content{
     padding-top: 25px;
@@ -43,8 +52,8 @@ td{
     padding: 20px 0 20px 0;
     margin-top: 100px;
     border-top: 2px solid white;
-    position: absolute;
+    /* position: absolute;
     bottom: 0;
     left:0;
-    right:0
+    right:0 */
 }

@@ -11,13 +11,20 @@ p{
     text-align: center;
 }
 table{
-    margin-top:75px
+    margin-top:75px;
+    margin-left: auto;
+    margin-right: auto;
 }
 td{
     vertical-align: top;
-}
-td{
     padding-bottom: 10px;
+    padding-top: 10px;
+    border-bottom: white 2px solid;
+    max-width : 40vw
+}
+a{
+    color:white;
+    font-size: 17px;
 }
 #content{
     padding-top: 25px;
