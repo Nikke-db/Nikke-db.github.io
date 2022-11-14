@@ -1698,7 +1698,7 @@
         "skill1_name": "FF Formation",
         "skill1_description": "■ Activates when attacked 20 time(s). Affects self.<br/>$col ATK ▲ 21.81% for 20 sec.$fcol",
         "skill2_name": "Missile",
-        "skill2_description": "■ Affects 1 enemy unit(s) with the highest ATK<br/>$col Deals 528.97% of ATK as damage.<br/>Taunt for 5 sec.$fcol",
+        "skill2_description": "■ Affects 1 enemy unit(s) with the highest ATK.<br/>$col Deals 528.97% of ATK as damage.<br/>Taunt for 5 sec.$fcol",
         "ulti_name": "Warhead Volley",
         "ulti_description": "■ Affects 1 enemy unit(s) with the highest ATK.<br/>$col Deals 657.72% of ATK as damage.$fcol<br/>■ Affects self.<br/>$col ATK ▲ 60.75% for 10 sec.$fcol",
         "weapon": {
