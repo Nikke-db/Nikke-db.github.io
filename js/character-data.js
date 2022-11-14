@@ -43,34 +43,14 @@ const skillValues= async (desc, id) => {
 
 const formatSkill = (skill) =>{  
     return skill
-    .replaceAll("■", "</p><p>■")
-    .replaceAll("[Own]"                 ,"On herself:")
-    .replaceAll("[Apply on all enemies]","On all enemies: ")
-    .replaceAll("] [lasts"              ," ")
-    .replaceAll("[Apply on enemy] "     ,"Apply on enemy: ")
-    .replaceAll("[Apply on target]"     ,"Apply on target:")
-    .replaceAll("[Apply on All allies]" ,"All allies")
-    .replaceAll("\r\n"                  ,"<br>")
+    .replaceAll("$col"                  ,"<span class='AAAA'>")
+    .replaceAll("$fcol"                 ,"</span><br/>")
     .replaceAll("▲"                     ,"<span class='buffarrow'>▲</span>")
     .replaceAll("▼"                     ,"<span class='debuffarrow'>▼</span>")
     .replaceAll("ATK"                   ,"<span class='statatk'>ATK</span>" )
     .replaceAll("HP"                    ,"<span class='stathp'>HP</span>" )
     .replaceAll("DEF"                   ,"<span class='statdef'>DEF</span>" )
-    .replaceAll("herself"               ,"<span class='AAAA'>herself</span>")
-    .replaceAll("self"                  ,"<span class='AAAA'>self</span>")
-    .replaceAll("(Self)"                ,"On <span class='AAAA'>herself</span>")
-    .replaceAll("friendly"              ,"<span class='AAAA'>friendly</span>")
-    .replaceAll("unit "                 ,"<span class='AAAA'>unit </span>")
-    .replaceAll("units"                 ,"<span class='AAAA'>units</span>")
-    .replaceAll("allies"                ,"<span class='AAAA'>allies</span>")
-    .replaceAll("ally"                  ,"<span class='AAAA'>ally</span>")
-    .replaceAll("target"                ,"<span class='ZZZZ'>target</span>")
-    .replaceAll("enemy"                 ,"<span class='ZZZZ'>enemy</span>")
-    .replaceAll("enemies"               ,"<span class='ZZZZ'>enemies</span>")
-    .replaceAll("["                     ,"")
-    .replaceAll("]"                     ,"")
-    .slice(4)
-    + "</p>"
+    .replaceAll("[Target]"              ,"")
 }
 
 const changeData = async (val, oldactive) => {
@@ -139,9 +119,9 @@ const changeData = async (val, oldactive) => {
     qs("#stat_weapon_ammo").innerHTML=val.weapon.max_ammo+ " ammunitions";
     qs("#stat_weapon_element").innerHTML=val.weapon.attack_type
 
-    qs("#stat_hp").innerHTML = minhp
-    qs("#stat_att").innerHTML = minatt
-    qs("#stat_def").innerHTML = mindef
+    qs("#stat_hp").innerHTML = val.max_hp.toLocaleString();
+    qs("#stat_att").innerHTML = val.max_atk.toLocaleString();
+    qs("#stat_def").innerHTML =  val.max_def.toLocaleString();
 
     //show the class image and drive tier, next to stats 
     qs("#stat_class").innerHTML = val.class
@@ -151,15 +131,15 @@ const changeData = async (val, oldactive) => {
     // show skills
     hideSkill()
 
-    qs("#SkillRegularHeader").innerHTML = "TO BE ADDED WITH RELEASE";
+    qs("#SkillRegularHeader").innerHTML = "Regular Attacks";
     qs("#Skill1Header").innerHTML = val.skill1_name;
     qs("#Skill2Header").innerHTML = val.skill2_name;
     qs("#SkillBurstHeader").innerHTML = val.ulti_name;
 
-    qs("#SkillRegularDesc").innerHTML = "TO BE ADDED WITH RELEASE";
-    qs("#Skill1Desc").innerHTML   =   formatSkill(await skillValues(val.skill1_description, val.skill1_id));
-    qs("#Skill2Desc").innerHTML   =   formatSkill(await skillValues(val.skill2_description, val.skill2_id));
-    qs("#SkillBurstDesc").innerHTML = formatSkill(await skillValues(val.ulti_description, val.ulti_skill_id));
+    qs("#SkillRegularDesc").innerHTML = formatSkill(val.regular);
+    qs("#Skill1Desc").innerHTML   =   formatSkill(val.skill1_description);
+    qs("#Skill2Desc").innerHTML   =   formatSkill(val.skill2_description);
+    qs("#SkillBurstDesc").innerHTML = formatSkill(val.ulti_description);
 
     showSkill(currentSkill)
 

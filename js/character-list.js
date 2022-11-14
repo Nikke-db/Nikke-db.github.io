@@ -11,38 +11,28 @@ async function initJSON() {
     const response = await fetch('js/json/Characters.json');
     const json = await response.json()
 
-    const statresp = await fetch('js/json/CharacterStatTable.json')
-    const statjson = await statresp.json()
-
-    if (current_sort==="min-hp" ||current_sort==="min-atk" || current_sort==="min-def" ){
+    if (current_sort==="max_hp" ||current_sort==="max_atk" || current_sort==="max_def" ){
         let stat;
         switch (current_sort){
-            case "min-hp": stat = "level_hp"; break;
-            case "min-atk":stat = "level_attack"; break;
-            case "min-def":stat = "level_defence"; break;
+            case "max_hp": stat = "max_hp"; break;
+            case "max_atk":stat = "max_atk"; break;
+            case "max_def":stat = "max_def"; break;
         }
-        json.map((val)=>{
-            
-            statjson.records.map((statval)=>{
-                if (val.stat_enhance_id===statval.group && statval.level === 1){
-                    val.stat = statval[stat]
-                }
-            })
-        })
         
         if (ascending) {
-            json.sort(function (a, b) {
-                return +(a.stat - b.stat);
-            })
+            await json.sort(function (a, b) {
+                return +(a.max_hp - b.max_hp);
+            })            
         } else {
             json.sort(function (a, b) {
-                return -(a.stat - b.stat);
+                return -(a[stat] - b[stat]);
             })
         }
+        // console.log(json)
 
     }else{
         if (ascending) {
-            json.sort(function (a, b) {
+            await json.sort(function (a, b) {
                 return +(a[current_sort].localeCompare(b[current_sort]));
             })
         } else {
@@ -51,6 +41,8 @@ async function initJSON() {
             })
         }
     }
+
+    console.log(json)
 
     json.map((val) => {
         
@@ -67,6 +59,9 @@ async function initJSON() {
         liste_item.setAttribute('classe', val.class);
         liste_item.setAttribute('drive', val.drive_tier);
         liste_item.setAttribute('id', val.id);
+        liste_item.setAttribute('max_hp', val.max_hp);
+        liste_item.setAttribute('max_atk',val.max_atk);
+        liste_item.setAttribute('max_def',val.max_def)
 
         liste_item.classList.add("charDiv")
 
