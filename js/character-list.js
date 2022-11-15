@@ -67,9 +67,9 @@ async function initJSON() {
 
         liste_item.addEventListener("click", (e) => {
             // document.querySelector(".nav-btn").scrollIntoView()
-            e.target.classList.add("activeChar")
+            liste_item.classList.add("activeChar")
             changeData(val, oldactive)
-            oldactive = e.target
+            oldactive = liste_item
         })
         div.appendChild(liste_item) //div character list
     })
