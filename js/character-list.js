@@ -42,7 +42,7 @@ async function initJSON() {
         }
     }
 
-    console.log(json)
+    // console.log(json)
 
     json.map((val) => {
         
