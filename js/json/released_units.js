@@ -36,7 +36,7 @@ const RELEASED_UNITS = [
     'Lucilla', 
     'Ludmilla',
     'Maiden',
-    // 'Marian',
+    'Marian',
     'Mary', 
     'Maxine', 
     'Maxwell', 
