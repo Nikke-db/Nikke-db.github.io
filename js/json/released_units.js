@@ -37,7 +37,6 @@ const RELEASED_UNITS = [
     'Isabel',
     'Jackal',
     'Julia', 
-    'Agnet K',
     'Liberty', 
     'Liter',
     'Lucilla', 
