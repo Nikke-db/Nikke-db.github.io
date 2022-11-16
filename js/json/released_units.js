@@ -12,6 +12,7 @@ const RELEASED_UNITS = [
     'Centi', 
     'Crow', 
     'Agent D',
+    'Agent K',
     'Delta', 
     'Diesel', 
     'Dolla',
