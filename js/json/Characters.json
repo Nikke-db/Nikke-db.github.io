@@ -1212,18 +1212,24 @@
         "class": "Attacker",
         "squad": "Matis",
         "name": "Laplace",
-        "skill1_name": "Charge it Up!",
-        "skill1_description": "Reload 10% of the remaining ammunition at once.",
-        "skill2_name": "Bullets for Days",
-        "skill2_description": "(Self) Ammo Capacity +10% for 10 sec",
-        "ulti_name": "Critical Rate UP!",
-        "ulti_description": "(Self) Critical Rate +10% for 10 sec\nThis skill can be used in the <color=#CF52FE>[Burst III]</color> stage.\nUsing this Burst Skill will cause the Burst Stage to enter <color=#FF4D4D>[Full Burst]</color>.",
+        "description": "The leader of Matis, the top squad in Missilis. She more than lives up to her heroic reputation inside the Ark, which goes unquestioned.",
+        "regular":"■ Affects target(s).<br/>$col Deals 63.11% of ATK as damage.<br/>Charge Time: 1 sec.<br/>Full Charge Damage: 250% of damage.$fcol",
+        "skill1_name": "Hero Vision",
+        "skill1_description": "■ Activates when attacking with Full Charge. Affects self.<br/>$col Hero Vision: Explosion Range ▲ 3.57%, stacks up to 5 time(s) and lasts for 5 sec.$fcol",
+        "skill2_name": "Hero Bomber",
+        "skill2_description": "■ Activates when the last bullet hits the target. Affects the target.<br/>$col Deals 81.66% of ATK as additional damage.$fcol<br/>■ Activates when hitting the Boss Parts. Affects the target.<br/>$col Deals 14.78% of ATK as additional damage.$fcol",
+        "ulti_name": "Laplace Buster",
+        "ulti_description": "■ Affects self.<br/>$col Change the Weapon in use:<br/>Max Damage: 897.6% of ATK<br/>Damage Over Time: 14.52% of ATK<br/>Last for: 5 sec<br/>Additional Effect: Pierce<br/>$fcol■ Affects the same enemy unit(s) when Hero Vision is fully stacked.<br/>$col Deals 11.9% of ATK as true damage.$fcol",
         "weapon": {
             "weapon_type": "RL",
-            "attack_type": "Metal",
-            "max_ammo": 6
+            "attack_type": "Iron",
+            "max_ammo": 6,
+            "reload": 2.33
         },
-        "drive_tier": "III"
+        "drive_tier": "III",
+        "max_atk":25554,
+        "max_def":4071,
+        "max_hp":583734
     },
     {
         "id": "c282",

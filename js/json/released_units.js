@@ -38,6 +38,7 @@ const RELEASED_UNITS = [
     'Isabel',
     // 'Jackal',
     'Julia', 
+    'Laplace',
     'Liberty', 
     'Liter',
     'Lucilla', 
