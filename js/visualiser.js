@@ -60,6 +60,9 @@ const changeSpine = (id) => {
       // every listeners MUST be in changeSpine because
       // there aren't any spine currently, so if the listened divs
       // doesn't exist, it will break the code and nothing will work
+      if (currentspine !== ""){
+            currentspine.dispose();
+        }
 
       qs("#player-container").innerHTML = ""
 
