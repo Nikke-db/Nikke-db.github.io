@@ -28,24 +28,44 @@ input{
     height:50px;
     padding: 9px;
     border: white solid 2px;
+    margin-top: 20px;
 }
 .tool_menu:hover{
     cursor: pointer;
 }
 
-#level_up_div{
+#level_up_div,
+#income_calculator_div{
     border: rgb(199, 196, 196) solid 2px;
     border-top: none;
 }
-#calculator_result img{
+.result img{
     width: 30px;
 }
-#calculator_result,
-#calculator_error{
+.error,
+.result{
     display: none;
     padding-top: 10px;
     padding-bottom: 10px;
     width:100%;
     text-align: center;
     border-top: white 2px solid;
+}
+#income_calculator_div table{
+    margin-left: auto;
+    margin-right: auto;
+}
+#income_calculator_div form table tr td:first-of-type{
+    text-align: right;
+}
+#income_calculator_result td{
+    border: white 2px solid;
+    padding:10px
+}
+a{
+    color:white;
+    text-decoration: underline;
+}
+a:hover{
+    color:white;
 }

@@ -73,13 +73,82 @@
 
             <button class="btn btn-primary">Calculate</button>
         </form>
-        <div id="calculator_result">
+        <div id="calculator_result" class="result">
             To raise a character from level <span id="calc_level_min"></span> to <span id="calc_level_max"></span>, you will need:<br/><br/>
             <span id="calc_credit">1</span> <img src="https://cdn.discordapp.com/attachments/891090590048075786/1040028793328373830/im_1002.png" alt="Credits"><br><br>
             <span id="calc_exp_blue">2</span> <img src="https://cdn.discordapp.com/attachments/891090590048075786/1040028792992833606/im_1005.png" alt="Battle Data Set"><br><br>
             <span id="calc_exp_red">3</span> <img src="https://cdn.discordapp.com/attachments/891090590048075786/1040028704539168839/im_1006.png" alt="Core Dust">
         </div>
-        <div id="calculator_error">
+        <div id="calculator_error" class="error">
+
+        </div>
+    </div>
+
+    <div id="income_calculator_menu" class="tool_menu" data-bs-toggle="collapse" data-bs-target="#income_calculator_div">Outpost income calculator
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+          </svg>
+    </div>
+    <div class="collapse tool_content" id="income_calculator_div"><br/>
+        <h3>Outpost income calculator</h3>
+        <form>
+            <table>
+                <tr>
+                    <td>Current outpost level : </td>
+                    <td><input type="number" min="1" max="100" id="current_outpost_level" placeholder="from 1 to 100"/></td>
+                </tr>
+                <tr>
+                    <td>Current Credit boost (%) : </td>
+                    <td><input value="0" type="number" min="0" max="100" id="current_credit_boost" /></td>
+                </tr>
+                <tr>
+                    <td>Current Battle Data Set boost (%) : </td>
+                    <td><input value="0" type="number" min="0" max="100" id="current_battle_data_boost" /></td>
+                </tr>
+                <tr>
+                    <td>Current Core Dust boost (%) : </td>
+                    <td><input value="0" type="number" min="0" max="100" id="current_core_dust_boost" /></td>
+                </tr>
+            </table>
+            <a href="https://cdn.discordapp.com/attachments/891090590048075786/1046851027506307212/image.png" target="_blank">Where to find?</a>
+            
+            <br/><br/>
+
+            <button class="btn btn-primary">Calculate</button>
+        </form>
+        <div id="income_calculator_result" class="result">
+            <table>
+                <tr>
+                    <td></td>
+                    <td>Base</td>
+                    <td>Per minute</td>
+                    <td>Per hour</td>
+                    <td>24 hours</td>
+                </tr>
+                <tr>
+                    <td><img src="https://cdn.discordapp.com/attachments/891090590048075786/1040028793328373830/im_1002.png" alt="Credit"></td>
+                    <td id="income_credit_base"></td>
+                    <td id="income_credit_1m"></td>
+                    <td id="income_credit_1h"></td>
+                    <td id="income_credit_24h"></td>
+                </tr>
+                <tr>
+                    <td><img src="https://cdn.discordapp.com/attachments/891090590048075786/1040028792992833606/im_1005.png" alt="Battle Data"></td>
+                    <td id="income_battle_data_base"></td>
+                    <td id="income_battle_data_1m"></td>
+                    <td id="income_battle_data_1h"></td>
+                    <td id="income_battle_data_24h"></td>
+                </tr>
+                <tr>
+                    <td><img src="https://cdn.discordapp.com/attachments/891090590048075786/1040028704539168839/im_1006.png" alt="Core Dust"></td>
+                    <td id="income_core_dust_base"></td>
+                    <td id="income_core_dust_1m"></td>
+                    <td id="income_core_dust_1h"></td>
+                    <td id="income_core_dust_24h"></td>
+                </tr>
+            </table>
+        </div>
+        <div id="income_calculator_error" class="error">
 
         </div>
     </div>
@@ -111,5 +180,6 @@
 
     <script src="js/tools.js"></script>
     <script src="js/level_calculator.js"></script>
+    <script src="js/income_calculator.js"></script>
 </body>
 </html>
