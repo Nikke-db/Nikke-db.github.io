@@ -1,71 +1,101 @@
-:root{
+:root {
     --main-dark-theme: #212529;
-    --alt-dark-theme : #2f353a;
+    --alt-dark-theme: #2f353a;
 }
+
 h2,
-form{
+form {
     margin: 40px 0 40px 0;
 }
+
 h2,
 h3,
-form{
+form {
     text-align: center;
 }
-svg{
+
+svg {
     transition-duration: 0.25s;
 }
-input{
+
+input {
     width: 200px;
 }
 
 .tool_menu,
-.tool_content{
+.tool_content {
     width: 80vw;
     margin: 0 auto;
 }
-.tool_menu{
+
+.tool_menu {
     font-size: 20px;
-    height:50px;
+    height: 50px;
     padding: 9px;
     border: white solid 2px;
     margin-top: 20px;
 }
-.tool_menu:hover{
+
+.tool_menu:hover {
     cursor: pointer;
 }
 
 #level_up_div,
-#income_calculator_div{
+#income_calculator_div {
     border: rgb(199, 196, 196) solid 2px;
     border-top: none;
 }
-.result img{
+
+.result img {
     width: 30px;
 }
+
 .error,
-.result{
+.result {
     display: none;
     padding-top: 10px;
     padding-bottom: 10px;
-    width:100%;
+    width: 100%;
     text-align: center;
     border-top: white 2px solid;
 }
-#income_calculator_div table{
+
+#income_calculator_div table {
     margin-left: auto;
     margin-right: auto;
 }
-#income_calculator_div form table tr td:first-of-type{
+
+#income_calculator_div form table tr td:first-of-type {
     text-align: right;
 }
-#income_calculator_result td{
+
+#income_calculator_result td {
     border: white 2px solid;
-    padding:10px
+    padding: 10px
 }
-a{
-    color:white;
+
+#income_calculator_div a {
+    color: white;
     text-decoration: underline;
 }
-a:hover{
-    color:white;
+
+#income_calculator_div a:hover {
+    color: white;
+}
+
+@media (max-width:950px) {
+
+    .tool_menu,
+    .tool_content {
+        width: 95vw;
+        margin: 0 auto;
+    }
+
+    .tool_menu{
+        margin-top: 20px;
+    }
+
+    #income_calculator_div table input{
+        width: 50px;
+    }
 }
