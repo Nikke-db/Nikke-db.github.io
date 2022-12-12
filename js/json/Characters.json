@@ -2378,5 +2378,31 @@
         "max_atk":17059,
         "max_def":5015,
         "max_hp":711171
+    },
+    {
+        "id":"c121",
+        "name":"Anne: Miracle Fairy",
+        "class": "Supporter",
+        "drive_tier":"II",
+        "manufacturer":"MISSILIS",
+        "rarity":"SSR",
+        "squad":"Recall & Release",
+        "description":"Anne after being rebord as a winter spirit upon receiving gifts from Rupee.<br/>Rupee's infectious energy has made her more cheerful and optimistic than ever before.",
+        "regular":"■ Affects target(s).<br/>$col Deals 61.3% of ATK as damage.<br/>Charge Time: 1 sec.<br/>Full Charge Damage: 250% of damage.$fcol",
+        "skill1_name": "Fairy Dance",
+        "skill1_description":"■ Affects all Supporter allies. Activates after 3 normal attack(s).<br/>$colRecover 6.07% of attack damage as HP over 5 sec.$fcol",
+        "skill2_name": "Fairy's Jest",
+        "skill2_description": "■ Affects all allies. Activates when above 90% HP.<br/>$colHP Potency ▲ 23.46%.$fcol<br/>■ Activates when the last bullet hits the target while having over 90% HP. Affects all enemies.<br/>$colHP Potency ▼ 78.93% for 10 sec.$fcol",
+        "ulti_name":"Blue Butterfly Slumber",
+        "ulti_description":"■ Affects all Attacker allies.<br/>$col Recovers 38.61% of the caster's max HP as HP.<br/>ATK ▲ 77.22% for 10 sec.$fcol<br/>■ Affects1 fallen Attacker ally unit(s) randomly.<br/>$col Ressurect with 99% HP. Activates once per battle.$fcol",
+        "weapon":{
+            "attack_type":"Wind",
+            "max_ammo":6,
+            "reload":2.00,
+            "weapon_type":"RL"
+        },
+        "max_atk":21307,
+        "max_def":4485,
+        "max_hp":647453
     }
 ]
