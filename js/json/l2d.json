@@ -120,6 +120,10 @@
     "id": "c120"
   },
   {
+    "name":"Anne: Miracle Fairy",
+    "id": "c121"
+  },
+  {
     "name": "c122",
     "id": "c122"
   },
@@ -188,6 +192,10 @@
     "id": "c191"
   },
   {
+    "name": "Neve",
+    "id": "c193"
+  },
+  {
     "name": "Rupee",
     "id": "c200"
   },
@@ -198,6 +206,10 @@
   {
     "name": "Dolla",
     "id": "c202"
+  },
+  {
+    "name": "Rupee: Winter Shopper",
+    "id":"c203"
   },
   {
     "name": "Exia",

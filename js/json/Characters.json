@@ -2326,5 +2326,31 @@
         "drive_tier":"I",
         "manufacturer":"TETRA",
         "rarity":"SSR"
+    },
+    {
+        "id": "c193",
+        "name" : "Neve",
+        "description": "A Nikke subordinate of the Unlimited Squad, she is always searching for polar bears.<br/>Has a proclivity for hibernating, as she feels imitating the behavior of polar bears is the key to finding them.",
+        "squad": "Unlimited",
+        "regular": "■ Affects target(s).<br/>$col Deals 201.5% of ATK as damage.$fcol",
+        "skill1_name":"Bear Power",
+        "skill1_description": "■ Affects 1 enemy unit(s) with the lowest HP.<br/>$colDeals 145.45% of ATK as damage.$fcol",
+        "skill2_name": "Hibernation",
+        "skill2_description": "■ Activates when entering Full Burst. Affects self.<br/>$fcolDeals Pierce for 2 round(s).<br/>ATK ▲ 124.8% for 2 round(s).$fcol",
+        "ulti_name":"Roar",
+        "ulti_description": "■ Affects self.<br/>$colCritical rate ▲ 31.95% for 20 sec.<br/>Hit Rate ▲ 22.04% for 20 sec.$fcol",
+        "weapon":{
+            "attack_type":"Water",
+            "max_ammo":9,
+            "reload":1.5,
+            "weapon_type":"SG"
+        },
+        "class" :"Attacker",
+        "drive_tier":"III",
+        "manufacturer":"TETRA",
+        "rarity":"SR",
+        "max_atk":12982,
+        "max_def":2045,
+        "max_hp":252742
     }
 ]
