@@ -2352,5 +2352,31 @@
         "max_atk":12982,
         "max_def":2045,
         "max_hp":252742
+    },
+    {
+        "id" : "c203",
+        "name":"Rupee: Winter Shopper",
+        "description":"Rupee dressed up in a Santa Claus costume, which she had done to deliver gifts and spear the Christmas cheer to everyone this winter. The first white Christmas in 15 years has Rupee incredibly busy.",
+        "class":"Defender",
+        "drive_tier":"I",
+        "manufacturer":"TETRA",
+        "rarity":"SSR",
+        "squad":"Talentum",
+        "regular":"■ Affects target enemy.<br/>$col Deals 13.65% of ATK as damage.$fcol",
+        "skill1_name":"Winter Premium",
+        "skill1_description":"■ Activates when the last bullet hits the target. Affects all allies.<br/>$col DEF ▲ 19.02% for 5 sec.$fcol",
+        "skill2_name": "VIP Gift",
+        "skill2_description": "■ Affects all allies. Activates when any ally unit uses Burst Skills.<br/>$colShopping: DEF ▲ 1.33%, stacks up to 4 time(s) and lasts for 20 sec.$fcol<br/>■ Affects all allies. Activates when the caster reaches max stacks of Shopping at the end of Full Burst.<br/>$colBurst gauge loading speed ▲ 7.9% for 5 sec.$fcol",
+        "ulti_name":"Shopaholic Date",
+        "ulti_description": "■ Affects self.<br/>$col Attract: Taunt all enemies for 5 sec.<br/>Recover 50.47% of attack damage as HP for 10 sec.$fcol<br/>■ Affects all allies.<br/>$colReload speed ▲ 63.17% for 10 sec.<br/>Re-enter Burst Skill Stage 1.$fcol",
+        "weapon":{
+            "attack_type": "Electric",
+            "max_ammo":60,
+            "reload":1.00,
+            "weapon_type":"AR"
+        },
+        "max_atk":17059,
+        "max_def":5015,
+        "max_hp":711171
     }
 ]

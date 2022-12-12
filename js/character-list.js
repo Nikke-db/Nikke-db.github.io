@@ -28,7 +28,6 @@ async function initJSON() {
                 return -(a[stat] - b[stat]);
             })
         }
-        // console.log(json)
 
     }else{
         if (ascending) {
@@ -50,7 +49,7 @@ async function initJSON() {
             
         const liste_item = document.createElement("li");
 
-        liste_item.innerHTML = "<img src='images/sprite/si_" + val.id + "_00_s.png'/>" + val.name
+        liste_item.innerHTML = "<img src='images/sprite/si_" + val.id + "_00_s.png'/>" + "<span>"+val.name+"</span>"
 
         // attributes for filters
         liste_item.setAttribute('manufacturer', val.manufacturer);

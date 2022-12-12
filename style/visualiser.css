@@ -76,6 +76,12 @@ body {
     border-radius: 10px;
     user-select: none;
     transition: 0.5s;
+    display: flex;
+}
+.charDiv span{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 .charDiv:hover {
@@ -89,6 +95,7 @@ body {
 .charDiv img {
     border-radius: 10px;
     height: 50px;
+    margin-right:10px
 }
 
 #l2dbgcolorchanger{

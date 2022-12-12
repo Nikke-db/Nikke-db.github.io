@@ -130,6 +130,12 @@
     margin-right: 5px;
     user-select: none;
     transition: 0.5s;
+    display: flex;
+}
+.charDiv span{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 .charDiv:hover{
     background-color: var(--alt-dark-theme) ;
