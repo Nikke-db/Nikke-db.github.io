@@ -1313,24 +1313,29 @@
     },
     {
         "id": "c260",
-        "description": "A plain and delicate girl who sold out mankind.\nA member of the Queen's elite squad The Heretics.",
+        "description": "A plain and delicate girl who sold out mankind. A member of the Queen's elite squad The Heretics.",
         "rarity": "SSR",
         "manufacturer": "PILGRIM",
         "class": "Attacker",
-        "squad": "Heretic",
-        "name": "Mordernia",
-        "skill1_name": "Declaration",
-        "skill1_description": "■ When shooting, there is a {description_value_01}% chance of gaining\r\n<color=#00AEFF>[Own] [Secondary Reload Speed {description_value_02}%] [lasts for {description_value_03} sec]</color>\r\n<color=#00AEFF>[Own] [Reload {description_value_04}%of ammunition] </color>\r\n■ When shooting, there is a {description_value_01}% chance of casting on enemies hit\r\n<color=#00AEFF>Self-destruction Code: [DEF {description_value_05}% ▼] [Max Stack: {description_value_04}] [lasts for {description_value_06} sec]</color>",
-        "skill2_name": "Judgment",
-        "skill2_description": "■ Cast\r\n<color=#00AEFF>[Metal Damage {description_value_01}%]</color> on top 5 enemy units with the highest DEF\r\n■ Gain\r\n<color=#00AEFF>[Metal Damage {description_value_03}% ▲] [lasts for {description_value_04} rounds]</color>\r\n■ Cast\r\n<color=#00AEFF>[Metal Damage {description_value_02}%]</color> on enemy whose Self-destruction Code reaches Max Stack",
-        "ulti_name": "Light",
-        "ulti_description": "■ Cast on all enemies\r\n<color=#00AEFF>[Apply on target] [Metal Damage {description_value_01}%]</color>\r\n■ When enemy dies, gain\r\n<color=#00AEFF>[Own] [ATK {description_value_02}% ▲] [lasts for {description_value_03} sec] [Max Stack: {description_value_04}]</color>\r\n<color=#00AEFF>[Own] [Critical Damage {description_value_04}% ▲] [lasts for {description_value_03} sec] [Max Stack: {description_value_04}]</color>",
+        "squad": "The Heretics",
+        "name": "Modernia",
+        "regular":"■ Affects target enemy.<br/>$col Deals 7.71% of ATK as damage.$fcol",
+        "skill1_name": "High-Speed Evolution",
+        "skill1_description": "■ Activates when normal attack hits. Affects the target(s).<br/>$col Deals 3.05% of ATK as additional damage.$fcol<br/>■ Activates when normal attacks hits 200 time(s). Affects self.<br/>$col Critical Damage ▲ 14.25%, stacks up to 5 time(s) and lasts for 10 sec.<br/>Max Ammunition Capacity ▼ 5.04%, stacks up to 5 time(s) and lasts for 10 sec.$fcol",
+        "skill2_name": "Giant Leap",
+        "skill2_description": "■ Affects all allies. Activates when entering Full Burst.<br/>$colHit Rate ▲ 8.56% for 15 sec.$fcol<br/>■ Affects self. Activates when normal attacks hits 200 time(s) during increasing Hit Rate status.<br/>$colATK ▲ 29.38% for 10 sec.$fcol",
+        "ulti_name": "New World",
+        "ulti_description": "■ Affects all allies.<br/>$colFull Burst Time ▲ 5 sec.$fcol<br/>■ Affects self.<br/>$colGrants unlimited ammunition for 15 sec.<br/>Destroy Mode:<br/>Extending the line of sight and auto-aim at all enemies within fire range. Stage target will be recognized as a single enemy regardless of its interuption parts.<br/> Deals 2.24% of ATK as damage for 15 sec.$fcol",
         "weapon": {
             "weapon_type": "MG",
-            "attack_type": "Energy",
-            "max_ammo": 300
+            "attack_type": "Fire",
+            "max_ammo": 300,
+            "reload": 2.30
         },
-        "drive_tier": "I"
+        "drive_tier": "III",
+        "max_atk":25554,
+        "max_def":3539,
+        "max_hp":583734
     },
     {
         "id": "c310",
