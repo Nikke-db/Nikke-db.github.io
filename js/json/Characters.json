@@ -1127,23 +1127,29 @@
     },
     {
         "id": "c111",
+        "description":"A Nikke subordinate of the Exotic Squad.<br/>Crow's loyal lackey.<br/>Fully prepared to do Crow's bidding at any moment.",
         "rarity": "SSR",
         "manufacturer": "MISSILIS",
-        "class": "Supporter",
+        "class": "Defender",
         "squad": "Exotic",
         "name": "Jackal",
-        "skill1_name": "Back from the Brink",
-        "skill1_description": "Recover 10% HP for the Squad member with the lowest HP.",
-        "skill2_name": "Speedy Recovery",
-        "skill2_description": "All Squad members' HP Potency +10% for 10 sec.",
-        "ulti_name": "Second Wind",
-        "ulti_description": "Recover 10% HP for all Squad members.\nThis skill can be used in the <color=#1BBE00>[Burst I]</color> stage.\nUsing this Burst Skill will cause the Burst Stage to enter <color=#F59C00>[Burst II]</color>.",
+        "regular": "■ Affects target(s).<br/>$col Deals 65.02% of ATK as damage.<br/>Charge Time: 1 sec.<br/>Full Charge Damage: 250% of damage.$fcol",
+        "skill1_name": "Happy Jackal",
+        "skill1_description": "■ Activates when attacked 10 time(s). Affects 1 enemy unit(s) with the highest Max HP<br/>$colDamage Taken ▲ 9.09% for 10 sec.<br/>ATK ▼ 9.09% for 10 sec.$fcol",
+        "skill2_name": "Jumpin' Jackal Flash",
+        "skill2_description": "■ Activates when entering battle. Affects self and 2 ally unit(s) with the highest ATK.<br/>$colShares damage taken for 120 sec.<br/>DEF ▲ 8.27% for 120 sec.$fcol",
+        "ulti_name": "Crazy Jackal",
+        "ulti_description": "■ Affects all allies.<br/>$colBurst Skill Damage to a single enemy ▲ 38.91% for 15 sec.<br/>DEF ▲ 14.69% for 10 sec.$fcol",
         "weapon": {
             "weapon_type": "RL",
-            "attack_type": "Metal",
-            "max_ammo": 6
+            "attack_type": "Iron",
+            "max_ammo": 6,
+            "reload":2.03
         },
-        "drive_tier": "I"
+        "drive_tier": "I",
+        "max_atk":17059,
+        "max_def":4900,
+        "max_hp":711171
     },
     {
         "id": "c240",
@@ -1275,21 +1281,27 @@
         "id": "c112",
         "rarity": "SSR",
         "manufacturer": "TETRA",
-        "class": "Supporter",
+        "class": "Attacker",
         "squad": "Exotic",
         "name": "Viper",
-        "skill1_name": "Quick Reload (All)",
-        "skill1_description": "All Squad members reload 10% of their remaining ammunition at once.",
-        "skill2_name": "Bullets for Days (All)",
-        "skill2_description": "All Squad members' Maximum Ammunition Capacity +10% for 10 sec.",
-        "ulti_name": "DEF UP!",
-        "ulti_description": "All Squad members' DEF +10% for 10 sec.\nThis skill can be used in the <color=#CF52FE>[Burst III]</color> stage.\nUsing this Burst Skill will cause the Burst Stage to enter <color=#FF4D4D>[Full Burst]</color>.",
+        "description":"Staff officer of the Exotic Squad<br/>She can manipulate any human with her verbal trickery and physical beauty.",
+        "regular":"■ Affects target(s).<br/>$col Deals 220.4% of ATK as damage.$fcol",
+        "skill1_name": "Snake Sense",
+        "skill1_description": "■ Activates when the target appear. Affects all allies.<br/>$colATK ▲ 28.98% for 10 sec.<br/>Hit Rate ▲ 11.13% for 10 sec.$fcol",
+        "skill2_name": "Snake Scale",
+        "skill2_description": "■ Affects self.<br/>$colHit Rate ▲ 3.43%$fcol<br/>■ Activates when entering Full Burst. Affects self.<br/>$colVamp: Excludes 1 ally unit from enemies' target for 10 sec. Loses effect when the caster takes damage. Invincible for 1 sec.$fcol",
+        "ulti_name": "Snake Bite",
+        "ulti_description": "■ Affects designated 1 enemy unit(s).<br/>$colDeals 462.85% of ATK as damage.$fcol<br/>■ Activates when the designated enemy unit(s) include the stage target. Affects the same enemy unit(s).<br/>$colDEF ▼ 19.83% for 10 sec.$fcol",
         "weapon": {
             "weapon_type": "SG",
-            "attack_type": "Metal",
-            "max_ammo": 9
+            "attack_type": "Water",
+            "max_ammo": 9,
+            "reload":1.70
         },
-        "drive_tier": "III"
+        "drive_tier": "II",
+        "max_atk": 25554,
+        "max_def":4012,
+        "max_hp":583734
     },
     {
         "id": "c280",
