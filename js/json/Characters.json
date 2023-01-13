@@ -1127,7 +1127,7 @@
     },
     {
         "id": "c111",
-        "description":"A Nikke subordinate of the Exotic Squad.<br/>Crow's loyal lackey.<br/>Fully prepared to do Crow's bidding at any moment.",
+        "description":"A Nikke subordinate of the Exotic Squad. Crow's loyal lackey. Fully prepared to do Crow's bidding at any moment.",
         "rarity": "SSR",
         "manufacturer": "MISSILIS",
         "class": "Defender",
@@ -1284,7 +1284,7 @@
         "class": "Attacker",
         "squad": "Exotic",
         "name": "Viper",
-        "description":"Staff officer of the Exotic Squad<br/>She can manipulate any human with her verbal trickery and physical beauty.",
+        "description":"Staff officer of the Exotic Squad. She can manipulate any human with her verbal trickery and physical beauty.",
         "regular":"■ Affects target(s).<br/>$col Deals 220.4% of ATK as damage.$fcol",
         "skill1_name": "Snake Sense",
         "skill1_description": "■ Activates when the target appear. Affects all allies.<br/>$colATK ▲ 28.98% for 10 sec.<br/>Hit Rate ▲ 11.13% for 10 sec.$fcol",
@@ -1534,20 +1534,26 @@
         "rarity": "SSR",
         "manufacturer": "MISSILIS",
         "class": "Attacker",
-        "squad": "RealKindness",
+        "squad": "Real Kindness",
         "name": "Guilty",
-        "skill1_name": "Neon's Special Bullet",
-        "skill1_description": "■ When the effect is cast\r\n<color=#00AEFF>[Target's] [Magazine Capacity {description_value_01} ▲] [lasts for {description_value_02} sec]</color>\r\n■ While in Full Burst, also cast\r\n<color=#00AEFF>[Apply on target] [Reload {description_value_03} rounds of ammunition]</color>",
-        "skill2_name": "Long Live Firepower",
-        "skill2_description": "■ Cast\r\n<color=#00AEFF>[Apply on target] [Critical Rate {description_value_01}% ▲] [lasts for {description_value_02} sec]</color> on friendly Squad\r\n■ While in Full Burst, also cast\r\n<color=#00AEFF>[Apply on target] [Metal ATK {description_value_03}% ▲] [lasts for {description_value_04} sec]</color>",
-        "ulti_name": "Fire!",
-        "ulti_description": "■ Cast\r\n<color=#00AEFF>[Apply on target] [Metal Damage {description_value_02}%] on {description_value_01}</color> enemy with the highest DEF\r\n■ If own HP is lower than {description_value_03}%, also cast\r\n<color=#00AEFF>[Apply on All allies] [Metal ATK {description_value_04}% ▲] [lasts for {description_value_05} sec]</color>\r\n<color=#00AEFF>[Apply on target] [Lock-on] [lasts for {description_value_06} sec]</color>",
+        "description":"A Nikke subordinate of the Real Kindness Squad. Possesses incredible strength. Detained in the Rehabilitation Center for causing severe bodily damage to over 40 Nikkes within 2 weeks.",
+        "regular":"■ Affects target(s).<br/>$col Deals 231.4% of ATK as damage.$fcol",
+        "skill1_name": "Mind if I Borrow This?",
+        "skill1_description": "■ Activates after landing 6 normal attack(s). Affects self.<br/>$colMind if I Borrow This?: Duplicate 8.81% ATK of ally with the highest ATK, stacks up to 5 time(s) and lasts for 10 sec.$fcol",
+        "skill2_name": "Time to play",
+        "skill2_description": "■ Activates after landing 12 normal attack(s). Affects all Wind type allies.<br/>$colIncreases stack count of buffs by 1.<br/>ATK ▲ 4.13% for 10 sec.$fcol",
+        "ulti_name": "Gotcha...",
+        "ulti_description": "■ Affects 1 enemy unit(s) with the highest DEF.<br/>$colDeals 284.32% of ATK as damage.$fcol<br/>■ Affects the same target(s) when Mind if I Borrow This? is fully stacked.<br/>$colDEF ▼ 20.25% for 5 sec.<br/>Deals 277.71% of ATK as additional damage.$fcol",
         "weapon": {
-            "weapon_type": "AR",
-            "attack_type": "Energy",
-            "max_ammo": 60
+            "weapon_type": "SG",
+            "attack_type": "Wind",
+            "max_ammo": 9,
+            "reload":2.67
         },
-        "drive_tier": "I"
+        "drive_tier": "II",
+        "max_atk":25554,
+        "max_def":4012,
+        "max_hp":583734
     },
     {
         "id": "c261",
@@ -1613,21 +1619,27 @@
         "id": "c401",
         "rarity": "SSR",
         "manufacturer": "MISSILIS",
-        "class": "Attacker",
-        "squad": "RealKindness",
-        "name": "Shin",
-        "skill1_name": "Neon's Special Bullet",
-        "skill1_description": "■ When the effect is cast\r\n<color=#00AEFF>[Target's] [Magazine Capacity {description_value_01} ▲] [lasts for {description_value_02} sec]</color>\r\n■ While in Full Burst, also cast\r\n<color=#00AEFF>[Apply on target] [Reload {description_value_03} rounds of ammunition]</color>",
-        "skill2_name": "Long Live Firepower",
-        "skill2_description": "■ Cast\r\n<color=#00AEFF>[Apply on target] [Critical Rate {description_value_01}% ▲] [lasts for {description_value_02} sec]</color> on friendly Squad\r\n■ While in Full Burst, also cast\r\n<color=#00AEFF>[Apply on target] [Metal ATK {description_value_03}% ▲] [lasts for {description_value_04} sec]</color>",
-        "ulti_name": "Fire!",
-        "ulti_description": "■ Cast\r\n<color=#00AEFF>[Apply on target] [Metal Damage {description_value_02}%] on {description_value_01}</color> enemy with the highest DEF\r\n■ If own HP is lower than {description_value_03}%, also cast\r\n<color=#00AEFF>[Apply on All allies] [Metal ATK {description_value_04}% ▲] [lasts for {description_value_05} sec]</color>\r\n<color=#00AEFF>[Apply on target] [Lock-on] [lasts for {description_value_06} sec]</color>",
+        "class": "Defender",
+        "squad": "Real Kindness",
+        "name": "Sin",
+        "description":"The leader of the Real Kindness Squad. She brainwashes others with her words. This ability, in combination with some additional verbal gymnastics, makes her capable of turning anyone into her mindless puppet.",
+        "regular":" ■ Affects target enemy.<br/>$col Deals 13.65% of ATK as damage.$fcol",
+        "skill1_name": "Full Stop",
+        "skill1_description": "■ Activates when the last round of ammunition hits. Affects self.<br/>$colDuplicate 15.03% HP of ally with the highest HP, lasts for 5 sec.<br/>Attract: Taunt all enemies for 5 sec.$fcol",
+        "skill2_name": "Hurry Up",
+        "skill2_description": "■ Activates after the Full Burst ends. Affects self.<br/>$colBurst gauge loading speed ▲ 16.17% for 5 sec.$fcol<br/>■ Activates when using Burst Skill. Affects self.<br/>$colEffect changes according to the number of activation time(s). Previous effects trigger repeatedly.<br/>Once: Recovers 15.3% of ATK damage as HP, lasts for 5 sec.<br/>Twice: HP Potency ▲ 51% for 5 sec.<br/>Thrice: DEF ▲ 43.2% for 5 sec.$fcol",
+        "ulti_name": "Words can Kill",
+        "ulti_description": "■ Activates when enemy unit(s) (excluding Nikkes) are more than 4. Affects all enemies.<br/>$colDamage Taken ▲ 12.23% for 5 sec.$fcol<br/>■ Affects enemies within attack range.<br/>$colDeals 176.32% of ATK as damage.$fcol",
         "weapon": {
             "weapon_type": "AR",
-            "attack_type": "Energy",
-            "max_ammo": 60
+            "attack_type": "Electric",
+            "max_ammo": 60,
+            "reload":1.00
         },
-        "drive_tier": "I"
+        "drive_tier": "II",
+        "max_atk":17059,
+        "max_def":5015,
+        "max_hp":711171
     },
     {
         "id": "c371",
@@ -2421,5 +2433,31 @@
         "max_atk":21307,
         "max_def":4485,
         "max_hp":647453
+    },
+    {
+        "id":"c402",
+        "class":"Supporter",
+        "description":"A master escape artist who can break out of any prison where she is being kept captive. A highly amiable individual who excels in wheeling and dealing. She is always the life of the party at the Rehabilitation Center.",
+        "drive_tier":"II",
+        "manufacturer":"MISSILIS",
+        "max_atk":21307,
+        "max_def":3999,
+        "max_hp":647453,
+        "name":"Quency",
+        "rarity":"SSR",
+        "regular":"■ Affects target enemy.<br/>$col Deals 4.47% of ATK as damage.$fcol",
+        "skill1_name":"New Route",
+        "skill1_description":"■ Activates after 60 normal attack(s). Affects self.<br/>$colDuplicate 12.42% HP of ally with the highest HP, lasts for 10 sec.$fcol",
+        "skill2_name":"Hidden Accomplice",
+        "skill2_description":"■ Affects 2 ally unit(s) with the highest ATK.<br/>$colATK ▲ 16.11% for 5 sec.$fcol",
+        "ulti_name":"The Great Escape",
+        "ulti_description":"■ Affects 2 ally unit(s) with the highest ATK.<br/>$colMax HP ▲ 43.87 for 5 sec.<br/>Critical Damage ▲ 29.9% for 10 sec.$fcol",
+        "squad":"Real Kindness",
+        "weapon":{
+            "attack_type":"Electric",
+            "max_ammo":120,
+            "reload":1.67,
+            "weapon_type":"SMG"
+        }
     }
 ]
