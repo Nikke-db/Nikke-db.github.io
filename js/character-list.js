@@ -135,6 +135,7 @@ let fmg = false,
     fmi = false,
     ftl = false,
     fpi = false,
+    fab = false,
     fsup = false,
     fr = false,
     fi = false,
@@ -158,6 +159,7 @@ const setFilters = (input) => {
         case "MI": fmi = input.checked; break;
         case "TL": ftl = input.checked; break;
         case "PI": fpi = input.checked; break;
+        case "AB": fab = input.checked; break;
         case "R": fr = input.checked; break;
         case "I": fi = input.checked; break;
         case "II": fii = input.checked; break;
@@ -166,12 +168,13 @@ const setFilters = (input) => {
 }
 
 const checkManufacturer = (unit) => {
-    if (!fpi && !fel && !fmi && !ftl) return true
+    if (!fpi && !fel && !fmi && !ftl && !fab) return true
     switch (unit) {
         case "PILGRIM": if (fpi) return true; break;
         case "ELYSION": if (fel) return true; break;
         case "MISSILIS": if (fmi) return true; break;
         case "TETRA": if (ftl) return true; break;
+        case "ABNORMAL": if (fab) return true; break;
     }
 }
 
