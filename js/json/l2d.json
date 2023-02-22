@@ -492,12 +492,20 @@
     "id": "c904"
   },
   {
+    "name": "Rian",
+    "id":"c905"
+  },
+  {
     "name": "Shifty",
     "id": "c907"
   },
   {
     "name": "Shifty_old",
     "id": "c907_01"
+  },
+  {
+    "id":"c908",
+    "name":"Papillon"
   },
   {
     "name": "c910",
@@ -534,6 +542,10 @@
   {
     "name": "Einkk",
     "id": "c928"
+  },
+  {
+    "name":"Johan",
+    "id":"c925"
   },
   {
     "name": "c932",
