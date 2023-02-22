@@ -334,6 +334,7 @@
         "class": "Attacker",
         "squad": "Master Hand",
         "name": "Julia",
+        "regular":"■ Affects target enemy.<br/>$col Deals 14.07% of ATK as damage.$fcol",
         "skill1_name": "Decrescendo",
         "skill1_description": "■ Affects self.<br/>$col Critical Rate ▲ 26.04% for 10 sec.$fcol",
         "skill2_name": "Crescendo",
