@@ -2472,5 +2472,83 @@
             "reload":1.67,
             "weapon_type":"SMG"
         }
+    },
+    {
+        "id":"c802",
+        "class":"Supporter",
+        "description":"Member of Public Safety Devil Extermination Special Division 4. Hayakawa's senior officer and buddy.",
+        "drive_tier":"II",
+        "manufacturer":"ABNORMAL",
+        "max_atk":10824,
+        "max_def":1992,
+        "max_hp":280314,
+        "name":"Himeno",
+        "rarity":"SR",
+        "regular":" ■ Affects target(s).<br/>$col Deals 70.89% of ATK as damage.<br/>Charge Time: 1 sec.<br/>Full Charge Damage: 250% of damage.$fcol",
+        "skill1_name":"Weak Spot Attack",
+        "skill1_description":"■ Activates when hitting a target with Full Charge. Affects the target.<br/>$colDEF ▼ 6.94% for 3 sec.$fcol",
+        "skill2_name":"Invisible Hand",
+        "skill2_description":"■ Affects all allies with sniper rifles.<br/>$colATK ▲ 10.98% for 10 sec.<br/>Max Ammunition Capacity ▲ 2 round(s) for 10 sec.$fcol",
+        "ulti_name":"Ghost",
+        "ulti_description":"■ Affects 1 ally unit(s) with the highest ATK.<br/>$colCharge Damage ▲ 23.76% for 10 sec.<br/>Critical Rate ▲ 10.35% for 10 sec.$fcol",
+        "squad":"Devil Hunter",
+        "weapon":{
+            "attack_type":"Wind",
+            "max_ammo":6,
+            "reload":2.30,
+            "weapon_type":"SR"
+        }
+    },
+    {
+        "id":"c801",
+        "class":"Attacker",
+        "description":"Member of Public Safety Devil Extermination Special Division 4. Blood Devil fiend.",
+        "drive_tier":"III",
+        "manufacturer":"ABNORMAL",
+        "max_atk":25554,
+        "max_hp":583734,
+        "max_def":4071,
+        "name":"Power",
+        "rarity":"SSR",
+        "regular":"■ Affects target(s).<br/>$col Deals 61.3% of ATK as damage.<br/>Charge Time: 1 sec.<br/>Full Charge Damage: 250% of damage.$fcol",
+        "skill1_name":"Blood Fiend",
+        "skill1_description": "■ Activates when attacking with Full Charge. Affects self.<br/>$colBlood Fiend: ATK ▲ 6.4%, stacks up to 5 time(s) and lasts for 3 sec.$fcol",
+        "skill2_name":"Blood Explosion",
+        "skill2_description":"■ Activates when at Max Stacks of Blood Fiend after landing 18 normal attack(s). Affects self.<br/>$colExplosion Radius ▲ 38.61% for 10 sec.<br/>Reload 100%. Activates 1 time(s) per battle.$fcol",
+        "ulti_name":"Blood Hammer",
+        "ulti_description":"■ Affects 1 enemy unit(s) with the highest ATK.<br/>$colDeals 1584% of ATK as damage.$fcol<br/>■ Affects the same target(s) when Blood Fiend is fully stacked.<br/>$colDeals 1584% of ATK as additional damage.$fcol",
+        "squad":"Devil Hunter",
+        "weapon":{
+            "attack_type":"Fire",
+            "max_ammo":6,
+            "reload":2.00,
+            "weapon_type":"RL"
+        }
+    },
+    {
+        "id":"c800",
+        "class":"Defender",
+        "description":"Member of Public Safety Devil Extermination Special Division 4. A devil hunter working directly under the Chief Cabinet Secretary.",
+        "drive_tier":"II",
+        "manufacturer":"ABNORMAL",
+        "max_atk":17059,
+        "max_def":4364,
+        "max_hp":711171,
+        "name":"Makima",
+        "rarity":"SSR",
+        "regular":"■ Affects target enemy.<br/>$col Deals 8.73% of ATK as damage.$fcol",
+        "skill1_name":"Show Me What You Got",
+        "skill1_description":"■ Activates when attacked 20 time(s). Affects all allies.<br/>$colReloading Speed ▲ 36.96% for 10 sec.<br/>DEF ▲ 14.78% for 10 sec.$fcol",
+        "skill2_name":"Seems I've Been Noticed",
+        "skill2_description":"■ Activates after landing 120 normal attack(s). Affects self.<br/>$colAttact: Taunt all enemies for 3 sec.$fcol<br/>■ Activates when taking lethal damage. Affect self.<br/>$colGains indomitability for 7 sec. Activates 1 time per battle.<br/>Cooldown of Burst Skill ▼ 11.58 sec.$fcol",
+        "ulti_name":"Can You Be Quiet?",
+        "ulti_description":"■ Affects self.<br/>$colGain Pierce for 10 sec.<br/>Recover 34.02% of attack damage as HP over 10 sec.$fcol<br/>■ Activates during indomitability. Affects self.<br/>$colHP Potency ▲ 41.02% for 10 sec.$fcol",
+        "squad":"Devil Hunter",
+        "weapon":{
+            "attack_type":"Water",
+            "max_ammo":120,
+            "reload":1.00,
+            "weapon_type":"SMG"
+        }
     }
 ]
