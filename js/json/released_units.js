@@ -68,6 +68,8 @@ const RELEASED_UNITS = [
     'N102', 
     'Neon',
     'Neve', 
+    'Nihilister',
+    'Nihilister Story',
     'Noah', 
     'Noise', 
     'Novel',

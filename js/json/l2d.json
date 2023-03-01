@@ -292,8 +292,12 @@
     "id": "c260"
   },
   {
-    "name": "Nihilista",
+    "name": "Nihilister",
     "id": "c261"
+  },
+  {
+    "name": "Nihilister Story",
+    "id": "c261_story"
   },
   {
     "name": "Liberelli",
