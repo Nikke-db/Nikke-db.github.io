@@ -55,6 +55,7 @@ const RELEASED_UNITS = [
     'Ludmilla',
     'Maiden',
     'Makima',
+    'Makima Coat Off',
     'Marian',
     'Mary', 
     'Maxine', 
