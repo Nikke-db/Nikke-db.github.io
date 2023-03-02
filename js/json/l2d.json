@@ -12,6 +12,10 @@
     "id": "c011"
   },
   {
+    "name": "Neon Blind Bullet",
+    "id": "c011_01"
+  },
+  {
     "name": "Anis",
     "id": "c012"
   },
@@ -30,6 +34,10 @@
   {
     "name": "Poli",
     "id": "c030"
+  },
+  {
+    "name": "Poli Sweet Holic",
+    "id": "c030_01"
   },
   {
     "name": "Miranda",
@@ -60,12 +68,20 @@
     "id": "c070"
   },
   {
+    "name": "Brid Model Worker",
+    "id": "c070_01"
+  },
+  {
     "name": "Soline",
     "id": "c071"
   },
   {
     "name": "Diesel",
     "id": "c072"
+  },
+  {
+    "name": "Diesel Black Sunday",
+    "id": "c072_01"
   },
   {
     "name": "Centi",
@@ -102,6 +118,10 @@
   {
     "name": "Maxwell",
     "id": "c102"
+  },
+  {
+    "name": "Maxwell Mechanic White",
+    "id": "c102_01"
   },
   {
     "name": "Crow",
@@ -148,6 +168,10 @@
     "id": "c141"
   },
   {
+    "name": "Milk Extreme Fighter",
+    "id": "c141_01"
+  },
+  {
     "name": "Frima",
     "id": "c142"
   },
@@ -168,6 +192,10 @@
     "id": "c170"
   },
   {
+    "name": "Privaty Government Grunt",
+    "id": "c170_01"
+  },
+  {
     "name": "Yulha",
     "id": "c171"
   },
@@ -182,6 +210,10 @@
   {
     "name": "Maiden",
     "id": "c181"
+  },
+  {
+    "name": "Maiden Covert Nurse",
+    "id": "c181_01"
   },
   {
     "name": "Ludmilla",
