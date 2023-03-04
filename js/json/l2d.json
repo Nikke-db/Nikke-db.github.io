@@ -8,6 +8,10 @@
     "id": "c010_01"
   },
   {
+    "name": "Rapi White Promise",
+    "id": "c010_02"
+  },
+  {
     "name": "Neon",
     "id": "c011"
   },
@@ -30,6 +34,10 @@
   {
     "name": "Signal",
     "id": "c022"
+  },
+  {
+    "name": "Signal Dramatic Chocolate",
+    "id": "c022_01"
   },
   {
     "name": "Poli",
@@ -100,6 +108,10 @@
     "id": "c090"
   },
   {
+    "name": "Emma Color Me Red",
+    "id": "c090_01"
+  },
+  {
     "name": "Vesti",
     "id": "c091"
   },
@@ -164,6 +176,10 @@
     "id": "c140"
   },
   {
+    "name": "Sugar Hard-Boiled",
+    "id": "c140_01"
+  },
+  {
     "name": "Milk",
     "id": "c141"
   },
@@ -178,6 +194,10 @@
   {
     "name": "Julia",
     "id": "c150"
+  },
+  {
+    "name": "Julia Mild Nocturne",
+    "id": "c150_01"
   },
   {
     "name": "Yuni",
@@ -240,12 +260,20 @@
     "id": "c202"
   },
   {
+    "name": "Dolla Dark Rose",
+    "id": "c202_01"
+  },
+  {
     "name": "Rupee: Winter Shopper",
     "id":"c203"
   },
   {
     "name": "Exia",
     "id": "c210"
+  },
+  {
+    "name": "Exia Join The Nerds",
+    "id": "c210_01"
   },
   {
     "name": "c211",
@@ -446,6 +474,10 @@
   {
     "name": "Helm",
     "id": "c352"
+  },
+  {
+    "name": "Helm Chandelier",
+    "id": "c352_01"
   },
   {
     "name": "Kilo",
