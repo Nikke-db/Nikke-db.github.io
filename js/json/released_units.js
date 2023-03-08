@@ -64,6 +64,7 @@ const RELEASED_UNITS = [
     'Maiden Covert Nurse',
     'Makima',
     'Makima Coat Off',
+    'Mana',
     'Marian',
     'Mary', 
     'Maxine', 
