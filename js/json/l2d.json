@@ -96,6 +96,10 @@
     "id": "c080"
   },
   {
+    "name": "Centi Supreme Holiday",
+    "id": "c080_01"
+  },
+  {
     "name": "Acre",
     "id": "c081"
   },
@@ -488,7 +492,11 @@
     "id": "c371"
   },
   {
-    "name": "Patrasche",
+    "name": "Nero",
+    "id": "c380"
+  },
+  {
+    "name": "Biscuit",
     "id": "c381"
   },
   {
