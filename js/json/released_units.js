@@ -58,6 +58,7 @@ const RELEASED_UNITS = [
     'Julia', 
     'Julia Mild Nocturne',
     'Laplace',
+    'Liberalio',
     'Liberty', 
     'Liter',
     'Lucilla', 
