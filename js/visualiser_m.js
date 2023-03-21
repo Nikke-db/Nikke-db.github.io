@@ -8,6 +8,11 @@ const qsa = (val) => {
     return document.querySelectorAll(val)
 }
 
+//redirects pc user to /v
+if (!navigator.userAgentData.mobile){
+      location.href = "v"
+}
+
 const div = qs("#visualiserMain");
 
 async function initJSON() {
