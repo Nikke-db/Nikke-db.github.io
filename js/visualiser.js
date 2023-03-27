@@ -88,6 +88,7 @@ const changeSpine = (id) => {
                         skin: skin,
                         backgroundColor: transparent ? "#00000000" : current_color,
                         alpha: transparent ? true : false,
+                        mipmaps:false,
                         debug: false,
                         preserveDrawingBuffer:true
                   });               
@@ -100,9 +101,9 @@ const changeSpine = (id) => {
                         skelUrl: "/l2d/" + id + "/cover/" + id + "_cover_00.skel",
                         atlasUrl: "/l2d/" + id + "/cover/" + id + "_cover_00.atlas",
                         skin: skin,
-                        backgroundColor: current_color,
+                        backgroundColor: transparent ? "#00000000" : current_color,
+                        alpha: transparent ? true : false,
                         animation: "cover_idle",
-                        alpha: false,
                         debug: false,
                         preserveDrawingBuffer:true
                   })
@@ -113,8 +114,8 @@ const changeSpine = (id) => {
                   atlasUrl: "/l2d/" + id + "/aim/" + id + "_aim_00.atlas",
                   skin: skin,
                   animation: "aim_idle",
-                  backgroundColor: current_color,
-                  alpha: false,
+                  backgroundColor: transparent ? "#00000000" : current_color,
+                  alpha: transparent ? true : false,
                   debug: false,
                   preserveDrawingBuffer:true
 
