@@ -1,0 +1,23 @@
+.container{
+    margin-top: 50px;
+}
+
+#content img{
+    height: 75px;
+    width: 75px;
+}
+
+.dialogue{
+    display: flex;
+    padding: 10px;
+    
+}
+
+.subdialogue{
+    padding-left: 10px;
+    margin-left: 10px;
+    border-left: rgb(180, 175, 175) 2px solid;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}

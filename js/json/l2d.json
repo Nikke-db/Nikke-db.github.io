@@ -592,11 +592,11 @@
     "id": "c910"
   },
   {
-    "name": "c911",
+    "name": "skinnyman",
     "id": "c911"
   },
   {
-    "name": "c912",
+    "name": "fancywoman",
     "id": "c912"
   },
   {
@@ -638,5 +638,13 @@
   {
     "name": "c933",
     "id": "c933"
+  },
+  {
+    "name":"Self",
+    "id":"c9999"
+  },
+  {
+    "name":"Choice",
+    "id":"c9999"
   }
 ]
