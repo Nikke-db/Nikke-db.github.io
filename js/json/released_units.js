@@ -80,6 +80,7 @@ const RELEASED_UNITS = [
     'Milk Extreme Fighter',
     'Miranda',
     'Modernia', 
+    'Moran',
     'Mustang',
     'N102', 
     'Neon',
