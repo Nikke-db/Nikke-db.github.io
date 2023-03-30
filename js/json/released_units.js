@@ -112,6 +112,7 @@ const RELEASED_UNITS = [
     'Rian',
     'Rupee', 
     'Rupee: Winter Shopper',
+    'Sakura',
     'Scarlet',
     'Shifty',
     'Shifty_old',
