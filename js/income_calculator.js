@@ -9,8 +9,8 @@ const outpost_income_checkErrors = () => {
 
     if (isNaN(outpost_lvl) || isNaN(credit_boost) || isNaN(battle_data_boost) || isNaN(core_dust_boost)) {
         outpost_income_displayError("A value is not a number or empty");
-    } else if (outpost_lvl < 1 || outpost_lvl > 100) {
-        outpost_income_displayError("The outpost level have an invalid value ( range 1 to 100 )");
+    } else if (outpost_lvl < 1 || outpost_lvl > 300) {
+        outpost_income_displayError("The outpost level have an invalid value ( range 1 to 300 )");
     }else if (credit_boost < 0) {
         outpost_income_displayError("The credit boost have an invalid value ( minimum 0 )");
     }else if (battle_data_boost < 0) {
