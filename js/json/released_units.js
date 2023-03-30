@@ -88,8 +88,10 @@ const RELEASED_UNITS = [
     'Nihilister',
     'Nihilister Story',
     'Noah', 
-    'Noise', 
+    'Noise',
+    'Noise Cherry Blossom Stage',
     'Novel',
+    'Novel Penguin Holmes',
     'Papillon',
     'Pepper',
     'Poli',
@@ -130,5 +132,6 @@ const RELEASED_UNITS = [
     'Yan', 
     'Yin',
     'Yulha', 
-    'Yuni', 
+    'Yuni',
+    'Yuni Pretty In Pink' 
 ]
