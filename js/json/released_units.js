@@ -110,6 +110,7 @@ const RELEASED_UNITS = [
     'Rapunzel',
     'Raven',
     'Rian',
+    'Rosanna',
     'Rupee', 
     'Rupee: Winter Shopper',
     'Sakura',
