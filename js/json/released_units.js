@@ -45,6 +45,7 @@ const RELEASED_UNITS = [
     'Guillotine',
     'Guilty', 
     'Harran',
+    'Harran Story',
     'Helm',
     'Helm Chandelier',
     'Himeno',

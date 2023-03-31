@@ -43,7 +43,8 @@ async function initJSON() {
 initJSON()
 
 let currentspine = "";
-let currentid = ""
+let currentid = "";
+let harran_story = false;
 
 if (localStorage.getItem("bg_hex") === null){
       localStorage.setItem("bg_hex","#2f353a");
@@ -62,11 +63,28 @@ const changeSpine = (id) => {
       // doesn't exist, it will break the code and nothing will work
       if (currentspine !== ""){
             currentspine.dispose();
-        }
+      }
 
       qs("#player-container").innerHTML = ""
 
       currentid = id
+
+      // harran's ch19 story is headass too small so we need to bruteforce a zoom on it
+      if ( currentid === "c230_story"){
+            let canvas = qs("#player-container")
+            canvas.style.height = 320 + "vh"
+            canvas.style.left = document.documentElement.clientWidth * -0.66 + "px"
+            canvas.style.top = document.documentElement.clientHeight * -1.25 + "px"
+            harran_story = true
+      }else if (currentid !== "c230_story" && harran_story){
+            let canvas = qs("#player-container")
+            canvas.style.height = 100 +"vh";
+            canvas.style.left = 0 + "px"
+            canvas.style.top = 0 + "px"
+            harran_story = false;
+      }else{
+            harran_story = false
+      }
       
       // skin exception list , if not it'll go to default skin
       if ( skin !=="weapon_2" || id !== "c220"){
