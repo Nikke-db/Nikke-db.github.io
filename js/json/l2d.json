@@ -52,11 +52,11 @@
     "id": "c032"
   },
   {
-    "name": "Agent D",
+    "name": "D",
     "id": "c040"
   },
   {
-    "name": "Agent K",
+    "name": "K",
     "id": "c041"
   },
   {
@@ -582,6 +582,10 @@
   {
     "name": "Andersen",
     "id": "c903"
+  },
+  {
+    "name": "Andersen Soaked",
+    "id": "c903_01"
   },
   {
     "name": "Enikk",
