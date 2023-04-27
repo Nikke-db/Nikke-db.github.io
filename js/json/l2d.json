@@ -152,6 +152,10 @@
     "id": "c112"
   },
   {
+    "name": "Viper Toxic Rabbit",
+    "id": "c112_01"
+  },
+  {
     "name": "N102",
     "id": "c120"
   },
@@ -250,6 +254,10 @@
   {
     "name": "Alice",
     "id": "c191"
+  },
+  {
+    "name": "Alice Sweet Home",
+    "id": "c191_01"
   },
   {
     "name": "Neve",
@@ -512,6 +520,10 @@
     "id": "c381"
   },
   {
+    "name": "Rei",
+    "id": "c392"
+  },
+  {
     "name": "Guilty",
     "id": "c400"
   },
@@ -658,6 +670,10 @@
   {
     "name": "c933",
     "id": "c933"
+  },
+  {
+    "name": "Pinne",
+    "id": "c941"
   },
   {
     "name":"Self",
