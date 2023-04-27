@@ -44,7 +44,9 @@ const skillValues= async (desc, id) => {
 const formatSkill = (skill) =>{  
     return skill
     .replaceAll("$col"                  ,"<span class='AAAA'>")
-    .replaceAll("$fcol"                 ,"</span><br/>")
+    .replaceAll("$fcol"                 ,"</span>")
+    .replaceAll("$bcol"                 ,"<span class='ZZZZ'>")
+    .replaceAll("$bfcol"                ,"</span>")
     .replaceAll("▲"                     ,"<span class='buffarrow'>▲</span>")
     .replaceAll("▼"                     ,"<span class='debuffarrow'>▼</span>")
     .replaceAll("ATK"                   ,"<span class='statatk'>ATK</span>" )
