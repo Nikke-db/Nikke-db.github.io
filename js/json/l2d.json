@@ -620,15 +620,15 @@
     "name":"Papillon"
   },
   {
-    "name": "c910",
+    "name": "Hologram",
     "id": "c910"
   },
   {
-    "name": "skinnyman",
+    "name": "Faceless Man",
     "id": "c911"
   },
   {
-    "name": "fancywoman",
+    "name": "Faceless Woman",
     "id": "c912"
   },
   {
@@ -640,16 +640,24 @@
     "id": "c914"
   },
   {
-    "name": "c916",
+    "name": "Faceless NPC 1",
     "id": "c916"
   },
   {
-    "name": "c917",
+    "name": "Faceless NPC 2",
     "id": "c917"
   },
   {
-    "name": "c918",
+    "name": "Faceless NPC 3",
     "id": "c918"
+  },
+  {
+    "name": "Faceless NPC 4",
+    "id": "c919"
+  },
+  {
+    "name": "Faceless NPC 5",
+    "id": "c920"
   },
   {
     "name": "Einkk",
