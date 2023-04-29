@@ -660,23 +660,47 @@
     "id": "c920"
   },
   {
-    "name": "Einkk",
-    "id": "c928"
+    "name": "Faceless NPC 6",
+    "id": "c921"
+  },
+  {
+    "name": "Faceless NPC 7",
+    "id": "c922"
+  },
+  {
+    "name": "Faceless NPC 8",
+    "id": "c923"
+  },
+  {
+    "name": "Faceless NPC 9",
+    "id": "c924"
   },
   {
     "name":"Johan",
     "id":"c925"
   },
   {
+    "name": "Einkk",
+    "id": "c928"
+  },
+  {
     "name": "Cecil",
     "id":"c929"
   },
   {
-    "name": "c932",
+    "name": "Beatrice",
+    "id":"c930"
+  },
+  {
+    "name": "Collection Robot",
+    "id":"c931"
+  },
+  {
+    "name": "Bolt Junior",
     "id": "c932"
   },
   {
-    "name": "c933",
+    "name": "Bolt",
     "id": "c933"
   },
   {
