@@ -42,6 +42,7 @@ const RELEASED_UNITS = [
     'Emma',
     'Emma Color Me Red',
     'Enikk',
+    'Ein',
     'Einkk',
     'Epinel', 
     'Espinel', 
@@ -171,5 +172,6 @@ const RELEASED_UNITS = [
     'Yin',
     'Yulha', 
     'Yuni',
-    'Yuni Pretty In Pink' 
+    'Yuni Pretty In Pink',
+    'Zwei'
 ]
