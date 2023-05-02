@@ -1,6 +1,6 @@
 const RELEASED_UNITS = [
+    'Ade',
     'Admi',
-    'Aid',
     'Aki Hayakawa',
     'Alice',
     'Alice Sweet Home',
