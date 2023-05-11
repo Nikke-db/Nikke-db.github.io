@@ -96,8 +96,9 @@ const changeSpine = (id) => {
       } 
 
       if (current_l2d === "fb") {
-            //if snow white or maxine > use skin acc
-            if(id==="c220" || id==="c102") skin="acc"
+            //if snow white / maxine / E.H. > use skin acc
+            //if anchor > use skin bg
+            if(id==="c220" || id==="c102" || id==="c940") skin="acc"
             if(id==="c351") skin="bg"
 
                   currentspine = new spine.SpinePlayer("player-container", {
