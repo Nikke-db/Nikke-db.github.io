@@ -151,6 +151,7 @@ const RELEASED_UNITS = [
     'Rosanna',
     'Rumani',
     'Rupee', 
+    'Rupee Rabbit Deluxe',
     'Rupee: Winter Shopper',
     'Sakura',
     'Scarlet',
