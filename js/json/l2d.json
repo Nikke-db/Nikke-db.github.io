@@ -269,7 +269,8 @@
   },
   {
     "name": "Rupee Rabbit Deluxe",
-    "id": "c200_01"
+    "id": "c200_01",
+    "version": 4.1
   },
   {
     "name": "Yan",
@@ -393,11 +394,13 @@
   },
   {
     "name": "Blanc",
-    "id": "c270"
+    "id": "c270",
+    "version": 4.1
   },
   {
     "name": "Noir",
-    "id": "c271"
+    "id": "c271",
+    "version": 4.1
   },
   {
     "name": "Rouge",

@@ -29,10 +29,12 @@ async function initJSON() {
             const liste_item = document.createElement("li");
 
             liste_item.innerHTML = "<img src='images/sprite/si_" + val.id + "_00_s.png'/>" + " <span>" + val.name+ "</span>"
+            liste_item.setAttribute('spineversion', val.version)
 
             liste_item.classList.add("charDiv")
 
             liste_item.addEventListener("click", (e) => {
+                  currentVersion = val.version
                   changeSpine(val.id)
             })
             div.appendChild(liste_item) //div character list
@@ -44,6 +46,7 @@ initJSON()
 
 let currentspine = "";
 let currentid = "";
+let currentVersion = 4.0
 let harran_story = false;
 
 if (localStorage.getItem("bg_hex") === null){
@@ -55,7 +58,23 @@ document.body.style.backgroundColor = current_color;
 let transparent = false
 let skin
 
+const load41 = (id) => {
+      console.log("skull emoji")
+}
+
 const changeSpine = (id) => {
+
+      // starting 18th may 2023, the game uses spine 4.1 for their animation
+      // I'm loading both 4.0 and 4.1 runtimes to avoid updating all 170 characters to 4.1
+      // and only keep 4.1 for the newests
+      // 4.0 : release to overzone event
+      // 4.1 : 777 event to ?
+      let spineVersionLoader;
+      if (currentVersion == 4.1) {
+            spineVersionLoader = spine41
+      } else {
+            spineVersionLoader = spine
+      }
 
       // empties the div to clear the current spine
       // every listeners MUST be in changeSpine because
@@ -101,7 +120,7 @@ const changeSpine = (id) => {
             if(id==="c220" || id==="c102" || id==="c940") skin="acc"
             if(id==="c351") skin="bg"
 
-                  currentspine = new spine.SpinePlayer("player-container", {
+                  currentspine = new spineVersionLoader.SpinePlayer("player-container", {
                         skelUrl: "/l2d/" + id + "/" + id + "_00.skel",
                         atlasUrl: "/l2d/" + id + "/" + id + "_00.atlas",
                         animation: "idle",
@@ -117,7 +136,7 @@ const changeSpine = (id) => {
             //if snow white and weapon_2 not selected> use weapon2
             if(id==="c220" && skin!=="weapon_2") skin="weapon_1"
 
-                  currentspine = new spine.SpinePlayer("player-container", {
+                  currentspine = new spineVersionLoader.SpinePlayer("player-container", {
                         skelUrl: "/l2d/" + id + "/cover/" + id + "_cover_00.skel",
                         atlasUrl: "/l2d/" + id + "/cover/" + id + "_cover_00.atlas",
                         skin: skin,
@@ -129,7 +148,7 @@ const changeSpine = (id) => {
                   })
       }
       if (current_l2d === "aim") {
-            currentspine = new spine.SpinePlayer("player-container", {
+            currentspine = new spineVersionLoader.SpinePlayer("player-container", {
                   skelUrl: "/l2d/" + id + "/aim/" + id + "_aim_00.skel",
                   atlasUrl: "/l2d/" + id + "/aim/" + id + "_aim_00.atlas",
                   skin: skin,

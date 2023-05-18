@@ -1267,12 +1267,12 @@
         "drive_tier": "I"
     },
     {
-        "id": "c281",
+        "id": "_c281",
         "rarity": "SSR",
         "manufacturer": "TETRA",
         "class": "Defender",
         "squad": "UnderworldQueen",
-        "name": "Moran",
+        "name": "_Moran",
         "skill1_name": "DEF UP!",
         "skill1_description": "(Self) Critical Damage Doubled for 10 sec",
         "skill2_name": "Assemble!",
@@ -1318,7 +1318,7 @@
         "manufacturer": "ELYSION",
         "class": "Supporter",
         "squad": "UnderworldQueen",
-        "name": "Rosanna",
+        "name": "_Rosanna",
         "skill1_name": "Cheerleading",
         "skill1_description": "■ Cast on 3 closest friendly units\r\n<color=#00AEFF>[Apply on target] [ATK {description_value_01}% ▲] [lasts for {description_value_02} sec]</color>\r\n<color=#00AEFF>[Apply on target][Critical Rate {description_value_03}% ▲] [lasts for {description_value_02} sec]</color>\r\n<color=#00AEFF>[Apply on target][Metal Damage {description_value_04}% ▲] [lasts for {description_value_02} sec]</color>",
         "skill2_name": "Temptation",

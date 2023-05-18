@@ -11785,7 +11785,7 @@ var spine = (() => {
       if (this.error)
         return;
       if (this.assetManager.hasErrors())
-        this.showError("This character does not have the desired animation, or it is a NPC");
+        this.showError("This character does not have the desired animation, or it is a NPC (spine 4.0)");
       let config = this.config;
       let atlas = this.assetManager.require(config.atlasUrl);
       let gl = this.context.gl, anisotropic = gl.getExtension("EXT_texture_filter_anisotropic");
