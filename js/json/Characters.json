@@ -186,21 +186,27 @@
         "id": "c270",
         "rarity": "SSR",
         "manufacturer": "TETRA",
-        "class": "Attacker",
+        "class": "Defender",
         "squad": "777",
         "name": "Blanc",
-        "skill1_name": "ATK UP!",
-        "skill1_description": "■ (Self) ATK +10% for 10 sec",
-        "skill2_name": "Critical Damage UP!",
-        "skill2_description": "■ (Self) ATK 14% for 10 sec",
-        "ulti_name": "Charge it Up!",
-        "ulti_description": "■ Reload 10% of the remaining ammunition at once.\r\nThis skill can be used in the <color=#1BBE00>[Burst I]</color> stage.\nUsing this Burst Skill will cause the Burst Stage to enter <color=#F59C00>[Burst II]</color>.",
+        "description": "A member of Squad 777 who draws throngs of customers to Coin Rush. Nothing gives her greater pleasure than dressing herself up as a bunny, and she takes an immense amount of pride in her crowd-pleasing shows. Unlike her diffident sister, Blanc is an exuberant extrovert.",
+        "skill1_name": "Lucky Guard",
+        "skill1_description": "■ Activates after landing 120 normal attack(s).<br/>$colCreates a Shield, equivalent to 11.8% of the caster's Max HP, which protects all allies from damage. Lasts for 5 sec.$fcol",
+        "skill2_name": "Rabbit Twins W",
+        "skill2_description": "■ Activates after Full Burst ends. Affects all allies.<br/>$colConstantly recovers 3.68% of caster's Max HP every 1 sec for 5 sec.$fcol<br/>■ Activates when Full Burst ends with an ally from the same squad (777) still on the battlefield. Affects self.<br/>$colCooldown of Burst Skill ▼ 40.76 sec.$fcol",
+        "ulti_name": "Showtime",
+        "ulti_description": "■ Affects all allies.<br/>$colConstantly recovers 3.84% of caster's Max HP every 1 sec for 8 sec.$fcol<br/>■ Affects 1 allies with the lowest HP (except caster).<br/>$colGain$fcol $bcolIndomitability$bfcol $col for 10 sec.<br/>Max HP ▲ 31.68% for 10 sec.$fcol<br/>■ Affects all enemies.<br/>$colDamage Taken ▲ 39.26% for 10 sec.$fcol",
         "weapon": {
             "weapon_type": "AR",
-            "attack_type": "Energy",
-            "max_ammo": 60
+            "attack_type": "Wind",
+            "max_ammo": 60,
+            "reload": 1.00
         },
-        "drive_tier": "I"
+        "drive_tier": "II",
+        "regular": " ■ Affects target enemy.<br/>$col Deals 13.65% of ATK as damage.$fcol",
+        "max_hp":711171,
+        "max_atk":17059,
+        "max_def":5015
     },
     {
         "id": "c271",
@@ -209,18 +215,24 @@
         "class": "Attacker",
         "squad": "777",
         "name": "Noir",
-        "skill1_name": "ATK UP!",
-        "skill1_description": "■ (Self) ATK +10% for 10 sec",
-        "skill2_name": "Critical Damage UP!",
-        "skill2_description": "■ (Self) ATK 14% for 10 sec",
-        "ulti_name": "Charge it Up!",
-        "ulti_description": "■ Reload 10% of the remaining ammunition at once.\r\nThis skill can be used in the <color=#1BBE00>[Burst I]</color> stage.\nUsing this Burst Skill will cause the Burst Stage to enter <color=#F59C00>[Burst II]</color>.",
+        "description": "A member of Squad 777 who draws throngs of customers to Coin Rush. The biological elder sister of Light Bunny Blanc. A pusillanimous girl who is both fond and proud of her decidedly bolder sister.",
+        "regular": "■ Affects target(s).<br/>$col Deals 204.6% of ATK as damage.$fcol",
+        "skill1_name": "Lucky Charm",
+        "skill1_description": "■ Activates when above 70% HP. Affects all allies.<br/>$colCaster's ATK ▲ 14.08% constantly.$fcol",
+        "skill2_name": "Rabbit Twins B",
+        "skill2_description": "■ Activates when entering Full Burst. Affects all allies.<br/>$colMax Ammunition Capacity ▲ 5 round(s) for 10 sec.<br/>Reload 39.88% magazine(s).$fcol",
+        "ulti_name": "Finale",
+        "ulti_description": "■ Affects all enemies.<br/>$colDeals 351.64% of ATK as damage.$fcol<br/>■ Affects all allies with a Shotgun.<br/>$colHit Rate ▲ 13.93% for 10 sec.<br/>Damage to interruption part ▲ 23.23% for 10 sec.$fcol<br/>■ Activates with an ally from the same squad (777) still on the battlefield. Affects all allies.<br/>$colHit Rate ▲ 11.61% for 30 sec.<br/>$fcol$bcol Damage to interruption part$bfcol $col▲ 19.36% for 30 sec.$fcol",
         "weapon": {
             "weapon_type": "SG",
-            "attack_type": "Energy",
-            "max_ammo": 9
+            "attack_type": "Wind",
+            "max_ammo": 9,
+            "reload": 0.70
         },
-        "drive_tier": "I"
+        "drive_tier": "III",
+        "max_atk": 25554,
+        "max_def": 4012,
+        "max_hp": 583734
     },
     {
         "id": "c142",
