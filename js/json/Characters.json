@@ -1436,7 +1436,7 @@
         "manufacturer": "TETRA",
         "class": "Attacker",
         "squad": "777",
-        "name": "Rouge",
+        "name": "_Rouge",
         "skill1_name": "Neon's Special Bullet",
         "skill1_description": "■ When the effect is cast\r\n<color=#00AEFF>[Target's] [Magazine Capacity {description_value_01} ▲] [lasts for {description_value_02} sec]</color>\r\n■ While in Full Burst, also cast\r\n<color=#00AEFF>[Apply on target] [Reload {description_value_03} rounds of ammunition]</color>",
         "skill2_name": "Long Live Firepower",

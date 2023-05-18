@@ -152,6 +152,7 @@ const RELEASED_UNITS = [
     'Rei',
     'Rian',
     'Rosanna',
+    'Rouge',
     'Rumani',
     'Rupee', 
     'Rupee Rabbit Deluxe',
