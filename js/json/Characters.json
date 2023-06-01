@@ -1327,22 +1327,28 @@
     {
         "id": "c280",
         "rarity": "SSR",
-        "manufacturer": "ELYSION",
-        "class": "Supporter",
-        "squad": "UnderworldQueen",
-        "name": "_Rosanna",
-        "skill1_name": "Cheerleading",
-        "skill1_description": "■ Cast on 3 closest friendly units\r\n<color=#00AEFF>[Apply on target] [ATK {description_value_01}% ▲] [lasts for {description_value_02} sec]</color>\r\n<color=#00AEFF>[Apply on target][Critical Rate {description_value_03}% ▲] [lasts for {description_value_02} sec]</color>\r\n<color=#00AEFF>[Apply on target][Metal Damage {description_value_04}% ▲] [lasts for {description_value_02} sec]</color>",
-        "skill2_name": "Temptation",
-        "skill2_description": "■ Cast on 2 friendly units with the lowest HP\r\n<color=#00AEFF>[Apply on target] [DEF {description_value_01}% ▲] [lasts for {description_value_02} sec]</color>\r\n<color=#00AEFF>[Apply on target] [HP Potency {description_value_03}% ▲] [lasts for {description_value_02} sec]</color>",
-        "ulti_name": "Altruism",
-        "ulti_description": "■ Cast on squad\r\n<color=#00AEFF>[Apply on All allies] [recover {description_value_01}% HP] [lasts for {description_value_02} sec]</color>\r\n<color=#00AEFF>[Apply on All allies] [DEF {description_value_03}% ▲][lasts for {description_value_02} sec]</color>",
+        "manufacturer": "TETRA",
+        "class": "Attacker",
+        "squad": "Underworld Queen",
+        "name": "Rosanna",
+        "description": "Leader of Hedonia, a sizable criminal gang. Compared with other members of the Underworld Queen, she is far more pugnacious and firmy believes that violence is the ultimate panacea. She does, however, take exceedingly good care of those who are part of her gang.",
+        "regular":"■ Affects target enemy.<br/>$col Deals 5.1% of ATK as damage.$fcol",
+        "skill1_name": "On the Lam",
+        "skill1_description": "■ Activates after landing 120 normal attack(s). Affects self.<br/>$colConcealment: $fcol$bcolPrevents self from being the target of single-target attacks $bfcol$colfor 10 sec. Loses effect when the caster takes damage.<br/>Critical damage ▲ 19.34% for 3 sec.$fcol<br/>■ Activates after landing 10 normal attack(s). Affects 2 enemy unit(s) with the highest ATK.<br/>$bcolDispels 5 buff(s).$bfcol$colActivates 1 time(s) per battle.$fcol",
+        "skill2_name": "Capo dei Capi",
+        "skill2_description": "■ Activates when entering battle. Affects self.<br/>$colConcealment: Prevents self from being the target of single-target attacks for 10 sec. Loses effect when the caster takes damage.$fcol<br/>■ Activates when any Nikke is out of action. Affects self.<br/>$colFrenzy: ATK ▲ 22.61%, stacks up to 10 time(s) and lasts for 30 sec.<br/>Fills Burst Gauge by 36.54%$fcol",
+        "ulti_name": "Vendetta",
+        "ulti_description": "■ Affects 2 Attacker enemy unit(s).<br/>$colDeals 1310.4% of ATK as damage.$fcol<br/>■ Affects the same target(s) when in Concealment status.<br/>$colDeals 561.6% of ATK as additional damage.$fcol",
         "weapon": {
             "weapon_type": "MG",
-            "attack_type": "Energy",
-            "max_ammo": 300
+            "attack_type": "Electric",
+            "max_ammo": 300,
+            "reload": 1.67
         },
-        "drive_tier": "I"
+        "drive_tier": "I",
+        "max_atk": 25554,
+        "max_def": 3539,
+        "max_hp": 583734
     },
     {
         "id": "c260",

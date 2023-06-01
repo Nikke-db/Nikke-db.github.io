@@ -116,6 +116,11 @@
     "id": "c090_01"
   },
   {
+    "name": "Emma Office Therapy",
+    "id": "c090_02",
+    "version": 4.1
+  },
+  {
     "name": "Vesti",
     "id": "c091"
   },
@@ -409,7 +414,8 @@
   },
   {
     "name": "Rosanna",
-    "id": "c280"
+    "id": "c280",
+    "version":4.1
   },
   {
     "name": "Moran",
@@ -418,6 +424,11 @@
   {
     "name": "Sakura",
     "id": "c282"
+  },
+  {
+    "name": "Sakura Midnight Stealth",
+    "id": "c282_01",
+    "version":4.1
   },
   {
     "name": "Mana",
