@@ -12,6 +12,11 @@
     "id": "c010_02"
   },
   {
+    "name": "Rapi TBA",
+    "id": "c010_03",
+    "version":4.1
+  },
+  {
     "name": "Neon",
     "id": "c011"
   },
@@ -26,6 +31,11 @@
   {
     "name": "Marian",
     "id": "c013"
+  },
+  {
+    "name": "Neon: Blue Ocean",
+    "id": "c014",
+    "version":4.1
   },
   {
     "name": "Delta",
@@ -108,6 +118,11 @@
     "id": "c082"
   },
   {
+    "name": "Liter TBA",
+    "id": "c082_01",
+    "version":4.1
+  },
+  {
     "name": "Emma",
     "id": "c090"
   },
@@ -181,8 +196,14 @@
     "id": "c131"
   },
   {
-    "name": "c132",
-    "id": "c132"
+    "name": "Pepper Ocean Vitamin",
+    "id": "c131_01",
+    "version":4.1
+  },
+  {
+    "name": "Mary: Bay Goddess",
+    "id": "c132",
+    "version":4.1
   },
   {
     "name": "Sugar",
@@ -203,6 +224,11 @@
   {
     "name": "Frima",
     "id": "c142"
+  },
+  {
+    "name": "Frima Sea of Sloth",
+    "id": "c142_01",
+    "version":4.1
   },
   {
     "name": "Julia",
@@ -280,6 +306,11 @@
   {
     "name": "Yan",
     "id": "c201"
+  },
+  {
+    "name": "Yan TBA",
+    "id": "c201_01",
+    "version":4.1
   },
   {
     "name": "Dolla",

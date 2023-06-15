@@ -2619,5 +2619,57 @@
             "reload":1.83,
             "weapon_type":"SMG"
         }
+    },
+    {
+        "id":"c132",
+        "class":"Supporter",
+        "description":"An Angel in White who spends her whole vacationg healing people. Behind her kind and gently smile, there are secrets that no one knows.",
+        "drive_tier":"I",
+        "manufacturer":"TETRA",
+        "rarity":"SSR",
+        "name":"Mary: Bay Goddess",
+        "squad":"Seraphim",
+        "regular":"■ Affects target(s).<br/>$col Deals 65.95% of ATK as damage.<br/>Charge Time: 1 sec.<br/>Full Charge Damage: 250% of damage.$fcol",
+        "skill1_name":"Seaside Sunshine",
+        "skill2_name":"Waves Kiss The Feet",
+        "ulti_name": "Tranquil Waters",
+        "skill1_description":"■ Activates when entering Full Burst. Affects all allies.<br/>$colEffect changes according to the number of activation time(s). Previous effects trigger repeatedly:<br/>Once: Recovers 1.05% of caster's final Max HP every 1 sec for 5 sec.<br/>Twice: Recovers 3.69% of caster's final Max HP every 1 sec for 5 sec.<br/>Three times: Recovers 6.86% of caster's final Max HP every 1 sec for 5 sec.$fcol",
+        "skill2_description": "■ Activates when using Burst Skill. Affects all Water Code allies.<br/>$colEffect changes according to the number of activation time(s). Previous effects trigger repeatedly:<br/>Once: Damage as strong element ▲ 20.85% for 3 sec.<br/> Twice: Damage as strong element ▲ 13.88% for 5 sec.<br/>Three times: Damage as strong element ▲ 8.36% for 10 sec.$fcol",
+        "ulti_description":"■ Affects all Water Code allies.<br/>$colATK ▲ 23.23% for 3 sec.$fcol<br/>■ Affects all allies.<br/>$colMap HP ▲ 27.87% of the caster's final Max HP for 10 sec.$fcol",
+        "max_atk":21307,
+        "max_def":3909,
+        "max_hp":647453,
+        "weapon":{
+            "attack_type":"Water",
+            "max_ammo": 6,
+            "reload": 1.50,
+            "weapon_type":"SR"
+        }
+    },
+    {
+        "id":"c014",
+        "name":"Neon: Blue Ocean",
+        "class":"Attacker",
+        "drive_tier":"III",
+        "manufacturer":"ELYSION",
+        "rarity":"SSR",
+        "squad":"Counters",
+        "description":"To adapt to the new aquatic-based environment, Neon has decided to incorporate another tool in her arsenal, switching over to Waterpower over her original Firepower. This spitfire goes all out on everything, whether it be honing her Waterpower abilities, or having fun on vacation.",
+        "skill1_name":"Upper Wave",
+        "skill1_description":"■ Activates when using Burst Skill. Affects self.<br/>$colEffect changes according to the number of activation time(s). Previous effects trigger repeatedly:<br/>Once: Parts Damage ▲ 12.4% for 20 sec.<br/>Twice: Parts Damage ▲ 12.4% for 20 sec.<br/>Three times: Parts Damage ▲ 12.4% for 20 sec.$fcol",
+        "skill2_name":"Water Jet",
+        "skill2_description": "■ Activates when entering Burst stage 3. Affects self.<br/>$colEffect changes according to the number of activation time(s). Previous effects trigger repeatedly:<br/>Once: Damage as strong element ▲ 20.56% for 10 sec.<br/>Twice: Damage as strong element ▲ 20.2% for 10 sec.<br/>Three times: Damage as strong element ▲ 20.2% for 10 sec.$fcol",
+        "ulti_name":"Full Hydro Shot",
+        "ulti_description":"■ Affects self.<br/>$colChange the weapon in use: <br/>Damage: 11% of final ATK<br/>Last for: 7 sec.$fcol<br/>■ Activates when the target belongs to Fire Code.<br/>$colDeals 11% of final ATK as additional damage.$fcol",
+        "regular":"■ Affects target enemy.<br/>$col Deals 5.57% of ATK as damage.$fcol",
+        "weapon":{
+            "attack_type":"Water",
+            "max_ammo":300,
+            "reload":2.50,
+            "weapon_type":"MG"
+        },
+        "max_atk":25554,
+        "max_def":3539,
+        "max_hp":583734
     }
 ]

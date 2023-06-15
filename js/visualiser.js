@@ -76,6 +76,8 @@ const changeSpine = (id) => {
             spineVersionLoader = spine
       }
 
+      if (id === "c131_01" && current_l2d === "aim") spineVersionLoader = spine
+
       // empties the div to clear the current spine
       // every listeners MUST be in changeSpine because
       // there aren't any spine currently, so if the listened divs
