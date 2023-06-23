@@ -796,5 +796,40 @@
   {
     "name":"Choice",
     "id":"c9999"
+  },
+  {
+    "name": "Blue Water Island",
+    "id": "bluewaterisland",
+    "version":4.1
+  },
+  {
+    "name": "Bow Wow Paradise",
+    "id": "bowwowparadise",
+    "version":4.1
+  },
+  {
+    "name": "777",
+    "id": "777",
+    "version":4.1
+  },
+  {
+    "name": "Cherry Blossom",
+    "id": "cherryblossom",
+    "version":4.1
+  },
+  {
+    "name": "License to Kill",
+    "id": "ltk",
+    "version":4.1
+  },
+  {
+    "name": "Maid in Valentine",
+    "id": "maidinvalentine",
+    "version":4.1
+  },
+  {
+    "name": "Queen's Order",
+    "id": "queensorder",
+    "version":4.1
   }
 ]
