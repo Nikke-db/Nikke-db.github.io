@@ -24,7 +24,7 @@ async function initJSON() {
     })
     json.map((val) => {
         if (!RELEASED_UNITS.includes(val.name)) return false
-        if (val.id==="c230_story") return false
+        if (val.id==="story1902") return false
         const liste_item = document.createElement("li");
 
         liste_item.innerHTML = "<img src='images/sprite/si_" + val.id + "_00_s.png'/>" + " " + val.name

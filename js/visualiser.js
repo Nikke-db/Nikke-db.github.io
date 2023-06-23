@@ -91,13 +91,13 @@ const changeSpine = (id) => {
       currentid = id
 
       // harran's ch19 story is headass too small so we need to bruteforce a zoom on it
-      if ( currentid === "c230_story"){
+      if ( currentid === "story1902"){
             let canvas = qs("#player-container")
             canvas.style.height = 320 + "vh"
             canvas.style.left = document.documentElement.clientWidth * -0.66 + "px"
             canvas.style.top = document.documentElement.clientHeight * -1.25 + "px"
             harran_story = true
-      }else if (currentid !== "c230_story" && harran_story){
+      }else if (currentid !== "story1902" && harran_story){
             let canvas = qs("#player-container")
             canvas.style.height = 100 +"vh";
             canvas.style.left = 0 + "px"

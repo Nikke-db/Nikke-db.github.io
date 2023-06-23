@@ -361,10 +361,6 @@
     "id": "c230"
   },
   {
-    "name": "Harran Story",
-    "id": "c230_story"
-  },
-  {
     "name": "Isabel",
     "id": "c231"
   },
@@ -419,10 +415,6 @@
   {
     "name": "Nihilister",
     "id": "c261"
-  },
-  {
-    "name": "Nihilister Story",
-    "id": "c261_story"
   },
   {
     "name": "Liberalio",
@@ -831,5 +823,73 @@
     "name": "Queen's Order",
     "id": "queensorder",
     "version":4.1
+  },
+  {
+    "name": "Story 00-01",
+    "id": "story0001",
+    "version":4.1
+  },
+  {
+    "name": "Story 00-01 no filter",
+    "id": "story0001_2",
+    "version":4.1
+  },
+  {
+    "name": "Story 00-02",
+    "id": "story0002"
+  },
+  {
+    "name": "Story 00-02 no filter",
+    "id": "story0002_2"
+  },
+  {
+    "name": "Story 00-03",
+    "id": "story0003",
+    "version":4.1
+  },
+  {
+    "name": "Story 02-01",
+    "id": "story0201",
+    "version":4.1
+  },
+  {
+    "name": "Story 04-01",
+    "id": "story0401",
+    "version":4.1
+  },
+  {
+    "name": "Story 04-02",
+    "id": "story0401_2",
+    "version":4.1
+  },
+  {
+    "name": "Story 14-01",
+    "id": "story1401"
+  },
+  {
+    "name": "Story 19-01",
+    "id": "story1902"
+  },
+  {
+    "name": "Story 20-01",
+    "id": "story2002"
+  },
+  {
+    "name": "Story 21-01",
+    "id": "story2101"
+  },
+  {
+    "name": "Story 22-01",
+    "id": "story2201",
+    "version":4.1
+  },
+  {
+    "name": "Story 22-02",
+    "id": "story2202",
+    "version":4.1
+  },
+  {
+    "name": "Story 22-06",
+    "id": "story2206"
   }
 ]
