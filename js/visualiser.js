@@ -430,14 +430,25 @@ for (let i = 0; i< arraypose.length; i++){
       })
 }
 
-qs(".screenshot").addEventListener("click",async (e) =>{
+qs(".screenshot").addEventListener("click",async (e) => {
+
+      const canvas = qs("#player-container")
+
+      const oldZoom = parseInt(canvas.style.height.replaceAll("vh", ""))
+
+      canvas.style.height = 500 + "vh"
+
+      setTimeout(() => {
+            const dataURL = currentspine.canvas.toDataURL()
       
-      const dataURL = currentspine.canvas.toDataURL()
+            let link = document.createElement('a');
+            link.download= new Date().getTime()+"_"+"NIKKE"+"_"+currentid+"_"+current_l2d+".png"
+            link.href=dataURL
+            link.click()
+            
+            canvas.style.height = oldZoom + "vh"
+      } , 250)
       
-      let link = document.createElement('a');
-      link.download= new Date().getTime()+"_"+"NIKKE"+"_"+currentid+"_"+current_l2d+".png"
-      link.href=dataURL
-      link.click()
       
 })
 
@@ -456,7 +467,7 @@ document.addEventListener("click",(e)=>{
 
 qs("#transparent").addEventListener("change",(e)=>{
       if(e.target.checked){
-            alert("No visual changes. This will mainly affect the background color of the screenshots taken. Some character might break using this, such as Julia or Alice");
+            alert("CHARACTERS THAT WERE BROKEN WHEN TAKING A SCREENSHOT WITH TRANSPARENCY AREN'T ANYMORE, KEEPING THE ALERT TO LET PEOPLE KNOW, WILL DELETE THE ALERT IN THE FUTURE, THANKS 神罰の執行者 ライラ FOR THE INSTRUCTIONS ON HOW TO FIX IT");
       }
       transparent = e.target.checked;
 })

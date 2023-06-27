@@ -10518,7 +10518,7 @@ var spine41 = (() => {
         if (this.isDrawing) {
           this.flush();
           let gl = this.context.gl;
-          gl.blendFuncSeparate(srcColorBlend, dstBlend, srcAlphaBlend, dstBlend);
+          gl.blendFuncSeparate(srcColorBlend, dstBlend, srcAlphaBlend, 1.0);
         }
       }
       draw(texture, vertices, indices) {
@@ -10609,7 +10609,7 @@ var spine41 = (() => {
         if (this.isDrawing) {
           this.flush();
           let gl = this.context.gl;
-          gl.blendFuncSeparate(srcColorBlend, dstBlend, srcAlphaBlend, dstBlend);
+          gl.blendFuncSeparate(srcColorBlend, dstBlend, srcAlphaBlend, 1.0);
         }
       }
       setColor(color) {
