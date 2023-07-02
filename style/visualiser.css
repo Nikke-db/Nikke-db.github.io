@@ -5,8 +5,8 @@
 
 body {
     background-repeat: no-repeat;
-    background-position-x:center;
-    background-position-y:center;
+    background-position:center;
+    background-position:center;
     overflow: hidden;
     height:100vh;
 }
@@ -18,7 +18,6 @@ body {
 #player-container {
     margin-left: 15vw;
     max-width: 100vw;
-     
 }
 
 .spine-player-canvas {
@@ -99,26 +98,32 @@ body {
 }
 
 #l2dbgcolorchanger{
-    text-align: right;
     position: fixed;
     margin-top: 10vh;
     right:0;
 }
 
-#colorChangePanel{
+#colorChangePanel,
+#l2dbgimgchangerpannel{
+    text-align: center;
+}
+
+#colorChangePanel,
+#l2dbgimgchangerpannel{
     border: 1px solid var(--alt-dark-theme);
     box-shadow: 2px 2px 3px black;
     background-color: white ;
     padding-bottom: 20px;
     border-radius: 10px;
     position: absolute;
-    text-align: center;
     padding-top: 20px;
     color:black;
-    width: 250px;
+    width: 350px;
     right: 20px;
     z-index: 1;
-    top: 12vh;
+    top: 6vh;
+    right: 10vh;
+    overflow: auto;
 }
 .progress-rgb{
     background-color: #2f353a;
@@ -131,56 +136,32 @@ body {
 #inputhex{
     width: 80%;
 }
-#inputhex{
+#inputhex,
+#bgimgpositionwrapper,
+#bgimgsizewrapper{
     text-align: center;
 }
 
-
-#nikketxtgrid{
-    position: relative;
-    text-align: center;
-    display: grid;
-    color:white;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 10px;
-    grid-auto-rows: minmax(100px,auto);
-    font-size: 5vw;
-    z-index: -1;
-    user-select: none;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-.txtgridtl,
-.txtgridtr,
-.txtgridmm,
-.txtgridbl,
-.txtgridbr{
-    transform: rotate(-25deg);
-}
-.txtgridbl,
-.txtgridbr{
-    grid-row:7
-}
-.txtgridmm{
-    grid-row:4
-}
-.txtgridtl,
-.txtgridbl{
-    grid-column: 1;
-}
-.txtgridmm{
-    grid-column: 2;
-}
-.txtgridtr,
-.txtgridbr{
-    grid-column: 3;
-}
-
-.posedropdown{
+.posedropdown,
+.bgdropdown{
 padding-left:10px;
+padding-right: 10px;
 box-shadow: -1px 1px 1px black;
 }
 .posedropdown span:hover{
     cursor: pointer;
+}
+.bgdropdown .form-control-sm, .bgimgsize{
+    width: 80%;
+    margin: 0 auto;
+}
+.bgimgposition,
+.bgimgsize{
+    margin-top: 5px;
+}
+#bgimgpositionwrapper,
+#bgimgsizewrapper{
+    margin-top: 15px;
 }
 #mobile_message h1{
     text-align: center;

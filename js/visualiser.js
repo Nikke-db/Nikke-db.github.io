@@ -58,10 +58,6 @@ document.body.style.backgroundColor = current_color;
 let transparent = false
 let skin
 
-const load41 = (id) => {
-      console.log("skull emoji")
-}
-
 const changeSpine = (id) => {
 
       // starting 18th may 2023, the game uses spine 4.1 for their animation
@@ -256,12 +252,11 @@ document.addEventListener("mousemove", (e) => {
 
 // CHANGE BG COLOR --------------------------------------------------------------------------------------------------------------------
 
-let rgbPanelVisible = qs("#colorChangePanel").hidden
-let imgPanelVisible = qs("#colorChangePanel").hidden
-
 qs("#l2dbgcolorchanger button").addEventListener("click", (e) => {
+      let rgbPanelVisible = qs("#colorChangePanel").hidden
       if (rgbPanelVisible) {
             qs("#colorChangePanel").hidden = false
+            qs("#l2dbgimgchangerpannel").hidden = true
       } else {
             qs("#colorChangePanel").hidden = true
       }
@@ -471,3 +466,73 @@ qs("#transparent").addEventListener("change",(e)=>{
       }
       transparent = e.target.checked;
 })
+
+// change background image
+
+// https://stackoverflow.com/questions/36280818/how-to-convert-file-to-base64-in-javascript
+
+
+qs("#l2dbgimgchangerbtn").addEventListener("click", (e) => {
+      let bgimgpannelvisible = qs("#l2dbgimgchangerpannel").hidden
+
+      if (bgimgpannelvisible) {
+            qs("#l2dbgimgchangerpannel").hidden = false
+            qs("#colorChangePanel").hidden = true
+            
+      } else if (!bgimgpannelvisible) {
+            qs("#l2dbgimgchangerpannel").hidden = true
+      }
+      bgimgpannelvisible = qs("#l2dbgimgchangerpannel").hidden
+})
+
+qs(".bgdropdown .form-control-sm").addEventListener("change", (e) => {
+      let fileReader = new FileReader()
+      fileReader.readAsDataURL(e.target.files[0])
+      fileReader.onload = () => {
+            qs("body").style.backgroundImage = "url(" + fileReader.result + ")"
+      }
+
+      if (!transparent) {
+            transparent = true
+            changeSpine(currentid)
+            qs("#transparent").checked = true
+      }
+})
+
+
+qsa("#bgimgpositionwrapper button").forEach((btn) => {
+      btn.addEventListener('click', (e) => {
+            qs("body").style.backgroundPosition = btn.value
+            resetBtnPositionClasses()
+            updateClickedBtnClasses(btn)
+      })
+})
+
+qsa("#bgimgsizewrapper button").forEach((btn) => {
+      btn.addEventListener('click', (e) => {
+            qs('body').style.backgroundSize = btn.value
+            resetBtnSizeClasses()
+            updateClickedBtnClasses(btn)
+      })
+}) 
+
+const resetBtnPositionClasses = () => {
+      qsa("#bgimgpositionwrapper button").forEach((btn)=> {
+            btn.classList.remove('btn-info')
+            btn.classList.remove('btn-success')
+            btn.classList.add('btn-success')
+      })
+}
+
+const resetBtnSizeClasses = () => {
+      qsa("#bgimgsizewrapper button").forEach((btn) => {
+            btn.classList.remove('btn-info')
+            btn.classList.remove('btn-success')
+            btn.classList.add('btn-success')
+      })
+}
+
+const updateClickedBtnClasses = (btn) => {
+      btn.classList.remove('btn-success')
+      btn.classList.add('btn-info')
+}
