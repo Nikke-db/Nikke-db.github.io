@@ -12,7 +12,7 @@
     "id": "c010_02"
   },
   {
-    "name": "Rapi TBA",
+    "name": "Rapi Classic Vacation",
     "id": "c010_03",
     "version":4.1
   },
@@ -150,6 +150,11 @@
   {
     "name": "Drake",
     "id": "c101"
+  },
+  {
+    "name": "Drake Villain Racer",
+    "id": "c101_01",
+    "version":4.1
   },
   {
     "name": "Maxwell",
@@ -555,11 +560,17 @@
   },
   {
     "name": "Nero",
-    "id": "c380"
+    "id": "c380",
+    "version":4.1
   },
   {
     "name": "Biscuit",
     "id": "c381"
+  },
+  {
+    "name": "Leona",
+    "id": "c382",
+    "version": 4.1
   },
   {
     "name": "Zwei",
@@ -780,6 +791,11 @@
   {
     "name": "Pinne",
     "id": "c941"
+  },
+  {
+    "name": "Ruru",
+    "id": "c946",
+    "version":4.1
   },
   {
     "name":"Self",

@@ -2671,5 +2671,30 @@
         "max_atk":25554,
         "max_def":3539,
         "max_hp":583734
+    }, {
+        "id": "c380",
+        "name": "Nero",
+        "class":"Defender",
+        "description":"A Nikke attached to the Ark's animal management troop -- Happy Zoo. Her speciality is tending to all things pertaining to cats. Her personality and appearance are pretty feline-esque. Although she is soft-spoken, this does not mean she is in any way timid.",
+        "drive_tier":"II",
+        "manufacturer":"TETRA",
+        "max_atk":17059,
+        "max_def":4364,
+        "max_hp":711171,
+        "rarity":"SSR",
+        "squad":"Happy Zoo",
+        "weapon":{
+            "attack_type":"Fire",
+            "max_ammo":120,
+            "reload":1.30,
+            "weapon_type":"SMG"
+        },
+        "regular":"■ Affects target enemy.<br/>$col Deals 8.39% of ATK as damage.$fcol",
+        "skill1_name": "Cat's Repayment",
+        "skill2_name": "Lil' Paw",
+        "ulti_name": "Grumpy Cat",
+        "skill1_description":"■ Activates when $bcolrecovery takes effect$bfcol. Affects the target who applied the recovery effect.<br/>$colDamage Taken ▼ 14.14 % for 5 sec$fcol<br/>■ Activates when $bcolrecovery takes effect$bfcol. Affects self.<br/>$colCat's Repayment Damage Taken ▼ 8.43%, stacks up to 5 time(s) and lasts for 5 sec.$fcol",
+        "skill2_description": "■ There is a 30% chance of activating when attacked. Affects the target. <br/>$colDamage Taken ▲ 8.26% for 5 sec.$fcol<br/>■ There is a 30% chance of activating when attacked in Grumpy Cat status. Affects the target.<br/>$colDeals 158.05% of $bcolfinal$bfcol ATK as damage.$fcol<br/>■ Activates when entering battle. Affects self.<br/>$colMax HP ▲ 60.28% continuously.$fcol",
+        "ulti_description":"■ Affects 1 enemy unit(s) with the highest HP.<br/>$fcolDeals 1104.91% of $bcolfinal$bfcol ATK as damage.$fcol<br/>■ Affects self.<br/>$colAttract: Taunt all enemies for 15 sec.$fcol<br/>■ Activates when Cat's Repayment is fully stacked. Affects self.<br/>$colGrump Cat: HP Potency ▲ 60.08% for 15 sec.$fcol"
     }
 ]
