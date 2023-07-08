@@ -793,6 +793,11 @@
     "id": "c941"
   },
   {
+    "name": "Katie",
+    "id": "c945",
+    "version":4.1
+  },
+  {
     "name": "Ruru",
     "id": "c946",
     "version":4.1
@@ -838,6 +843,11 @@
   {
     "name": "Queen's Order",
     "id": "queensorder",
+    "version":4.1
+  },
+  {
+    "name": "Nya Nya Paradise",
+    "id": "nyanyaparadise",
     "version":4.1
   },
   {
