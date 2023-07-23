@@ -1514,7 +1514,7 @@
         "manufacturer": "PILGRIM",
         "class": "Attacker",
         "squad": "Weissritter",
-        "name": "Chime",
+        "name": "_Chime",
         "skill1_name": "Neon's Special Bullet",
         "skill1_description": "■ When the effect is cast\r\n<color=#00AEFF>[Target's] [Magazine Capacity {description_value_01} ▲] [lasts for {description_value_02} sec]</color>\r\n■ While in Full Burst, also cast\r\n<color=#00AEFF>[Apply on target] [Reload {description_value_03} rounds of ammunition]</color>",
         "skill2_name": "Long Live Firepower",
@@ -2696,5 +2696,31 @@
         "skill1_description":"■ Activates when $bcolrecovery takes effect$bfcol. Affects the target who applied the recovery effect.<br/>$colDamage Taken ▼ 14.14 % for 5 sec$fcol<br/>■ Activates when $bcolrecovery takes effect$bfcol. Affects self.<br/>$colCat's Repayment Damage Taken ▼ 8.43%, stacks up to 5 time(s) and lasts for 5 sec.$fcol",
         "skill2_description": "■ There is a 30% chance of activating when attacked. Affects the target. <br/>$colDamage Taken ▲ 8.26% for 5 sec.$fcol<br/>■ There is a 30% chance of activating when attacked in Grumpy Cat status. Affects the target.<br/>$colDeals 158.05% of $bcolfinal$bfcol ATK as damage.$fcol<br/>■ Activates when entering battle. Affects self.<br/>$colMax HP ▲ 60.28% continuously.$fcol",
         "ulti_description":"■ Affects 1 enemy unit(s) with the highest HP.<br/>$fcolDeals 1104.91% of $bcolfinal$bfcol ATK as damage.$fcol<br/>■ Affects self.<br/>$colAttract: Taunt all enemies for 15 sec.$fcol<br/>■ Activates when Cat's Repayment is fully stacked. Affects self.<br/>$colGrump Cat: HP Potency ▲ 60.08% for 15 sec.$fcol"
+    },
+    {
+        "id": "c350",
+        "class":"Supporter",
+        "description": "Mast has longed to hit the high seas ever since she first saw the swashbuckling adventures portrayed in pirate films as a child. As time drew on, however, her soul-crushing tenure at the Naval Squad slowly made her disillusioned. Even so, her vibrant personality remains untarnished, and she always brightens everyone else's day aboard the ship she serves.",
+        "drive_tier":"II",
+        "manufacturer": "ELYSION",
+        "name": "Mast",
+        "rarity":"SSR",
+        "squad":"Aegis",
+        "max_atk":21307,
+        "max_def":3999,
+        "max_hp": 647453,
+        "regular": "■ Affects target enemy.<br/>$col Deals 8.73% of ATK as damage.$fcol",
+        "weapon":{
+            "attack_type": "Electric",
+            "max_ammo":120,
+            "reload":1.50,
+            "weapon_type":"SMG"
+        },
+        "skill1_name": "Pirate's Grit",
+        "skill2_name": "Pirate's Sight",
+        "ulti_name": "Sail Through the Tempest!",
+        "skill1_description": "■ Activates when crit attack hits 2 time(s). Affects the target(s).<br/>$colSea Breeze: DEF ▼ 1.9% of the caster's DEF, stacks up to 50 time(s) and lasts for 3 sec.$fcol<br/>■ Activates when HP falls below 70%. Affects self and 2 ally unit(s) with the highest ATK (except caster).<br/>$colCritical Damage ▲ 50.94% continuously.$fcol",
+        "skill2_description": "■ Activates when entering battle. Affects self and 2 ally unit(s) with the highest ATK (except caster).<br/>$colCritical Rate ▲ 23.56% for 30 sec.$fcol",
+        "ulti_description": "■ Affects self and 2 ally unit(s) with the highest ATK (except caster).<br/>$colMax HP ▲ 86.2% of the caster's Max HP without restoring HP, lasts for 7 sec.<br/>Critical Damage ▲ 25.19%$fcol<br/>■ Affects the target's afflicted with Sea Breeze.<br/>$colStorm: Deals 4.52% of final ATK as damage. $fcol$bcolMirrors the stack count $bfcol$colof Sea Breeze every 1 sec for 7 sec.$fcol"
     }
 ]

@@ -313,7 +313,7 @@
     "id": "c201"
   },
   {
-    "name": "Yan TBA",
+    "name": "Yan Sunrise Market",
     "id": "c201_01",
     "version":4.1
   },
@@ -426,6 +426,11 @@
     "id": "c262"
   },
   {
+    "name": "Indivilia",
+    "id": "c263",
+    "version":4.1
+  },
+  {
     "name": "Blanc",
     "id": "c270",
     "version": 4.1
@@ -524,7 +529,8 @@
   },
   {
     "name": "Chime",
-    "id": "c331"
+    "id": "c331",
+    "version":4.1
   },
   {
     "name": "Siren",
@@ -536,7 +542,17 @@
   },
   {
     "name": "Mast",
-    "id": "c350"
+    "id": "c350",
+    "version":4.1
+  },
+  {
+    "name": "Mast Bikini",
+    "id": "c350_01",
+    "version":4.1
+  },
+  {
+    "name": "Mast_old",
+    "id": "c350_old"
   },
   {
     "name": "Anchor",
@@ -613,6 +629,11 @@
     "id": "c432"
   },
   {
+    "name": "Red Hood",
+    "id": "c470",
+    "version":4.1
+  },
+  {
     "name":"Makima",
     "id":"c800"
   },
@@ -646,7 +667,8 @@
   },
   {
     "name": "Syuen",
-    "id": "c901"
+    "id": "c901",
+    "version":4.1
   },
   {
     "name": "Mustang",
@@ -848,6 +870,11 @@
   {
     "name": "Nya Nya Paradise",
     "id": "nyanyaparadise",
+    "version":4.1
+  },
+  {
+    "name": "Golden Ship",
+    "id": "goldenship",
     "version":4.1
   },
   {

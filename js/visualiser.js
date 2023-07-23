@@ -72,7 +72,9 @@ const changeSpine = (id) => {
             spineVersionLoader = spine
       }
 
-      if (id === "c131_01" && current_l2d === "aim") spineVersionLoader = spine
+      // exception list when a character have spine 4.1 and 4.0 assets
+      if (id === "c131_01" && current_l2d === "aim") spineVersionLoader = spine //pepper's skin
+      if (id === "c160" && current_l2d === "fb") spineVersionLoader = spine41 // yuni
 
       // empties the div to clear the current spine
       // every listeners MUST be in changeSpine because
@@ -93,24 +95,18 @@ const changeSpine = (id) => {
             canvas.style.left = document.documentElement.clientWidth * -0.66 + "px"
             canvas.style.top = document.documentElement.clientHeight * -1.25 + "px"
             harran_story = true
-      }else if (currentid !== "story1902" && harran_story){
+      } else if (currentid !== "story1902" && harran_story){
             let canvas = qs("#player-container")
             canvas.style.height = 100 +"vh";
             canvas.style.left = 0 + "px"
             canvas.style.top = 0 + "px"
             harran_story = false;
-      }else{
-            harran_story = false
-      }
+      } else { harran_story = false }
       
       // skin exception list , if not it'll go to default skin
-      if ( skin !=="weapon_2" || id !== "c220"){
-            skin = "default"
-      }
+      if ( skin !=="weapon_2" || id !== "c220"){ skin = "default" }
       //rapi_old and shifty_old exception
-      if ( id === "c010_01" || id === "c907_01"){
-            skin = "00"
-      } 
+      if ( id === "c010_01" || id === "c907_01") { skin = "00" } 
 
       if (current_l2d === "fb") {
             //if snow white / maxine / E.H. > use skin acc
@@ -216,6 +212,7 @@ document.addEventListener("mousedown", (e) => {
       oldx = e.clientX;
       oldy = e.clientY;
 })
+
 document.addEventListener("mouseup", (e) => {
       oldx = ""
       oldy = ""
@@ -227,9 +224,8 @@ document.addEventListener("mousemove", (e) => {
 
             let newx = e.clientX
             let newy = e.clientY
-            let stylel;
 
-            stylel = qs("#player-container").style.left.replaceAll("px", "")
+            let stylel = qs("#player-container").style.left.replaceAll("px", "")
 
             let stylet = qs("#player-container").style.top.replaceAll("px", "")
 
@@ -283,7 +279,6 @@ const updateHex = () => {
 updateHex()
 
 const updateRgb = () => {
-
       qs("#customRangeRed").value = r
       qs("#labelred").innerHTML = "Red - " +qs("#customRangeRed").value
       qs("#customRangeGreen").value = g
@@ -460,12 +455,13 @@ document.addEventListener("click",(e)=>{
       }
 })
 
-qs("#transparent").addEventListener("change",(e)=>{
-      if(e.target.checked){
-            alert("CHARACTERS THAT WERE BROKEN WHEN TAKING A SCREENSHOT WITH TRANSPARENCY AREN'T ANYMORE, KEEPING THE ALERT TO LET PEOPLE KNOW, WILL DELETE THE ALERT IN THE FUTURE, THANKS 神罰の執行者 ライラ FOR THE INSTRUCTIONS ON HOW TO FIX IT");
-      }
-      transparent = e.target.checked;
-})
+// qs("#transparent").addEventListener("change",(e)=>{
+//       if(e.target.checked){
+//             alert("CHARACTERS THAT WERE BROKEN WHEN TAKING A SCREENSHOT WITH TRANSPARENCY AREN'T ANYMORE, KEEPING THE ALERT TO LET PEOPLE KNOW, WILL DELETE THE ALERT IN THE FUTURE, THANKS 神罰の執行者 ライラ FOR THE INSTRUCTIONS ON HOW TO FIX IT");
+//       }
+//       transparent = e.target.checked;
+// })
+
 
 // change background image
 
@@ -482,7 +478,6 @@ qs("#l2dbgimgchangerbtn").addEventListener("click", (e) => {
       } else if (!bgimgpannelvisible) {
             qs("#l2dbgimgchangerpannel").hidden = true
       }
-      bgimgpannelvisible = qs("#l2dbgimgchangerpannel").hidden
 })
 
 qs(".bgdropdown .form-control-sm").addEventListener("change", (e) => {
