@@ -167,7 +167,11 @@ const changeSpine = (id) => {
 let current_l2d = "fb"
 // let current_l2d = "aim"
 // let current_l2d = "cover"
+
+// need to be uncommented if want to load a 4.1 animation
+// currentVersion=4.1 
 changeSpine("c010")
+
 
 let move = false
 let oldx = "";

@@ -916,8 +916,53 @@
     "version":4.1
   },
   {
+    "name": "Story 04-05",
+    "id": "story0405",
+    "version":4.1
+  },
+  {
+    "name": "Story 07-02",
+    "id": "story0702",
+    "version":4.1
+  },
+  {
+    "name": "Story 12-01",
+    "id": "story1201",
+    "version":4.1
+  },
+  
+  {
+    "name": "Story 13-02",
+    "id": "story1302",
+    "version":4.1
+  },
+  
+  {
+    "name": "Story 13-03",
+    "id": "story1303",
+    "version":4.1
+  },
+  {
     "name": "Story 14-01",
     "id": "story1401"
+  },
+  
+  {
+    "name": "Story 14-03",
+    "id": "story1403",
+    "version":4.1
+  },
+  
+  {
+    "name": "Story 14-05",
+    "id": "story1405",
+    "version":4.1
+  },
+  
+  {
+    "name": "Story 15-01",
+    "id": "story1501",
+    "version":4.1
   },
   {
     "name": "Story 19-01",

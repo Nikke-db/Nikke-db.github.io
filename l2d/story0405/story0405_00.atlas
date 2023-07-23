@@ -1,0 +1,82 @@
+EventScene_Chap_04_05.png
+size:2048,2048
+filter:Linear,Linear
+pma:true
+scale:0.47
+Layer 10
+bounds:2,1954,23,92
+Layer 2
+bounds:671,1939,136,107
+Layer 3
+bounds:1278,1952,81,94
+Layer 4
+bounds:536,1985,126,61
+Layer 5
+bounds:1801,1882,102,164
+Layer 6
+bounds:1767,1871,122,175
+Layer 7
+bounds:505,1953,126,93
+Layer 8
+bounds:569,2008,83,38
+Layer 9
+bounds:721,1979,96,67
+arm_l_d_shot
+bounds:803,624,690,445
+rotate:270
+arm_l_default
+bounds:1282,751,330,614
+rotate:90
+arm_l_u_shot
+bounds:1551,1651,310,395
+rotate:180
+arm_r_default
+bounds:768,1082,623,964
+arm_r_destroy
+bounds:1177,1047,623,999
+rotate:180
+arn_inside_acc
+bounds:1375,1850,119,196
+body_default
+bounds:2,614,908,1432
+fx_bbg002_story_charge_00001
+bounds:651,176,235,235
+fx_bbg002_story_charge_00002
+bounds:2,205,235,235
+fx_bbg002_story_charge_00003
+bounds:1615,277,235,235
+fx_bbg002_story_charge_00004
+bounds:1378,277,235,235
+fx_bbg002_story_charge_00005
+bounds:1141,277,235,235
+fx_bbg002_story_charge_00006
+bounds:414,378,235,235
+fx_bbg002_story_charge_00007
+bounds:904,387,235,235
+fx_bbg002_story_charge_00008
+bounds:667,413,235,235
+fx_bbg002_story_charge_00009
+bounds:177,442,235,235
+fx_bbg002_story_charge_00010
+bounds:1724,514,235,235
+fx_bbg002_story_charge_00011
+bounds:1487,514,235,235
+fx_bbg002_story_charge_00012
+bounds:1250,514,235,235
+fx_bbg002_story_charge_00013
+bounds:1767,940,235,235
+fx_bbg002_story_charge_00014
+bounds:1803,1177,235,235
+fx_bbg002_story_charge_00015
+bounds:1811,1414,235,235
+fx_bbg002_story_charge_00016
+bounds:268,1811,235,235
+mouth_default
+bounds:888,114,264,271
+mouth_open
+bounds:239,134,261,277
+rotate:270
+tail
+bounds:1546,36,489,287
+tail_back
+bounds:1062,24,300,251
