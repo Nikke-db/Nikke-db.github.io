@@ -455,12 +455,12 @@ document.addEventListener("click",(e)=>{
       }
 })
 
-// qs("#transparent").addEventListener("change",(e)=>{
-//       if(e.target.checked){
+qs("#transparent").addEventListener("change",(e)=>{
+      if(e.target.checked){
 //             alert("CHARACTERS THAT WERE BROKEN WHEN TAKING A SCREENSHOT WITH TRANSPARENCY AREN'T ANYMORE, KEEPING THE ALERT TO LET PEOPLE KNOW, WILL DELETE THE ALERT IN THE FUTURE, THANKS 神罰の執行者 ライラ FOR THE INSTRUCTIONS ON HOW TO FIX IT");
-//       }
-//       transparent = e.target.checked;
-// })
+      }
+      transparent = e.target.checked;
+})
 
 
 // change background image
