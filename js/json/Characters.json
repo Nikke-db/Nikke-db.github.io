@@ -1760,23 +1760,29 @@
     },
     {
         "id": "c351",
-        "rarity": "SSR",
+        "rarity": "SR",
         "manufacturer": "ELYSION",
-        "class": "Attacker",
+        "class": "Defender",
         "squad": "Aegis",
         "name": "Anchor",
-        "skill1_name": "Neon's Special Bullet",
-        "skill1_description": "■ When the effect is cast\r\n<color=#00AEFF>[Target's] [Magazine Capacity {description_value_01} ▲] [lasts for {description_value_02} sec]</color>\r\n■ While in Full Burst, also cast\r\n<color=#00AEFF>[Apply on target] [Reload {description_value_03} rounds of ammunition]</color>",
-        "skill2_name": "Long Live Firepower",
-        "skill2_description": "■ Cast\r\n<color=#00AEFF>[Apply on target] [Critical Rate {description_value_01}% ▲] [lasts for {description_value_02} sec]</color> on friendly Squad\r\n■ While in Full Burst, also cast\r\n<color=#00AEFF>[Apply on target] [Metal ATK {description_value_03}% ▲] [lasts for {description_value_04} sec]</color>",
-        "ulti_name": "Fire!",
-        "ulti_description": "■ Cast\r\n<color=#00AEFF>[Apply on target] [Metal Damage {description_value_02}%] on {description_value_01}</color> enemy with the highest DEF\r\n■ If own HP is lower than {description_value_03}%, also cast\r\n<color=#00AEFF>[Apply on All allies] [Metal ATK {description_value_04}% ▲] [lasts for {description_value_05} sec]</color>\r\n<color=#00AEFF>[Apply on target] [Lock-on] [lasts for {description_value_06} sec]</color>",
+        "description": "A Nikke from Aegis squad, who is passionate about marine life. She is equipped with high-performance radar detectors inside her body, so she made a significant contribution to the Admire's voyage and combat. ",
+        "skill1_name": "GS",
+        "skill1_description": "■ Activates when the last bullet hits the target. Affects the target.</br>$colTaunt for 5 sec.$fcol<br/>■ Activates when the last bullet hits the target. Affects self.<br/>$colDEF ▲ 23.82% for 5 sec.$fcol",
+        "skill2_name": "MDS",
+        "skill2_description": "■ Activates when entering battle. Affects self.<br/>$bcolWhen attacking an enemy projectile, damage dealt to that projectile $bfcol$col▲ 25.6% continuously.$fcol",
+        "ulti_name": "CIWS",
+        "ulti_description": "■ Affects all enemies. <br/>$colDeals 304.45% of final ATK as damage.$fcol",
         "weapon": {
-            "weapon_type": "AR",
-            "attack_type": "Energy",
-            "max_ammo": 60
+            "weapon_type": "RL",
+            "attack_type": "Wind",
+            "max_ammo": 6,
+            "reload":2.00
         },
-        "drive_tier": "I"
+        "drive_tier": "I",
+        "max_atk":8666,
+        "max_def":2497,
+        "max_hp":307885,
+        "regular":"■ Affects target(s).<br/>$col Deals 61.3% of ATK as damage.<br/>Charge Time: 1 sec.<br/>Full Charge Damage: 250% of damage.$fcol"
     },
     {
         "id": "c010",
@@ -2722,5 +2728,57 @@
         "skill1_description": "■ Activates when crit attack hits 2 time(s). Affects the target(s).<br/>$colSea Breeze: DEF ▼ 1.9% of the caster's DEF, stacks up to 50 time(s) and lasts for 3 sec.$fcol<br/>■ Activates when HP falls below 70%. Affects self and 2 ally unit(s) with the highest ATK (except caster).<br/>$colCritical Damage ▲ 50.94% continuously.$fcol",
         "skill2_description": "■ Activates when entering battle. Affects self and 2 ally unit(s) with the highest ATK (except caster).<br/>$colCritical Rate ▲ 23.56% for 30 sec.$fcol",
         "ulti_description": "■ Affects self and 2 ally unit(s) with the highest ATK (except caster).<br/>$colMax HP ▲ 86.2% of the caster's Max HP without restoring HP, lasts for 7 sec.<br/>Critical Damage ▲ 25.19%$fcol<br/>■ Affects the target's afflicted with Sea Breeze.<br/>$colStorm: Deals 4.52% of final ATK as damage. $fcol$bcolMirrors the stack count $bfcol$colof Sea Breeze every 1 sec for 7 sec.$fcol"
+    },
+    {
+        "id":"c015",
+        "name": "Anis: Sparkling Summer",
+        "class":"Supporter",
+        "description":"Anis has finally brought out her much-anticipated swimsuit and put it on. This time, she is sure to get what she wants, be it free time on the beach, or more time with those close to her.",
+        "drive_tier":"III",
+        "manufacturer":"TETRA",
+        "rarity":"SSR",
+        "squad":"Counters",
+        "regular":" ■ Affects target enemy.<br/>$col Deals 259.2% of ATK as damage.$fcol",
+        "skill1_name": "Sparkling Boost",
+        "skill2_name": "Sparkling Missile",
+        "ulti_name": "Sparkling Wave",
+        "skill1_description": "■ Activates when entering Full Burst. Affects all Electric Code allies.<br/>$colATK ▲ 55.31% of caster's ATK, lasts for 10 sec. Reloading Speed ▲ 49.28% for 10 sec.$fcol",
+        "skill2_description": "■ Activates when firing the last bullet. Affects 2 enemy unit(s) with the highest ATK.<br/>$colDeals 382.42% of final ATK as damage.$fcol<br/>■ Activates when firing the last bullet. Affects self.<br/>$bcolDamage to interruption parts $bfcol$col▲ 6.91% for 10 sec.$fcol",
+        "ulti_description": "Affects self.<br/>$colMax Ammunition Capacity ▼ 73.92% for 10 sec.<br/>Reloading Speed ▲ 27.72% for 10 sec.<br/> Damage as strong element ▲ 42.24% for 10 sec.$fcol",
+        "max_atk":21307,
+        "max_def":4420,
+        "max_hp":647453,
+        "weapon":{
+            "attack_type":"Electric",
+            "max_ammo": 5,
+            "reload":2.00,
+            "weapon_type":"SG"
+        }
+    },
+    {
+        "id":"c353",
+        "name":"Helm: Aquamarine",
+        "class":"Attacker",
+        "drive_tier":"II",
+        "manufacturer":"ELYSION",
+        "rarity":"SSR",
+        "squad":"Aegis",
+        "description": "Helm sets off on an adventure in Blue Water island. Although she looks strange wearing a uniform over the swimsuite which was given to her, people can't help but be attracted to her getup.",
+        "regular":"■ Affects target enemy.<br/>$col Deals 13.65% of ATK as damage.$fcol",
+        "weapon":{
+            "attack_type":"Iron",
+            "max_ammo":60,
+            "reload":1.00,
+            "weapon_type":"AR"
+        },
+        "max_atk":25554,
+        "max_def":4164,
+        "max_hp":583734,
+        "skill1_name":"Admire Accompaniment",
+        "skill2_name":"Aegis Cannon Suppression Fire",
+        "ulti_name":"Aegis Cannon Overload",
+        "skill1_description": "■ Activates after landing 30 normal attack(s). Affects the target(s).<br/>$colDeals 131.34% of final ATK as additional damage.<br/>$fcol■ Activates when entering Full Burst. Affects all allies.<br/>$colEffect changes according to the activation time(s)<br/>Previous effects trigger repeatedly:<br/>Once: Cooldown of Burst Skill ▼ 1.82 sec.<br/>Twice: Cooldown of Burst Skill ▼ 2.2 sec.<br/> Three times: Cooldown of Burst Skill ▼ 2.6 sec.$fcol",
+        "skill2_description":"■ Affects 1 enemy unit(s) randomly.<br/>$colDeals 105.58 of final ATK as damage.$fcol<br/>■ Affects the same target(s) when they belong to Electric Code.<br/>$colDamage Taken ▲ 5.64% stacks up to 5 time(s) and lasts for 5 sec.$fcol",
+        "ulti_description":"■ Affects all enemies.<br/>$colDeals 105.58% of final ATK as damage.$fcol<br/>■ Affects the same target(s) when they belong to Electric Code.<br/>$colDeals 164.83% of final ATK as additional damage.$fcol"
     }
 ]

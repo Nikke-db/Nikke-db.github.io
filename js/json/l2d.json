@@ -38,6 +38,11 @@
     "version":4.1
   },
   {
+    "name":"Anis: Sparkling Summer",
+    "id": "c015",
+    "version":4.1
+  },
+  {
     "name": "Delta",
     "id": "c020"
   },
@@ -556,7 +561,8 @@
   },
   {
     "name": "Anchor",
-    "id": "c351"
+    "id": "c351",
+    "version":4.1
   },
   {
     "name": "Helm",
@@ -565,6 +571,11 @@
   {
     "name": "Helm Chandelier",
     "id": "c352_01"
+  },
+  {
+    "name": "Helm: Aquamarine",
+    "id": "c353",
+    "version":4.1
   },
   {
     "name": "Kilo",
@@ -875,6 +886,46 @@
   {
     "name": "Golden Ship",
     "id": "goldenship",
+    "version":4.1
+  },
+  {
+    "name": "Smol Bolt",
+    "id":"smol_bolt",
+    "version":4.1
+  },
+  {
+    "name": "Smol Frima",
+    "id":"smol_frima",
+    "version":4.1
+  },
+  {
+    "name": "Smol Helm",
+    "id":"smol_helm",
+    "version":4.1
+  },
+  {
+    "name": "Smol Liter",
+    "id":"smol_Liter",
+    "version":4.1
+  },
+  {
+    "name": "Smol Mary",
+    "id":"smol_mary",
+    "version":4.1
+  },
+  {
+    "name": "Smol Pepper",
+    "id":"smol_pepper",
+    "version":4.1
+  },
+  {
+    "name": "Smol Rapi",
+    "id":"smol_Rapi",
+    "version":4.1
+  },
+  {
+    "name": "Smol Yan",
+    "id":"smol_yan",
     "version":4.1
   },
   {
