@@ -905,7 +905,7 @@
   },
   {
     "name": "Smol Liter",
-    "id":"smol_Liter",
+    "id":"smol_liter",
     "version":4.1
   },
   {
@@ -920,7 +920,7 @@
   },
   {
     "name": "Smol Rapi",
-    "id":"smol_Rapi",
+    "id":"smol_rapi",
     "version":4.1
   },
   {
