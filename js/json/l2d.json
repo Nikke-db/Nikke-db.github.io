@@ -889,6 +889,16 @@
     "version":4.1
   },
   {
+    "name": "Sea You Again",
+    "id": "seayouagain",
+    "version":4.1
+  },
+  {
+    "id":"smol_anchor",
+    "name":"Smol Anchor",
+    "version":4.1
+  },
+  {
     "name": "Smol Bolt",
     "id":"smol_bolt",
     "version":4.1
@@ -911,6 +921,11 @@
   {
     "name": "Smol Mary",
     "id":"smol_mary",
+    "version":4.1
+  },
+  {
+    "name":"Smol Mast",
+    "id": "smol_mast",
     "version":4.1
   },
   {

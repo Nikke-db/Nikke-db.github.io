@@ -1,5 +1,7 @@
 "use strict";
 
+alert("Sorry for the alert! But I'd like you, users, to fill in a form for me ! https://forms.gle/yqWw46ymxv9UsKDJA , a clickable link is available on the homepage of the website. I will let the form going until the next website update, if you already filled it, please ignore the alert. Thanks!")
+
 const qs = (val) =>{
       return document.querySelector(val)
 }
@@ -13,16 +15,6 @@ if (navigator.userAgent.includes("Android")||
 (navigator.userAgent.includes("Mac OS X")) && !navigator.userAgent.includes("Macintosh")){
       location.href = "v_m"
 }
-
-
-/*
-
-===
-!=
--> => <- <= >= <==>
-++ 
-
-*/
 
 const div = document.getElementById("visualiserMain");
 
@@ -89,6 +81,7 @@ const changeSpine = (id) => {
       // every listeners MUST be in changeSpine because
       // there aren't any spine currently, so if the listened divs
       // doesn't exist, it will break the code and nothing will work
+      // update august 12th 2023 : I have no clue what the four lines of comment above mean
       if (currentspine !== ""){
             currentspine.dispose();
       }
@@ -118,37 +111,37 @@ const changeSpine = (id) => {
       if ( id === "c010_01" || id === "c907_01") { skin = "00" } 
 
       if (current_l2d === "fb") {
-            //if snow white / maxine / E.H. > use skin acc
+            //if snow white / maxine / E.H. / drake racer/ Mast > use skin acc
             //if anchor > use skin bg
-            if(id==="c220" || id==="c102" || id==="c940" || id==="c101_01") skin="acc"
+            if(id==="c220" || id==="c102" || id==="c940" || id==="c101_01" || id==="c350") skin="acc"
             if(id==="c351") skin="bg"
 
-                  currentspine = new spineVersionLoader.SpinePlayer("player-container", {
-                        skelUrl: "/l2d/" + id + "/" + id + "_00.skel",
-                        atlasUrl: "/l2d/" + id + "/" + id + "_00.atlas",
-                        animation: "idle",
-                        skin: skin,
-                        backgroundColor: transparent ? "#00000000" : current_color,
-                        alpha: transparent ? true : false,
-                        mipmaps:false,
-                        debug: false,
-                        preserveDrawingBuffer:true
-                  });               
+            currentspine = new spineVersionLoader.SpinePlayer("player-container", {
+                  skelUrl: "/l2d/" + id + "/" + id + "_00.skel",
+                  atlasUrl: "/l2d/" + id + "/" + id + "_00.atlas",
+                  animation: "idle",
+                  skin: skin,
+                  backgroundColor: transparent ? "#00000000" : current_color,
+                  alpha: transparent ? true : false,
+                  mipmaps:false,
+                  debug: false,
+                  preserveDrawingBuffer:true
+            });               
       }
       if (current_l2d === "cover") {
             //if snow white and weapon_2 not selected> use weapon2
             if(id==="c220" && skin!=="weapon_2") skin="weapon_1"
 
-                  currentspine = new spineVersionLoader.SpinePlayer("player-container", {
-                        skelUrl: "/l2d/" + id + "/cover/" + id + "_cover_00.skel",
-                        atlasUrl: "/l2d/" + id + "/cover/" + id + "_cover_00.atlas",
-                        skin: skin,
-                        backgroundColor: transparent ? "#00000000" : current_color,
-                        alpha: transparent ? true : false,
-                        animation: "cover_idle",
-                        debug: false,
-                        preserveDrawingBuffer:true
-                  })
+            currentspine = new spineVersionLoader.SpinePlayer("player-container", {
+                  skelUrl: "/l2d/" + id + "/cover/" + id + "_cover_00.skel",
+                  atlasUrl: "/l2d/" + id + "/cover/" + id + "_cover_00.atlas",
+                  skin: skin,
+                  backgroundColor: transparent ? "#00000000" : current_color,
+                  alpha: transparent ? true : false,
+                  animation: "cover_idle",
+                  debug: false,
+                  preserveDrawingBuffer:true
+            })
       }
       if (current_l2d === "aim") {
             currentspine = new spineVersionLoader.SpinePlayer("player-container", {
