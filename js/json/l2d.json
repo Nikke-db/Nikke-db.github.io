@@ -95,6 +95,11 @@
     "id": "c070_01"
   },
   {
+    "name": "Brid Black Moon",
+    "id": "c070_02",
+    "version":4.1
+  },
+  {
     "name": "Soline",
     "id": "c071"
   },
@@ -423,6 +428,11 @@
     "id": "c260"
   },
   {
+    "name": "Modernia First Affection",
+    "id": "c260_01",
+    "version":4.1
+  },
+  {
     "name": "Nihilister",
     "id": "c261"
   },
@@ -531,6 +541,11 @@
   {
     "name": "Marchana",
     "id": "c321"
+  },
+  {
+    "name": "Crown",
+    "id": "c330",
+    "version":4.1
   },
   {
     "name": "Chime",

@@ -1,7 +1,5 @@
 "use strict";
 
-alert("Sorry for the alert! But I'd like you, users, to fill in a form for me ! https://forms.gle/yqWw46ymxv9UsKDJA , a clickable link is available on the homepage of the website. I will let the form going until the next website update, if you already filled it, please ignore the alert. Thanks!")
-
 const qs = (val) =>{
       return document.querySelector(val)
 }
@@ -76,6 +74,7 @@ const changeSpine = (id) => {
       // exception list when a character have spine 4.1 and 4.0 assets
       if (id === "c131_01" && current_l2d === "aim") spineVersionLoader = spine //pepper's skin
       if (id === "c160" && current_l2d === "fb") spineVersionLoader = spine41 // yuni
+      if (id === "c161" && current_l2d === "fb") spineVersionLoader = spine41 // mihara
 
       // empties the div to clear the current spine
       // every listeners MUST be in changeSpine because
@@ -112,9 +111,9 @@ const changeSpine = (id) => {
 
       if (current_l2d === "fb") {
             //if snow white / maxine / E.H. / drake racer/ Mast > use skin acc
-            //if anchor > use skin bg
+            //if anchor / brid black moon > use skin bg
             if(id==="c220" || id==="c102" || id==="c940" || id==="c101_01" || id==="c350") skin="acc"
-            if(id==="c351") skin="bg"
+            if(id==="c351" || id==="c070_02") skin="bg"
 
             currentspine = new spineVersionLoader.SpinePlayer("player-container", {
                   skelUrl: "/l2d/" + id + "/" + id + "_00.skel",

@@ -5,6 +5,7 @@
 body{
     background-color: var(--alt-dark-theme);
     color:white;
+    font-size: large;
 }
 h1{
     font-size: 40px;
@@ -17,7 +18,30 @@ p, ol{
     width:100%;
     text-align: center;
 }
+.smolimg{
+    width:200px;
+}
 a{
     color:white;
     
+}
+
+.green{
+    color: rgb(18, 216, 18)
+}
+
+.red {
+    color: red
+}
+
+.yellow{
+    color: yellow
+}
+
+.green, .red {
+    text-decoration: underline;
+}
+
+h2 {
+    color: rgb(75, 218, 218)
 }

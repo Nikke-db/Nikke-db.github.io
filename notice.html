@@ -10,25 +10,139 @@
 
 </head>
 <body>
-    <h1>Notice regarding the future of the website</h1>
-    <p>On August 2nd 2022, at 3:00 am UTC, the CBT 2 of Goddess of Victory: NIKKE released. </p><p>Being a private test, some users couldn't access the game, and tried to find a way to play. Within hours, the apk file of the game started being shared online allowing anyone with a code to play, even for users outside the country range allowed to play the game.</p><p>As a response to this issue, the development team of NIKKE wrote two warnings notices on social medias and in game warning users about their wrongdoings.</p><p>These warnings are aimed toward users datamining private content of the game and sharing it online, and inform that legal issues may occur for certain cases.</p><p>Nikke-DB is taking this threat seriously and will be reorganised to avoid issues.</p>
-    <ol>
-        <li>The website will not show anything NEW from CBT 2 ( characters, skills)</li>
-        <li>Every characters that are not in CBT 2 will be removed from the website</li>
-    </ol>
-    <p>Nikke-DB will now be what I always wanted it to be, a database of the game and not a leaking platform, while trying to stay on the legal side of Tencent/Proxima Beta/Level Infinite/Shift Up/whoever decided on taking legal actions.</p>
-    <p>The website may also suddenly disappear one day, if the developers dislike it's existence and gently ( I hope ) ask me to delete everything.</p>
-    <p>Thank you for your support from everywhere, in English, Korean and Japanese forums. I hope to run this website for as long as I can.</p><br><br>
-    <div class="img">
-        <img src="https://cdn.discordapp.com/attachments/891090590048075786/1004348821247111208/unknown.png">
-        <p>Tweet available at <a target="_blank" href="https://twitter.com/NIKKE_en/status/1554316414605004800">https://twitter.com/NIKKE_en/status/1554316414605004800</a></p>
-    </div>
     <a href="/">Return to the homepage</a>
+    
+    <br/><br/>
 
-    <!-- <script>
+    <h1>Beware of the wall of text, important info have been colored and underlined</h1>
+    
+    <br/><br/>
+
+    New notice wrote since august 23rd 2023 made to adress the changes in the next months, alongside some answers to the poll sent through the google form I've created two weeks ago.
+    
+    <br/><br/>
+
+    I'll begin this notice with a talk about the codebase of the website. Perhaps you've felt like nikke-db a bit scuffed or has an amateur feel to it's interface and the way it works, which is a totally acceptable feeling.
+    <br/>
+    This website is quite literally wrote entirely in raw HTML, CSS and JS, which is the most painful way of doing a complexe web application, due to the fact that it is hardly modulable, and make adding new content a WWE death match between me and deprecated functions, stuff that works on chromium but not firefox, duplicate names, import file hassle ect.
+    
+    <br/><br/>
+
+    This website is 95% made manually, with the 5 other percents the spine tools I've used from the very dedicated team of esotericSoftwares, to allow Spine assets to run on the web. 95% meaning I personnally grab the assets I want and need, as well as code everything from zero. I don't use complexe algorithms to gather my data, except for the currently abandonned event story pages.
+    
+    <br/><br/>
+    
+    <span class="green">As such I have decided to focus my following weeks if not months, depending on how tired I am after work, to redevelop and improve the website using a client side JavaScript Framework called VueJS 3 based on the Vite tool. I don't really know how long this will take, it'll depend on how determined I am. I won't really give you guys an update on my work but I will continue to add live2d assets after every patches while working on it. I don't want to ship a new website with less content than the current nikke-db, so time will be needed to be sure I replicate every pages the best I can</span>
+
+    <br/><br/>
+    
+    Working with a framework all of a sudden will bring changes to the current website repository. If you don't really care about coding you can skip to the next paragraph.
+    <br/>
+    The current repository holds 100% of the files for the website, from html, js, css, to spine runtimes, character icons, live2d assets (png, skel, atlas), json tables ect. This repository will become almost entirely deprecated once I decide to make the new switch to VueJS. I will host it on another web url, as a legacy website, and will use it as some kind of cheap web server to hosts the enormous file size of l2d, this way I don't have to reupload all the assets to a VueJS project.<br/>
+    Why though? It costs nothing to reupload assets to github right? Yup, you are entirely right. However my plan is to be as cheap as possible and also waste the least amount of space possible. The reason I'm using cloudflare (and previously github) pages is because I can host raw HTML/CSS/JS code for free and permanently. VueJs offers to build it's project to these languages, making it possible to freely host it. Though if I need to add the files to the Vue project and build it, it'll duplicate every single of these files into a folder called dist, doubling the entire size of the project, which is just awfull in my opinion. The most optimal option is to have a webserver hosting these and doing fetch requests to the server to gather the needed files on the specific input.
+
+    <br/><br/>
+
+    I'd like to thank everyone who has forked and starred my repository up to this day. What needs to be remembered is that <span class="green">the current repo will be continuously updated with new l2d and image assets but will not work as intended, and only the VueJS repository will receive new features once it is deployed.</span>. The VueJS repository will also be made public, once completed, on the github nikke-db account.
+
+    <br/><br/>
+
+    Enough talking, let's see some results from you guys 
+
+    <h1>Google form results</h1>
+
+    Once this new notice goes live, the form should be closed. I've received a total of 68 answers, which is less than what I'd have hoped, but if people come complaining now it's their fault for not having taking part! I'm insanely grateful to everyone who answered, and sorry for people that haven't because I've precised I wouldn't read non-english or non-french!
+
+    <h2>What country are you from?</h2>
+
+    Surprinsigly, people who answered this question come from all around the world ! WOW ! So many countries despite me only working only in english for tools, characters and live2d ! I hope my english writing is accurate as it is not my mother tongue!
+
+    <h2>Are you interested in a 3d chibi viewer ? Only a T-Pose, no animations</h2>
+
+    This question was mainly the reason I've made a form in the first place. I knew a chibi viewer was requested every once in a while but after a lot of trial and errors with gorgeous developpers who spent evenings with me, we just can't make animations working. So the question was tricky and wasn't sure of the global opinion on such a feature.
+
+    <br/><br/>
+
+    <span class="green">With 82.4% of people saying yes, you can except the feature to happen.. some time.. As I have to work on a revamp of the website with VueJS it'll happen in a long time, I will not lie about it. On a technical side, I will use the threeJS library to bring these chibis to the world wide web. If anyone manages to make animations working with the game files and threeJS, I beg of you to hit my personnal messages so we will make this a greater feature than planned. However I will not provide a tutorial on how to extract these 3d chibi files. </span><br/>
+    On a side note, once the feature starts to be developped, the files related to the chibis will be send to the legacy repository to save a lot of storage space once again, same thing as l2d assets as it is nearly 5mb PER character.
+
+    <h2>What do you dislike about the website ?</h2>
+
+    <ul>
+        <li class="green">The lack of a search option for the live2d list. When I made the page I never expected it to expand this quickly and have this many assets to visualise. Funny because I made a searchbox for the character page right? Well... Yeah... And this will be one of the first features to be added on the website after switching to VueJS.</li>
+        <li>Some people wrote that they enjoy everything, cool! thank you everyone!</li>
+        <li class="red">Loading time is slow. unfortunately I can't do anything for you. Each animations are 3 to 6mb, making a character a total of 9 to 18mb because of aim, cover and full body animations. These are the file size of the ingame files for high quality options, which I have selected on my computer, I don't want people to visualise pixelated stuff on my website. On a side note, the visualiser can use a lot of your data as nothing is cached, so be sure to use wifi as much as possible.</li>
+        <li class="green">We can't save our assets as a video. I know and I am sorry. I've talked with a couple developpers from dotgg/nikke and came up with a potential solution that'd save animations as a webm, however this is very hard to implement currently with my codebase, so it is also in my todo list</li>
+        <li class="red">We cannot visualise lobby or burst animations. I know. If this feature was possible it'd be there since the website's release nearly a year ago after CBT 2. This is plainly impossible and I will not detail the technicals side as to why. I am sorry about it, and would recommend you to check out the incredible work of reddit user <a href="https://www.reddit.com/user/-Lynnsanity-/">r/-Lynnsanity</a> or <a href="https://www.youtube.com/@SkyeeNIKKE">SkyeeNikke on YouTube</a> which offers these animations in a google drive cloud service. <a href="https://drive.google.com/drive/folders/1SQPloK4cyJPs5S-hff4NRZTVsanjPBXM">https://drive.google.com/drive/folders/1SQPloK4cyJPs5S-hff4NRZTVsanjPBXM</a></li>
+        <li class="red">Jiggle Physics, impossible, sorry</li>
+        <li class="green">Newest characters aren't available on the mobile visualiser. Oopsies! I think I know why and will fix it around the time the nier collab drops! Thanks for letting me know.</li>
+    </ul>
+
+    <h2>What do you like about the website current?</h2>
+
+    Not sure what I expected but it is mainly the live2d visualiser that everyone is really enjoying. Shoutout to the couple people who talked about the two tools I've made! I'm happy to know they are a bit used, though dotgg/nikke have much more complexes tools nowadays!
+
+    <h2>What unique features would you like to see appear ?</h2>
+
+    <ul>
+        <li>final attack calculators, way too complicated without knowing the exact formulas, on top on being extremely gear, bond, level and squad depedent. I did web development studies at university not maths.</li>
+        <li class="yellow">side by side models. I can't guarantee a no but I can't guarantee a yes either. This would be a monumental task that I currently have no clue how to make it happen without producing lots of bugs, or having very extremely specific requirements</li>
+        <li>Lobby/Burst animations, explanation was written in the paragraph above</li>
+        <li>webm export, explanation was written in the paragraph above</li>
+        <li class="green">Rapture viewer. As far as I know most raptures are 3d assets, but some have live2d assets I could easily add ( like chatterbox, or the small animations in interception menus). I can totally add them once the projects on VueJS is working. As for the 3d raptures, I won't say yes or no either, I'll have to see if I can find them and if a codebase for the chibis will also work with them if they are indeed 3d.</li>
+        <li class="green">A static image gallery for the main story and events. Great idea! I'll try my best after VueJS is running once again!</li>
+        <li class="red">A database of character textual dialogues. Seems a bit pointless in my opinion</li>
+        <li class="red">A music gallery. This is an absolutely monumental task which I'm not sure I am legally able to do, as it could break DMCA laws with labels and stuff. If I ever have time I might give it a shot but for now nothing is stopping you from finding playlists on youtube with every nikke songs you could ever imagine.</li>
+        <li class="yellow">A tier list maker. I don't see the point of one since tiermaker.com exists but this would be a fun task to do if my hands are free one day. So for this one it is once again neither a yes neither a no.</li>
+        <li class="yellow">A gallery for the background images of story, bond, event, lobby, etc. I've already tried to grab these but their name is extremely random so you can't easily grab all of them at once. I will try my best to implement as much, if any, of them in the potential gallery page, but can't be certain.</li>
+        <li class="red">A bond response database, the other ones are abandonned! This is simply not true, and I would like to redirect people with the need of such a tool to <a href="https://dotgg.gg/nikke/advise">this page</a> made by a great friend that helps me every once in a while for Nikke-DB</li>
+    </ul>
+
+    <h2>Would you like to tell me anything else ?</h2>
+
+    Overall everyone was very kind and sweet about their message in this section. Thank you everone for the encouraging words and using my hellish website made on a whim during CBT2.
+
+    <br/><br/>
+
+    Someone asked for me to update Mihara's asset as she received a new facial expression in chapter 24 !! Oops !! I knew about Yuni and Syuen but I did not realise about Mihara ! This will be fixed when I add Modernia's skin.. so it should already be live ! 
+    
+    <br/><br/>
+    
+    Now let's talk money. A couple people asked me to add a paypal link to thank me for my work and this will never happen. I am doing everything I can to not spend a single cent on this project, which explains my current bad codebase. When I started the website I didn't know about frameworks and stuff, it was only a training project but quickly gathered attention and I continued. Nowadays I know much more about web development and feel the need to recode but in a way where I will still not need to pay anything to any service! Despite being called Nikke-DB, if you have digged in the open source code you should have seen that I don't have any database, to cut costs ! funny ahah no?<br/><br/>
+    Anyway, point is, I do not, did not, will not spend a cent for Nikke-DB, meaning I can run this website without ads and without a paypal to save money on hosting fees or what not ! <br/><br/>
+
+    <span class="green">If you want to send me money, I'd be a lot more grateful if you advertised the website to your guild mates or friends that play the game or in video descriptions ! Or flowers to your girlfriend if you are lucky enough to have one!</span>
+
+    <h2>Final Words</h2>
+
+    If you've read up to here I'm honestly impressed. Thank you a lot. If I didn't talk about a feature you've request it's either that I did not understand it or it will not happen. A website works extremely differently compared to a game and not everything can be replicated without help from the shift up developpers themselves.<br/><br/>
+    
+    <span class="green">As a final RoadMap here it is :</span>
+
+    <ol class="green">
+        <li>Continue to update the current live2d player with new characters as they are officialy released</li>
+        <li>Fix the mobile visualiser </li>
+        <li>Work on the new VueJS codebase</li>
+        <li>Add small features like the live2d search box, raptures, save animations as webm, or small UI improvements</li>
+        <li>Static image gallery, as it seem quick to achieve</li>
+        <li>3d chibi T-Pose viewer</li>
+        <li>Explore the files for background image assets to add to the gallery</li>
+        <li>Check if a tier list maker is easy enough to make</li>
+    </ol>
+
+    Once again, I cannot and will not give an ETA for most of these features. My fulltime job will exhaust me most evenings, reducing the amount of personnal time I'll have, on top of having to play Nikke and other games I bought and would like to play.
+
+    <br/><br/>
+
+    Most users that found this notice page probably : <br/>
+
+    <img src="https://pbs.twimg.com/media/FoZ4qj-aAAAKE0G?format=jpg&name=large" class="smolimg">
+    <br/><br/><a href="/">Return to the homepage</a>
+
+    <script>
         if(window.location.href.includes("github")){
             window.location = "https://nikke-db.pages.dev/notice"
         }
-    </script> -->
+    </script>
 </body>
 </html>
