@@ -10,7 +10,7 @@ const qsa = (val) => {
 
 //redirects pc user to /v
 if (!navigator.userAgentData.mobile) {
-      location.href = "v"
+    //   location.href = "v"
 }
 
 const div = qs("#visualiserMain");
@@ -28,11 +28,13 @@ async function initJSON() {
         const liste_item = document.createElement("li");
 
         liste_item.innerHTML = "<img src='images/sprite/si_" + val.id + "_00_s.png'/>" + " " + val.name
+        liste_item.setAttribute('spineversion', val.version)
 
         liste_item.classList.add("charDiv")
 
         liste_item.addEventListener("click", (e) => {
             id = val.id;
+            currentVersion = val.version
             changeSpine(val.id)
         })
         div.appendChild(liste_item) //div character list
@@ -43,9 +45,26 @@ async function initJSON() {
 initJSON()
 
 let skin;
-let harran_story = false;
+let currentVersion = 4.0
 
 let changeSpine = (id) => {
+
+    // starting 18th may 2023, the game uses spine 4.1 for their animation
+    // I'm loading both 4.0 and 4.1 runtimes to avoid updating all 170 characters to 4.1
+    // and only keep 4.1 for the newests
+    // 4.0 : release to overzone event
+    // 4.1 : 777 event to ?
+    let spineVersionLoader;
+    if (currentVersion == 4.1) {
+        spineVersionLoader = spine41
+    } else {
+        spineVersionLoader = spine
+    }
+
+    // exception list when a character have spine 4.1 and 4.0 assets
+    if (id === "c131_01" && current_l2d === "aim") spineVersionLoader = spine //pepper's skin
+    if (id === "c160" && current_l2d === "fb") spineVersionLoader = spine41 // yuni
+    if (id === "c161" && current_l2d === "fb") spineVersionLoader = spine41 // mihara
 
     qs("#player-container").innerHTML = ""
 
@@ -59,12 +78,12 @@ let changeSpine = (id) => {
     }
 
     if (current_pose === "fb") {
-        //if snow white / maxine / E.H. > use skin acc
-        //if anchor > use skin bg
-        if(id==="c220" || id==="c102" || id==="c940") skin="acc"
-        if(id==="c351") skin="bg"
+        //if snow white / maxine / E.H. / drake racer/ Mast > use skin acc
+        //if anchor / brid black moon > use skin bg
+        if(id==="c220" || id==="c102" || id==="c940" || id==="c101_01" || id==="c350") skin="acc"
+        if(id==="c351" || id==="c070_02") skin="bg"
 
-        new spine.SpinePlayer("player-container", {
+        new spineVersionLoader.SpinePlayer("player-container", {
             skelUrl: "/l2d/" + id + "/" + id + "_00.skel",
             atlasUrl: "/l2d/" + id + "/" + id + "_00.atlas",
             animation: "idle",
@@ -78,7 +97,7 @@ let changeSpine = (id) => {
         //if snow white and weapon_2 not selected> use weapon2
         if (id === "c220" && skin !== "weapon_2") skin = "weapon_1"
 
-        new spine.SpinePlayer("player-container", {
+        new spineVersionLoader.SpinePlayer("player-container", {
             skelUrl: "/l2d/" + id + "/cover/" + id + "_cover_00.skel",
             atlasUrl: "/l2d/" + id + "/cover/" + id + "_cover_00.atlas",
             skin: skin,
@@ -89,7 +108,7 @@ let changeSpine = (id) => {
             preserveDrawingBuffer: true
         })
     } else if (current_pose === "aim") {
-        new spine.SpinePlayer("player-container", {
+        new spineVersionLoader.SpinePlayer("player-container", {
             skelUrl: "/l2d/" + id + "/aim/" + id + "_aim_00.skel",
             atlasUrl: "/l2d/" + id + "/aim/" + id + "_aim_00.atlas",
             skin: skin,
