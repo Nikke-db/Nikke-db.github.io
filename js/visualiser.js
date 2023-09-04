@@ -110,10 +110,15 @@ const changeSpine = (id) => {
       if ( id === "c010_01" || id === "c907_01") { skin = "00" } 
 
       if (current_l2d === "fb") {
-            //if snow white / maxine / E.H. / drake racer/ Mast > use skin acc
-            //if anchor / brid black moon > use skin bg
-            if(id==="c220" || id==="c102" || id==="c940" || id==="c101_01" || id==="c350") skin="acc"
-            if(id==="c351" || id==="c070_02") skin="bg"
+            //if snow white / maxine / E.H. / drake racer/ Mast / 
+            // 2B / 2B skirtless > use skin acc
+            if(   id==="c220" || id==="c102" || id==="c940" || id==="c101_01" || id==="c350" || 
+                  id==="c810" || id==="c810_01" ) {
+                        skin="acc"
+            }
+
+            //if anchor / brid black moon / 2b skin gacha > use skin bg
+            if(id==="c351" || id==="c070_02" || id==="c810_02") skin="bg"
 
             currentspine = new spineVersionLoader.SpinePlayer("player-container", {
                   skelUrl: "/l2d/" + id + "/" + id + "_00.skel",

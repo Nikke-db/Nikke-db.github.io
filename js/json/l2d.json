@@ -688,6 +688,46 @@
     "id": "c804"
   },
   {
+    "name":"2B",
+    "id": "c810",
+    "version":4.1
+  },
+  {
+    "name":"2B Metamorphic Damage",
+    "id": "c810_01",
+    "version":4.1
+  },
+  {
+    "name":"2B YoRHa Uniform 1",
+    "id": "c810_02",
+    "version":4.1
+  },
+  {
+    "name":"A2",
+    "id": "c811",
+    "version":4.1
+  },
+  {
+    "name":"A2 Metamorphic Damage",
+    "id": "c811_01",
+    "version":4.1
+  },
+  {
+    "name":"A2 YoRHa Uniform Prototype",
+    "id": "c811_02",
+    "version":4.1
+  },
+  {
+    "name":"Pascal",
+    "id": "c812",
+    "version":4.1
+  },
+  {
+    "name":"9S",
+    "id": "c813",
+    "version":4.1
+  },
+  {
     "name": "Ingrid",
     "id": "c900"
   },
@@ -848,6 +888,21 @@
   {
     "name": "Ruru",
     "id": "c946",
+    "version":4.1
+  },
+  {
+    "name": "Product 12: B-0006",
+    "id": "c962",
+    "version":4.1
+  },
+  {
+    "name": "Product 12: C-1002",
+    "id": "c963",
+    "version":4.1
+  },
+  {
+    "name": "Product 12: 6000-D",
+    "id": "c964",
     "version":4.1
   },
   {

@@ -1,0 +1,92 @@
+c964_00.png
+size:2048,2048
+filter:Linear,Linear
+pma:true
+scale:1.26
+Ammo back pack
+bounds:527,1213,422,674
+Ammo back pack Shadow
+bounds:918,1362,342,677
+offsets:0,0,369,677
+Belt
+bounds:554,537,591,247
+rotate:180
+Belt pouch
+bounds:1530,1431,160,174
+Body
+bounds:2,1211,580,828
+Body shadow
+bounds:1147,415,353,233
+Hair back side 1
+bounds:339,116,276,367
+rotate:270
+Hair back side 2
+bounds:1845,1518,158,291
+Head helmet
+bounds:1261,1607,377,348
+Left Arm  hand
+bounds:708,1894,200,145
+Left Arm 2
+bounds:825,170,368,243
+Left Arm1
+bounds:151,332,315,428
+rotate:270
+Left Arm1 Shadow
+bounds:707,92,111,243
+Left leg 1
+bounds:1172,926,368,687
+Left leg 2
+bounds:1542,890,324,1149
+Light on Left
+bounds:2,1231,87,87
+Light on Left2
+bounds:91,1191,64,66
+Light on Right2
+bounds:535,1889,50,47
+Light on effect Right
+bounds:1261,1960,66,79
+Neck
+bounds:580,796,105,199
+Neck Protector
+bounds:1782,869,295,192
+rotate:270
+Pelvis
+bounds:1312,641,549,282
+rotate:180
+Right Arm 1
+bounds:1195,151,398,170
+Right Arm 2
+bounds:2,74,311,347
+Right Arm 2 shadow
+bounds:2,508,218,222
+Right arm Shadow
+bounds:1834,449,345,205
+rotate:270
+Right arm hand
+bounds:1478,1871,173,168
+Right leg 1
+bounds:688,748,296,621
+rotate:270
+Right leg 2
+bounds:49,958,382,1037
+rotate:90
+Right leg Protector
+bounds:537,333,234,372
+rotate:90
+hair left side 1
+bounds:1845,1217,106,299
+hair left side 2
+bounds:1535,151,221,397
+offsets:11,0,232,397
+rotate:90
+hair right side 1
+bounds:397,1912,127,326
+rotate:90
+hair right side 2
+bounds:1088,1104,54,257
+head
+bounds:1502,368,280,339
+rotate:90
+shield
+bounds:2,628,331,580
+rotate:270
