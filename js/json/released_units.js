@@ -161,6 +161,7 @@ const RELEASED_UNITS = [
     'Novel',
     'Novel Penguin Holmes',
     'Nya Nya Paradise',
+    'Outer Automata',
     'Papillon',
     'Pascal',
     'Pepper',
