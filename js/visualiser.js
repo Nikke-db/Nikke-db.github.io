@@ -175,8 +175,8 @@ let current_l2d = "fb"
 // let current_l2d = "cover"
 
 // need to be uncommented if want to load a 4.1 animation
-// currentVersion=4.1 
-changeSpine("c010")
+currentVersion=4.1 
+changeSpine("c321")
 
 
 let move = false
