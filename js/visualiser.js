@@ -113,7 +113,7 @@ const changeSpine = (id) => {
             //if snow white / maxine / E.H. / drake racer/ Mast / 
             // 2B / 2B skirtless > use skin acc
             if(   id==="c220" || id==="c102" || id==="c940" || id==="c101_01" || id==="c350" || 
-                  id==="c810" || id==="c810_01" ) {
+                  id==="c810" || id==="c810_01" || id==="c321") {
                         skin="acc"
             }
 
