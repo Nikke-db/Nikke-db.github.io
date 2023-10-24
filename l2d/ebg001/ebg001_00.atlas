@@ -1,0 +1,223 @@
+ebg001.png
+size:2048,2048
+filter:Linear,Linear
+pma:true
+scale:0.6
+Ball1
+bounds:2,1119,64,64
+Ball2
+bounds:188,1160,43,43
+Ball3
+bounds:119,1166,67,66
+Ball4
+bounds:408,741,82,82
+Ball6
+bounds:408,741,82,82
+Ball5
+bounds:2,1460,52,52
+Body
+bounds:1329,1075,849,186
+offsets:0,0,849,250
+rotate:90
+Body_oiltank
+bounds:483,382,760,239
+Body_ring_2 copy 3
+bounds:1173,290,139,430
+rotate:270
+Body_ring_2_back
+bounds:1206,1678,107,348
+Body_ring_back
+bounds:2,825,1424,79
+Body_ring_under
+bounds:1203,399,612,151
+offsets:0,0,612,174
+Body_under
+bounds:2,540,539,283
+Claw copy
+bounds:1014,563,76,119
+Claw copy 2
+bounds:917,1233,76,119
+Claw
+bounds:917,1233,76,119
+Core_container_frame
+bounds:524,567,530,220
+offsets:0,15,530,235
+Core_inner V2
+bounds:62,1148,935,350
+Core_shell V4
+bounds:2,1500,1030,526
+Core_shell_back
+bounds:1755,538,883,271
+rotate:270
+Crane_1
+bounds:1868,1393,274,123
+rotate:90
+Crane_2
+bounds:1561,154,244,79
+offsets:8,0,252,79
+Detail_parts2
+bounds:1050,696,308,127
+Energy_Core
+bounds:2,1669,32,32
+Eye1
+bounds:1056,1935,38,33
+Eye2
+bounds:938,1540,38,33
+Eye3
+bounds:763,1500,38,33
+Eye4
+bounds:166,1544,38,33
+Gun_back_1
+bounds:1911,1669,103,257
+Gun_back_2
+bounds:1713,1182,207,161
+offsets:4,0,211,161
+rotate:90
+Head over
+bounds:54,151,206,290
+offsets:0,42,206,332
+rotate:270
+Head under
+bounds:255,78,184,164
+Leg1_1
+bounds:1344,1895,142,131
+Leg1_2
+bounds:1191,544,158,150
+offsets:163,3,324,203
+Leg1_3
+bounds:441,137,121,119
+Leg2
+bounds:1684,1164,86,127
+Leg3_1
+bounds:2,1512,166,145
+offsets:0,0,166,153
+Leg3_2
+bounds:958,197,213,213
+offsets:45,0,258,235
+rotate:90
+Leg3_3
+bounds:2,1169,115,224
+Leg_back_1
+bounds:385,448,126,121
+Leg_back_2
+bounds:1247,1075,75,88
+Leg_back_3
+bounds:1743,259,229,228
+offsets:0,0,302,228
+rotate:90
+Main_guns1
+bounds:2,85,241,105
+offsets:0,0,241,109
+rotate:180
+Main_guns2
+bounds:635,459,315,96
+offsets:2,0,317,99
+Main_guns3
+bounds:631,86,352,78
+offsets:0,0,352,80
+Main_guns4
+bounds:1586,208,363,50
+offsets:1,3,364,56
+Main_guns5
+bounds:985,83,331,87
+Main_guns6
+bounds:1776,1930,245,86
+Pipe
+bounds:937,472,111,98
+Pipe_front
+bounds:873,1149,89,82
+Teeth over_mid2
+bounds:2,1703,34,50
+Teeth1
+bounds:2,1521,17,50
+Teeth10
+bounds:1034,1840,20,63
+Teeth11
+bounds:1034,1840,20,63
+Teeth12
+bounds:1025,1739,21,67
+Teeth13
+bounds:1034,1905,20,63
+Teeth14
+bounds:1034,1905,20,63
+Teeth2
+bounds:2,1071,16,46
+Teeth3
+bounds:1056,1888,15,45
+Teeth4
+bounds:1048,1794,14,44
+Teeth5
+bounds:2,1976,17,50
+Teeth6
+bounds:25,1191,16,46
+Teeth7
+bounds:803,1511,15,45
+Teeth8
+bounds:1056,1842,14,44
+Teeth9
+bounds:2,1210,21,67
+Teeth_under_mid
+bounds:2,1399,43,59
+Throught1
+bounds:119,1234,32,31
+Throught2
+bounds:905,1575,50,50
+Throught3
+bounds:1202,1586,83,82
+back
+bounds:2,754,102,69
+ball_ring
+bounds:170,1508,106,33
+door1
+bounds:834,1500,102,73
+door2_frame
+bounds:2,510,67,83
+guns V2_1
+bounds:579,133,390,222
+offsets:0,4,390,226
+rotate:180
+guns V2_2
+bounds:1350,75,366,326
+guns V2_3
+bounds:1516,1346,44,165
+guns V2_4
+bounds:1790,1423,137,413
+guns V2_5
+bounds:1516,1169,274,393
+offsets:0,0,274,409
+rotate:180
+guns_back 1
+bounds:1495,99,182,73
+guns_back 2
+bounds:294,222,142,80
+mouth
+bounds:1277,898,130,175
+open_door_1
+bounds:492,775,128,48
+open_door_2
+bounds:1021,1970,131,56
+over_frame _1-1
+bounds:958,1580,377,252
+offsets:63,17,440,269
+rotate:90
+over_frame _1-2
+bounds:1775,1837,139,124
+over_frame _2
+bounds:2,289,412,278
+rotate:180
+over_frame _3
+bounds:309,243,407,252
+over_frame back
+bounds:1510,1463,563,329
+rotate:270
+shdow
+bounds:999,1165,328,419
+shield_back
+bounds:1451,850,343,312
+shield_back2
+bounds:2,906,1185,98
+sub_guns_shadow
+bounds:1428,538,310,325
+rotate:90
+under_frame front
+bounds:2,1006,1271,157

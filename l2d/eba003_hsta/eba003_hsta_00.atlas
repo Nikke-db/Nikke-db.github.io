@@ -1,0 +1,73 @@
+eba003_hsta.png
+size:2048,2048
+filter:Linear,Linear
+pma:true
+scale:0.8
+Back Parts1
+bounds:1744,1689,170,263
+Back Parts_fx
+bounds:2,1091,58,88
+Body4
+bounds:2,1761,82,191
+Body_1
+bounds:820,433,798,767
+rotate:90
+Body_2_r
+bounds:811,6,266,328
+rotate:90
+Body_3
+bounds:1009,1398,550,554
+Joint_Body
+bounds:997,1214,96,64
+Panel1
+bounds:137,1849,23,55
+Panel2
+bounds:85,1836,22,68
+Panel3
+bounds:109,1848,26,56
+Ring_small_parts1
+bounds:1355,1221,96,203
+body_inner
+bounds:2,945,1006,1007
+body_inner_fx
+bounds:2,95,848,848
+joint
+bounds:1009,1289,169,112
+part_for ani_1
+bounds:1634,401,93,366
+part_for ani_1_bright
+bounds:1610,33,93,366
+part_for ani_2
+bounds:1808,595,91,361
+part_for ani_2_bright
+bounds:1792,958,91,361
+part_for ani_3
+bounds:1775,1321,91,366
+part_for ani_3_bright
+bounds:1648,769,91,366
+ring_b
+bounds:1658,9,1943,148
+rotate:90
+ring_f
+bounds:1500,2,1950,157
+rotate:270
+sub_wepon
+bounds:2,866,202,202
+sub_wepon2
+bounds:893,1749,122,203
+sub_wepon3
+bounds:760,799,55,202
+sub_wepon_fx
+bounds:85,1812,26,22
+sub_wepon_fx2
+bounds:752,1899,130,53
+wing
+bounds:2,6,606,87
+wing2
+bounds:76,1906,170,46
+wing3
+bounds:852,164,626,145
+wing4
+bounds:1456,1132,150,342
+wing_fx
+bounds:1095,1253,143,34

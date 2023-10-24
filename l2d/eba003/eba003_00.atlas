@@ -1,0 +1,76 @@
+eba003.png
+size:2048,2048
+filter:Linear,Linear
+pma:true
+scale:0.83
+Back Parts1
+bounds:800,70,176,273
+rotate:90
+Back Parts_fx
+bounds:2,1133,60,91
+Body4
+bounds:2,1828,85,198
+Body_1
+bounds:851,450,828,796
+rotate:90
+Body_2_r
+bounds:1329,41,276,340
+Body_3
+bounds:1047,1451,570,575
+Joint_Body
+bounds:1034,1260,100,66
+Panel1
+bounds:142,1920,24,57
+Panel2
+bounds:88,1906,23,71
+Panel3
+bounds:113,1919,27,58
+Ring_small_parts1
+bounds:1405,1268,100,211
+body_inner
+bounds:2,981,1043,1045
+body_inner_fx
+bounds:2,100,880,880
+joint
+bounds:1835,1471,175,116
+rotate:90
+part_for ani_1
+bounds:883,352,95,378
+rotate:90
+part_for ani_1_bright
+bounds:1047,1354,95,378
+rotate:90
+part_for ani_2
+bounds:1709,791,93,373
+part_for ani_2_bright
+bounds:1695,416,93,373
+part_for ani_3
+bounds:1670,36,93,378
+part_for ani_3_bright
+bounds:1819,1648,93,378
+ring_b
+bounds:1720,10,2016,154
+rotate:90
+ring_f
+bounds:1556,2,2024,163
+rotate:270
+sub_wepon
+bounds:2,901,208,208
+sub_wepon2
+bounds:926,1817,125,209
+sub_wepon3
+bounds:788,831,56,208
+sub_wepon_fx
+bounds:88,1881,27,23
+sub_wepon_fx2
+bounds:777,1973,133,53
+wing
+bounds:2,8,629,90
+wing2
+bounds:79,1979,177,47
+wing3
+bounds:883,171,650,150
+wing4
+bounds:1511,1176,156,354
+wing_fx
+bounds:1136,1318,147,34

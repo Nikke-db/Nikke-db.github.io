@@ -1,0 +1,96 @@
+mbg002.png
+size:2048,2048
+filter:Linear,Linear
+pma:true
+scale:0.5
+Body
+bounds:1052,934,539,316
+rotate:90
+Body V2
+bounds:390,184,631,201
+Body_Parts_Cover_1
+bounds:1773,1073,673,164
+rotate:90
+Body_Parts_Cover_2
+bounds:968,478,512,171
+Corn
+bounds:66,1664,62,93
+Corn_parts_1
+bounds:575,831,67,90
+Corn_parts_2
+bounds:1043,1484,74,49
+Drill_1
+bounds:1371,1073,400,400
+Drill_2
+bounds:1370,704,367,367
+Drill_3
+bounds:2,443,307,307
+Drill_4
+bounds:663,430,303,303
+Drill_5
+bounds:1754,1754,206,206
+Drill_6
+bounds:992,1535,140,139
+Front Cover
+bounds:2,132,212,318
+rotate:90
+Front Wheel
+bounds:1482,274,220,350
+rotate:90
+Front Wheel Parts
+bounds:968,259,217,319
+rotate:90
+Gear_cover_1
+bounds:2,1759,131,201
+Gear_cover_2 copy
+bounds:447,830,84,80
+Gears
+bounds:1484,1475,268,448
+Head1_Over2_2
+bounds:1119,41,642,231
+Head_Parts_1-1
+bounds:744,1838,127,122
+Head_Parts_1-1_effect
+bounds:135,1835,127,125
+Head_Parts_1-2
+bounds:120,1069,18,121
+Head_Parts_1-3
+bounds:914,1051,96,113
+Head_Parts_1-3_effect
+bounds:2,1149,96,122
+Head_Parts_1-4
+bounds:519,387,84,121
+Head_Parts_1-4_effect
+bounds:966,1166,83,128
+Head_Parts_1-5
+bounds:100,1103,18,128
+Phase1_Head1_Side V2 copy 7
+bounds:19,732,996,317
+Phase2_Wepon
+bounds:2,912,1049,1048
+Roller
+bounds:917,1676,565,284
+Small_Gear_01 copy
+bounds:358,836,87,85
+Small_Gear_02
+bounds:2,1058,93,89
+Small_Gear_03
+bounds:2,771,104,112
+Small_Parts_1
+bounds:264,1879,125,81
+Small_Parts_2
+bounds:108,755,94,61
+Teeth
+bounds:2,1546,62,211
+Teeth 2
+bounds:647,1886,79,74
+offsets:0,0,344,74
+eye_effect_1
+bounds:311,346,384,206
+rotate:90
+eye_effect_2
+bounds:1482,496,384,206
+eye_effect_3
+bounds:1134,1583,170,91
+shadow
+bounds:968,651,400,262

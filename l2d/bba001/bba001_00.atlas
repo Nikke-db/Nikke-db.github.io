@@ -1,0 +1,98 @@
+bba001.png
+size:2048,2048
+filter:Linear,Linear
+pma:true
+scale:0.57
+Antena
+bounds:39,1111,11,74
+Antena_2
+bounds:1110,1599,54,226
+offsets:23,0,99,226
+Body_2
+bounds:335,82,761,362
+offsets:0,30,761,392
+Body_2_1
+bounds:822,1926,228,109
+offsets:0,10,228,119
+Body_2_2
+bounds:864,1819,276,123
+offsets:0,6,276,129
+Body_under
+bounds:2,861,1229,1174
+Core1
+bounds:2,1998,33,37
+Core2
+bounds:271,1918,47,40
+Core3
+bounds:2,1080,34,51
+Core4
+bounds:2,1471,43,58
+offsets:0,2,43,60
+Hatch1
+bounds:271,1870,90,46
+Hatch2
+bounds:2,1529,98,53
+Hatch3
+bounds:182,1797,107,62
+Hatch4
+bounds:2,1569,119,73
+Hatch5
+bounds:62,534,133,88
+Hatch6
+bounds:2,981,152,108
+Hatch7
+bounds:2,900,152,104
+Inside
+bounds:1069,45,217,308
+rotate:90
+Launch Pods
+bounds:2,1644,144,106
+Launch Pods2
+bounds:2,807,128,95
+Launch Pods3
+bounds:271,1956,107,79
+Teeth V2
+bounds:2,1133,36,67
+body_inner
+bounds:1060,749,1286,583
+rotate:270
+body_inner1
+bounds:333,445,425,579
+rotate:90
+body_inner6
+bounds:2,1732,182,303
+hatch copy
+bounds:510,2,388,331
+hatch_2 copy 2
+bounds:2,127,341,419
+hatch_2_parts
+bounds:2,1762,51,55
+hatch_engine copy 2
+bounds:177,1861,92,174
+hatch_side copy
+bounds:2,558,309,301
+hatch_side_2 copy 3
+bounds:1761,10,235,335
+hatch_side_parts
+bounds:1432,1886,242,149
+inner parts copy
+bounds:913,742,46,345
+rotate:90
+inner parts1
+bounds:913,714,177,40
+inner parts2
+bounds:1319,1814,247,52
+inner parts3
+bounds:1046,1982,192,43
+wing1
+bounds:913,327,891,634
+offsets:0,0,891,665
+wing1_1
+bounds:378,872,305,61
+wing2
+bounds:1611,800,395,666
+wing3
+bounds:1586,1444,426,539
+rotate:180
+wing4
+bounds:921,236,1084,314
