@@ -1,4 +1,11 @@
 <linker>
+  <assembly fullname="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="Field.Runtime.SDCharacter.AnimationController.SDCharacterAnimationController" preserve="all" />
+    <type fullname="Field.Runtime.SDCharacter.AnimationEventTrigger.SDCharacterAnimationEventTrigger" preserve="all" />
+    <type fullname="Field.Runtime.SDCharacter.Prefab.SDCharacterWeaponPrefab" preserve="all" />
+    <type fullname="Field.Runtime.SDCharacter.PrefabData.SDCharacterPrefabData" preserve="all" />
+    <type fullname="Field.Runtime.SDCharacter.PrefabData.SDCharacterWeaponPrefabData" preserve="all" />
+  </assembly>
   <assembly fullname="Unity.Addressables, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
     <type fullname="UnityEngine.AddressableAssets.Addressables" preserve="all" />
   </assembly>
@@ -22,7 +29,7 @@
     <type fullname="UnityEngine.Mesh" preserve="all" />
     <type fullname="UnityEngine.MeshFilter" preserve="all" />
     <type fullname="UnityEngine.MeshRenderer" preserve="all" />
-    <type fullname="UnityEngine.MonoBehaviour" preserve="all" />
+    <type fullname="UnityEngine.Object" preserve="all" />
     <type fullname="UnityEngine.Shader" preserve="all" />
     <type fullname="UnityEngine.SkinnedMeshRenderer" preserve="all" />
     <type fullname="UnityEngine.Sprite" preserve="all" />
