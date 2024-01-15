@@ -89,7 +89,7 @@ function createUnityInstance(t, n, l) {
     };
   for (o in (e(n, "companyName", "Unity"),
   e(n, "productName", "WebGL Player"),
-  e(n, "productVersion", "0.16"),
+  e(n, "productVersion", "0.17"),
   n))
     u[o] = n[o];
   u.streamingAssetsUrl = new URL(u.streamingAssetsUrl, document.URL).href;
