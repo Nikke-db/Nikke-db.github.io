@@ -1,0 +1,20 @@
+c976_00.png
+size:2048,2048
+filter:Linear,Linear
+pma:true
+scale:3.0
+T.RONY
+bounds:2,293,357,81
+back_plate
+bounds:2,376,1317,825
+c907_screen_line_ani
+bounds:1326,498,1536,708
+offsets:0,437,1536,1536
+rotate:270
+frame
+bounds:2,1203,1323,831
+idle, speciall
+bounds:1321,307,525,189
+idle_mouse
+bounds:1848,307,189,156
+rotate:90
