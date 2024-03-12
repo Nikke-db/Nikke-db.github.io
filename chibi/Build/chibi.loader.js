@@ -2,10 +2,10 @@ function createUnityInstance(t, n, c) {
     function d(e, t) {
         if (!d.aborted && n.showBanner) return "error" == t && (d.aborted = !0), n.showBanner(e, t);
         switch (t) {
-            case "error":
+            case"error":
                 console.error(e);
                 break;
-            case "warning":
+            case"warning":
                 console.warn(e);
                 break;
             default:
@@ -56,7 +56,7 @@ function createUnityInstance(t, n, c) {
         },
         disabledCanvasEvents: ["contextmenu", "dragstart"]
     };
-    for (o in e(n, "companyName", "Unity"), e(n, "productName", "WebGL Player"), e(n, "productVersion", "0.20"), n) l[o] = n[o];
+    for (o in e(n, "companyName", "Unity"), e(n, "productName", "WebGL Player"), e(n, "productVersion", "0.21"), n) l[o] = n[o];
     l.streamingAssetsUrl = new URL(l.streamingAssetsUrl, document.URL).href;
     var a = l.disabledCanvasEvents.slice();
 
@@ -144,7 +144,7 @@ function createUnityInstance(t, n, c) {
     }
 
     l.SystemInfo = function () {
-        let gl, glVersion
+        var gl, glVersion
         var e, t, n, r, o = navigator.userAgent + " ",
             a = [["Firefox", "Firefox"], ["OPR", "Opera"], ["Edg", "Edge"], ["SamsungBrowser", "Samsung Browser"], ["Trident", "Internet Explorer"], ["MSIE", "Internet Explorer"], ["Chrome", "Chrome"], ["CriOS", "Chrome on iOS Safari"], ["FxiOS", "Firefox on iOS Safari"], ["Safari", "Safari"]];
 
@@ -199,9 +199,9 @@ function createUnityInstance(t, n, c) {
                 if (!t) return 0;
                 var t = e.headers.get("Content-Encoding"), n = parseInt(e.headers.get("Content-Length"));
                 switch (t) {
-                    case "br":
+                    case"br":
                         return Math.round(5 * n);
-                    case "gzip":
+                    case"gzip":
                         return Math.round(4 * n);
                     default:
                         return n
@@ -480,7 +480,7 @@ function createUnityInstance(t, n, c) {
         l.preRun.push(function () {
             l.addRunDependency("dataUrl"), e.then(function (e) {
                 var t = new DataView(e.buffer, e.byteOffset, e.byteLength), n = 0, r = "UnityWebData1.0\0";
-                if (!String.fromCharCode.apply(null, e.subarray(n, n + r.length)) == r) throw "unknown data format";
+                if (!String.fromCharCode.apply(null, e.subarray(n, n + r.length)) == r) throw"unknown data format";
                 var o = t.getUint32(n += r.length, !0);
                 for (n += 4; n < o;) {
                     var a = t.getUint32(n, !0), i = (n += 4, t.getUint32(n, !0)), s = (n += 4, t.getUint32(n, !0)),
