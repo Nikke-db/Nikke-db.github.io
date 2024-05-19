@@ -44,7 +44,7 @@ back_head_ear
 bounds:1091,1366,109,75
 offsets:0,7,109,82
 back_star_01
-bounds:1636,2010,53,36
+bounds:639,2010,53,36
 back_star_02
 bounds:1914,1556,113,56
 big_rib_01
@@ -101,7 +101,7 @@ neck_rib_01
 bounds:1826,1636,71,107
 offsets:0,0,72,107
 neck_star
-bounds:598,1877,48,39
+bounds:1638,2007,48,39
 r_arm
 bounds:1064,212,270,397
 rotate:270
