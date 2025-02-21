@@ -1,0 +1,293 @@
+c834_cover_02.png
+size:2048,2048
+filter:Linear,Linear
+pma:true
+scale:1.4
+1
+bounds:1650,393,212,350
+offsets:2,0,214,351
+10
+bounds:1570,1606,181,271
+offsets:2,2,183,273
+11
+bounds:128,285,291,479
+offsets:1,0,297,489
+rotate:270
+12
+bounds:1757,1474,267,393
+offsets:6,0,273,395
+rotate:180
+2
+bounds:532,614,56,181
+offsets:1,0,57,181
+rotate:90
+3
+bounds:281,9,87,239
+rotate:90
+4
+bounds:249,159,181,336
+rotate:90
+5
+bounds:1132,950,30,161
+offsets:0,0,32,161
+6
+bounds:1808,952,178,401
+offsets:0,0,178,402
+7
+bounds:1450,1253,41,154
+offsets:0,1,43,155
+8
+bounds:1892,1199,123,216
+9
+bounds:1882,1364,43,177
+offsets:0,0,43,178
+add hand L1
+bounds:1229,638,106,115
+offsets:8,3,127,118
+add hand L2
+bounds:796,510,118,84
+offsets:8,0,129,85
+add hand L3
+bounds:1230,1573,124,156
+offsets:11,0,143,158
+add hand L4
+bounds:973,1278,120,80
+offsets:0,0,120,83
+add hand L5
+bounds:1248,1962,119,69
+offsets:0,0,130,69
+add hand L6
+bounds:1155,1985,103,46
+offsets:2,3,111,49
+bodya
+bounds:2,935,904,1096
+bodyb
+bounds:1022,1111,465,466
+offsets:6,571,904,1096
+bullet
+bounds:380,578,92,32
+bullet clip
+bounds:520,1205,153,108
+offsets:0,0,153,109
+chain_2
+bounds:1363,264,85,153
+chain_3
+bounds:1661,1025,101,127
+clothes_1
+bounds:743,536,500,484
+offsets:0,0,500,510
+rotate:90
+clothes_2
+bounds:1526,899,181,353
+rotate:270
+clothes_3
+bounds:467,322,381,361
+rotate:90
+clothes_l6 #r45
+bounds:1655,317,333,349
+clothes_l7 #r35
+bounds:605,5,351,427
+rotate:270
+clothes_l8
+bounds:273,93,378,90
+clothes_l9 #r45
+bounds:1112,141,393,410
+rotate:270
+clothes_r4 #r30
+bounds:1706,60,375,283
+rotate:90
+clothes_r5 #r25
+bounds:1486,1082,694,393
+rotate:90
+clothes_r6 #r30
+bounds:1101,47,417,300
+rotate:180
+ear
+bounds:1517,1455,63,100
+offsets:0,0,63,104
+eye L
+bounds:2,1680,47,66
+offsets:1,0,48,66
+eye R
+bounds:2,1968,44,63
+offsets:0,0,45,63
+eyebrow1
+bounds:595,641,97,25
+eyebrow2
+bounds:1318,1563,100,17
+offsets:379,0,479,28
+eyelash1
+bounds:105,1635,34,27
+eyelash2
+bounds:164,1649,42,27
+face
+bounds:2,1654,311,377
+offsets:0,0,311,379
+rotate:180
+foot L
+bounds:1444,1860,171,365
+offsets:1,0,172,365
+rotate:270
+foot-Ra
+bounds:1472,157,232,295
+gun
+bounds:2,544,803,1126
+offsets:0,0,921,1126
+rotate:90
+gun1
+bounds:1756,612,265,288
+offsets:0,1,280,290
+gun2
+bounds:84,25,48,164
+offsets:0,10,64,185
+gun3
+bounds:1751,1586,52,163
+offsets:0,10,69,185
+gun4
+bounds:704,1990,64,41
+offsets:1,0,66,42
+hair back
+bounds:908,1821,119,210
+hand R1
+bounds:1810,1805,194,164
+offsets:4,2,202,168
+hand R2
+bounds:1350,1987,116,44
+offsets:1,27,118,77
+hand R3
+bounds:997,1855,138,60
+offsets:0,0,141,60
+hand R4
+bounds:818,898,103,79
+offsets:0,1,105,80
+hand R5
+bounds:1712,1752,73,127
+offsets:0,0,74,127
+highlight L1
+bounds:2,1658,24,20
+highlight L2
+bounds:2,2020,11,11
+highlight R1
+bounds:253,2010,24,21
+highlight R2
+bounds:46,2010,10,11
+index finger R
+bounds:892,981,59,56
+lower arm L
+bounds:754,59,371,309
+offsets:1,0,372,309
+lower arm R
+bounds:2,1425,105,277
+lower leg L
+bounds:1039,1552,479,595
+offsets:10,0,490,595
+rotate:270
+lower leg R
+bounds:1411,1099,491,386
+rotate:90
+mouth
+bounds:46,2023,34,8
+nose
+bounds:307,1910,41,43
+offsets:0,2,41,48
+ribbon_1
+bounds:132,47,149,205
+offsets:0,0,165,209
+ribbon_10
+bounds:1562,56,241,284
+offsets:0,0,248,284
+ribbon_11
+bounds:1225,553,146,148
+offsets:0,2,151,150
+ribbon_12
+bounds:109,1568,85,85
+ribbon_13
+bounds:921,143,155,293
+rotate:90
+ribbon_14
+bounds:1810,835,209,117
+offsets:0,3,209,120
+ribbon_15
+bounds:1557,736,202,140
+ribbon_16
+bounds:897,1359,97,83
+ribbon_2
+bounds:672,1268,111,249
+offsets:12,2,123,251
+rotate:90
+ribbon_3
+bounds:704,771,62,85
+offsets:0,9,62,94
+ribbon_4
+bounds:2,782,162,241
+ribbon_5
+bounds:648,12,143,291
+offsets:4,10,147,301
+rotate:90
+ribbon_6
+bounds:1046,1011,105,136
+offsets:0,0,105,139
+ribbon_7
+bounds:791,1933,115,98
+ribbon_8
+bounds:1905,1122,101,227
+shadow
+bounds:89,350,65,207
+offsets:0,0,66,207
+shadow2
+bounds:1422,1367,94,210
+shadow3
+bounds:818,292,310,256
+offsets:1,0,311,256
+the lower eyelid L
+bounds:846,964,74,45
+the lower eyelid R
+bounds:519,1150,73,48
+the upper eyelid L1
+bounds:302,2017,46,14
+the upper eyelid L3
+bounds:164,862,102,81
+the upper eyelid L4
+bounds:283,1950,102,81
+the upper eyelid R1
+bounds:198,1677,41,17
+the upper eyelid R3
+bounds:2,734,87,62
+thigh L
+bounds:1174,625,493,387
+offsets:0,1,494,388
+rotate:270
+thigh R
+bounds:491,1310,546,738
+offsets:0,0,547,738
+rotate:270
+thumb R
+bounds:46,1065,47,119
+offsets:2,0,69,130
+to_1
+bounds:2,1044,42,171
+offsets:0,0,45,171
+to_2
+bounds:2,339,85,213
+to_3
+bounds:1114,2,152,242
+offsets:0,0,165,242
+rotate:270
+upper arm L
+bounds:1238,402,329,554
+offsets:0,0,332,554
+rotate:90
+upper arm R
+bounds:2,153,304,389
+offsets:1,0,305,389
+rotate:90
+upper_eyelash1
+bounds:743,852,77,34
+upper_eyelash2
+bounds:1157,1096,101,35
+offsets:0,1,101,36
+white L
+bounds:1150,1573,83,55
+offsets:0,1,83,56
+white R
+bounds:883,1974,71,57

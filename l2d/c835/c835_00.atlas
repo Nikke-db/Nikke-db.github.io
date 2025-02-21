@@ -1,0 +1,447 @@
+c835_00.png
+size:2048,2048
+filter:Linear,Linear
+pma:true
+scale:0.44
+1
+bounds:905,1927,133,121
+offsets:0,0,135,121
+2
+bounds:1388,774,95,99
+3
+bounds:668,1307,87,147
+offsets:0,0,95,147
+4
+bounds:1081,1644,38,94
+5
+bounds:1973,868,75,130
+6
+bounds:913,506,103,115
+7
+bounds:989,894,165,70
+8
+bounds:1269,1010,117,89
+9
+bounds:990,853,96,51
+offsets:0,10,105,61
+angry_Lower_eyelash
+bounds:527,824,92,34
+angry_eyebrow
+bounds:1502,871,102,45
+angry_eyelid
+bounds:295,636,120,81
+angry_eyes
+bounds:0,1811,55,69
+special_eyes
+bounds:0,1811,55,69
+angry_highlight1
+bounds:226,2037,13,11
+gaoguang
+bounds:226,2037,13,11
+angry_highlight2
+bounds:489,2038,6,10
+battele_highlight2
+bounds:489,2038,6,10
+delight_highlight2
+bounds:489,2038,6,10
+gaoguang2
+bounds:489,2038,6,10
+angry_mouth
+bounds:575,1290,97,68
+angry_white
+bounds:547,1999,61,49
+offsets:3,0,64,49
+back hair1
+bounds:745,447,80,107
+back hair10
+bounds:528,142,375,165
+back hair11
+bounds:995,371,319,116
+back hair12
+bounds:1910,476,96,128
+offsets:3,0,99,128
+back hair13
+bounds:1327,767,86,89
+back hair14
+bounds:587,808,76,128
+back hair15
+bounds:1987,1654,61,140
+offsets:5,21,113,161
+back hair16a
+bounds:1048,1157,381,891
+offsets:14,0,469,891
+rotate:180
+back hair17
+bounds:44,791,126,85
+back hair19
+bounds:710,1762,198,286
+offsets:0,0,198,290
+back hair2
+bounds:878,178,347,225
+back hair20
+bounds:1624,1318,69,126
+back hair21
+bounds:1911,1511,49,79
+offsets:0,7,49,86
+back hair22
+bounds:1396,1120,161,97
+back hair23
+bounds:976,1150,142,126
+back hair3
+bounds:0,165,194,322
+back hair4
+bounds:1250,681,275,588
+rotate:270
+back hair5
+bounds:95,83,233,317
+back hair6
+bounds:1937,1439,111,369
+back hair7
+bounds:1230,857,262,594
+rotate:90
+back hair8
+bounds:718,374,374,438
+rotate:270
+back hair9
+bounds:1818,64,230,230
+offsets:0,0,235,230
+battele_Lower_eyelash
+bounds:1913,1487,62,22
+battele_eyebrow
+bounds:1556,1257,80,25
+battele_eyelid
+bounds:1157,804,125,80
+battele_eyes
+bounds:375,1880,51,63
+battele_highlight1
+bounds:75,2031,20,17
+delight_highlight1
+bounds:75,2031,20,17
+special_highlight1
+bounds:75,2031,20,17
+battele_mouth
+bounds:266,1616,108,118
+battele_white
+bounds:1716,1975,96,73
+body
+bounds:256,1397,529,651
+delight_Lower_eyelash
+bounds:1986,1417,61,23
+delight_eyebrow
+bounds:1958,1811,66,17
+delight_eyelid
+bounds:1615,517,114,80
+delight_eyes
+bounds:1172,1898,55,67
+delight_mouth
+bounds:1604,1268,97,49
+offsets:3,2,102,51
+delight_white
+bounds:62,878,96,73
+ear
+bounds:268,1489,79,148
+offsets:0,0,81,148
+face
+bounds:1411,1613,420,435
+offsets:28,0,533,435
+finger_i_add
+bounds:791,1593,52,88
+finger_i_b_add
+bounds:2020,1931,21,28
+finger_m_add
+bounds:75,1960,58,88
+finger_m_b_add
+bounds:692,1961,27,26
+finger_p_add
+bounds:1106,1738,50,75
+finger_p_b_add
+bounds:934,2028,22,20
+finger_r_add
+bounds:1136,1813,56,84
+finger_r_b_add
+bounds:1039,2024,30,24
+finger_t_add
+bounds:1268,1991,29,57
+hair1
+bounds:287,1412,62,77
+hair10
+bounds:1158,382,314,765
+offsets:0,5,317,770
+rotate:90
+hair11
+bounds:0,285,325,650
+rotate:90
+hair12
+bounds:1724,456,184,121
+hair13
+bounds:902,749,85,158
+hair14
+bounds:813,1683,126,155
+hair15
+bounds:1483,837,171,99
+hair16
+bounds:582,620,113,37
+offsets:0,1,113,39
+hair17
+bounds:1868,416,86,117
+hair18
+bounds:0,1006,70,61
+offsets:3,0,73,61
+hair2
+bounds:138,41,326,433
+offsets:8,0,334,433
+hair3
+bounds:1457,128,239,591
+rotate:90
+hair4
+bounds:0,856,52,64
+hair5
+bounds:33,1616,60,235
+hair6a
+bounds:1195,114,278,399
+hair7
+bounds:0,1538,101,358
+hair8
+bounds:987,586,247,758
+rotate:90
+hair9
+bounds:1675,1308,54,44
+huizhang
+bounds:1088,864,77,64
+index finger l
+bounds:910,1856,44,71
+index finger l2
+bounds:263,1716,30,61
+index finger r
+bounds:1715,1480,34,39
+jiemao
+bounds:152,2043,12,5
+jiemao2
+bounds:96,2044,7,4
+lalian
+bounds:2020,1961,23,37
+left arm
+bounds:287,451,148,410
+rotate:90
+left arm2
+bounds:1826,807,222,486
+offsets:58,0,280,486
+left foot
+bounds:271,932,464,983
+rotate:90
+left leg
+bounds:687,1134,484,914
+little finger l
+bounds:692,1928,16,31
+little finger l2
+bounds:1614,1579,32,33
+offsets:0,3,32,36
+little r
+bounds:1926,2013,33,35
+maoyan
+bounds:346,1341,300,142
+offsets:2,3,302,145
+maoyou
+bounds:288,1102,127,144
+maozi
+bounds:593,796,404,268
+maozuo
+bounds:1632,1518,151,135
+offsets:0,0,154,135
+meimao
+bounds:1421,1087,88,31
+middle l2
+bounds:891,2005,41,43
+offsets:0,12,52,55
+middle r
+bounds:1771,1932,35,42
+offsets:0,0,37,42
+minddle l
+bounds:2020,2000,21,48
+neck
+bounds:1914,1295,134,118
+no_Lower_eyelash
+bounds:808,762,92,34
+no_eyebrow
+bounds:775,749,106,11
+no_eyelid
+bounds:244,715,115,80
+no_eyes
+bounds:444,2008,32,40
+no_highlight1
+bounds:756,2037,10,11
+no_mouth
+bounds:1557,1538,67,38
+offsets:6,1,79,39
+no_white
+bounds:1414,1971,96,77
+nose
+bounds:1914,1420,96,66
+offsets:5,4,107,72
+pain_Lower_eyelash
+bounds:736,993,91,31
+pain_eyebrow
+bounds:1091,1105,122,51
+pain_eyelid
+bounds:653,1015,115,66
+offsets:0,4,115,70
+pain_mouth
+bounds:1148,1095,88,41
+palm r
+bounds:444,1927,107,121
+offsets:3,2,113,123
+palm_add
+bounds:0,1481,31,55
+right arm
+bounds:176,778,415,378
+right arm2
+bounds:1517,1131,212,129
+offsets:0,0,212,136
+right foot
+bounds:1731,1093,230,955
+offsets:0,0,257,955
+right leg
+bounds:0,939,297,1109
+offsets:33,0,330,1109
+shouzhang l
+bounds:0,1882,73,166
+offsets:0,1,73,167
+shy_Lower_eyelash
+bounds:1723,760,92,34
+special_Lower_eyelash
+bounds:1723,760,92,34
+shy_blush
+bounds:241,1945,201,103
+shy_eyebrow
+bounds:1673,1122,66,23
+shy_eyelash
+bounds:989,967,95,37
+offsets:0,0,95,40
+shy_eyelid
+bounds:1506,1578,104,34
+shy_mouth
+bounds:630,1253,67,36
+offsets:9,2,87,39
+special_eyebrow
+bounds:432,1913,64,25
+special_eyelid
+bounds:1933,552,115,80
+special_highlight2
+bounds:478,2033,9,15
+surprise_highlight2
+bounds:478,2033,9,15
+think_highlight2
+bounds:478,2033,9,15
+special_mouth
+bounds:770,1007,95,45
+special_white
+bounds:1956,1823,91,73
+offsets:5,0,96,73
+surprise_Lower_eyelash
+bounds:1762,796,92,34
+surprise_eyebrow
+bounds:1953,840,95,32
+surprise_eyelid
+bounds:1198,1267,113,82
+surprise_eyes
+bounds:1430,1910,48,59
+surprise_highlight1
+bounds:870,2038,12,10
+surprise_mouth
+bounds:1512,2013,62,35
+surprise_white
+bounds:1170,1967,96,81
+talk-end_mouth
+bounds:1027,1128,58,31
+talk-start_mouth
+bounds:1288,1235,59,38
+think_Lower_eyelash
+bounds:370,824,106,49
+offsets:0,4,106,53
+think_eyebrow
+bounds:1027,845,109,17
+offsets:0,0,109,28
+think_eyelid
+bounds:1147,542,115,79
+think_eyes
+bounds:1206,1440,51,66
+think_highlight1
+bounds:135,2031,15,17
+think_mouth
+bounds:1407,1103,55,27
+think_white
+bounds:282,1866,92,77
+offsets:4,0,96,77
+third l
+bounds:0,1763,29,47
+offsets:0,4,29,51
+third l2
+bounds:730,2023,24,25
+third r
+bounds:777,1553,37,37
+thumb l
+bounds:1962,1898,56,150
+thumb r
+bounds:498,1938,35,52
+tongkong
+bounds:791,1725,36,44
+waitaonei
+bounds:673,553,398,216
+weapon
+bounds:447,13,466,1047
+rotate:90
+weaponshadow
+bounds:670,1989,58,59
+xiayanpi
+bounds:0,627,92,36
+yanbai
+bounds:940,1128,89,73
+offsets:5,0,96,73
+yanpi
+bounds:801,475,114,80
+yanzhao
+bounds:457,850,134,140
+yao
+bounds:1211,1201,411,465
+yiling
+bounds:1231,1075,176,129
+yilinghou
+bounds:0,922,95,78
+youdabi
+bounds:346,651,439,186
+offsets:0,0,439,286
+rotate:180
+youshou
+bounds:530,1296,43,45
+youshouzhang
+bounds:1623,1429,114,108
+offsets:0,0,126,108
+yousz
+bounds:1674,1370,60,57
+yousz2
+bounds:1791,968,64,73
+offsets:0,0,64,87
+yousz3
+bounds:2005,1795,43,26
+offsets:25,5,68,76
+yousz3_2
+bounds:293,1042,68,64
+offsets:0,12,68,76
+yousz4
+bounds:1004,1291,58,70
+yousz5
+bounds:315,1563,45,59
+offsets:0,2,45,61
+youxiaobi
+bounds:0,521,327,327
+youxiaobi_1
+bounds:1721,511,325,327
+offsets:2,0,327,327
+rotate:270
+youxiu
+bounds:1244,1499,90,86
+zui1
+bounds:601,2039,33,9
+zui2
+bounds:1676,2021,42,27
+offsets:1,1,45,28

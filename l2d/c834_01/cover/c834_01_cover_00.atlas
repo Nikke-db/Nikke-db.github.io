@@ -1,0 +1,246 @@
+c834_cover_01.png
+size:2048,2048
+filter:Linear,Linear
+pma:true
+scale:1.5
+1
+bounds:840,707,228,375
+offsets:2,0,230,377
+rotate:180
+10
+bounds:726,1669,195,290
+offsets:2,2,197,293
+11
+bounds:229,296,311,513
+offsets:2,0,318,524
+rotate:90
+12
+bounds:1357,107,287,421
+offsets:6,0,293,423
+rotate:270
+2
+bounds:734,1418,60,194
+offsets:1,0,62,194
+3
+bounds:179,715,93,257
+rotate:90
+4
+bounds:1230,202,193,360
+offsets:0,0,194,360
+rotate:90
+5
+bounds:2014,1182,32,173
+offsets:0,0,35,173
+6
+bounds:2,772,191,429
+offsets:0,0,191,431
+7
+bounds:2002,935,44,166
+offsets:0,1,47,167
+8
+bounds:1403,1728,132,231
+9
+bounds:774,1613,47,190
+offsets:0,0,47,191
+add hand L1
+bounds:378,976,134,123
+offsets:3,3,137,126
+add hand L2
+bounds:335,955,135,83
+offsets:0,0,138,92
+add hand L3
+bounds:1897,1071,149,170
+offsets:0,0,153,170
+add hand L4
+bounds:96,1085,129,61
+offsets:0,0,129,62
+add hand L5
+bounds:452,882,133,73
+offsets:0,1,140,74
+add hand L6
+bounds:511,1512,114,47
+offsets:4,4,119,53
+arm_l_1
+bounds:1500,525,477,426
+rotate:90
+arm_r_3
+bounds:2,123,179,279
+offsets:0,3,179,282
+body
+bounds:749,1083,677,876
+brest L
+bounds:723,233,248,287
+offsets:0,0,248,293
+rotate:180
+brest R
+bounds:933,153,203,267
+offsets:7,0,210,267
+rotate:90
+bullet
+bounds:462,1924,99,35
+bullet clip
+bounds:109,43,164,115
+offsets:0,0,164,117
+collar
+bounds:1847,609,199,182
+offsets:0,0,201,183
+decoration left
+bounds:2,1834,84,125
+offsets:0,1,84,126
+decoration right
+bounds:48,1458,65,125
+offsets:0,0,66,125
+ear
+bounds:1470,1794,68,107
+offsets:0,0,68,111
+eye L
+bounds:1966,1191,50,71
+offsets:1,0,51,71
+eye R
+bounds:1537,1844,46,68
+offsets:1,0,48,68
+eyebrow1
+bounds:1794,1200,104,27
+eyebrow2
+bounds:667,1550,107,18
+offsets:406,0,513,30
+eyelash1
+bounds:1121,1931,36,28
+offsets:0,0,36,29
+eyelash2
+bounds:1934,1930,45,29
+face
+bounds:448,1556,333,403
+offsets:0,0,333,407
+gather
+bounds:1035,1915,86,44
+gun
+bounds:2,753,860,1206
+offsets:0,0,987,1206
+gun1
+bounds:1763,2,283,309
+offsets:1,1,300,311
+gun2
+bounds:2,1440,51,175
+offsets:0,11,69,198
+gun3
+bounds:1971,1784,56,175
+offsets:0,11,74,198
+gun4
+bounds:1373,1915,68,44
+offsets:1,0,71,45
+hair back
+bounds:1657,27,128,225
+hand R1
+bounds:267,1788,206,171
+offsets:0,2,207,174
+hand R2
+bounds:229,1914,111,45
+offsets:0,5,113,57
+hand R3
+bounds:1523,1899,136,60
+offsets:0,0,138,62
+hand R4
+bounds:1193,1577,99,69
+offsets:0,2,99,71
+hand R5
+bounds:1476,1162,73,121
+offsets:0,0,77,123
+hat_1
+bounds:706,62,260,131
+hat_2
+bounds:867,1867,167,92
+hat_3
+bounds:2,436,328,636
+offsets:0,0,333,636
+rotate:270
+hat_4
+bounds:1422,719,624,501
+rotate:180
+hat_5
+bounds:1358,371,476,315
+hat_6
+bounds:2,820,624,336
+offsets:33,0,657,336
+rotate:90
+hat_7
+bounds:1884,1625,162,110
+highlight L1
+bounds:819,1938,26,21
+highlight L2
+bounds:41,1947,12,12
+highlight R1
+bounds:191,1936,26,23
+highlight R2
+bounds:219,1947,11,12
+index finger R
+bounds:669,1899,63,60
+leg_l_1
+bounds:421,144,183,312
+rotate:90
+leg_l_2
+bounds:971,789,530,597
+leg_l_3
+bounds:1503,1219,543,404
+leg_r_2
+bounds:305,552,491,449
+rotate:180
+leg_r_3
+bounds:974,356,244,387
+offsets:68,0,312,387
+rotate:90
+mouth
+bounds:415,1950,36,9
+neck
+bounds:1170,91,144,173
+nose
+bounds:2,1912,44,47
+offsets:0,2,44,51
+shadow
+bounds:1443,983,70,222
+offsets:0,0,71,222
+shadow2
+bounds:278,1041,101,225
+shadow3
+bounds:1771,250,331,275
+offsets:2,0,333,275
+rotate:90
+the lower eyelid L
+bounds:356,1665,80,48
+the lower eyelid R
+bounds:1944,1733,78,51
+the upper eyelid L1
+bounds:1412,1944,50,15
+the upper eyelid L3
+bounds:1254,1304,110,87
+the upper eyelid L4
+bounds:349,1713,110,87
+the upper eyelid R1
+bounds:1663,1941,44,18
+the upper eyelid R3
+bounds:1327,1666,93,66
+thigh R
+bounds:1186,1374,585,791
+offsets:0,0,587,791
+rotate:270
+thumb R
+bounds:1223,1250,46,124
+offsets:5,0,74,140
+upper arm L
+bounds:826,501,352,594
+offsets:0,0,356,594
+rotate:90
+upper arm R
+bounds:114,103,326,417
+offsets:1,0,327,417
+upper_eyelash1
+bounds:1644,1923,83,36
+upper_eyelash2
+bounds:645,1255,108,38
+offsets:0,1,108,39
+white L
+bounds:1254,1633,89,59
+offsets:0,1,89,60
+white R
+bounds:2,1171,77,61
+offsets:0,0,77,62
