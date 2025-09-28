@@ -1,0 +1,14 @@
+{
+  "name": "nikke-db",
+  "version": "1.0.0",
+  "description": "used for helper scripts",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "clipboardy": "^5.0.0"
+  }
+}

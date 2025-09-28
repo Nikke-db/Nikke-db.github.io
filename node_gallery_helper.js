@@ -1,4 +1,4 @@
-const fs = require("node:fs")
+import fs from "node:fs"
 
 const gallery = process.argv[2]
 const notice = process.argv[3]

@@ -2,7 +2,7 @@
 // will move l2d files into the corresponding aim/cover folders
 // will detect if a file is supposed to be a skin and will rename it as needed to being used by the website
 
-const fs = require("node:fs")
+import fs from "node:fs"
 
 const cid = process.argv[2]
 
