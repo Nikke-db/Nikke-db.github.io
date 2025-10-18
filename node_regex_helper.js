@@ -1,7 +1,6 @@
 // makes a regex for asset studio si_xxxx_s lookup. exclude all already known ids
 import fs from "node:fs"
 import clipboard from 'clipboardy';
-import { log } from "node:console";
 
 // builds a regex following the scheme : 
 // (^si_c)(?!(010|011))(\d{3})(.*)(_s$)
@@ -48,7 +47,7 @@ console.log("regex for si_ lookup copied to clipboard. use it for AS")
 
 console.log("\nOther regexes : ")
 console.log("Lookup all l2d files for 1 character ( skin or vanilla ) : (^cid)(_cover|_aim|)(_skinid)[.]{0,1}(skel$|atlas$|$)")
-console.log("Lookup for npcs not getting through the si_ regex : usually they have id with 4 digits now. only look for atlas files. in as just grab the new id and search for it in name search")
+console.log("Lookup for npcs not getting through the si_ regex : usually they have id with 4 digits now. only look for atlas files. just grab the new id and search for it in name search")
 
 
 
