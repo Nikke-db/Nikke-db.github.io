@@ -1,8 +1,8 @@
 import fs from "node:fs"
 
 const gallery = process.argv[2]
-const notice = process.argv[3]
-const title = process.argv[4]
+const title = process.argv[3]
+const notice = process.argv[4]
 
 if (!gallery || notice === undefined) {
   console.error("ERROR, MISSING GALLERY OR NOTICE ARGUMENT")
