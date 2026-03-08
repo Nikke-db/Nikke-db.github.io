@@ -13,7 +13,7 @@ import clipboard from 'clipboardy';
 // npc regex : (^c)(\d{4}).*[.](atlas$)
 
 const extra_ids_to_exclude = ["5006", "8001", "999", "9997", "9998", "9999", "966", "965", "000", "944", "984_01",
-                              "9013", "9004_01", "890"
+                              "9013", "9004_01", "890", "9004"
 ]
 
 const l2d_file = fs.readFileSync("../nikke-db-vue/src/utils/json/l2d.json")
@@ -38,7 +38,7 @@ let npcRegex = "(^c)"
 npcRegex += "(?!("
 npcRegex += id_arr.filter((f) => {
   const str = f.replace("c","").split("_")[0]
-  return str.length === 4 && !isNaN(parseInt(str))
+  return (str.length === 4) && !isNaN(parseInt(str))
 }).join('|')
 npcRegex += "))"
 npcRegex += "(\\d{4})"
