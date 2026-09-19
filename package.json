@@ -12,6 +12,7 @@
   "dependencies": {
     "clipboardy": "^5.0.0",
     "dotenv": "^17.4.2",
+    "http-server": "^14.1.1",
     "reflect-metadata": "^0.2.2",
     "sql.js": "^1.14.2",
     "typeorm": "^1.1.0"
