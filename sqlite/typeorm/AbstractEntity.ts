@@ -29,6 +29,9 @@ export class AbstractEntity {
     @Column({type:'text', name: "fr", unique: true})
     fr: string
 
+    @Column({type:'text', name: "es", unique: true})
+    es: string
+
 
     // not a db column, but a simple property for easier code handling
     id: string

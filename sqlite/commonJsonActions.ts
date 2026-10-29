@@ -25,7 +25,8 @@ export interface l2d {
     cn: string | undefined
     de: string | undefined
     th: string | undefined
-    fr: string | undefined,
+    fr: string | undefined
+    es: string | undefined
     f: string | undefined
 }
 
@@ -49,7 +50,7 @@ export const detectContentToUpdate = (regex: string): l2d[] => {
         if (j.id.startsWith("c9")) return false // exclude NPCs
         if (bannedIds.includes(j.id)) return false
 
-        if (j.ko === undefined && j.id.match(regex)) return true
+        if (j.kr === undefined && j.id.match(regex)) return true
         return false
     })
 }
@@ -86,6 +87,7 @@ export const updateJson = (data: AbstractEntity[], isSkins: boolean)  => {
         entry.de = ( isSkins ? original.de + " " : "") + d.de
         entry.th = ( isSkins ? original.th + " " : "") + d.th
         entry.fr = ( isSkins ? original.fr + " " : "") + d.fr
+        // entry.es = ( isSkins ? original.es + " " : "") + d.es
     })
 
     // once everything updated, write the json back in pretty form
